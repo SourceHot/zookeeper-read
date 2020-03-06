@@ -55,6 +55,9 @@ import org.apache.zookeeper.server.quorum.flexible.QuorumMaj;
 import org.apache.zookeeper.server.quorum.flexible.QuorumVerifier;
 import org.apache.zookeeper.server.util.VerifyingFileFactory;
 
+/**
+ * zookeeper 配置信息类
+ */
 @InterfaceAudience.Public
 public class QuorumPeerConfig {
     private static final Logger LOG = LoggerFactory.getLogger(QuorumPeerConfig.class);
@@ -133,20 +136,23 @@ public class QuorumPeerConfig {
         LOG.info("Reading configuration from: " + path);
        
         try {
+            // 读文件
             File configFile = (new VerifyingFileFactory.Builder(LOG)
                 .warnForRelativePath()
                 .failForNonExistingPath()
                 .build()).create(path);
-                
+
+            // 文件配置
             Properties cfg = new Properties();
             FileInputStream in = new FileInputStream(configFile);
             try {
+                // 加载文件
                 cfg.load(in);
                 configFileStr = path;
             } finally {
                 in.close();
             }
-            
+            // 配置
             parseProperties(cfg);
         } catch (IOException e) {
             throw new ConfigException("Error processing " + path, e);
@@ -228,19 +234,25 @@ public class QuorumPeerConfig {
     /**
      * Parse config from a Properties.
      * @param zkProp Properties to parse from.
+     *              zookeeper 配置
      * @throws IOException
      * @throws ConfigException
      */
     public void parseProperties(Properties zkProp)
     throws IOException, ConfigException {
+        // 客户端端口
         int clientPort = 0;
+        // 安全客户端端口
         int secureClientPort = 0;
+        // 客户端地址
         String clientPortAddress = null;
+        // 安全客户端地址
         String secureClientPortAddress = null;
         VerifyingFileFactory vff = new VerifyingFileFactory.Builder(LOG).warnForRelativePath().build();
         for (Entry<Object, Object> entry : zkProp.entrySet()) {
             String key = entry.getKey().toString().trim();
             String value = entry.getValue().toString().trim();
+            // 操作行为判断key是否是某一个属性值,如果是赋值
             if (key.equals("dataDir")) {
                 dataDir = vff.create(value);
             } else if (key.equals("dataLogDir")) {

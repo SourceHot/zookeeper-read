@@ -39,13 +39,20 @@ public class ServerConfig {
     //// to update the "conf" 4letter word
     ////
     protected InetSocketAddress clientPortAddress;
+
     protected InetSocketAddress secureClientPortAddress;
+
     protected File dataDir;
+
     protected File dataLogDir;
+
     protected int tickTime = ZooKeeperServer.DEFAULT_TICK_TIME;
+
     protected int maxClientCnxns;
+
     /** defaults to -1 if not set explicitly */
     protected int minSessionTimeout = -1;
+
     /** defaults to -1 if not set explicitly */
     protected int maxSessionTimeout = -1;
 
@@ -73,12 +80,15 @@ public class ServerConfig {
 
     /**
      * Parse a ZooKeeper configuration file
+     * 解析zookeeper配置文件
      * @param path the patch of the configuration file
+     *              配置文件地址
      * @return ServerConfig configured wrt arguments
      * @throws ConfigException error processing configuration
      */
     public void parse(String path) throws ConfigException {
         QuorumPeerConfig config = new QuorumPeerConfig();
+        // 解析配置文件
         config.parse(path);
 
         // let qpconfig parse the file and then pull the stuff we are
@@ -104,15 +114,34 @@ public class ServerConfig {
     public InetSocketAddress getClientPortAddress() {
         return clientPortAddress;
     }
+
     public InetSocketAddress getSecureClientPortAddress() {
         return secureClientPortAddress;
     }
-    public File getDataDir() { return dataDir; }
-    public File getDataLogDir() { return dataLogDir; }
-    public int getTickTime() { return tickTime; }
-    public int getMaxClientCnxns() { return maxClientCnxns; }
+
+    public File getDataDir() {
+        return dataDir;
+    }
+
+    public File getDataLogDir() {
+        return dataLogDir;
+    }
+
+    public int getTickTime() {
+        return tickTime;
+    }
+
+    public int getMaxClientCnxns() {
+        return maxClientCnxns;
+    }
+
     /** minimum session timeout in milliseconds, -1 if unset */
-    public int getMinSessionTimeout() { return minSessionTimeout; }
+    public int getMinSessionTimeout() {
+        return minSessionTimeout;
+    }
+
     /** maximum session timeout in milliseconds, -1 if unset */
-    public int getMaxSessionTimeout() { return maxSessionTimeout; }
+    public int getMaxSessionTimeout() {
+        return maxSessionTimeout;
+    }
 }

@@ -41,14 +41,16 @@ import org.slf4j.LoggerFactory;
 @InterfaceAudience.Public
 public class ZooKeeperServerMain {
     private static final Logger LOG =
-        LoggerFactory.getLogger(ZooKeeperServerMain.class);
+            LoggerFactory.getLogger(ZooKeeperServerMain.class);
 
     private static final String USAGE =
-        "Usage: ZooKeeperServerMain configfile | port datadir [ticktime] [maxcnxns]";
+            "Usage: ZooKeeperServerMain configfile | port datadir [ticktime] [maxcnxns]";
 
     // ZooKeeper server supports two kinds of connection: unencrypted and encrypted.
     private ServerCnxnFactory cnxnFactory;
+
     private ServerCnxnFactory secureCnxnFactory;
+
     private ContainerManager containerManager;
 
     private AdminServer adminServer;
@@ -62,24 +64,29 @@ public class ZooKeeperServerMain {
         ZooKeeperServerMain main = new ZooKeeperServerMain();
         try {
             main.initializeAndRun(args);
-        } catch (IllegalArgumentException e) {
+        }
+        catch (IllegalArgumentException e) {
             LOG.error("Invalid arguments, exiting abnormally", e);
             LOG.info(USAGE);
             System.err.println(USAGE);
             System.exit(2);
-        } catch (ConfigException e) {
+        }
+        catch (ConfigException e) {
             LOG.error("Invalid config, exiting abnormally", e);
             System.err.println("Invalid config, exiting abnormally");
             System.exit(2);
-        } catch (DatadirException e) {
+        }
+        catch (DatadirException e) {
             LOG.error("Unable to access datadir, exiting abnormally", e);
             System.err.println("Unable to access datadir, exiting abnormally");
             System.exit(3);
-        } catch (AdminServerException e) {
+        }
+        catch (AdminServerException e) {
             LOG.error("Unable to start AdminServer, exiting abnormally", e);
             System.err.println("Unable to start AdminServer, exiting abnormally");
             System.exit(4);
-        } catch (Exception e) {
+        }
+        catch (Exception e) {
             LOG.error("Unexpected exception, exiting abnormally", e);
             System.exit(1);
         }
@@ -87,19 +94,29 @@ public class ZooKeeperServerMain {
         System.exit(0);
     }
 
+    /**
+     * 初始化并且启动
+     * @param args
+     *			参数至少有一个, zoo.cfg文件的路径地址
+     * @throws ConfigException
+     * @throws IOException
+     * @throws AdminServerException
+     */
     protected void initializeAndRun(String[] args)
-        throws ConfigException, IOException, AdminServerException
-    {
+            throws ConfigException, IOException, AdminServerException {
         try {
             ManagedUtil.registerLog4jMBeans();
-        } catch (JMException e) {
+        }
+        catch (JMException e) {
             LOG.warn("Unable to register log4j JMX control", e);
         }
 
         ServerConfig config = new ServerConfig();
         if (args.length == 1) {
+            // 路径地址
             config.parse(args[0]);
-        } else {
+        }
+        else {
             config.parse(args);
         }
 
@@ -172,10 +189,12 @@ public class ZooKeeperServerMain {
             if (zkServer.canShutdown()) {
                 zkServer.shutdown(true);
             }
-        } catch (InterruptedException e) {
+        }
+        catch (InterruptedException e) {
             // warn, but generally this is ok
             LOG.warn("Server interrupted", e);
-        } finally {
+        }
+        finally {
             if (txnLog != null) {
                 txnLog.close();
             }
@@ -199,7 +218,8 @@ public class ZooKeeperServerMain {
             if (adminServer != null) {
                 adminServer.shutdown();
             }
-        } catch (AdminServerException e) {
+        }
+        catch (AdminServerException e) {
             LOG.warn("Problem stopping AdminServer", e);
         }
     }
