@@ -96,10 +96,12 @@ public class JettyAdminServer implements AdminServer {
 
     /**
      * Start the embedded Jetty server.
+     * 启动 jetty 服务
      */
     @Override
     public void start() throws AdminServerException {
         try {
+            // 启动
             server.start();
         } catch (Exception e) {
             // Server.start() only throws Exception, so let's at least wrap it

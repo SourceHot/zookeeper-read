@@ -125,6 +125,8 @@ public class ZooKeeperServerMain {
 
     /**
      * Run from a ServerConfig.
+     *
+     * 根据服务配置进行启动
      * @param config ServerConfig to use.
      * @throws IOException
      * @throws AdminServerException
@@ -139,6 +141,7 @@ public class ZooKeeperServerMain {
             // run() in this thread.
             // create a file logger url from the command line args
             txnLog = new FileTxnSnapLog(config.dataLogDir, config.dataDir);
+            // 创建 zookeeper server
             final ZooKeeperServer zkServer = new ZooKeeperServer(txnLog,
                     config.tickTime, config.minSessionTimeout, config.maxSessionTimeout, null);
             txnLog.setServerStats(zkServer.serverStats());
@@ -146,10 +149,12 @@ public class ZooKeeperServerMain {
             // Registers shutdown handler which will be used to know the
             // server error or shutdown state changes.
             final CountDownLatch shutdownLatch = new CountDownLatch(1);
+            // 注册服务关闭处理器
             zkServer.registerServerShutdownHandler(
                     new ZooKeeperServerShutdownHandler(shutdownLatch));
 
             // Start Admin server
+            // 启动 admin server , 默认是 org.apache.zookeeper.server.admin.JettyAdminServer
             adminServer = AdminServerFactory.createAdminServer();
             adminServer.setZooKeeperServer(zkServer);
             adminServer.start();

@@ -36,25 +36,35 @@ public class AdminServerFactory {
      * to create a JettyAdminServer, rather than referencing the class directly,
      * so that it's ok to omit Jetty from the classpath if a user doesn't wish
      * to pull in Jetty with ZooKeeper.
+     *
+     *
+     * 创建 : {@link JettyAdminServer}
      */
     public static AdminServer createAdminServer() {
         if (!"false".equals(System.getProperty("zookeeper.admin.enableServer"))) {
             try {
+                // 启动 JettyAdminServer 服务
                 Class<?> jettyAdminServerC = Class.forName("org.apache.zookeeper.server.admin.JettyAdminServer");
                 Object adminServer = jettyAdminServerC.getConstructor().newInstance();
                 return (AdminServer) adminServer;
 
-            } catch (ClassNotFoundException e) {
+            }
+            catch (ClassNotFoundException e) {
                 LOG.warn("Unable to start JettyAdminServer", e);
-            } catch (InstantiationException e) {
+            }
+            catch (InstantiationException e) {
                 LOG.warn("Unable to start JettyAdminServer", e);
-            } catch (IllegalAccessException e) {
+            }
+            catch (IllegalAccessException e) {
                 LOG.warn("Unable to start JettyAdminServer", e);
-            } catch (InvocationTargetException e) {
+            }
+            catch (InvocationTargetException e) {
                 LOG.warn("Unable to start JettyAdminServer", e);
-            } catch (NoSuchMethodException e) {
+            }
+            catch (NoSuchMethodException e) {
                 LOG.warn("Unable to start JettyAdminServer", e);
-            } catch (NoClassDefFoundError e) {
+            }
+            catch (NoClassDefFoundError e) {
                 LOG.warn("Unable to load jetty, not starting JettyAdminServer", e);
             }
         }

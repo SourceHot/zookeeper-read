@@ -61,6 +61,8 @@ import org.slf4j.LoggerFactory;
  * server states that includes the sessions, datatree and the
  * committed logs. It is booted up  after reading the logs
  * and snapshots from the disk.
+ *
+ * ZK 数据库类
  */
 public class ZKDatabase {
 
