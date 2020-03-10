@@ -28,7 +28,7 @@ import org.apache.zookeeper.data.Id;
 
 @InterfaceAudience.Public
 public class ZooDefs {
-   
+
    final public static String CONFIG_NODE = "/zookeeper/config";
 
    @InterfaceAudience.Public

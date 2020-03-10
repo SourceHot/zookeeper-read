@@ -308,7 +308,7 @@ public class FileTxnSnapLog {
         FileTxnLog txnLog = new FileTxnLog(dataDir);
         return txnLog.read(zxid, fastForward);
     }
-    
+
     /**
      * process the transaction on the datatree
      * @param hdr the hdr of the transaction
@@ -404,7 +404,7 @@ public class FileTxnSnapLog {
         truncLog.close();
 
         // re-open the txnLog and snapLog
-        // I'd rather just close/reopen this object itself, however that 
+        // I'd rather just close/reopen this object itself, however that
         // would have a big impact outside ZKDatabase as there are other
         // objects holding a reference to this object.
         txnLog = new FileTxnLog(dataDir);
