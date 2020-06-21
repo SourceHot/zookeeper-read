@@ -224,8 +224,7 @@ public class FourLetterWordsWhiteListTest extends ClientBase {
     }
 
     private String sendRequest(String cmd) throws IOException, SSLContextException {
-        HostPort hpobj = ClientBase.parseHostPortList(hostPort).get(0);
-        return send4LetterWord(hpobj.host, hpobj.port, cmd);
+        HostPort hpobj = ClientBase.parseHostPortList(hostPort).get(0);return send4LetterWord(hpobj.host, hpobj.port, cmd);
     }
 
     private void verifyFuzzyMatch(String cmd, String expected) throws IOException, SSLContextException {

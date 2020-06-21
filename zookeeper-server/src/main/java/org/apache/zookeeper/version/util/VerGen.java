@@ -177,6 +177,7 @@ public class VerGen {
      *            </ul>
      */
     public static void main(String[] args) {
+//        args = new String[]{"3.6.1", "1", "2020-01-01"};
         if (args.length != 3 && args.length != 4) {
             printUsage();
         }
