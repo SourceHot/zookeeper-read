@@ -27,22 +27,27 @@ import java.util.List;
 import java.util.TreeMap;
 
 /**
- *
+ * 二进制序列化接口实现
  */
 public class BinaryOutputArchive implements OutputArchive {
+    /**
+     * 数据写出接口
+     */
+    private final DataOutput out;
+    /**
+     * 缓冲区
+     */
     private ByteBuffer bb = ByteBuffer.allocate(1024);
-
-    private DataOutput out;
-
-    public static BinaryOutputArchive getArchive(OutputStream strm) {
-        return new BinaryOutputArchive(new DataOutputStream(strm));
-    }
 
     /**
      * Creates a new instance of BinaryOutputArchive.
      */
     public BinaryOutputArchive(DataOutput out) {
         this.out = out;
+    }
+
+    public static BinaryOutputArchive getArchive(OutputStream strm) {
+        return new BinaryOutputArchive(new DataOutputStream(strm));
     }
 
     public void writeByte(byte b, String tag) throws IOException {
@@ -77,22 +82,32 @@ public class BinaryOutputArchive implements OutputArchive {
      * @return utf8 byte sequence.
      */
     private ByteBuffer stringToByteBuffer(CharSequence s) {
+        // 清空缓存
         bb.clear();
+        // 求长度
         final int len = s.length();
         for (int i = 0; i < len; i++) {
             if (bb.remaining() < 3) {
+                // 扩容
                 ByteBuffer n = ByteBuffer.allocate(bb.capacity() << 1);
+                // 切换
                 bb.flip();
+                // 写入
                 n.put(bb);
+                // 赋值
                 bb = n;
             }
+
             char c = s.charAt(i);
             if (c < 0x80) {
+                // 小于 128
                 bb.put((byte) c);
             } else if (c < 0x800) {
+                // 小于 2048
                 bb.put((byte) (0xc0 | (c >> 6)));
                 bb.put((byte) (0x80 | (c & 0x3f)));
             } else {
+                // 大于等于 2048
                 bb.put((byte) (0xe0 | (c >> 12)));
                 bb.put((byte) (0x80 | ((c >> 6) & 0x3f)));
                 bb.put((byte) (0x80 | (c & 0x3f)));

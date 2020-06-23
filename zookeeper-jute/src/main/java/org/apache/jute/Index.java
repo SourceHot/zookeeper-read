@@ -26,13 +26,24 @@ package org.apache.jute;
  * <code>
  * Index idx = startVector(...);
  * while (!idx.done()) {
- *   .... // read element of a vector
- *   idx.incr();
+ * .... // read element of a vector
+ * idx.incr();
  * }
  * </code>
- *
+ * <p>
+ * <p>
+ * 索引接口
  */
 public interface Index {
+    /**
+     * 是否处理完成
+     *
+     * @return
+     */
     boolean done();
+
+    /**
+     * 下一个
+     */
     void incr();
 }

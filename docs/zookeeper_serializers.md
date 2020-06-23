@@ -162,3 +162,91 @@ public interface Record {
     void deserialize(InputArchive archive, String tag) throws IOException;
 }
 ```
+
+
+
+### BinaryInputArchive
+- 基本属性
+
+```java
+    /**
+     * 读取数据的接口
+     */
+    private final DataInput in;
+    /**
+     * 最大缓存区大小
+     */
+    private final int maxBufferSize;
+    /**
+     * 额外缓冲区大小
+     */
+    private final int extraMaxBufferSize;
+```
+
+- 实现的方法: 这里实现方法大同小异就不具体贴出每一个了.主要依赖于 **DataInput** 进行操作
+    
+```java
+    public byte readByte(String tag) throws IOException {
+        return in.readByte();
+    }
+```
+
+
+### BinaryOutputArchive
+- 基本属性
+
+```java
+    /**
+     * 数据写出接口
+     */
+    private final DataOutput out;
+    /**
+     * 缓冲区
+     */
+    private ByteBuffer bb = ByteBuffer.allocate(1024);
+```
+
+- 实现的方法主要依赖于 **DataOutput**
+
+```java
+    public void writeByte(byte b, String tag) throws IOException {
+        out.writeByte(b);
+    }
+```
+
+
+
+### BinaryIndex
+- 类路径: `org.apache.jute.BinaryInputArchive.BinaryIndex`
+
+```java
+    /**
+     * 二进制索引
+     */
+    private static class BinaryIndex implements Index {
+        /**
+         * 元素的数量
+         */
+        private int nelems;
+
+        BinaryIndex(int nelems) {
+            this.nelems = nelems;
+        }
+
+        /**
+         * 是否完成
+         *
+         * @return
+         */
+        public boolean done() {
+            return (nelems <= 0);
+        }
+
+        /**
+         * 下一个
+         */
+        public void incr() {
+            nelems--;
+        }
+    }
+```

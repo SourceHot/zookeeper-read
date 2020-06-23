@@ -25,20 +25,24 @@ import java.io.InputStream;
 import java.nio.charset.StandardCharsets;
 
 /**
- *
+ * 二进制反序列化接口实现
  */
 public class BinaryInputArchive implements InputArchive {
 
     public static final String UNREASONBLE_LENGTH = "Unreasonable length = ";
 
-    // CHECKSTYLE.OFF: ConstantName - for backward compatibility
+    /**
+     * CHECKSTYLE.OFF: ConstantName - for backward compatibility
+     * <p>
+     * 最大缓存
+     */
     public static final int maxBuffer = Integer.getInteger("jute.maxbuffer", 0xfffff);
     // CHECKSTYLE.ON:
     private static final int extraMaxBuffer;
 
     static {
         final Integer configuredExtraMaxBuffer =
-            Integer.getInteger("zookeeper.jute.maxbuffer.extrasize", maxBuffer);
+                Integer.getInteger("zookeeper.jute.maxbuffer.extrasize", maxBuffer);
         if (configuredExtraMaxBuffer < 1024) {
             // Earlier hard coded value was 1024, So the value should not be less than that value
             extraMaxBuffer = 1024;
@@ -47,29 +51,18 @@ public class BinaryInputArchive implements InputArchive {
         }
     }
 
-    private DataInput in;
-    private int maxBufferSize;
-    private int extraMaxBufferSize;
-
-    public static BinaryInputArchive getArchive(InputStream strm) {
-        return new BinaryInputArchive(new DataInputStream(strm));
-    }
-
-    private static class BinaryIndex implements Index {
-        private int nelems;
-
-        BinaryIndex(int nelems) {
-            this.nelems = nelems;
-        }
-
-        public boolean done() {
-            return (nelems <= 0);
-        }
-
-        public void incr() {
-            nelems--;
-        }
-    }
+    /**
+     * 读取数据的接口
+     */
+    private final DataInput in;
+    /**
+     * 最大缓存区大小
+     */
+    private final int maxBufferSize;
+    /**
+     * 额外缓冲区大小
+     */
+    private final int extraMaxBufferSize;
 
     /**
      * Creates a new instance of BinaryInputArchive.
@@ -84,6 +77,17 @@ public class BinaryInputArchive implements InputArchive {
         this.extraMaxBufferSize = extraMaxBufferSize;
     }
 
+    public static BinaryInputArchive getArchive(InputStream strm) {
+        return new BinaryInputArchive(new DataInputStream(strm));
+    }
+
+    /**
+     * 读取
+     *
+     * @param tag
+     * @return
+     * @throws IOException
+     */
     public byte readByte(String tag) throws IOException {
         return in.readByte();
     }
@@ -164,6 +168,36 @@ public class BinaryInputArchive implements InputArchive {
     private void checkLength(int len) throws IOException {
         if (len < 0 || len > maxBufferSize + extraMaxBufferSize) {
             throw new IOException(UNREASONBLE_LENGTH + len);
+        }
+    }
+
+    /**
+     * 二进制索引
+     */
+    private static class BinaryIndex implements Index {
+        /**
+         * 元素的数量
+         */
+        private int nelems;
+
+        BinaryIndex(int nelems) {
+            this.nelems = nelems;
+        }
+
+        /**
+         * 是否完成
+         *
+         * @return
+         */
+        public boolean done() {
+            return (nelems <= 0);
+        }
+
+        /**
+         * 下一个
+         */
+        public void incr() {
+            nelems--;
         }
     }
 }
