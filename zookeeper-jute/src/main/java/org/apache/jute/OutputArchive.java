@@ -24,7 +24,8 @@ import java.util.TreeMap;
 
 /**
  * Interface that all the serializers have to implement.
- *
+ * <p>
+ * 序列化接口
  */
 public interface OutputArchive {
 

@@ -22,10 +22,19 @@ import java.io.IOException;
 
 /**
  * Interface that all the Deserializers have to implement.
- *
+ * <p>
+ * <p>
+ * 反序列化接口
  */
 public interface InputArchive {
 
+    /**
+     * 反序列化为byte类型
+     *
+     * @param tag
+     * @return
+     * @throws IOException
+     */
     byte readByte(String tag) throws IOException;
 
     boolean readBool(String tag) throws IOException;
@@ -40,20 +49,59 @@ public interface InputArchive {
 
     String readString(String tag) throws IOException;
 
+    /**
+     * 从缓冲中读取
+     *
+     * @param tag
+     * @return
+     * @throws IOException
+     */
     byte[] readBuffer(String tag) throws IOException;
 
+    /**
+     * 开始读取
+     *
+     * @param r
+     * @param tag
+     * @throws IOException
+     */
     void readRecord(Record r, String tag) throws IOException;
 
+    /**
+     * 开始读取
+     *
+     * @param tag
+     * @throws IOException
+     */
     void startRecord(String tag) throws IOException;
 
+    /**
+     * 结束读取
+     *
+     * @param tag
+     * @throws IOException
+     */
     void endRecord(String tag) throws IOException;
 
     Index startVector(String tag) throws IOException;
 
     void endVector(String tag) throws IOException;
 
+    /**
+     * 开始读取map
+     *
+     * @param tag
+     * @return
+     * @throws IOException
+     */
     Index startMap(String tag) throws IOException;
 
+    /**
+     * 结束读取map
+     *
+     * @param tag
+     * @throws IOException
+     */
     void endMap(String tag) throws IOException;
 
 }

@@ -19,6 +19,7 @@
 package org.apache.jute;
 
 import java.io.IOException;
+
 import org.apache.yetus.audience.InterfaceAudience;
 
 /**
@@ -26,6 +27,21 @@ import org.apache.yetus.audience.InterfaceAudience;
  */
 @InterfaceAudience.Public
 public interface Record {
+    /**
+     * 序列化
+     *
+     * @param archive 序列化接口的实现
+     * @param tag     数据
+     * @throws IOException
+     */
     void serialize(OutputArchive archive, String tag) throws IOException;
+
+    /**
+     * 反序列化
+     *
+     * @param archive 反序列化接口的实现
+     * @param tag     数据
+     * @throws IOException
+     */
     void deserialize(InputArchive archive, String tag) throws IOException;
 }
