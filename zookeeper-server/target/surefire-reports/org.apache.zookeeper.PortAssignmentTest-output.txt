@@ -1,0 +1,91 @@
+2020-06-22 14:05:23,819 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:05:23,835 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:05:23,836 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:05:23,836 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:05:23,837 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:05:23,838 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:05:23,839 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:05:23,840 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:05:23,840 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:05:23,841 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:05:23,842 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:05:23,843 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:05:23,844 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:05:23,844 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:05:23,846 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:05:23,847 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:05:23,849 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:05:23,850 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:05:23,850 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:05:23,851 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:05:23,851 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:05:23,851 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:05:23,851 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:05:23,852 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:05:23,852 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:05:23,852 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:05:23,867 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testSetupPortRange
+2020-06-22 14:05:23,899 [myid:] - INFO  [main:PortAssignment@154] - Test process 1/8 using ports from 11221 - 13913.
+2020-06-22 14:05:23,909 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 5794
+2020-06-22 14:05:23,909 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:05:23,909 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testSetupPortRange
+2020-06-22 14:05:23,911 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testSetupPortRange
+2020-06-22 14:05:23,911 [myid:] - INFO  [main:PortAssignment@154] - Test process 2/8 using ports from 13914 - 16606.
+2020-06-22 14:05:23,912 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 5794
+2020-06-22 14:05:23,912 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:05:23,912 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testSetupPortRange
+2020-06-22 14:05:23,913 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testSetupPortRange
+2020-06-22 14:05:23,913 [myid:] - INFO  [main:PortAssignment@154] - Test process 3/8 using ports from 16607 - 19299.
+2020-06-22 14:05:23,914 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 5794
+2020-06-22 14:05:23,914 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:05:23,914 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testSetupPortRange
+2020-06-22 14:05:23,914 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testSetupPortRange
+2020-06-22 14:05:23,915 [myid:] - INFO  [main:PortAssignment@154] - Test process 4/8 using ports from 19300 - 21992.
+2020-06-22 14:05:23,915 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 5794
+2020-06-22 14:05:23,915 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:05:23,916 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testSetupPortRange
+2020-06-22 14:05:23,916 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testSetupPortRange
+2020-06-22 14:05:23,916 [myid:] - INFO  [main:PortAssignment@154] - Test process 5/8 using ports from 21993 - 24685.
+2020-06-22 14:05:23,917 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 5794
+2020-06-22 14:05:23,917 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:05:23,917 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testSetupPortRange
+2020-06-22 14:05:23,918 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testSetupPortRange
+2020-06-22 14:05:23,920 [myid:] - INFO  [main:PortAssignment@154] - Test process 6/8 using ports from 24686 - 27378.
+2020-06-22 14:05:23,920 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 5794
+2020-06-22 14:05:23,920 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:05:23,921 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testSetupPortRange
+2020-06-22 14:05:23,921 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testSetupPortRange
+2020-06-22 14:05:23,922 [myid:] - INFO  [main:PortAssignment@154] - Test process 7/8 using ports from 27379 - 30071.
+2020-06-22 14:05:23,922 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 5794
+2020-06-22 14:05:23,922 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:05:23,923 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testSetupPortRange
+2020-06-22 14:05:23,923 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testSetupPortRange
+2020-06-22 14:05:23,924 [myid:] - INFO  [main:PortAssignment@154] - Test process 8/8 using ports from 30072 - 32764.
+2020-06-22 14:05:23,924 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 5794
+2020-06-22 14:05:23,925 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:05:23,925 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testSetupPortRange
+2020-06-22 14:05:23,925 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testSetupPortRange
+2020-06-22 14:05:23,926 [myid:] - INFO  [main:PortAssignment@159] - Single test process using ports from 11221 - 32767.
+2020-06-22 14:05:23,926 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 5794
+2020-06-22 14:05:23,926 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:05:23,927 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testSetupPortRange
+2020-06-22 14:05:23,927 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testSetupPortRange
+2020-06-22 14:05:23,927 [myid:] - INFO  [main:PortAssignment@154] - Test process 1/2 using ports from 11221 - 21993.
+2020-06-22 14:05:23,928 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 5794
+2020-06-22 14:05:23,928 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:05:23,928 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testSetupPortRange
+2020-06-22 14:05:23,929 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testSetupPortRange
+2020-06-22 14:05:23,929 [myid:] - INFO  [main:PortAssignment@154] - Test process 2/2 using ports from 21994 - 32766.
+2020-06-22 14:05:23,929 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 6428
+2020-06-22 14:05:23,930 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:05:23,930 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testSetupPortRange
+2020-06-22 14:05:23,930 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testSetupPortRange
+2020-06-22 14:05:23,930 [myid:] - INFO  [main:PortAssignment@159] - Single test process using ports from 11221 - 32767.
+2020-06-22 14:05:23,931 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 6428
+2020-06-22 14:05:23,931 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:05:23,931 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testSetupPortRange
+2020-06-22 14:05:23,932 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testSetupPortRange
+2020-06-22 14:05:23,932 [myid:] - INFO  [main:PortAssignment@159] - Single test process using ports from 11221 - 32767.
+2020-06-22 14:05:23,932 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 6428
+2020-06-22 14:05:23,932 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:05:23,933 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testSetupPortRange

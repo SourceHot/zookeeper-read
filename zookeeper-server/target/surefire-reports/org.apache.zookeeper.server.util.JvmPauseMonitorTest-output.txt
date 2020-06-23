@@ -1,0 +1,6 @@
+2020-06-22 14:10:57,210 [myid:] - INFO  [Thread-0:JvmPauseMonitor$JVMMonitor@184] - Starting JVM Pause Monitor with infoThresholdMs:0 warnThresholdMs:-1 and sleepTimeMs:100
+2020-06-22 14:10:57,318 [myid:] - WARN  [Thread-0:JvmPauseMonitor$JVMMonitor@198] - Detected pause in JVM or host machine (eg GC): pause of approximately 1 ms, total pause: info level: 0, warn level: 1 
+No GCs detected
+2020-06-22 14:10:57,414 [myid:] - INFO  [Thread-1:JvmPauseMonitor$JVMMonitor@184] - Starting JVM Pause Monitor with infoThresholdMs:-1 warnThresholdMs:0 and sleepTimeMs:100
+2020-06-22 14:10:57,514 [myid:] - INFO  [Thread-1:JvmPauseMonitor$JVMMonitor@201] - Detected pause in JVM or host machine (eg GC): pause of approximately 0 ms, total pause: info level: 1, warn level: 0 
+No GCs detected

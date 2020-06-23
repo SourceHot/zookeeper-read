@@ -1,0 +1,16 @@
+2020-06-22 14:10:04,994 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:10:04,998 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:10:05,068 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testSimpleCounter
+2020-06-22 14:10:05,068 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testSimpleCounter
+2020-06-22 14:10:05,096 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 8299
+2020-06-22 14:10:05,096 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:10:05,097 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testSimpleCounter
+2020-06-22 14:10:05,097 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testSimpleCounter
+2020-06-22 14:10:05,097 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testSimpleCounter
+2020-06-22 14:10:05,098 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testAvgMinMaxCounter
+2020-06-22 14:10:05,099 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testAvgMinMaxCounter
+2020-06-22 14:10:05,117 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 9570
+2020-06-22 14:10:05,117 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:10:05,117 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testAvgMinMaxCounter
+2020-06-22 14:10:05,117 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testAvgMinMaxCounter
+2020-06-22 14:10:05,117 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testAvgMinMaxCounter

@@ -1,0 +1,37 @@
+2020-06-22 14:05:09,243 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:05:09,248 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:05:09,342 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testFormatInetAddrGoodIpv6Ext
+2020-06-22 14:05:09,342 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testFormatInetAddrGoodIpv6Ext
+2020-06-22 14:05:09,379 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 8565
+2020-06-22 14:05:09,379 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:05:09,379 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testFormatInetAddrGoodIpv6Ext
+2020-06-22 14:05:09,380 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testFormatInetAddrGoodIpv6Ext
+2020-06-22 14:05:09,380 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testFormatInetAddrGoodIpv6Ext
+2020-06-22 14:05:09,382 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testFormatInetAddrGoodIpv6Local
+2020-06-22 14:05:09,382 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testFormatInetAddrGoodIpv6Local
+2020-06-22 14:05:09,382 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 8565
+2020-06-22 14:05:09,383 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:05:09,383 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testFormatInetAddrGoodIpv6Local
+2020-06-22 14:05:09,383 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testFormatInetAddrGoodIpv6Local
+2020-06-22 14:05:09,383 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testFormatInetAddrGoodIpv6Local
+2020-06-22 14:05:09,384 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testFormatAddrUnresolved
+2020-06-22 14:05:09,385 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testFormatAddrUnresolved
+2020-06-22 14:05:09,385 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 8565
+2020-06-22 14:05:09,385 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:05:09,385 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testFormatAddrUnresolved
+2020-06-22 14:05:09,385 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testFormatAddrUnresolved
+2020-06-22 14:05:09,385 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testFormatAddrUnresolved
+2020-06-22 14:05:09,386 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testFormatInetAddrGoodHostname
+2020-06-22 14:05:09,386 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testFormatInetAddrGoodHostname
+2020-06-22 14:05:09,398 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 9195
+2020-06-22 14:05:09,398 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:05:09,399 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testFormatInetAddrGoodHostname
+2020-06-22 14:05:09,399 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testFormatInetAddrGoodHostname
+2020-06-22 14:05:09,399 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testFormatInetAddrGoodHostname
+2020-06-22 14:05:09,399 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testFormatInetAddrGoodIpv4
+2020-06-22 14:05:09,404 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testFormatInetAddrGoodIpv4
+2020-06-22 14:05:09,404 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 9195
+2020-06-22 14:05:09,404 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:05:09,404 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testFormatInetAddrGoodIpv4
+2020-06-22 14:05:09,405 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testFormatInetAddrGoodIpv4
+2020-06-22 14:05:09,405 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testFormatInetAddrGoodIpv4

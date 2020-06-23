@@ -1,0 +1,258 @@
+2020-06-22 14:09:25,844 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testGetTrafficClass[0]
+2020-06-22 14:09:25,859 [myid:] - INFO  [main:X509Util@77] - Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation
+2020-06-22 14:09:25,866 [myid:] - INFO  [main:PortAssignment@154] - Test process 3/8 using ports from 16607 - 19299.
+2020-06-22 14:09:25,868 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16608 from range 16607 - 19299.
+2020-06-22 14:09:25,921 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testGetTrafficClass[0]
+2020-06-22 14:09:25,922 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testGetTrafficClass[0]
+2020-06-22 14:09:25,924 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testIsInputShutdown[0]
+2020-06-22 14:09:25,924 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16609 from range 16607 - 19299.
+2020-06-22 14:09:25,927 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testIsInputShutdown[0]
+2020-06-22 14:09:25,927 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testIsInputShutdown[0]
+2020-06-22 14:09:25,928 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testGetLocalSocketAddress[0]
+2020-06-22 14:09:25,928 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16610 from range 16607 - 19299.
+2020-06-22 14:09:25,930 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testGetLocalSocketAddress[0]
+2020-06-22 14:09:25,931 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testGetLocalSocketAddress[0]
+2020-06-22 14:09:25,931 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testSetReceiveBufferSize[0]
+2020-06-22 14:09:25,932 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16611 from range 16607 - 19299.
+2020-06-22 14:09:25,934 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testSetReceiveBufferSize[0]
+2020-06-22 14:09:25,935 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testSetReceiveBufferSize[0]
+2020-06-22 14:09:25,935 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testClose[0]
+2020-06-22 14:09:25,936 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16612 from range 16607 - 19299.
+2020-06-22 14:09:25,938 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testClose[0]
+2020-06-22 14:09:25,939 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testClose[0]
+2020-06-22 14:09:25,939 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testGetTcpNoDelay[0]
+2020-06-22 14:09:25,940 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16613 from range 16607 - 19299.
+2020-06-22 14:09:25,941 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testGetTcpNoDelay[0]
+2020-06-22 14:09:25,942 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testGetTcpNoDelay[0]
+2020-06-22 14:09:25,942 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testGetLocalAddress[0]
+2020-06-22 14:09:25,942 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16614 from range 16607 - 19299.
+2020-06-22 14:09:25,945 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testGetLocalAddress[0]
+2020-06-22 14:09:25,945 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testGetLocalAddress[0]
+2020-06-22 14:09:25,946 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testSetTrafficClass[0]
+2020-06-22 14:09:25,946 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16615 from range 16607 - 19299.
+2020-06-22 14:09:25,948 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testSetTrafficClass[0]
+2020-06-22 14:09:25,949 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testSetTrafficClass[0]
+2020-06-22 14:09:25,949 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testShutdownInput[0]
+2020-06-22 14:09:25,949 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16616 from range 16607 - 19299.
+2020-06-22 14:09:25,952 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testShutdownInput[0]
+2020-06-22 14:09:25,952 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testShutdownInput[0]
+2020-06-22 14:09:25,952 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testGetReceiveBufferSize[0]
+2020-06-22 14:09:25,953 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16617 from range 16607 - 19299.
+2020-06-22 14:09:25,955 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testGetReceiveBufferSize[0]
+2020-06-22 14:09:25,955 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testGetReceiveBufferSize[0]
+2020-06-22 14:09:25,956 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testIsOutputShutdown[0]
+2020-06-22 14:09:25,956 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16618 from range 16607 - 19299.
+2020-06-22 14:09:25,958 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testIsOutputShutdown[0]
+2020-06-22 14:09:25,958 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testIsOutputShutdown[0]
+2020-06-22 14:09:25,959 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testGetKeepAlive[0]
+2020-06-22 14:09:25,959 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16619 from range 16607 - 19299.
+2020-06-22 14:09:25,962 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testGetKeepAlive[0]
+2020-06-22 14:09:25,962 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testGetKeepAlive[0]
+2020-06-22 14:09:25,962 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testGetReuseAddress[0]
+2020-06-22 14:09:25,963 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16620 from range 16607 - 19299.
+2020-06-22 14:09:25,965 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testGetReuseAddress[0]
+2020-06-22 14:09:25,965 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testGetReuseAddress[0]
+2020-06-22 14:09:25,965 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testGetPort[0]
+2020-06-22 14:09:25,966 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16621 from range 16607 - 19299.
+2020-06-22 14:09:25,968 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testGetPort[0]
+2020-06-22 14:09:25,968 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testGetPort[0]
+2020-06-22 14:09:25,968 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testSetTcpNoDelay[0]
+2020-06-22 14:09:25,969 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16622 from range 16607 - 19299.
+2020-06-22 14:09:25,971 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testSetTcpNoDelay[0]
+2020-06-22 14:09:25,971 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testSetTcpNoDelay[0]
+2020-06-22 14:09:25,972 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testGetLocalPort[0]
+2020-06-22 14:09:25,973 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16623 from range 16607 - 19299.
+2020-06-22 14:09:25,975 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testGetLocalPort[0]
+2020-06-22 14:09:25,976 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testGetLocalPort[0]
+2020-06-22 14:09:25,976 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testGetSoTimeout[0]
+2020-06-22 14:09:25,977 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16624 from range 16607 - 19299.
+2020-06-22 14:09:25,979 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testGetSoTimeout[0]
+2020-06-22 14:09:25,979 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testGetSoTimeout[0]
+2020-06-22 14:09:25,979 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testIsConnected[0]
+2020-06-22 14:09:25,980 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16625 from range 16607 - 19299.
+2020-06-22 14:09:25,982 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testIsConnected[0]
+2020-06-22 14:09:25,982 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testIsConnected[0]
+2020-06-22 14:09:25,982 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testIsClosed[0]
+2020-06-22 14:09:25,983 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16626 from range 16607 - 19299.
+2020-06-22 14:09:25,985 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testIsClosed[0]
+2020-06-22 14:09:25,985 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testIsClosed[0]
+2020-06-22 14:09:25,985 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testSetReuseAddress[0]
+2020-06-22 14:09:25,986 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16627 from range 16607 - 19299.
+2020-06-22 14:09:25,987 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testSetReuseAddress[0]
+2020-06-22 14:09:25,988 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testSetReuseAddress[0]
+2020-06-22 14:09:25,988 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testSetSendBufferSize[0]
+2020-06-22 14:09:25,989 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16628 from range 16607 - 19299.
+2020-06-22 14:09:25,991 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testSetSendBufferSize[0]
+2020-06-22 14:09:25,991 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testSetSendBufferSize[0]
+2020-06-22 14:09:25,991 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testSetKeepAlive[0]
+2020-06-22 14:09:25,992 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16629 from range 16607 - 19299.
+2020-06-22 14:09:25,994 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testSetKeepAlive[0]
+2020-06-22 14:09:25,994 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testSetKeepAlive[0]
+2020-06-22 14:09:25,995 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testGetInetAddress[0]
+2020-06-22 14:09:25,995 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16630 from range 16607 - 19299.
+2020-06-22 14:09:25,997 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testGetInetAddress[0]
+2020-06-22 14:09:25,997 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testGetInetAddress[0]
+2020-06-22 14:09:25,998 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testGetOutputStream[0]
+2020-06-22 14:09:25,998 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16631 from range 16607 - 19299.
+2020-06-22 14:09:26,000 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testGetOutputStream[0]
+2020-06-22 14:09:26,001 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testGetOutputStream[0]
+2020-06-22 14:09:26,001 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testSetSoTimeout[0]
+2020-06-22 14:09:26,001 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16632 from range 16607 - 19299.
+2020-06-22 14:09:26,003 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testSetSoTimeout[0]
+2020-06-22 14:09:26,004 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testSetSoTimeout[0]
+2020-06-22 14:09:26,004 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testShutdownOutput[0]
+2020-06-22 14:09:26,004 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16633 from range 16607 - 19299.
+2020-06-22 14:09:26,007 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testShutdownOutput[0]
+2020-06-22 14:09:26,007 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testShutdownOutput[0]
+2020-06-22 14:09:26,007 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testGetSendBufferSize[0]
+2020-06-22 14:09:26,008 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16634 from range 16607 - 19299.
+2020-06-22 14:09:26,010 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testGetSendBufferSize[0]
+2020-06-22 14:09:26,010 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testGetSendBufferSize[0]
+2020-06-22 14:09:26,011 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testIsBound[0]
+2020-06-22 14:09:26,011 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16635 from range 16607 - 19299.
+2020-06-22 14:09:26,014 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testIsBound[0]
+2020-06-22 14:09:26,014 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testIsBound[0]
+2020-06-22 14:09:26,014 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testSetSoLinger[0]
+2020-06-22 14:09:26,015 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16636 from range 16607 - 19299.
+2020-06-22 14:09:26,017 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testSetSoLinger[0]
+2020-06-22 14:09:26,017 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testSetSoLinger[0]
+2020-06-22 14:09:26,018 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testGetSoLinger[0]
+2020-06-22 14:09:26,018 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16637 from range 16607 - 19299.
+2020-06-22 14:09:26,021 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testGetSoLinger[0]
+2020-06-22 14:09:26,021 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testGetSoLinger[0]
+2020-06-22 14:09:26,022 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testGetInputStream[0]
+2020-06-22 14:09:26,023 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16638 from range 16607 - 19299.
+2020-06-22 14:09:26,025 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testGetInputStream[0]
+2020-06-22 14:09:26,025 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testGetInputStream[0]
+2020-06-22 14:09:26,026 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testGetRemoteSocketAddress[0]
+2020-06-22 14:09:26,027 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16639 from range 16607 - 19299.
+2020-06-22 14:09:26,029 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testGetRemoteSocketAddress[0]
+2020-06-22 14:09:26,029 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testGetRemoteSocketAddress[0]
+2020-06-22 14:09:26,030 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testGetTrafficClass[1]
+2020-06-22 14:09:26,030 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16640 from range 16607 - 19299.
+2020-06-22 14:09:26,032 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testGetTrafficClass[1]
+2020-06-22 14:09:26,032 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testGetTrafficClass[1]
+2020-06-22 14:09:26,032 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testIsInputShutdown[1]
+2020-06-22 14:09:26,033 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16641 from range 16607 - 19299.
+2020-06-22 14:09:26,034 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testIsInputShutdown[1]
+2020-06-22 14:09:26,034 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testIsInputShutdown[1]
+2020-06-22 14:09:26,035 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testGetLocalSocketAddress[1]
+2020-06-22 14:09:26,035 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16642 from range 16607 - 19299.
+2020-06-22 14:09:26,037 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testGetLocalSocketAddress[1]
+2020-06-22 14:09:26,037 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testGetLocalSocketAddress[1]
+2020-06-22 14:09:26,037 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testSetReceiveBufferSize[1]
+2020-06-22 14:09:26,038 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16643 from range 16607 - 19299.
+2020-06-22 14:09:26,039 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testSetReceiveBufferSize[1]
+2020-06-22 14:09:26,039 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testSetReceiveBufferSize[1]
+2020-06-22 14:09:26,040 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testClose[1]
+2020-06-22 14:09:26,040 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16644 from range 16607 - 19299.
+2020-06-22 14:09:26,042 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testClose[1]
+2020-06-22 14:09:26,042 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testClose[1]
+2020-06-22 14:09:26,043 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testGetTcpNoDelay[1]
+2020-06-22 14:09:26,043 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16645 from range 16607 - 19299.
+2020-06-22 14:09:26,044 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testGetTcpNoDelay[1]
+2020-06-22 14:09:26,045 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testGetTcpNoDelay[1]
+2020-06-22 14:09:26,045 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testGetLocalAddress[1]
+2020-06-22 14:09:26,047 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16646 from range 16607 - 19299.
+2020-06-22 14:09:26,048 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testGetLocalAddress[1]
+2020-06-22 14:09:26,048 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testGetLocalAddress[1]
+2020-06-22 14:09:26,048 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testSetTrafficClass[1]
+2020-06-22 14:09:26,049 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16647 from range 16607 - 19299.
+2020-06-22 14:09:26,050 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testSetTrafficClass[1]
+2020-06-22 14:09:26,050 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testSetTrafficClass[1]
+2020-06-22 14:09:26,050 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testShutdownInput[1]
+2020-06-22 14:09:26,051 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16648 from range 16607 - 19299.
+2020-06-22 14:09:26,052 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testShutdownInput[1]
+2020-06-22 14:09:26,052 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testShutdownInput[1]
+2020-06-22 14:09:26,052 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testGetReceiveBufferSize[1]
+2020-06-22 14:09:26,053 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16649 from range 16607 - 19299.
+2020-06-22 14:09:26,054 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testGetReceiveBufferSize[1]
+2020-06-22 14:09:26,054 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testGetReceiveBufferSize[1]
+2020-06-22 14:09:26,054 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testIsOutputShutdown[1]
+2020-06-22 14:09:26,054 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16650 from range 16607 - 19299.
+2020-06-22 14:09:26,062 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testIsOutputShutdown[1]
+2020-06-22 14:09:26,062 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testIsOutputShutdown[1]
+2020-06-22 14:09:26,062 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testGetKeepAlive[1]
+2020-06-22 14:09:26,063 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16651 from range 16607 - 19299.
+2020-06-22 14:09:26,064 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testGetKeepAlive[1]
+2020-06-22 14:09:26,064 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testGetKeepAlive[1]
+2020-06-22 14:09:26,064 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testGetReuseAddress[1]
+2020-06-22 14:09:26,065 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16652 from range 16607 - 19299.
+2020-06-22 14:09:26,066 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testGetReuseAddress[1]
+2020-06-22 14:09:26,066 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testGetReuseAddress[1]
+2020-06-22 14:09:26,066 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testGetPort[1]
+2020-06-22 14:09:26,067 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16653 from range 16607 - 19299.
+2020-06-22 14:09:26,068 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testGetPort[1]
+2020-06-22 14:09:26,068 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testGetPort[1]
+2020-06-22 14:09:26,068 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testSetTcpNoDelay[1]
+2020-06-22 14:09:26,068 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16654 from range 16607 - 19299.
+2020-06-22 14:09:26,069 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testSetTcpNoDelay[1]
+2020-06-22 14:09:26,069 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testSetTcpNoDelay[1]
+2020-06-22 14:09:26,070 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testGetLocalPort[1]
+2020-06-22 14:09:26,070 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16655 from range 16607 - 19299.
+2020-06-22 14:09:26,072 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testGetLocalPort[1]
+2020-06-22 14:09:26,072 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testGetLocalPort[1]
+2020-06-22 14:09:26,072 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testGetSoTimeout[1]
+2020-06-22 14:09:26,072 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16656 from range 16607 - 19299.
+2020-06-22 14:09:26,073 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testGetSoTimeout[1]
+2020-06-22 14:09:26,074 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testGetSoTimeout[1]
+2020-06-22 14:09:26,074 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testIsConnected[1]
+2020-06-22 14:09:26,074 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16657 from range 16607 - 19299.
+2020-06-22 14:09:26,075 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testIsConnected[1]
+2020-06-22 14:09:26,076 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testIsConnected[1]
+2020-06-22 14:09:26,076 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testIsClosed[1]
+2020-06-22 14:09:26,077 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16658 from range 16607 - 19299.
+2020-06-22 14:09:26,078 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testIsClosed[1]
+2020-06-22 14:09:26,078 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testIsClosed[1]
+2020-06-22 14:09:26,079 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testSetReuseAddress[1]
+2020-06-22 14:09:26,079 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16659 from range 16607 - 19299.
+2020-06-22 14:09:26,080 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testSetReuseAddress[1]
+2020-06-22 14:09:26,081 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testSetReuseAddress[1]
+2020-06-22 14:09:26,081 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testSetSendBufferSize[1]
+2020-06-22 14:09:26,081 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16660 from range 16607 - 19299.
+2020-06-22 14:09:26,083 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testSetSendBufferSize[1]
+2020-06-22 14:09:26,083 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testSetSendBufferSize[1]
+2020-06-22 14:09:26,084 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testSetKeepAlive[1]
+2020-06-22 14:09:26,085 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16661 from range 16607 - 19299.
+2020-06-22 14:09:26,087 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testSetKeepAlive[1]
+2020-06-22 14:09:26,087 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testSetKeepAlive[1]
+2020-06-22 14:09:26,087 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testGetInetAddress[1]
+2020-06-22 14:09:26,088 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16662 from range 16607 - 19299.
+2020-06-22 14:09:26,091 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testGetInetAddress[1]
+2020-06-22 14:09:26,091 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testGetInetAddress[1]
+2020-06-22 14:09:26,092 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testGetOutputStream[1]
+2020-06-22 14:09:26,092 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16663 from range 16607 - 19299.
+2020-06-22 14:09:26,094 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testGetOutputStream[1]
+2020-06-22 14:09:26,095 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testGetOutputStream[1]
+2020-06-22 14:09:26,095 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testSetSoTimeout[1]
+2020-06-22 14:09:26,096 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16664 from range 16607 - 19299.
+2020-06-22 14:09:26,097 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testSetSoTimeout[1]
+2020-06-22 14:09:26,098 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testSetSoTimeout[1]
+2020-06-22 14:09:26,098 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testShutdownOutput[1]
+2020-06-22 14:09:26,099 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16665 from range 16607 - 19299.
+2020-06-22 14:09:26,101 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testShutdownOutput[1]
+2020-06-22 14:09:26,102 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testShutdownOutput[1]
+2020-06-22 14:09:26,102 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testGetSendBufferSize[1]
+2020-06-22 14:09:26,103 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16666 from range 16607 - 19299.
+2020-06-22 14:09:26,104 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testGetSendBufferSize[1]
+2020-06-22 14:09:26,104 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testGetSendBufferSize[1]
+2020-06-22 14:09:26,105 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testIsBound[1]
+2020-06-22 14:09:26,105 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16667 from range 16607 - 19299.
+2020-06-22 14:09:26,108 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testIsBound[1]
+2020-06-22 14:09:26,108 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testIsBound[1]
+2020-06-22 14:09:26,109 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testSetSoLinger[1]
+2020-06-22 14:09:26,110 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16668 from range 16607 - 19299.
+2020-06-22 14:09:26,114 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testSetSoLinger[1]
+2020-06-22 14:09:26,114 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testSetSoLinger[1]
+2020-06-22 14:09:26,115 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testGetSoLinger[1]
+2020-06-22 14:09:26,115 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16669 from range 16607 - 19299.
+2020-06-22 14:09:26,119 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testGetSoLinger[1]
+2020-06-22 14:09:26,119 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testGetSoLinger[1]
+2020-06-22 14:09:26,120 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testGetInputStream[1]
+2020-06-22 14:09:26,120 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16670 from range 16607 - 19299.
+2020-06-22 14:09:26,124 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testGetInputStream[1]
+2020-06-22 14:09:26,124 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testGetInputStream[1]
+2020-06-22 14:09:26,124 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testGetRemoteSocketAddress[1]
+2020-06-22 14:09:26,125 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16671 from range 16607 - 19299.
+2020-06-22 14:09:26,129 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testGetRemoteSocketAddress[1]
+2020-06-22 14:09:26,129 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testGetRemoteSocketAddress[1]

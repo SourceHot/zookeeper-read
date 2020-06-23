@@ -23,7 +23,6 @@ local.properties
 .recommenders
 *.launch
 build/
-target/
 out/
 
 # Intellij

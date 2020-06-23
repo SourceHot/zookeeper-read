@@ -1,0 +1,72 @@
+2020-06-22 14:05:07,667 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:05:07,672 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:05:08,631 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testCallbackWorksOnFileChanges
+2020-06-22 14:05:08,632 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testCallbackWorksOnFileChanges
+2020-06-22 14:05:08,664 [myid:] - INFO  [FileChangeWatcher:FileChangeWatcher$WatcherThread@184] - FileChangeWatcher thread started
+2020-06-22 14:05:09,673 [myid:] - INFO  [main:FileChangeWatcherTest@86] - Modifying file, attempt 1
+2020-06-22 14:05:09,687 [myid:] - INFO  [FileChangeWatcher:FileChangeWatcherTest@70] - Got an update: ENTRY_MODIFY zk_test_1283488875696524569
+2020-06-22 14:05:09,688 [myid:] - INFO  [main:FileChangeWatcherTest@86] - Modifying file, attempt 2
+2020-06-22 14:05:09,689 [myid:] - INFO  [FileChangeWatcher:FileChangeWatcherTest@70] - Got an update: ENTRY_MODIFY zk_test_1283488875696524569
+2020-06-22 14:05:09,689 [myid:] - INFO  [main:FileChangeWatcherTest@86] - Modifying file, attempt 3
+2020-06-22 14:05:09,689 [myid:] - INFO  [FileChangeWatcher:FileChangeWatcherTest@70] - Got an update: ENTRY_MODIFY zk_test_1283488875696524569
+2020-06-22 14:05:09,691 [myid:] - INFO  [FileChangeWatcher:FileChangeWatcher$WatcherThread@204] - FileChangeWatcher thread finished
+2020-06-22 14:05:09,698 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 12453
+2020-06-22 14:05:09,698 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:05:09,698 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testCallbackWorksOnFileChanges
+2020-06-22 14:05:09,698 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testCallbackWorksOnFileChanges
+2020-06-22 14:05:09,700 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testCallbackWorksOnFileChanges
+2020-06-22 14:05:09,703 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testCallbackWorksOnFileDeleted
+2020-06-22 14:05:09,703 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testCallbackWorksOnFileDeleted
+2020-06-22 14:05:09,714 [myid:] - INFO  [FileChangeWatcher:FileChangeWatcher$WatcherThread@184] - FileChangeWatcher thread started
+2020-06-22 14:05:10,751 [myid:] - INFO  [FileChangeWatcher:FileChangeWatcherTest@186] - Got an update: ENTRY_MODIFY zk_test_1283488875696524569
+2020-06-22 14:05:10,817 [myid:] - INFO  [FileChangeWatcher:FileChangeWatcherTest@186] - Got an update: ENTRY_DELETE zk_test_1283488875696524569
+2020-06-22 14:05:10,831 [myid:] - INFO  [FileChangeWatcher:FileChangeWatcher$WatcherThread@204] - FileChangeWatcher thread finished
+2020-06-22 14:05:10,834 [myid:] - WARN  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@105] - TEST METHOD FAILED testCallbackWorksOnFileDeleted
+java.lang.AssertionError: expected:<ENTRY_DELETE> but was:<ENTRY_MODIFY>
+	at org.apache.zookeeper.common.FileChangeWatcherTest.testCallbackWorksOnFileDeleted(FileChangeWatcherTest.java:208)
+	at org.apache.zookeeper.JUnit4ZKTestRunner$LoggedInvokeMethod.evaluate(JUnit4ZKTestRunner.java:86)
+2020-06-22 14:05:10,836 [myid:] - ERROR [main:ZKTestCase$1@101] - FAILED testCallbackWorksOnFileDeleted
+java.lang.AssertionError: expected:<ENTRY_DELETE> but was:<ENTRY_MODIFY>
+	at org.apache.zookeeper.common.FileChangeWatcherTest.testCallbackWorksOnFileDeleted(FileChangeWatcherTest.java:208)
+	at org.apache.zookeeper.JUnit4ZKTestRunner$LoggedInvokeMethod.evaluate(JUnit4ZKTestRunner.java:86)
+2020-06-22 14:05:10,836 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testCallbackWorksOnFileDeleted
+2020-06-22 14:05:10,843 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testCallbackErrorDoesNotCrashWatcherThread
+2020-06-22 14:05:10,843 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testCallbackErrorDoesNotCrashWatcherThread
+2020-06-22 14:05:10,845 [myid:] - INFO  [FileChangeWatcher:FileChangeWatcher$WatcherThread@184] - FileChangeWatcher thread started
+2020-06-22 14:05:11,860 [myid:] - INFO  [main:FileChangeWatcherTest@238] - Modifying file
+2020-06-22 14:05:11,871 [myid:] - INFO  [FileChangeWatcher:FileChangeWatcherTest@225] - Got an update: ENTRY_CREATE zk_test_1283488875696524569
+2020-06-22 14:05:11,871 [myid:] - ERROR [FileChangeWatcher:FileChangeWatcher$WatcherThread@223] - Error from callback
+java.lang.RuntimeException: This error should not crash the watcher thread
+	at org.apache.zookeeper.common.FileChangeWatcherTest.lambda$testCallbackErrorDoesNotCrashWatcherThread$4(FileChangeWatcherTest.java:232)
+	at org.apache.zookeeper.common.FileChangeWatcher$WatcherThread.runLoop(FileChangeWatcher.java:221)
+	at org.apache.zookeeper.common.FileChangeWatcher$WatcherThread.run(FileChangeWatcher.java:194)
+2020-06-22 14:05:11,873 [myid:] - INFO  [FileChangeWatcher:FileChangeWatcherTest@225] - Got an update: ENTRY_MODIFY zk_test_1283488875696524569
+2020-06-22 14:05:11,873 [myid:] - INFO  [main:FileChangeWatcherTest@245] - Modifying file again
+2020-06-22 14:05:11,875 [myid:] - INFO  [FileChangeWatcher:FileChangeWatcherTest@225] - Got an update: ENTRY_MODIFY zk_test_1283488875696524569
+2020-06-22 14:05:11,887 [myid:] - INFO  [FileChangeWatcher:FileChangeWatcher$WatcherThread@204] - FileChangeWatcher thread finished
+2020-06-22 14:05:11,889 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 14294
+2020-06-22 14:05:11,890 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:05:11,890 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testCallbackErrorDoesNotCrashWatcherThread
+2020-06-22 14:05:11,890 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testCallbackErrorDoesNotCrashWatcherThread
+2020-06-22 14:05:11,890 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testCallbackErrorDoesNotCrashWatcherThread
+2020-06-22 14:05:11,891 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testCallbackWorksOnFileAdded
+2020-06-22 14:05:11,891 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testCallbackWorksOnFileAdded
+2020-06-22 14:05:11,987 [myid:] - INFO  [FileChangeWatcher:FileChangeWatcher$WatcherThread@184] - FileChangeWatcher thread started
+2020-06-22 14:05:13,056 [myid:] - INFO  [FileChangeWatcher:FileChangeWatcherTest@152] - Got an update: ENTRY_CREATE zk_test_332094482810421730
+2020-06-22 14:05:13,152 [myid:] - INFO  [FileChangeWatcher:FileChangeWatcher$WatcherThread@204] - FileChangeWatcher thread finished
+2020-06-22 14:05:13,153 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 14731
+2020-06-22 14:05:13,153 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:05:13,153 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testCallbackWorksOnFileAdded
+2020-06-22 14:05:13,154 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testCallbackWorksOnFileAdded
+2020-06-22 14:05:13,154 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testCallbackWorksOnFileAdded
+2020-06-22 14:05:13,154 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testCallbackWorksOnFileTouched
+2020-06-22 14:05:13,155 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testCallbackWorksOnFileTouched
+2020-06-22 14:05:13,168 [myid:] - INFO  [FileChangeWatcher:FileChangeWatcher$WatcherThread@184] - FileChangeWatcher thread started
+2020-06-22 14:05:14,196 [myid:] - INFO  [main:FileChangeWatcherTest@127] - Touching file
+2020-06-22 14:05:14,201 [myid:] - INFO  [FileChangeWatcher:FileChangeWatcherTest@112] - Got an update: ENTRY_MODIFY zk_test_1283488875696524569
+2020-06-22 14:05:14,202 [myid:] - INFO  [FileChangeWatcher:FileChangeWatcher$WatcherThread@204] - FileChangeWatcher thread finished
+2020-06-22 14:05:14,202 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 15168
+2020-06-22 14:05:14,202 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:05:14,203 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testCallbackWorksOnFileTouched
+2020-06-22 14:05:14,203 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testCallbackWorksOnFileTouched
+2020-06-22 14:05:14,203 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testCallbackWorksOnFileTouched

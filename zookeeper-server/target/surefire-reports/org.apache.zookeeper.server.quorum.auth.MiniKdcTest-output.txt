@@ -1,0 +1,61 @@
+2020-06-22 14:06:37,815 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:06:37,823 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:06:38,230 [myid:] - INFO  [main:MiniKdc@222] - Configuration:
+2020-06-22 14:06:38,230 [myid:] - INFO  [main:MiniKdc@223] - ---------------------------------------------------------------
+2020-06-22 14:06:38,232 [myid:] - INFO  [main:MiniKdc@225] -   debug: false
+2020-06-22 14:06:38,232 [myid:] - INFO  [main:MiniKdc@225] -   transport: TCP
+2020-06-22 14:06:38,233 [myid:] - INFO  [main:MiniKdc@225] -   max.ticket.lifetime: 86400000
+2020-06-22 14:06:38,233 [myid:] - INFO  [main:MiniKdc@225] -   org.name: EXAMPLE
+2020-06-22 14:06:38,233 [myid:] - INFO  [main:MiniKdc@225] -   kdc.port: 0
+2020-06-22 14:06:38,234 [myid:] - INFO  [main:MiniKdc@225] -   org.domain: COM
+2020-06-22 14:06:38,234 [myid:] - INFO  [main:MiniKdc@225] -   max.renewable.lifetime: 604800000
+2020-06-22 14:06:38,234 [myid:] - INFO  [main:MiniKdc@225] -   instance: DefaultKrbServer
+2020-06-22 14:06:38,234 [myid:] - INFO  [main:MiniKdc@225] -   kdc.bind.address: localhost
+2020-06-22 14:06:38,235 [myid:] - INFO  [main:MiniKdc@227] - ---------------------------------------------------------------
+2020-06-22 14:06:38,402 [myid:] - INFO  [main:MiniKdc@281] - MiniKdc stated.
+2020-06-22 14:06:38,408 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testKeytabGen
+2020-06-22 14:06:38,412 [myid:] - INFO  [Time-limited test:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testKeytabGen
+2020-06-22 14:06:38,454 [myid:] - INFO  [Time-limited test:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 21805
+2020-06-22 14:06:38,455 [myid:] - INFO  [Time-limited test:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 9
+2020-06-22 14:06:38,455 [myid:] - INFO  [Time-limited test:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testKeytabGen
+2020-06-22 14:06:38,456 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testKeytabGen
+2020-06-22 14:06:38,456 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testKeytabGen
+2020-06-22 14:06:38,459 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testMiniKdcStart
+2020-06-22 14:06:38,460 [myid:] - INFO  [Time-limited test:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testMiniKdcStart
+2020-06-22 14:06:38,461 [myid:] - INFO  [Time-limited test:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 22242
+2020-06-22 14:06:38,461 [myid:] - INFO  [Time-limited test:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 9
+2020-06-22 14:06:38,461 [myid:] - INFO  [Time-limited test:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testMiniKdcStart
+2020-06-22 14:06:38,461 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testMiniKdcStart
+2020-06-22 14:06:38,462 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testMiniKdcStart
+2020-06-22 14:06:38,462 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testKerberosLogin
+2020-06-22 14:06:38,463 [myid:] - INFO  [Time-limited test:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testKerberosLogin
+Debug is  true storeKey true useTicketCache true useKeyTab true doNotPrompt true ticketCache is null isInitiator true KeyTab is D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test3878943214811911863.junit.dir\foo.keytab refreshKrb5Config is true principal is foo tryFirstPass is false useFirstPass is false storePass is false clearPass is false
+Refreshing Kerberos configuration
+Acquire TGT from Cache
+Principal is foo@EXAMPLE.COM
+null credentials from Ticket Cache
+2020-06-22 14:06:38,621 [myid:] - INFO  [pool-1-thread-1:AsRequest@112] - AS_REQ ISSUE: authtime 1592805998564,foo@EXAMPLE.COM for krbtgt/EXAMPLE.COM@EXAMPLE.COM
+principal is foo@EXAMPLE.COM
+Will use keytab
+Commit Succeeded 
+
+		[Krb5LoginModule]: Entering logout
+		[Krb5LoginModule]: logged out Subject
+Debug is  true storeKey true useTicketCache true useKeyTab true doNotPrompt true ticketCache is null isInitiator false KeyTab is D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test3878943214811911863.junit.dir\foo.keytab refreshKrb5Config is true principal is foo tryFirstPass is false useFirstPass is false storePass is false clearPass is false
+Refreshing Kerberos configuration
+Acquire TGT from Cache
+Principal is foo@EXAMPLE.COM
+null credentials from Ticket Cache
+principal is foo@EXAMPLE.COM
+Will use keytab
+Commit Succeeded 
+
+		[Krb5LoginModule]: Entering logout
+		[Krb5LoginModule]: logged out Subject
+2020-06-22 14:06:38,641 [myid:] - INFO  [Time-limited test:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 33718
+2020-06-22 14:06:38,641 [myid:] - INFO  [Time-limited test:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 10
+2020-06-22 14:06:38,641 [myid:] - INFO  [Time-limited test:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testKerberosLogin
+2020-06-22 14:06:38,641 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testKerberosLogin
+2020-06-22 14:06:38,641 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testKerberosLogin
+2020-06-22 14:06:38,642 [myid:] - INFO  [main:DefaultInternalKdcServerImpl@102] - Default Internal kdc server stopped.
+2020-06-22 14:06:39,645 [myid:] - INFO  [main:MiniKdc@343] - MiniKdc stopped.

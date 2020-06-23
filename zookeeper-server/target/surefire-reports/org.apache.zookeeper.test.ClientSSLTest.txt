@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.zookeeper.test.ClientSSLTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 94.408 s <<< FAILURE! - in org.apache.zookeeper.test.ClientSSLTest
+testClientServerSSL(org.apache.zookeeper.test.ClientSSLTest)  Time elapsed: 32.253 s  <<< FAILURE!
+java.lang.AssertionError: ZooKeeper client can not connect to 127.0.0.1:11223
+	at org.apache.zookeeper.test.ClientSSLTest.testClientServerSSL(ClientSSLTest.java:129)
+	at org.apache.zookeeper.test.ClientSSLTest.testClientServerSSL(ClientSSLTest.java:93)
+
+testSecureStandaloneServer(org.apache.zookeeper.test.ClientSSLTest)  Time elapsed: 30.017 s  <<< FAILURE!
+java.lang.AssertionError: ZooKeeper client can not connect to 127.0.0.1:11234
+	at org.apache.zookeeper.test.ClientSSLTest.testSecureStandaloneServer(ClientSSLTest.java:153)
+
+testClientServerUnifiedPort(org.apache.zookeeper.test.ClientSSLTest)  Time elapsed: 31.927 s  <<< FAILURE!
+java.lang.AssertionError: ZooKeeper client can not connect to 127.0.0.1:11235
+	at org.apache.zookeeper.test.ClientSSLTest.testClientServerSSL(ClientSSLTest.java:129)
+	at org.apache.zookeeper.test.ClientSSLTest.testClientServerUnifiedPort(ClientSSLTest.java:79)
+

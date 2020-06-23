@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.zookeeper.server.ZooKeeperServerMainTest
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 27.162 s <<< FAILURE! - in org.apache.zookeeper.server.ZooKeeperServerMainTest
+testReadOnlySnapshotDir(org.apache.zookeeper.server.ZooKeeperServerMainTest)  Time elapsed: 1.018 s  <<< FAILURE!
+java.lang.AssertionError: waiting for server being up
+	at org.apache.zookeeper.server.ZooKeeperServerMainTest.testReadOnlySnapshotDir(ZooKeeperServerMainTest.java:240)
+
+testReadOnlyTxnLogDir(org.apache.zookeeper.server.ZooKeeperServerMainTest)  Time elapsed: 1.013 s  <<< FAILURE!
+java.lang.AssertionError: waiting for server being up
+	at org.apache.zookeeper.server.ZooKeeperServerMainTest.testReadOnlyTxnLogDir(ZooKeeperServerMainTest.java:280)
+

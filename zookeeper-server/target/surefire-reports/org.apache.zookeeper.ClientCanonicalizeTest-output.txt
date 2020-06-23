@@ -1,0 +1,31 @@
+2020-06-22 14:05:04,231 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:05:04,235 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:05:04,427 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testClientCanonicalizationToIp
+2020-06-22 14:05:04,427 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testClientCanonicalizationToIp
+2020-06-22 14:05:05,697 [myid:] - INFO  [main:X509Util@77] - Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation
+2020-06-22 14:05:05,707 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 37658
+2020-06-22 14:05:05,707 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:05:05,707 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testClientCanonicalizationToIp
+2020-06-22 14:05:05,707 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testClientCanonicalizationToIp
+2020-06-22 14:05:05,708 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testClientCanonicalizationToIp
+2020-06-22 14:05:05,710 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testGetServerPrincipalReturnConfiguredPrincipalName
+2020-06-22 14:05:05,710 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testGetServerPrincipalReturnConfiguredPrincipalName
+2020-06-22 14:05:05,710 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 37658
+2020-06-22 14:05:05,710 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:05:05,710 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testGetServerPrincipalReturnConfiguredPrincipalName
+2020-06-22 14:05:05,710 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testGetServerPrincipalReturnConfiguredPrincipalName
+2020-06-22 14:05:05,711 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testGetServerPrincipalReturnConfiguredPrincipalName
+2020-06-22 14:05:05,712 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testClientNoCanonicalization
+2020-06-22 14:05:05,713 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testClientNoCanonicalization
+2020-06-22 14:05:05,714 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 37658
+2020-06-22 14:05:05,714 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:05:05,714 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testClientNoCanonicalization
+2020-06-22 14:05:05,715 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testClientNoCanonicalization
+2020-06-22 14:05:05,715 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testClientNoCanonicalization
+2020-06-22 14:05:05,715 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testClientCanonicalization
+2020-06-22 14:05:05,716 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testClientCanonicalization
+2020-06-22 14:05:05,717 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 37658
+2020-06-22 14:05:05,718 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:05:05,718 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testClientCanonicalization
+2020-06-22 14:05:05,718 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testClientCanonicalization
+2020-06-22 14:05:05,718 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testClientCanonicalization

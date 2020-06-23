@@ -1,0 +1,23 @@
+2020-06-22 14:11:15,894 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:11:15,903 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:11:16,006 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testGetSessions
+2020-06-22 14:11:16,078 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testGetSessions
+2020-06-22 14:11:16,122 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 8540
+2020-06-22 14:11:16,122 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:11:16,122 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testGetSessions
+2020-06-22 14:11:16,122 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testGetSessions
+2020-06-22 14:11:16,123 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testGetSessions
+2020-06-22 14:11:16,128 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testToMap
+2020-06-22 14:11:16,129 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testToMap
+2020-06-22 14:11:16,131 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 8540
+2020-06-22 14:11:16,131 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:11:16,131 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testToMap
+2020-06-22 14:11:16,131 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testToMap
+2020-06-22 14:11:16,132 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testToMap
+2020-06-22 14:11:16,135 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testHasSessions
+2020-06-22 14:11:16,135 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testHasSessions
+2020-06-22 14:11:16,136 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 8540
+2020-06-22 14:11:16,136 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:11:16,136 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testHasSessions
+2020-06-22 14:11:16,136 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testHasSessions
+2020-06-22 14:11:16,137 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testHasSessions

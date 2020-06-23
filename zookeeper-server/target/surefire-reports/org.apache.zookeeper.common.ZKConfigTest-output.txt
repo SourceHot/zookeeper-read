@@ -1,0 +1,1 @@
+2020-06-22 14:05:13,311 [myid:] - INFO  [main:X509Util@77] - Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation

@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.zookeeper.test.LoadFromLogTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 23.909 s <<< FAILURE! - in org.apache.zookeeper.test.LoadFromLogTest
+testLoadFailure(org.apache.zookeeper.test.LoadFromLogTest)  Time elapsed: 2.653 s  <<< FAILURE!
+java.lang.AssertionError: file 'D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test5913299192910745859.junit.dir\version-2\log.26' deletion failed
+

@@ -1,0 +1,30 @@
+2020-06-22 14:16:13,722 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:16:13,735 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:16:13,865 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testDeprecatedCodeOkInSwitch
+2020-06-22 14:16:13,865 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testDeprecatedCodeOkInSwitch
+2020-06-22 14:16:13,891 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 7562
+2020-06-22 14:16:13,891 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:16:13,891 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testDeprecatedCodeOkInSwitch
+2020-06-22 14:16:13,892 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testDeprecatedCodeOkInSwitch
+2020-06-22 14:16:13,892 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testDeprecatedCodeOkInSwitch
+2020-06-22 14:16:13,895 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testCodeOKInSwitch
+2020-06-22 14:16:13,896 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testCodeOKInSwitch
+2020-06-22 14:16:13,899 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 8191
+2020-06-22 14:16:13,899 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:16:13,899 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testCodeOKInSwitch
+2020-06-22 14:16:13,900 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testCodeOKInSwitch
+2020-06-22 14:16:13,900 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testCodeOKInSwitch
+2020-06-22 14:16:13,903 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testIntConversion
+2020-06-22 14:16:13,904 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testIntConversion
+2020-06-22 14:16:13,905 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 8191
+2020-06-22 14:16:13,905 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:16:13,905 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testIntConversion
+2020-06-22 14:16:13,906 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testIntConversion
+2020-06-22 14:16:13,906 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testIntConversion
+2020-06-22 14:16:13,906 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testInvalidIntConversion
+2020-06-22 14:16:13,907 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testInvalidIntConversion
+2020-06-22 14:16:13,907 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 8191
+2020-06-22 14:16:13,907 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:16:13,907 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testInvalidIntConversion
+2020-06-22 14:16:13,908 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testInvalidIntConversion
+2020-06-22 14:16:13,908 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testInvalidIntConversion

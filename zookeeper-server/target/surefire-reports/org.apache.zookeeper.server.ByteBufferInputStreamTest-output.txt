@@ -1,0 +1,91 @@
+2020-06-22 14:05:31,020 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:05:31,025 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:05:31,144 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testSkip2
+2020-06-22 14:05:31,160 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testSkip2
+2020-06-22 14:05:31,167 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 8780
+2020-06-22 14:05:31,167 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:05:31,168 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testSkip2
+2020-06-22 14:05:31,168 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testSkip2
+2020-06-22 14:05:31,168 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testSkip2
+2020-06-22 14:05:31,171 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testRead
+2020-06-22 14:05:31,171 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testRead
+2020-06-22 14:05:31,171 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 8780
+2020-06-22 14:05:31,171 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:05:31,172 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testRead
+2020-06-22 14:05:31,172 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testRead
+2020-06-22 14:05:31,172 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testRead
+2020-06-22 14:05:31,175 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testSkip
+2020-06-22 14:05:31,175 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testSkip
+2020-06-22 14:05:31,175 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 8780
+2020-06-22 14:05:31,175 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:05:31,176 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testSkip
+2020-06-22 14:05:31,176 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testSkip
+2020-06-22 14:05:31,176 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testSkip
+2020-06-22 14:05:31,177 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testReadArrayOffsetLength_0Length
+2020-06-22 14:05:31,177 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testReadArrayOffsetLength_0Length
+2020-06-22 14:05:31,179 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 9402
+2020-06-22 14:05:31,179 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:05:31,179 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testReadArrayOffsetLength_0Length
+2020-06-22 14:05:31,179 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testReadArrayOffsetLength_0Length
+2020-06-22 14:05:31,179 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testReadArrayOffsetLength_0Length
+2020-06-22 14:05:31,180 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testReadArray
+2020-06-22 14:05:31,180 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testReadArray
+2020-06-22 14:05:31,181 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 9402
+2020-06-22 14:05:31,181 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:05:31,181 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testReadArray
+2020-06-22 14:05:31,181 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testReadArray
+2020-06-22 14:05:31,181 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testReadArray
+2020-06-22 14:05:31,182 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testReadArrayOffsetLength_LengthTooLarge
+2020-06-22 14:05:31,183 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testReadArrayOffsetLength_LengthTooLarge
+2020-06-22 14:05:31,184 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@103] - TEST METHOD testReadArrayOffsetLength_LengthTooLarge THREW EXPECTED EXCEPTION class java.lang.IndexOutOfBoundsException
+2020-06-22 14:05:31,184 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testReadArrayOffsetLength_LengthTooLarge
+2020-06-22 14:05:31,185 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testReadArrayOffsetLength_LengthTooLarge
+2020-06-22 14:05:31,185 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testSkip_AtEnd
+2020-06-22 14:05:31,185 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testSkip_AtEnd
+2020-06-22 14:05:31,186 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 9402
+2020-06-22 14:05:31,186 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:05:31,186 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testSkip_AtEnd
+2020-06-22 14:05:31,186 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testSkip_AtEnd
+2020-06-22 14:05:31,187 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testSkip_AtEnd
+2020-06-22 14:05:31,187 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testAvailable
+2020-06-22 14:05:31,188 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testAvailable
+2020-06-22 14:05:31,188 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 9402
+2020-06-22 14:05:31,188 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:05:31,188 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testAvailable
+2020-06-22 14:05:31,189 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testAvailable
+2020-06-22 14:05:31,189 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testAvailable
+2020-06-22 14:05:31,190 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testReadArrayOffsetLength
+2020-06-22 14:05:31,190 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testReadArrayOffsetLength
+2020-06-22 14:05:31,191 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 9402
+2020-06-22 14:05:31,191 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:05:31,191 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testReadArrayOffsetLength
+2020-06-22 14:05:31,191 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testReadArrayOffsetLength
+2020-06-22 14:05:31,192 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testReadArrayOffsetLength
+2020-06-22 14:05:31,192 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testReadArrayOffsetLength_AtEndOfStream
+2020-06-22 14:05:31,193 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testReadArrayOffsetLength_AtEndOfStream
+2020-06-22 14:05:31,193 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 9402
+2020-06-22 14:05:31,193 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:05:31,193 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testReadArrayOffsetLength_AtEndOfStream
+2020-06-22 14:05:31,194 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testReadArrayOffsetLength_AtEndOfStream
+2020-06-22 14:05:31,194 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testReadArrayOffsetLength_AtEndOfStream
+2020-06-22 14:05:31,194 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testSkip_HitEnd
+2020-06-22 14:05:31,195 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testSkip_HitEnd
+2020-06-22 14:05:31,195 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 9402
+2020-06-22 14:05:31,195 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:05:31,195 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testSkip_HitEnd
+2020-06-22 14:05:31,196 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testSkip_HitEnd
+2020-06-22 14:05:31,196 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testSkip_HitEnd
+2020-06-22 14:05:31,197 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testNegativeSkip
+2020-06-22 14:05:31,197 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testNegativeSkip
+2020-06-22 14:05:31,197 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 9402
+2020-06-22 14:05:31,197 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:05:31,198 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testNegativeSkip
+2020-06-22 14:05:31,198 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testNegativeSkip
+2020-06-22 14:05:31,198 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testNegativeSkip
+2020-06-22 14:05:31,199 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testReadArrayOffsetLength_HitEndOfStream
+2020-06-22 14:05:31,199 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testReadArrayOffsetLength_HitEndOfStream
+2020-06-22 14:05:31,199 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 9402
+2020-06-22 14:05:31,199 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:05:31,200 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testReadArrayOffsetLength_HitEndOfStream
+2020-06-22 14:05:31,200 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testReadArrayOffsetLength_HitEndOfStream
+2020-06-22 14:05:31,200 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testReadArrayOffsetLength_HitEndOfStream

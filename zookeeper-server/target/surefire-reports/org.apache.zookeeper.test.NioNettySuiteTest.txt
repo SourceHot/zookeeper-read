@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.zookeeper.test.NioNettySuiteTest
+-------------------------------------------------------------------------------
+Tests run: 109, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 780.461 s - in org.apache.zookeeper.test.NioNettySuiteTest

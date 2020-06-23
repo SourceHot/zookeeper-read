@@ -1,0 +1,307 @@
+2020-06-22 14:23:29,599 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:23:29,604 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:23:29,672 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testReconfigDuringReconfigMode
+2020-06-22 14:23:29,672 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testReconfigDuringReconfigMode
+2020-06-22 14:23:29,853 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 34214
+2020-06-22 14:23:29,853 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:23:29,854 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testReconfigDuringReconfigMode
+2020-06-22 14:23:29,854 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testReconfigDuringReconfigMode
+2020-06-22 14:23:29,854 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testReconfigDuringReconfigMode
+2020-06-22 14:23:29,857 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testOnConnectDoesNotReset
+2020-06-22 14:23:29,857 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testOnConnectDoesNotReset
+2020-06-22 14:23:29,858 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 34214
+2020-06-22 14:23:29,858 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:23:29,858 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testOnConnectDoesNotReset
+2020-06-22 14:23:29,858 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testOnConnectDoesNotReset
+2020-06-22 14:23:29,859 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testOnConnectDoesNotReset
+2020-06-22 14:23:29,861 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testUpdateServerList_UnresolvedHostnames_NoDisconnection1
+2020-06-22 14:23:29,862 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testUpdateServerList_UnresolvedHostnames_NoDisconnection1
+[testhost-4.testdomain.com:1238, testhost-3.testdomain.com:1237, testhost-2.testdomain.com:1236, testhost-1.testdomain.com:1235]
+[testhost-3.testdomain.com:1237, testhost-2.testdomain.com:1236, testhost-1.testdomain.com:1235]
+2020-06-22 14:23:29,863 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 34214
+2020-06-22 14:23:29,863 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:23:29,864 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testUpdateServerList_UnresolvedHostnames_NoDisconnection1
+2020-06-22 14:23:29,864 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testUpdateServerList_UnresolvedHostnames_NoDisconnection1
+2020-06-22 14:23:29,864 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testUpdateServerList_UnresolvedHostnames_NoDisconnection1
+2020-06-22 14:23:29,865 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testUpdateServerList_UnresolvedHostnames_NoDisconnection2
+2020-06-22 14:23:29,865 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testUpdateServerList_UnresolvedHostnames_NoDisconnection2
+[testhost-3.testdomain.com:1237, testhost-2.testdomain.com:1236, testhost-1.testdomain.com:1235]
+[testhost-3.testdomain.com:1237, testhost-2.testdomain.com:1236, testhost-1.testdomain.com:1235]
+2020-06-22 14:23:29,866 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 34214
+2020-06-22 14:23:29,867 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:23:29,867 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testUpdateServerList_UnresolvedHostnames_NoDisconnection2
+2020-06-22 14:23:29,867 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testUpdateServerList_UnresolvedHostnames_NoDisconnection2
+2020-06-22 14:23:29,867 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testUpdateServerList_UnresolvedHostnames_NoDisconnection2
+2020-06-22 14:23:29,868 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testUpdateServerList_ResolvedWithResolvedAddress_NoDisconnect
+2020-06-22 14:23:29,868 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testUpdateServerList_ResolvedWithResolvedAddress_NoDisconnect
+2020-06-22 14:23:29,878 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 34834
+2020-06-22 14:23:29,878 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:23:29,878 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testUpdateServerList_ResolvedWithResolvedAddress_NoDisconnect
+2020-06-22 14:23:29,878 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testUpdateServerList_ResolvedWithResolvedAddress_NoDisconnect
+2020-06-22 14:23:29,879 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testUpdateServerList_ResolvedWithResolvedAddress_NoDisconnect
+2020-06-22 14:23:29,879 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testNextGoesRoundAndSleeps
+2020-06-22 14:23:29,880 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testNextGoesRoundAndSleeps
+2020-06-22 14:23:30,881 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 35496
+2020-06-22 14:23:30,881 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:23:30,881 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testNextGoesRoundAndSleeps
+2020-06-22 14:23:30,881 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testNextGoesRoundAndSleeps
+2020-06-22 14:23:30,881 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testNextGoesRoundAndSleeps
+2020-06-22 14:23:30,882 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testLiteralIPNoReverseNS
+2020-06-22 14:23:30,882 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testLiteralIPNoReverseNS
+2020-06-22 14:23:30,883 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 35496
+2020-06-22 14:23:30,883 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:23:30,883 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testLiteralIPNoReverseNS
+2020-06-22 14:23:30,884 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testLiteralIPNoReverseNS
+2020-06-22 14:23:30,884 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testLiteralIPNoReverseNS
+2020-06-22 14:23:30,884 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testReResolvingLocalhost
+2020-06-22 14:23:30,884 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testReResolvingLocalhost
+2020-06-22 14:23:30,891 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 35496
+2020-06-22 14:23:30,892 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:23:30,892 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testReResolvingLocalhost
+2020-06-22 14:23:30,892 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testReResolvingLocalhost
+2020-06-22 14:23:30,892 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testReResolvingLocalhost
+2020-06-22 14:23:30,892 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testEmptyResolution
+2020-06-22 14:23:30,892 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testEmptyResolution
+2020-06-22 14:23:32,082 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 35769
+2020-06-22 14:23:32,082 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:23:32,082 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testEmptyResolution
+2020-06-22 14:23:32,083 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testEmptyResolution
+2020-06-22 14:23:32,083 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testEmptyResolution
+2020-06-22 14:23:32,084 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testReResolvingMultiple
+2020-06-22 14:23:32,085 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testReResolvingMultiple
+2020-06-22 14:23:32,123 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 36405
+2020-06-22 14:23:32,123 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:23:32,123 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testReResolvingMultiple
+2020-06-22 14:23:32,123 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testReResolvingMultiple
+2020-06-22 14:23:32,123 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testReResolvingMultiple
+2020-06-22 14:23:32,127 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testUpdateLoadBalancing
+2020-06-22 14:23:32,127 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testUpdateLoadBalancing
+2020-06-22 14:23:32,313 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 32998
+2020-06-22 14:23:32,314 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:23:32,314 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testUpdateLoadBalancing
+2020-06-22 14:23:32,314 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testUpdateLoadBalancing
+2020-06-22 14:23:32,314 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testUpdateLoadBalancing
+2020-06-22 14:23:32,315 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testUpdateServerList_UnResolvedWithUnResolvedAddress_ForceDisconnect
+2020-06-22 14:23:32,315 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testUpdateServerList_UnResolvedWithUnResolvedAddress_ForceDisconnect
+2020-06-22 14:23:32,316 [myid:] - ERROR [main:StaticHostProvider@148] - Unable to resolve address: testhost-1.zookeepertest.zk:1235
+java.net.UnknownHostException
+	at org.apache.zookeeper.test.StaticHostProviderTest$TestResolver.getAllByName(StaticHostProviderTest.java:664)
+	at org.apache.zookeeper.client.StaticHostProvider.resolve(StaticHostProvider.java:141)
+	at org.apache.zookeeper.client.StaticHostProvider.next(StaticHostProvider.java:368)
+	at org.apache.zookeeper.test.StaticHostProviderTest.testUpdateServerList_UnResolvedWithUnResolvedAddress_ForceDisconnect(StaticHostProviderTest.java:623)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at mockit.integration.junit4.JUnit4TestRunnerDecorator.executeTestMethod(JUnit4TestRunnerDecorator.java:157)
+	at mockit.integration.junit4.JUnit4TestRunnerDecorator.invokeExplosively(JUnit4TestRunnerDecorator.java:71)
+	at mockit.integration.junit4.FakeFrameworkMethod.invokeExplosively(FakeFrameworkMethod.java:29)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.apache.zookeeper.JUnit4ZKTestRunner$LoggedInvokeMethod.evaluate(JUnit4ZKTestRunner.java:86)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+2020-06-22 14:23:32,319 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 32998
+2020-06-22 14:23:32,319 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:23:32,320 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testUpdateServerList_UnResolvedWithUnResolvedAddress_ForceDisconnect
+2020-06-22 14:23:32,320 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testUpdateServerList_UnResolvedWithUnResolvedAddress_ForceDisconnect
+2020-06-22 14:23:32,320 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testUpdateServerList_UnResolvedWithUnResolvedAddress_ForceDisconnect
+2020-06-22 14:23:32,321 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testUpdateServerList_UnresolvedHostnames_Disconnection1
+2020-06-22 14:23:32,321 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testUpdateServerList_UnresolvedHostnames_Disconnection1
+[testhost-3.testdomain.com:1237, testhost-2.testdomain.com:1236, testhost-1.testdomain.com:1235]
+[testhost-2.testdomain.com:1236, testhost-1.testdomain.com:1235]
+2020-06-22 14:23:32,321 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 32998
+2020-06-22 14:23:32,322 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:23:32,322 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testUpdateServerList_UnresolvedHostnames_Disconnection1
+2020-06-22 14:23:32,322 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testUpdateServerList_UnresolvedHostnames_Disconnection1
+2020-06-22 14:23:32,322 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testUpdateServerList_UnresolvedHostnames_Disconnection1
+2020-06-22 14:23:32,323 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testUpdateServerList_UnresolvedHostnames_Disconnection2
+2020-06-22 14:23:32,323 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testUpdateServerList_UnresolvedHostnames_Disconnection2
+[testhost-3.testdomain.com:1237, testhost-2.testdomain.com:1236, testhost-1.testdomain.com:1235]
+[testhost-3.testdomain.com:1237, testhost-2.testdomain.com:1236, testhost-1.testdomain.com:1235]
+2020-06-22 14:23:32,324 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 34279
+2020-06-22 14:23:32,324 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:23:32,325 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testUpdateServerList_UnresolvedHostnames_Disconnection2
+2020-06-22 14:23:32,325 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testUpdateServerList_UnresolvedHostnames_Disconnection2
+2020-06-22 14:23:32,325 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testUpdateServerList_UnresolvedHostnames_Disconnection2
+2020-06-22 14:23:32,326 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testNextDoesNotSleepForZero
+2020-06-22 14:23:32,326 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testNextDoesNotSleepForZero
+2020-06-22 14:23:32,327 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 34279
+2020-06-22 14:23:32,327 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:23:32,327 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testNextDoesNotSleepForZero
+2020-06-22 14:23:32,327 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testNextDoesNotSleepForZero
+2020-06-22 14:23:32,327 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testNextDoesNotSleepForZero
+2020-06-22 14:23:32,328 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testInvalidHostAddresses
+2020-06-22 14:23:32,328 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testInvalidHostAddresses
+2020-06-22 14:23:32,330 [myid:] - ERROR [main:StaticHostProvider@148] - Unable to resolve address: a:1234
+java.net.UnknownHostException
+	at org.apache.zookeeper.test.StaticHostProviderTest$1.getAllByName(StaticHostProviderTest.java:107)
+	at org.apache.zookeeper.client.StaticHostProvider.resolve(StaticHostProvider.java:141)
+	at org.apache.zookeeper.client.StaticHostProvider.next(StaticHostProvider.java:368)
+	at org.apache.zookeeper.test.StaticHostProviderTest.testInvalidHostAddresses(StaticHostProviderTest.java:113)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at mockit.integration.junit4.JUnit4TestRunnerDecorator.executeTestMethod(JUnit4TestRunnerDecorator.java:157)
+	at mockit.integration.junit4.JUnit4TestRunnerDecorator.invokeExplosively(JUnit4TestRunnerDecorator.java:71)
+	at mockit.integration.junit4.FakeFrameworkMethod.invokeExplosively(FakeFrameworkMethod.java:29)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.apache.zookeeper.JUnit4ZKTestRunner$LoggedInvokeMethod.evaluate(JUnit4ZKTestRunner.java:86)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+2020-06-22 14:23:32,331 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 34279
+2020-06-22 14:23:32,331 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:23:32,331 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testInvalidHostAddresses
+2020-06-22 14:23:32,331 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testInvalidHostAddresses
+2020-06-22 14:23:32,331 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testInvalidHostAddresses
+2020-06-22 14:23:32,332 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testNoCurrentHostDuringNormalMode
+2020-06-22 14:23:32,332 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testNoCurrentHostDuringNormalMode
+2020-06-22 14:23:32,375 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 54775
+2020-06-22 14:23:32,375 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:23:32,375 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testNoCurrentHostDuringNormalMode
+2020-06-22 14:23:32,376 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testNoCurrentHostDuringNormalMode
+2020-06-22 14:23:32,376 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testNoCurrentHostDuringNormalMode
+2020-06-22 14:23:32,376 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testUpdateMigrationGoesRound
+2020-06-22 14:23:32,376 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testUpdateMigrationGoesRound
+2020-06-22 14:23:32,377 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 54955
+2020-06-22 14:23:32,377 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:23:32,377 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testUpdateMigrationGoesRound
+2020-06-22 14:23:32,377 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testUpdateMigrationGoesRound
+2020-06-22 14:23:32,377 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testUpdateMigrationGoesRound
+2020-06-22 14:23:32,378 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testUpdateServerList_ResolvedWithUnResolvedAddress_ForceDisconnect
+2020-06-22 14:23:32,378 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testUpdateServerList_ResolvedWithUnResolvedAddress_ForceDisconnect
+2020-06-22 14:23:32,378 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 55382
+2020-06-22 14:23:32,378 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:23:32,379 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testUpdateServerList_ResolvedWithUnResolvedAddress_ForceDisconnect
+2020-06-22 14:23:32,379 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testUpdateServerList_ResolvedWithUnResolvedAddress_ForceDisconnect
+2020-06-22 14:23:32,379 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testUpdateServerList_ResolvedWithUnResolvedAddress_ForceDisconnect
+2020-06-22 14:23:32,379 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testReResolveMultipleOneFailing
+2020-06-22 14:23:32,379 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testReResolveMultipleOneFailing
+2020-06-22 14:23:32,402 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 56663
+2020-06-22 14:23:32,402 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:23:32,402 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testReResolveMultipleOneFailing
+2020-06-22 14:23:32,402 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testReResolveMultipleOneFailing
+2020-06-22 14:23:32,403 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testReResolveMultipleOneFailing
+2020-06-22 14:23:32,403 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testUpdateServerList_UnResolvedWithResolvedAddress_ForceDisconnect
+2020-06-22 14:23:32,403 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testUpdateServerList_UnResolvedWithResolvedAddress_ForceDisconnect
+2020-06-22 14:23:32,404 [myid:] - ERROR [main:StaticHostProvider@148] - Unable to resolve address: testhost-1.zookeepertest.zk:1235
+java.net.UnknownHostException
+	at org.apache.zookeeper.test.StaticHostProviderTest$TestResolver.getAllByName(StaticHostProviderTest.java:664)
+	at org.apache.zookeeper.client.StaticHostProvider.resolve(StaticHostProvider.java:141)
+	at org.apache.zookeeper.client.StaticHostProvider.next(StaticHostProvider.java:368)
+	at org.apache.zookeeper.test.StaticHostProviderTest.testUpdateServerList_UnResolvedWithResolvedAddress_ForceDisconnect(StaticHostProviderTest.java:641)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at mockit.integration.junit4.JUnit4TestRunnerDecorator.executeTestMethod(JUnit4TestRunnerDecorator.java:157)
+	at mockit.integration.junit4.JUnit4TestRunnerDecorator.invokeExplosively(JUnit4TestRunnerDecorator.java:71)
+	at mockit.integration.junit4.FakeFrameworkMethod.invokeExplosively(FakeFrameworkMethod.java:29)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.apache.zookeeper.JUnit4ZKTestRunner$LoggedInvokeMethod.evaluate(JUnit4ZKTestRunner.java:86)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+2020-06-22 14:23:32,405 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 56663
+2020-06-22 14:23:32,405 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:23:32,405 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testUpdateServerList_UnResolvedWithResolvedAddress_ForceDisconnect
+2020-06-22 14:23:32,405 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testUpdateServerList_UnResolvedWithResolvedAddress_ForceDisconnect
+2020-06-22 14:23:32,405 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testUpdateServerList_UnResolvedWithResolvedAddress_ForceDisconnect
+2020-06-22 14:23:32,406 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testNextGoesRound
+2020-06-22 14:23:32,406 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testNextGoesRound
+2020-06-22 14:23:32,406 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 56663
+2020-06-22 14:23:32,407 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:23:32,407 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testNextGoesRound
+2020-06-22 14:23:32,407 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testNextGoesRound
+2020-06-22 14:23:32,407 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testNextGoesRound
+2020-06-22 14:23:32,408 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testUpdateClientMigrateOrNot
+2020-06-22 14:23:32,408 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testUpdateClientMigrateOrNot
+2020-06-22 14:23:32,453 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 9527
+2020-06-22 14:23:32,453 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:23:32,454 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testUpdateClientMigrateOrNot
+2020-06-22 14:23:32,454 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testUpdateClientMigrateOrNot
+2020-06-22 14:23:32,454 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testUpdateClientMigrateOrNot
+2020-06-22 14:23:32,454 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testEmptyServerAddressesList
+2020-06-22 14:23:32,455 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testEmptyServerAddressesList
+2020-06-22 14:23:32,456 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@103] - TEST METHOD testEmptyServerAddressesList THREW EXPECTED EXCEPTION class java.lang.IllegalArgumentException
+2020-06-22 14:23:32,457 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testEmptyServerAddressesList
+2020-06-22 14:23:32,457 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testEmptyServerAddressesList
+2020-06-22 14:23:32,457 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testTwoConsequitiveCallsToNextReturnDifferentElement
+2020-06-22 14:23:32,457 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testTwoConsequitiveCallsToNextReturnDifferentElement
+2020-06-22 14:23:32,458 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 9527
+2020-06-22 14:23:32,458 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:23:32,458 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testTwoConsequitiveCallsToNextReturnDifferentElement
+2020-06-22 14:23:32,458 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testTwoConsequitiveCallsToNextReturnDifferentElement
+2020-06-22 14:23:32,458 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testTwoConsequitiveCallsToNextReturnDifferentElement
+2020-06-22 14:23:32,458 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testReResolvingSingle
+2020-06-22 14:23:32,459 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testReResolvingSingle
+2020-06-22 14:23:32,480 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 10813
+2020-06-22 14:23:32,481 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:23:32,481 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testReResolvingSingle
+2020-06-22 14:23:32,481 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testReResolvingSingle
+2020-06-22 14:23:32,481 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testReResolvingSingle

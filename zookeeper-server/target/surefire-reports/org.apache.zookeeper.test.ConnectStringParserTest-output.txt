@@ -1,0 +1,30 @@
+2020-06-22 14:14:46,216 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:14:46,223 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:14:46,382 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testParseServersWithPort
+2020-06-22 14:14:46,382 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testParseServersWithPort
+2020-06-22 14:14:46,423 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 8164
+2020-06-22 14:14:46,423 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:14:46,423 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testParseServersWithPort
+2020-06-22 14:14:46,424 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testParseServersWithPort
+2020-06-22 14:14:46,424 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testParseServersWithPort
+2020-06-22 14:14:46,428 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testMultipleServersChrootPath
+2020-06-22 14:14:46,429 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testMultipleServersChrootPath
+2020-06-22 14:14:46,432 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 8164
+2020-06-22 14:14:46,432 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:14:46,432 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testMultipleServersChrootPath
+2020-06-22 14:14:46,432 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testMultipleServersChrootPath
+2020-06-22 14:14:46,433 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testMultipleServersChrootPath
+2020-06-22 14:14:46,435 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testSingleServerChrootPath
+2020-06-22 14:14:46,436 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testSingleServerChrootPath
+2020-06-22 14:14:46,436 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 8164
+2020-06-22 14:14:46,436 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:14:46,436 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testSingleServerChrootPath
+2020-06-22 14:14:46,436 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testSingleServerChrootPath
+2020-06-22 14:14:46,437 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testSingleServerChrootPath
+2020-06-22 14:14:46,437 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testParseServersWithoutPort
+2020-06-22 14:14:46,437 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testParseServersWithoutPort
+2020-06-22 14:14:46,438 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 8164
+2020-06-22 14:14:46,438 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:14:46,439 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testParseServersWithoutPort
+2020-06-22 14:14:46,439 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testParseServersWithoutPort
+2020-06-22 14:14:46,439 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testParseServersWithoutPort

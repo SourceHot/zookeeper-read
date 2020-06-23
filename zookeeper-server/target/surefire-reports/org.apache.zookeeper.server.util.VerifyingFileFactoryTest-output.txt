@@ -1,0 +1,29 @@
+2020-06-22 14:11:06,193 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:11:06,220 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:11:06,340 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testFileHasCorrectPath
+2020-06-22 14:11:06,385 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testFileHasCorrectPath
+2020-06-22 14:11:06,393 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 9163
+2020-06-22 14:11:06,393 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:11:06,393 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testFileHasCorrectPath
+2020-06-22 14:11:06,394 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testFileHasCorrectPath
+2020-06-22 14:11:06,394 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testFileHasCorrectPath
+2020-06-22 14:11:06,397 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testForNoWarningOnIntendedRelativePath
+2020-06-22 14:11:06,397 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testForNoWarningOnIntendedRelativePath
+2020-06-22 14:11:06,398 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 9163
+2020-06-22 14:11:06,398 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:11:06,398 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testForNoWarningOnIntendedRelativePath
+2020-06-22 14:11:06,398 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testForNoWarningOnIntendedRelativePath
+2020-06-22 14:11:06,398 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testForNoWarningOnIntendedRelativePath
+2020-06-22 14:11:06,401 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testForWarningOnRelativePath
+2020-06-22 14:11:06,402 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testForWarningOnRelativePath
+2020-06-22 14:11:06,402 [myid:] - WARN  [main:VerifyingFileFactory@65] - a\relative\path is relative. Prepend .\ to indicate that you're sure!
+2020-06-22 14:11:06,402 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 9163
+2020-06-22 14:11:06,402 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:11:06,403 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testForWarningOnRelativePath
+2020-06-22 14:11:06,403 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testForWarningOnRelativePath
+2020-06-22 14:11:06,403 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testForWarningOnRelativePath
+2020-06-22 14:11:06,404 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testForFailForNonExistingPath
+2020-06-22 14:11:06,404 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testForFailForNonExistingPath
+2020-06-22 14:11:06,406 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@103] - TEST METHOD testForFailForNonExistingPath THREW EXPECTED EXCEPTION class java.lang.IllegalArgumentException
+2020-06-22 14:11:06,407 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testForFailForNonExistingPath
+2020-06-22 14:11:06,407 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testForFailForNonExistingPath

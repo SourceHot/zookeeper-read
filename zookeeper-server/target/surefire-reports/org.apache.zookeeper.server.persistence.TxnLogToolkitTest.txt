@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.zookeeper.server.persistence.TxnLogToolkitTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 1.166 s <<< FAILURE! - in org.apache.zookeeper.server.persistence.TxnLogToolkitTest
+testDumpMode(org.apache.zookeeper.server.persistence.TxnLogToolkitTest)  Time elapsed: 0.895 s  <<< ERROR!
+java.io.IOException: Unable to delete file: D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test7354860914413117661.junit.dir\version-2\log.274
+	at org.apache.zookeeper.server.persistence.TxnLogToolkitTest.tearDown(TxnLogToolkitTest.java:61)
+
+testRecoveryFixBrokenFile(org.apache.zookeeper.server.persistence.TxnLogToolkitTest)  Time elapsed: 0.051 s  <<< ERROR!
+java.io.IOException: Unable to delete file: D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test5370130555536368843.junit.dir\version-2\log.42.fixed
+	at org.apache.zookeeper.server.persistence.TxnLogToolkitTest.tearDown(TxnLogToolkitTest.java:61)
+
+testRecoveryInteractiveMode(org.apache.zookeeper.server.persistence.TxnLogToolkitTest)  Time elapsed: 0.072 s  <<< ERROR!
+java.io.IOException: Unable to delete file: D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test2146251273536806255.junit.dir\version-2\log.42.fixed
+	at org.apache.zookeeper.server.persistence.TxnLogToolkitTest.tearDown(TxnLogToolkitTest.java:61)
+
+testDumpWithCrcError(org.apache.zookeeper.server.persistence.TxnLogToolkitTest)  Time elapsed: 0.016 s  <<< ERROR!
+java.io.IOException: Unable to delete file: D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test6248606097284276997.junit.dir\version-2\log.42
+	at org.apache.zookeeper.server.persistence.TxnLogToolkitTest.tearDown(TxnLogToolkitTest.java:61)
+

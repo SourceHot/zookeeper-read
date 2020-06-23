@@ -1,0 +1,16 @@
+2020-06-22 14:05:23,039 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:05:23,045 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:05:23,162 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testEmptyRoundTrip
+2020-06-22 14:05:23,162 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testEmptyRoundTrip
+2020-06-22 14:05:23,269 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 7643
+2020-06-22 14:05:23,269 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:05:23,269 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testEmptyRoundTrip
+2020-06-22 14:05:23,269 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testEmptyRoundTrip
+2020-06-22 14:05:23,270 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testEmptyRoundTrip
+2020-06-22 14:05:23,272 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testRoundTrip
+2020-06-22 14:05:23,272 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testRoundTrip
+2020-06-22 14:05:23,326 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 8278
+2020-06-22 14:05:23,326 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:05:23,326 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testRoundTrip
+2020-06-22 14:05:23,326 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testRoundTrip
+2020-06-22 14:05:23,326 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testRoundTrip

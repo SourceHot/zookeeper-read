@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.zookeeper.server.NettyServerCnxnTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 133.235 s <<< FAILURE! - in org.apache.zookeeper.server.NettyServerCnxnTest
+testEnableDisableThrottling_secure_random(org.apache.zookeeper.server.NettyServerCnxnTest)  Time elapsed: 33.099 s  <<< ERROR!
+java.net.ProtocolException: Unable to connect to server
+	at org.apache.zookeeper.server.NettyServerCnxnTest.runEnableDisableThrottling(NettyServerCnxnTest.java:233)
+	at org.apache.zookeeper.server.NettyServerCnxnTest.testEnableDisableThrottling_secure_random(NettyServerCnxnTest.java:202)
+
+testEnableDisableThrottling_secure_sequentially(org.apache.zookeeper.server.NettyServerCnxnTest)  Time elapsed: 32.221 s  <<< ERROR!
+java.net.ProtocolException: Unable to connect to server
+	at org.apache.zookeeper.server.NettyServerCnxnTest.runEnableDisableThrottling(NettyServerCnxnTest.java:233)
+	at org.apache.zookeeper.server.NettyServerCnxnTest.testEnableDisableThrottling_secure_sequentially(NettyServerCnxnTest.java:207)
+

@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.apache.zookeeper.server.ZooKeeperServerMainTest" time="27.162" tests="15" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="build.test.dir" value="D:\desktop\git_repo\zookeeper-read\zookeeper-server\target/surefire"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\test-classes;D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\classes;C:\Users\admin\.m2\repository\com\github\spotbugs\spotbugs-annotations\4.0.2\spotbugs-annotations-4.0.2.jar;C:\Users\admin\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\admin\.m2\repository\org\hamcrest\hamcrest-all\1.3\hamcrest-all-1.3.jar;C:\Users\admin\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\admin\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;D:\desktop\git_repo\zookeeper-read\zookeeper-jute\target\zookeeper-jute-3.6.1.jar;C:\Users\admin\.m2\repository\commons-cli\commons-cli\1.2\commons-cli-1.2.jar;C:\Users\admin\.m2\repository\org\apache\yetus\audience-annotations\0.5.0\audience-annotations-0.5.0.jar;C:\Users\admin\.m2\repository\io\netty\netty-handler\4.1.48.Final\netty-handler-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-common\4.1.48.Final\netty-common-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-resolver\4.1.48.Final\netty-resolver-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-buffer\4.1.48.Final\netty-buffer-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport\4.1.48.Final\netty-transport-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-codec\4.1.48.Final\netty-codec-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport-native-epoll\4.1.48.Final\netty-transport-native-epoll-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.48.Final\netty-transport-native-unix-common-4.1.48.Final.jar;C:\Users\admin\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\admin\.m2\repository\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;C:\Users\admin\.m2\repository\org\eclipse\jetty\jetty-server\9.4.24.v20191120\jetty-server-9.4.24.v20191120.jar;C:\Users\admin\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\admin\.m2\repository\org\eclipse\jetty\jetty-http\9.4.24.v20191120\jetty-http-9.4.24.v20191120.jar;C:\Users\admin\.m2\repository\org\eclipse\jetty\jetty-util\9.4.24.v20191120\jetty-util-9.4.24.v20191120.jar;C:\Users\admin\.m2\repository\org\eclipse\jetty\jetty-io\9.4.24.v20191120\jetty-io-9.4.24.v20191120.jar;C:\Users\admin\.m2\repository\org\eclipse\jetty\jetty-servlet\9.4.24.v20191120\jetty-servlet-9.4.24.v20191120.jar;C:\Users\admin\.m2\repository\org\eclipse\jetty\jetty-security\9.4.24.v20191120\jetty-security-9.4.24.v20191120.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\admin\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\admin\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.60\bcprov-jdk15on-1.60.jar;C:\Users\admin\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.60\bcpkix-jdk15on-1.60.jar;C:\Users\admin\.m2\repository\jline\jline\2.11\jline-2.11.jar;C:\Users\admin\.m2\repository\io\dropwizard\metrics\metrics-core\3.2.5\metrics-core-3.2.5.jar;C:\Users\admin\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-core\2.0.0\kerb-core-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerby-pkix\2.0.0\kerby-pkix-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerby-asn1\2.0.0\kerby-asn1-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerby-util\2.0.0\kerby-util-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-simplekdc\2.0.0\kerb-simplekdc-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-client\2.0.0\kerb-client-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-common\2.0.0\kerb-common-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-crypto\2.0.0\kerb-crypto-2.0.0.jar;C:\Users\admin\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-util\2.0.0\kerb-util-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\token-provider\2.0.0\token-provider-2.0.0.jar;C:\Users\admin\.m2\repository\com\nimbusds\nimbus-jose-jwt\4.41.2\nimbus-jose-jwt-4.41.2.jar;C:\Users\admin\.m2\repository\com\github\stephenc\jcip\jcip-annotations\1.0-1\jcip-annotations-1.0-1.jar;C:\Users\admin\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar;C:\Users\admin\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar;C:\Users\admin\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-admin\2.0.0\kerb-admin-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-server\2.0.0\kerb-server-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-identity\2.0.0\kerb-identity-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerby-xdr\2.0.0\kerby-xdr-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerby-config\2.0.0\kerby-config-2.0.0.jar;C:\Users\admin\.m2\repository\org\mockito\mockito-core\2.27.0\mockito-core-2.27.0.jar;C:\Users\admin\.m2\repository\net\bytebuddy\byte-buddy\1.9.10\byte-buddy-1.9.10.jar;C:\Users\admin\.m2\repository\net\bytebuddy\byte-buddy-agent\1.9.10\byte-buddy-agent-1.9.10.jar;C:\Users\admin\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:\Users\admin\.m2\repository\org\jmockit\jmockit\1.48\jmockit-1.48.jar;C:\Users\admin\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\admin\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\admin\.m2\repository\org\xerial\snappy\snappy-java\1.1.7\snappy-java-1.1.7.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="D:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.252-2\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\admin\AppData\Local\Temp\surefire817669169469973491\surefirebooter3383430827192496564.jar C:\Users\admin\AppData\Local\Temp\surefire817669169469973491 2020-06-22T14-04-30_671-jvmRun1 surefire5208645050916248357tmp surefire_1561083223733420950123tmp"/>
+    <property name="surefire.test.class.path" value="D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\test-classes;D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\classes;C:\Users\admin\.m2\repository\com\github\spotbugs\spotbugs-annotations\4.0.2\spotbugs-annotations-4.0.2.jar;C:\Users\admin\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\admin\.m2\repository\org\hamcrest\hamcrest-all\1.3\hamcrest-all-1.3.jar;C:\Users\admin\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\admin\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;D:\desktop\git_repo\zookeeper-read\zookeeper-jute\target\zookeeper-jute-3.6.1.jar;C:\Users\admin\.m2\repository\commons-cli\commons-cli\1.2\commons-cli-1.2.jar;C:\Users\admin\.m2\repository\org\apache\yetus\audience-annotations\0.5.0\audience-annotations-0.5.0.jar;C:\Users\admin\.m2\repository\io\netty\netty-handler\4.1.48.Final\netty-handler-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-common\4.1.48.Final\netty-common-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-resolver\4.1.48.Final\netty-resolver-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-buffer\4.1.48.Final\netty-buffer-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport\4.1.48.Final\netty-transport-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-codec\4.1.48.Final\netty-codec-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport-native-epoll\4.1.48.Final\netty-transport-native-epoll-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.48.Final\netty-transport-native-unix-common-4.1.48.Final.jar;C:\Users\admin\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\admin\.m2\repository\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;C:\Users\admin\.m2\repository\org\eclipse\jetty\jetty-server\9.4.24.v20191120\jetty-server-9.4.24.v20191120.jar;C:\Users\admin\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\admin\.m2\repository\org\eclipse\jetty\jetty-http\9.4.24.v20191120\jetty-http-9.4.24.v20191120.jar;C:\Users\admin\.m2\repository\org\eclipse\jetty\jetty-util\9.4.24.v20191120\jetty-util-9.4.24.v20191120.jar;C:\Users\admin\.m2\repository\org\eclipse\jetty\jetty-io\9.4.24.v20191120\jetty-io-9.4.24.v20191120.jar;C:\Users\admin\.m2\repository\org\eclipse\jetty\jetty-servlet\9.4.24.v20191120\jetty-servlet-9.4.24.v20191120.jar;C:\Users\admin\.m2\repository\org\eclipse\jetty\jetty-security\9.4.24.v20191120\jetty-security-9.4.24.v20191120.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\admin\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\admin\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.60\bcprov-jdk15on-1.60.jar;C:\Users\admin\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.60\bcpkix-jdk15on-1.60.jar;C:\Users\admin\.m2\repository\jline\jline\2.11\jline-2.11.jar;C:\Users\admin\.m2\repository\io\dropwizard\metrics\metrics-core\3.2.5\metrics-core-3.2.5.jar;C:\Users\admin\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-core\2.0.0\kerb-core-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerby-pkix\2.0.0\kerby-pkix-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerby-asn1\2.0.0\kerby-asn1-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerby-util\2.0.0\kerby-util-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-simplekdc\2.0.0\kerb-simplekdc-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-client\2.0.0\kerb-client-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-common\2.0.0\kerb-common-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-crypto\2.0.0\kerb-crypto-2.0.0.jar;C:\Users\admin\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-util\2.0.0\kerb-util-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\token-provider\2.0.0\token-provider-2.0.0.jar;C:\Users\admin\.m2\repository\com\nimbusds\nimbus-jose-jwt\4.41.2\nimbus-jose-jwt-4.41.2.jar;C:\Users\admin\.m2\repository\com\github\stephenc\jcip\jcip-annotations\1.0-1\jcip-annotations-1.0-1.jar;C:\Users\admin\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar;C:\Users\admin\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar;C:\Users\admin\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-admin\2.0.0\kerb-admin-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-server\2.0.0\kerb-server-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-identity\2.0.0\kerb-identity-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerby-xdr\2.0.0\kerby-xdr-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerby-config\2.0.0\kerby-config-2.0.0.jar;C:\Users\admin\.m2\repository\org\mockito\mockito-core\2.27.0\mockito-core-2.27.0.jar;C:\Users\admin\.m2\repository\net\bytebuddy\byte-buddy\1.9.10\byte-buddy-1.9.10.jar;C:\Users\admin\.m2\repository\net\bytebuddy\byte-buddy-agent\1.9.10\byte-buddy-agent-1.9.10.jar;C:\Users\admin\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:\Users\admin\.m2\repository\org\jmockit\jmockit\1.48\jmockit-1.48.jar;C:\Users\admin\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\admin\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\admin\.m2\repository\org\xerial\snappy\snappy-java\1.1.7\snappy-java-1.1.7.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\admin"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="D:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.252-2\jre"/>
+    <property name="zookeeper.DigestAuthenticationProvider.superDigest" value="super:D/InIHSb7yEEbrWz8b9l71RjZJU="/>
+    <property name="basedir" value="D:\desktop\git_repo\zookeeper-read\zookeeper-server"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="test.junit.threads" value="8"/>
+    <property name="idea.version2020.1.1" value="true"/>
+    <property name="surefire.real.class.path" value="C:\Users\admin\AppData\Local\Temp\surefire817669169469973491\surefirebooter3383430827192496564.jar;C:\Users\admin\.m2\repository\org\jmockit\jmockit\1.48\jmockit-1.48.jar"/>
+    <property name="zookeeper.junit.threadid" value="1"/>
+    <property name="sun.boot.class.path" value="D:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.252-2\jre\lib\resources.jar;D:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.252-2\jre\lib\rt.jar;D:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.252-2\jre\lib\sunrsasign.jar;D:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.252-2\jre\lib\jsse.jar;D:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.252-2\jre\lib\jce.jar;D:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.252-2\jre\lib\charsets.jar;D:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.252-2\jre\lib\jfr.jar;D:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.252-2\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_252-b09"/>
+    <property name="user.name" value="admin"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="D:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.252-2\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\admin\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\admin\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_252"/>
+    <property name="user.dir" value="D:\desktop\git_repo\zookeeper-read\zookeeper-server"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="D:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.252-2\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\Program Files (x86)\NetSarang\Xshell 6\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.252-2\bin;D:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.252-2\jre\bin;D:\Program Files\Git\cmd;D:\Go\bin;D:\Program Files\nodejs\;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;;D:\Programs\Microsoft VS Code\bin;C:\Users\admin\go\bin;C:\Users\admin\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.252-b09"/>
+    <property name="java.ext.dirs" value="D:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.252-2\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testStandalone" classname="org.apache.zookeeper.server.ZooKeeperServerMainTest" time="3.38"/>
+  <testcase name="testJMXRegistrationWithNIO" classname="org.apache.zookeeper.server.ZooKeeperServerMainTest" time="0.03"/>
+  <testcase name="testWithMinSessionTimeoutGreaterThanMaxSessionTimeout" classname="org.apache.zookeeper.server.ZooKeeperServerMainTest" time="0.011"/>
+  <testcase name="testReadOnlySnapshotDir" classname="org.apache.zookeeper.server.ZooKeeperServerMainTest" time="1.018">
+    <failure message="waiting for server being up" type="java.lang.AssertionError">java.lang.AssertionError: waiting for server being up
+	at org.apache.zookeeper.server.ZooKeeperServerMainTest.testReadOnlySnapshotDir(ZooKeeperServerMainTest.java:240)
+</failure>
+    <system-out><![CDATA[2020-06-22 14:11:33,927 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testReadOnlySnapshotDir
+2020-06-22 14:11:33,928 [myid:] - INFO  [Time-limited test:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testReadOnlySnapshotDir
+2020-06-22 14:11:33,929 [myid:] - INFO  [Time-limited test:PortAssignment@87] - Assigned port 11226 from range 11221 - 13913.
+2020-06-22 14:11:33,931 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 11226
+2020-06-22 14:11:33,931 [myid:] - INFO  [Standalone server with clientPort:11226:ManagedUtil@44] - Log4j 1.2 jmx support found and enabled.
+2020-06-22 14:11:33,931 [myid:] - ERROR [Standalone server with clientPort:11226:ManagedUtil@109] - Problems while registering log4j 1.2 jmx beans!
+javax.management.InstanceAlreadyExistsException: log4j:hierarchy=default
+	at com.sun.jmx.mbeanserver.Repository.addMBean(Repository.java:437)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerWithRepository(DefaultMBeanServerInterceptor.java:1898)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerDynamicMBean(DefaultMBeanServerInterceptor.java:966)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerObject(DefaultMBeanServerInterceptor.java:900)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerMBean(DefaultMBeanServerInterceptor.java:324)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.registerMBean(JmxMBeanServer.java:522)
+	at org.apache.zookeeper.jmx.ManagedUtil.registerLog4jMBeans(ManagedUtil.java:72)
+	at org.apache.zookeeper.server.ZooKeeperServerMain.initializeAndRun(ZooKeeperServerMain.java:100)
+	at org.apache.zookeeper.server.ZooKeeperServerMainTest$MainThread.run(ZooKeeperServerMainTest.java:117)
+2020-06-22 14:11:33,931 [myid:] - WARN  [Standalone server with clientPort:11226:ZooKeeperServerMain@102] - Unable to register log4j JMX control
+javax.management.JMException: javax.management.InstanceAlreadyExistsException: log4j:hierarchy=default
+	at org.apache.zookeeper.jmx.ManagedUtil.registerLog4jMBeans(ManagedUtil.java:110)
+	at org.apache.zookeeper.server.ZooKeeperServerMain.initializeAndRun(ZooKeeperServerMain.java:100)
+	at org.apache.zookeeper.server.ZooKeeperServerMainTest$MainThread.run(ZooKeeperServerMainTest.java:117)
+2020-06-22 14:11:33,932 [myid:] - INFO  [Standalone server with clientPort:11226:QuorumPeerConfig@173] - Reading configuration from: D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test445190689386937229.junit.dir\zoo.cfg
+2020-06-22 14:11:33,932 [myid:] - INFO  [Standalone server with clientPort:11226:QuorumPeerConfig@459] - clientPortAddress is 0.0.0.0:11226
+2020-06-22 14:11:33,932 [myid:] - INFO  [Standalone server with clientPort:11226:QuorumPeerConfig@463] - secureClientPort is not set
+2020-06-22 14:11:33,932 [myid:] - INFO  [Standalone server with clientPort:11226:QuorumPeerConfig@479] - observerMasterPort is not set
+2020-06-22 14:11:33,932 [myid:] - INFO  [Standalone server with clientPort:11226:QuorumPeerConfig@496] - metricsProvider.className is org.apache.zookeeper.metrics.impl.DefaultMetricsProvider
+2020-06-22 14:11:33,932 [myid:] - INFO  [Standalone server with clientPort:11226:ZooKeeperServerMain@122] - Starting server
+2020-06-22 14:11:33,932 [myid:] - INFO  [Standalone server with clientPort:11226:ServerMetrics@62] - ServerMetrics initialized with provider org.apache.zookeeper.metrics.impl.DefaultMetricsProvider@2ee2c984
+2020-06-22 14:11:33,933 [myid:] - INFO  [Standalone server with clientPort:11226:FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2020-06-22 14:11:33,934 [myid:] - INFO  [Standalone server with clientPort:11226:ZooKeeperServer@1246] - minSessionTimeout set to 4000
+2020-06-22 14:11:33,934 [myid:] - INFO  [Standalone server with clientPort:11226:ZooKeeperServer@1255] - maxSessionTimeout set to 40000
+2020-06-22 14:11:33,934 [myid:] - INFO  [Standalone server with clientPort:11226:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-22 14:11:33,934 [myid:] - INFO  [Standalone server with clientPort:11226:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-22 14:11:33,934 [myid:] - INFO  [Standalone server with clientPort:11226:RequestPathMetricsCollector@111] - zookeeper.pathStats.slotCapacity = 60
+2020-06-22 14:11:33,934 [myid:] - INFO  [Standalone server with clientPort:11226:RequestPathMetricsCollector@112] - zookeeper.pathStats.slotDuration = 15
+2020-06-22 14:11:33,934 [myid:] - INFO  [Standalone server with clientPort:11226:RequestPathMetricsCollector@113] - zookeeper.pathStats.maxDepth = 6
+2020-06-22 14:11:33,934 [myid:] - INFO  [Standalone server with clientPort:11226:RequestPathMetricsCollector@114] - zookeeper.pathStats.initialDelay = 5
+2020-06-22 14:11:33,934 [myid:] - INFO  [Standalone server with clientPort:11226:RequestPathMetricsCollector@115] - zookeeper.pathStats.delay = 5
+2020-06-22 14:11:33,934 [myid:] - INFO  [Standalone server with clientPort:11226:RequestPathMetricsCollector@116] - zookeeper.pathStats.enabled = false
+2020-06-22 14:11:33,934 [myid:] - INFO  [Standalone server with clientPort:11226:ZooKeeperServer@1471] - The max bytes for all large requests are set to 104857600
+2020-06-22 14:11:33,934 [myid:] - INFO  [Standalone server with clientPort:11226:ZooKeeperServer@1485] - The large request threshold is set to -1
+2020-06-22 14:11:33,934 [myid:] - INFO  [Standalone server with clientPort:11226:ZooKeeperServer@329] - Created server with tickTime 2000 minSessionTimeout 4000 maxSessionTimeout 40000 clientPortListenBacklog -1 datadir D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test445190689386937229.junit.dir\data_txnlog\version-2 snapdir D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test445190689386937229.junit.dir\data\version-2
+2020-06-22 14:11:33,934 [myid:] - INFO  [Standalone server with clientPort:11226:ServerCnxnFactory@169] - Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory
+2020-06-22 14:11:33,934 [myid:] - WARN  [Standalone server with clientPort:11226:ServerCnxnFactory@309] - maxCnxns is not configured, using default value 0.
+2020-06-22 14:11:33,935 [myid:] - INFO  [Standalone server with clientPort:11226:NIOServerCnxnFactory@666] - Configuring NIO connection handler with 10s sessionless connection timeout, 2 selector thread(s), 16 worker threads, and 64 kB direct buffers.
+2020-06-22 14:11:33,935 [myid:] - INFO  [Standalone server with clientPort:11226:NIOServerCnxnFactory@674] - binding to port 0.0.0.0/0.0.0.0:11226
+2020-06-22 14:11:33,937 [myid:] - INFO  [Standalone server with clientPort:11226:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:11:33,937 [myid:] - INFO  [Standalone server with clientPort:11226:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:11:33,937 [myid:] - INFO  [Standalone server with clientPort:11226:ZKDatabase@132] - zookeeper.snapshotSizeFactor = 0.33
+2020-06-22 14:11:33,937 [myid:] - INFO  [Standalone server with clientPort:11226:ZKDatabase@152] - zookeeper.commitLogCount=500
+2020-06-22 14:11:33,937 [myid:] - INFO  [Standalone server with clientPort:11226:FileTxnSnapLog@251] - Initialize file found, an empty database will not block voting participation
+2020-06-22 14:11:33,938 [myid:] - INFO  [Standalone server with clientPort:11226:FileTxnSnapLog@470] - Snapshotting: 0x0 to D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test445190689386937229.junit.dir\data\version-2\snapshot.0
+2020-06-22 14:11:33,938 [myid:] - INFO  [Standalone server with clientPort:11226:ZKDatabase@289] - Snapshot loaded in 1 ms, highest zxid is 0x0, digest is 1371985504
+2020-06-22 14:11:33,939 [myid:] - INFO  [Standalone server with clientPort:11226:FileTxnSnapLog@470] - Snapshotting: 0x0 to D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test445190689386937229.junit.dir\data\version-2\snapshot.0
+2020-06-22 14:11:33,939 [myid:] - INFO  [Standalone server with clientPort:11226:ZooKeeperServer@519] - Snapshot taken in 0 ms
+2020-06-22 14:11:33,940 [myid:] - INFO  [Standalone server with clientPort:11226:ContainerManager@83] - Using checkIntervalMs=60000 maxPerMinute=10000 maxNeverUsedIntervalMs=0
+2020-06-22 14:11:34,433 [myid:] - INFO  [NIOWorkerThread-1:NIOServerCnxn@507] - Processing stat command from /127.0.0.1:51940
+2020-06-22 14:11:34,433 [myid:] - INFO  [NIOWorkerThread-1:StatCommand@52] - Stat command output
+2020-06-22 14:11:34,433 [myid:] - INFO  [ConnnectionExpirer:NIOServerCnxnFactory$ConnectionExpirerThread@578] - ConnnectionExpirerThread interrupted
+2020-06-22 14:11:34,434 [myid:] - INFO  [NIOServerCxnFactory.AcceptThread:0.0.0.0/0.0.0.0:11226:NIOServerCnxnFactory$AcceptThread@209] - accept thread exitted run method
+2020-06-22 14:11:34,434 [myid:] - INFO  [NIOServerCxnFactory.SelectorThread-1:NIOServerCnxnFactory$SelectorThread@411] - selector thread exitted run method
+2020-06-22 14:11:34,434 [myid:] - INFO  [NIOServerCxnFactory.SelectorThread-0:NIOServerCnxnFactory$SelectorThread@411] - selector thread exitted run method
+2020-06-22 14:11:34,434 [myid:] - INFO  [Time-limited test:ZooKeeperServer@784] - shutting down
+2020-06-22 14:11:34,435 [myid:] - INFO  [Time-limited test:RequestThrottler@244] - Shutting down
+2020-06-22 14:11:34,436 [myid:] - INFO  [RequestThrottler:RequestThrottler@205] - Draining request throttler queue
+2020-06-22 14:11:34,436 [myid:] - INFO  [RequestThrottler:RequestThrottler@181] - RequestThrottler shutdown. Dropped 0 requests
+2020-06-22 14:11:34,436 [myid:] - INFO  [Time-limited test:SessionTrackerImpl@247] - Shutting down
+2020-06-22 14:11:34,436 [myid:] - INFO  [Time-limited test:PrepRequestProcessor@1047] - Shutting down
+2020-06-22 14:11:34,436 [myid:] - INFO  [Time-limited test:SyncRequestProcessor@256] - Shutting down
+2020-06-22 14:11:34,436 [myid:] - INFO  [ProcessThread(sid:0 cport:11226)::PrepRequestProcessor@159] - PrepRequestProcessor exited loop!
+2020-06-22 14:11:34,436 [myid:] - INFO  [SyncThread:0:SyncRequestProcessor@225] - SyncRequestProcessor exited!
+2020-06-22 14:11:34,437 [myid:] - INFO  [Time-limited test:FinalRequestProcessor@662] - shutdown of request processor complete
+2020-06-22 14:11:34,438 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 11226
+2020-06-22 14:11:34,438 [myid:] - INFO  [Standalone server with clientPort:11226:ManagedUtil@44] - Log4j 1.2 jmx support found and enabled.
+2020-06-22 14:11:34,439 [myid:] - ERROR [Standalone server with clientPort:11226:ManagedUtil@109] - Problems while registering log4j 1.2 jmx beans!
+javax.management.InstanceAlreadyExistsException: log4j:hierarchy=default
+	at com.sun.jmx.mbeanserver.Repository.addMBean(Repository.java:437)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerWithRepository(DefaultMBeanServerInterceptor.java:1898)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerDynamicMBean(DefaultMBeanServerInterceptor.java:966)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerObject(DefaultMBeanServerInterceptor.java:900)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerMBean(DefaultMBeanServerInterceptor.java:324)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.registerMBean(JmxMBeanServer.java:522)
+	at org.apache.zookeeper.jmx.ManagedUtil.registerLog4jMBeans(ManagedUtil.java:72)
+	at org.apache.zookeeper.server.ZooKeeperServerMain.initializeAndRun(ZooKeeperServerMain.java:100)
+	at org.apache.zookeeper.server.ZooKeeperServerMainTest$MainThread.run(ZooKeeperServerMainTest.java:117)
+2020-06-22 14:11:34,439 [myid:] - WARN  [Standalone server with clientPort:11226:ZooKeeperServerMain@102] - Unable to register log4j JMX control
+javax.management.JMException: javax.management.InstanceAlreadyExistsException: log4j:hierarchy=default
+	at org.apache.zookeeper.jmx.ManagedUtil.registerLog4jMBeans(ManagedUtil.java:110)
+	at org.apache.zookeeper.server.ZooKeeperServerMain.initializeAndRun(ZooKeeperServerMain.java:100)
+	at org.apache.zookeeper.server.ZooKeeperServerMainTest$MainThread.run(ZooKeeperServerMainTest.java:117)
+2020-06-22 14:11:34,440 [myid:] - INFO  [Standalone server with clientPort:11226:QuorumPeerConfig@173] - Reading configuration from: D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test445190689386937229.junit.dir\zoo.cfg
+2020-06-22 14:11:34,440 [myid:] - INFO  [Standalone server with clientPort:11226:QuorumPeerConfig@459] - clientPortAddress is 0.0.0.0:11226
+2020-06-22 14:11:34,440 [myid:] - INFO  [Standalone server with clientPort:11226:QuorumPeerConfig@463] - secureClientPort is not set
+2020-06-22 14:11:34,440 [myid:] - INFO  [Standalone server with clientPort:11226:QuorumPeerConfig@479] - observerMasterPort is not set
+2020-06-22 14:11:34,440 [myid:] - INFO  [Standalone server with clientPort:11226:QuorumPeerConfig@496] - metricsProvider.className is org.apache.zookeeper.metrics.impl.DefaultMetricsProvider
+2020-06-22 14:11:34,441 [myid:] - INFO  [Standalone server with clientPort:11226:ZooKeeperServerMain@122] - Starting server
+2020-06-22 14:11:34,441 [myid:] - INFO  [Standalone server with clientPort:11226:ServerMetrics@62] - ServerMetrics initialized with provider org.apache.zookeeper.metrics.impl.DefaultMetricsProvider@61a5e29f
+2020-06-22 14:11:34,441 [myid:] - INFO  [Standalone server with clientPort:11226:FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2020-06-22 14:11:34,441 [myid:] - INFO  [Standalone server with clientPort:11226:ZooKeeperServer@1246] - minSessionTimeout set to 4000
+2020-06-22 14:11:34,442 [myid:] - INFO  [Standalone server with clientPort:11226:ZooKeeperServer@1255] - maxSessionTimeout set to 40000
+2020-06-22 14:11:34,442 [myid:] - INFO  [Standalone server with clientPort:11226:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-22 14:11:34,442 [myid:] - INFO  [Standalone server with clientPort:11226:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-22 14:11:34,442 [myid:] - INFO  [Standalone server with clientPort:11226:RequestPathMetricsCollector@111] - zookeeper.pathStats.slotCapacity = 60
+2020-06-22 14:11:34,442 [myid:] - INFO  [Standalone server with clientPort:11226:RequestPathMetricsCollector@112] - zookeeper.pathStats.slotDuration = 15
+2020-06-22 14:11:34,442 [myid:] - INFO  [Standalone server with clientPort:11226:RequestPathMetricsCollector@113] - zookeeper.pathStats.maxDepth = 6
+2020-06-22 14:11:34,442 [myid:] - INFO  [Standalone server with clientPort:11226:RequestPathMetricsCollector@114] - zookeeper.pathStats.initialDelay = 5
+2020-06-22 14:11:34,442 [myid:] - INFO  [Standalone server with clientPort:11226:RequestPathMetricsCollector@115] - zookeeper.pathStats.delay = 5
+2020-06-22 14:11:34,442 [myid:] - INFO  [Standalone server with clientPort:11226:RequestPathMetricsCollector@116] - zookeeper.pathStats.enabled = false
+2020-06-22 14:11:34,442 [myid:] - INFO  [Standalone server with clientPort:11226:ZooKeeperServer@1471] - The max bytes for all large requests are set to 104857600
+2020-06-22 14:11:34,442 [myid:] - INFO  [Standalone server with clientPort:11226:ZooKeeperServer@1485] - The large request threshold is set to -1
+2020-06-22 14:11:34,443 [myid:] - INFO  [Standalone server with clientPort:11226:ZooKeeperServer@329] - Created server with tickTime 2000 minSessionTimeout 4000 maxSessionTimeout 40000 clientPortListenBacklog -1 datadir D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test445190689386937229.junit.dir\data_txnlog\version-2 snapdir D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test445190689386937229.junit.dir\data\version-2
+2020-06-22 14:11:34,443 [myid:] - INFO  [Standalone server with clientPort:11226:ServerCnxnFactory@169] - Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory
+2020-06-22 14:11:34,443 [myid:] - WARN  [Standalone server with clientPort:11226:ServerCnxnFactory@309] - maxCnxns is not configured, using default value 0.
+2020-06-22 14:11:34,443 [myid:] - INFO  [Standalone server with clientPort:11226:NIOServerCnxnFactory@666] - Configuring NIO connection handler with 10s sessionless connection timeout, 2 selector thread(s), 16 worker threads, and 64 kB direct buffers.
+2020-06-22 14:11:34,444 [myid:] - INFO  [Standalone server with clientPort:11226:NIOServerCnxnFactory@674] - binding to port 0.0.0.0/0.0.0.0:11226
+2020-06-22 14:11:34,445 [myid:] - INFO  [Standalone server with clientPort:11226:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:11:34,445 [myid:] - INFO  [Standalone server with clientPort:11226:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:11:34,446 [myid:] - INFO  [Standalone server with clientPort:11226:ZKDatabase@132] - zookeeper.snapshotSizeFactor = 0.33
+2020-06-22 14:11:34,446 [myid:] - INFO  [Standalone server with clientPort:11226:ZKDatabase@152] - zookeeper.commitLogCount=500
+2020-06-22 14:11:34,447 [myid:] - INFO  [Standalone server with clientPort:11226:FileSnap@85] - Reading snapshot D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test445190689386937229.junit.dir\data\version-2\snapshot.0
+2020-06-22 14:11:34,447 [myid:] - INFO  [Standalone server with clientPort:11226:DataTree@1737] - The digest value is empty in snapshot
+2020-06-22 14:11:34,448 [myid:] - INFO  [Standalone server with clientPort:11226:ZKDatabase@289] - Snapshot loaded in 2 ms, highest zxid is 0x0, digest is 1371985504
+2020-06-22 14:11:34,448 [myid:] - INFO  [Standalone server with clientPort:11226:FileTxnSnapLog@470] - Snapshotting: 0x0 to D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test445190689386937229.junit.dir\data\version-2\snapshot.0
+2020-06-22 14:11:34,448 [myid:] - INFO  [Standalone server with clientPort:11226:ZooKeeperServer@519] - Snapshot taken in 1 ms
+2020-06-22 14:11:34,449 [myid:] - INFO  [Standalone server with clientPort:11226:ContainerManager@83] - Using checkIntervalMs=60000 maxPerMinute=10000 maxNeverUsedIntervalMs=0
+2020-06-22 14:11:34,588 [myid:] - INFO  [SessionTracker:SessionTrackerImpl@170] - SessionTrackerImpl exited loop!
+2020-06-22 14:11:34,588 [myid:] - INFO  [SessionTracker:SessionTrackerImpl@170] - SessionTrackerImpl exited loop!
+2020-06-22 14:11:34,941 [myid:] - INFO  [NIOWorkerThread-1:NIOServerCnxn@507] - Processing stat command from /127.0.0.1:51951
+2020-06-22 14:11:34,941 [myid:] - INFO  [NIOWorkerThread-1:StatCommand@52] - Stat command output
+2020-06-22 14:11:34,942 [myid:] - WARN  [Time-limited test:JUnit4ZKTestRunner$LoggedInvokeMethod@105] - TEST METHOD FAILED testReadOnlySnapshotDir
+java.lang.AssertionError: waiting for server being up
+	at org.apache.zookeeper.server.ZooKeeperServerMainTest.testReadOnlySnapshotDir(ZooKeeperServerMainTest.java:240)
+	at org.apache.zookeeper.JUnit4ZKTestRunner$LoggedInvokeMethod.evaluate(JUnit4ZKTestRunner.java:86)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-22 14:11:34,942 [myid:] - ERROR [main:ZKTestCase$1@101] - FAILED testReadOnlySnapshotDir
+java.lang.AssertionError: waiting for server being up
+	at org.apache.zookeeper.server.ZooKeeperServerMainTest.testReadOnlySnapshotDir(ZooKeeperServerMainTest.java:240)
+	at org.apache.zookeeper.JUnit4ZKTestRunner$LoggedInvokeMethod.evaluate(JUnit4ZKTestRunner.java:86)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-22 14:11:34,943 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testReadOnlySnapshotDir
+]]></system-out>
+  </testcase>
+  <testcase name="testMinMaxSessionTimeOut" classname="org.apache.zookeeper.server.ZooKeeperServerMainTest" time="2.951"/>
+  <testcase name="testMetricsProviderConfiguration" classname="org.apache.zookeeper.server.ZooKeeperServerMainTest" time="2.646"/>
+  <testcase name="testInvalidMetricsProvider" classname="org.apache.zookeeper.server.ZooKeeperServerMainTest" time="0.007"/>
+  <testcase name="testJMXRegistrationWithNetty" classname="org.apache.zookeeper.server.ZooKeeperServerMainTest" time="0.882"/>
+  <testcase name="testWithOnlyMinSessionTimeout" classname="org.apache.zookeeper.server.ZooKeeperServerMainTest" time="2.955"/>
+  <testcase name="testFaultyMetricsProviderOnStop" classname="org.apache.zookeeper.server.ZooKeeperServerMainTest" time="2.632"/>
+  <testcase name="testNonRecoverableError" classname="org.apache.zookeeper.server.ZooKeeperServerMainTest" time="6.532"/>
+  <testcase name="testMetricsProviderLifecycle" classname="org.apache.zookeeper.server.ZooKeeperServerMainTest" time="2.639"/>
+  <testcase name="testFaultyMetricsProviderOnConfigure" classname="org.apache.zookeeper.server.ZooKeeperServerMainTest" time="0.01"/>
+  <testcase name="testReadOnlyTxnLogDir" classname="org.apache.zookeeper.server.ZooKeeperServerMainTest" time="1.013">
+    <failure message="waiting for server being up" type="java.lang.AssertionError">java.lang.AssertionError: waiting for server being up
+	at org.apache.zookeeper.server.ZooKeeperServerMainTest.testReadOnlyTxnLogDir(ZooKeeperServerMainTest.java:280)
+</failure>
+    <system-out><![CDATA[2020-06-22 14:11:56,201 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testReadOnlyTxnLogDir
+2020-06-22 14:11:56,201 [myid:] - INFO  [Time-limited test:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testReadOnlyTxnLogDir
+2020-06-22 14:11:56,202 [myid:] - INFO  [Time-limited test:PortAssignment@87] - Assigned port 11238 from range 11221 - 13913.
+2020-06-22 14:11:56,205 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 11238
+2020-06-22 14:11:56,205 [myid:] - INFO  [Standalone server with clientPort:11238:ManagedUtil@44] - Log4j 1.2 jmx support found and enabled.
+2020-06-22 14:11:56,206 [myid:] - ERROR [Standalone server with clientPort:11238:ManagedUtil@109] - Problems while registering log4j 1.2 jmx beans!
+javax.management.InstanceAlreadyExistsException: log4j:hierarchy=default
+	at com.sun.jmx.mbeanserver.Repository.addMBean(Repository.java:437)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerWithRepository(DefaultMBeanServerInterceptor.java:1898)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerDynamicMBean(DefaultMBeanServerInterceptor.java:966)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerObject(DefaultMBeanServerInterceptor.java:900)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerMBean(DefaultMBeanServerInterceptor.java:324)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.registerMBean(JmxMBeanServer.java:522)
+	at org.apache.zookeeper.jmx.ManagedUtil.registerLog4jMBeans(ManagedUtil.java:72)
+	at org.apache.zookeeper.server.ZooKeeperServerMain.initializeAndRun(ZooKeeperServerMain.java:100)
+	at org.apache.zookeeper.server.ZooKeeperServerMainTest$MainThread.run(ZooKeeperServerMainTest.java:117)
+2020-06-22 14:11:56,206 [myid:] - WARN  [Standalone server with clientPort:11238:ZooKeeperServerMain@102] - Unable to register log4j JMX control
+javax.management.JMException: javax.management.InstanceAlreadyExistsException: log4j:hierarchy=default
+	at org.apache.zookeeper.jmx.ManagedUtil.registerLog4jMBeans(ManagedUtil.java:110)
+	at org.apache.zookeeper.server.ZooKeeperServerMain.initializeAndRun(ZooKeeperServerMain.java:100)
+	at org.apache.zookeeper.server.ZooKeeperServerMainTest$MainThread.run(ZooKeeperServerMainTest.java:117)
+2020-06-22 14:11:56,206 [myid:] - INFO  [Standalone server with clientPort:11238:QuorumPeerConfig@173] - Reading configuration from: D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test2996402341611195394.junit.dir\zoo.cfg
+2020-06-22 14:11:56,207 [myid:] - INFO  [Standalone server with clientPort:11238:QuorumPeerConfig@459] - clientPortAddress is 0.0.0.0:11238
+2020-06-22 14:11:56,207 [myid:] - INFO  [Standalone server with clientPort:11238:QuorumPeerConfig@463] - secureClientPort is not set
+2020-06-22 14:11:56,207 [myid:] - INFO  [Standalone server with clientPort:11238:QuorumPeerConfig@479] - observerMasterPort is not set
+2020-06-22 14:11:56,207 [myid:] - INFO  [Standalone server with clientPort:11238:QuorumPeerConfig@496] - metricsProvider.className is org.apache.zookeeper.metrics.impl.DefaultMetricsProvider
+2020-06-22 14:11:56,208 [myid:] - INFO  [Standalone server with clientPort:11238:ZooKeeperServerMain@122] - Starting server
+2020-06-22 14:11:56,208 [myid:] - INFO  [Standalone server with clientPort:11238:ServerMetrics@62] - ServerMetrics initialized with provider org.apache.zookeeper.metrics.impl.DefaultMetricsProvider@2767271a
+2020-06-22 14:11:56,208 [myid:] - INFO  [Standalone server with clientPort:11238:FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2020-06-22 14:11:56,209 [myid:] - INFO  [Standalone server with clientPort:11238:ZooKeeperServer@1246] - minSessionTimeout set to 4000
+2020-06-22 14:11:56,210 [myid:] - INFO  [Standalone server with clientPort:11238:ZooKeeperServer@1255] - maxSessionTimeout set to 40000
+2020-06-22 14:11:56,210 [myid:] - INFO  [Standalone server with clientPort:11238:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-22 14:11:56,211 [myid:] - INFO  [Standalone server with clientPort:11238:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-22 14:11:56,211 [myid:] - INFO  [Standalone server with clientPort:11238:RequestPathMetricsCollector@111] - zookeeper.pathStats.slotCapacity = 60
+2020-06-22 14:11:56,211 [myid:] - INFO  [Standalone server with clientPort:11238:RequestPathMetricsCollector@112] - zookeeper.pathStats.slotDuration = 15
+2020-06-22 14:11:56,211 [myid:] - INFO  [Standalone server with clientPort:11238:RequestPathMetricsCollector@113] - zookeeper.pathStats.maxDepth = 6
+2020-06-22 14:11:56,211 [myid:] - INFO  [Standalone server with clientPort:11238:RequestPathMetricsCollector@114] - zookeeper.pathStats.initialDelay = 5
+2020-06-22 14:11:56,211 [myid:] - INFO  [Standalone server with clientPort:11238:RequestPathMetricsCollector@115] - zookeeper.pathStats.delay = 5
+2020-06-22 14:11:56,211 [myid:] - INFO  [Standalone server with clientPort:11238:RequestPathMetricsCollector@116] - zookeeper.pathStats.enabled = false
+2020-06-22 14:11:56,211 [myid:] - INFO  [Standalone server with clientPort:11238:ZooKeeperServer@1471] - The max bytes for all large requests are set to 104857600
+2020-06-22 14:11:56,211 [myid:] - INFO  [Standalone server with clientPort:11238:ZooKeeperServer@1485] - The large request threshold is set to -1
+2020-06-22 14:11:56,212 [myid:] - INFO  [Standalone server with clientPort:11238:ZooKeeperServer@329] - Created server with tickTime 2000 minSessionTimeout 4000 maxSessionTimeout 40000 clientPortListenBacklog -1 datadir D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test2996402341611195394.junit.dir\data_txnlog\version-2 snapdir D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test2996402341611195394.junit.dir\data\version-2
+2020-06-22 14:11:56,212 [myid:] - INFO  [Standalone server with clientPort:11238:ServerCnxnFactory@169] - Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory
+2020-06-22 14:11:56,212 [myid:] - WARN  [Standalone server with clientPort:11238:ServerCnxnFactory@309] - maxCnxns is not configured, using default value 0.
+2020-06-22 14:11:56,212 [myid:] - INFO  [Standalone server with clientPort:11238:NIOServerCnxnFactory@666] - Configuring NIO connection handler with 10s sessionless connection timeout, 2 selector thread(s), 16 worker threads, and 64 kB direct buffers.
+2020-06-22 14:11:56,214 [myid:] - INFO  [Standalone server with clientPort:11238:NIOServerCnxnFactory@674] - binding to port 0.0.0.0/0.0.0.0:11238
+2020-06-22 14:11:56,219 [myid:] - INFO  [Standalone server with clientPort:11238:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:11:56,219 [myid:] - INFO  [Standalone server with clientPort:11238:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:11:56,219 [myid:] - INFO  [Standalone server with clientPort:11238:ZKDatabase@132] - zookeeper.snapshotSizeFactor = 0.33
+2020-06-22 14:11:56,219 [myid:] - INFO  [Standalone server with clientPort:11238:ZKDatabase@152] - zookeeper.commitLogCount=500
+2020-06-22 14:11:56,220 [myid:] - INFO  [Standalone server with clientPort:11238:FileTxnSnapLog@251] - Initialize file found, an empty database will not block voting participation
+2020-06-22 14:11:56,220 [myid:] - INFO  [Standalone server with clientPort:11238:FileTxnSnapLog@470] - Snapshotting: 0x0 to D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test2996402341611195394.junit.dir\data\version-2\snapshot.0
+2020-06-22 14:11:56,221 [myid:] - INFO  [Standalone server with clientPort:11238:ZKDatabase@289] - Snapshot loaded in 1 ms, highest zxid is 0x0, digest is 1371985504
+2020-06-22 14:11:56,221 [myid:] - INFO  [Standalone server with clientPort:11238:FileTxnSnapLog@470] - Snapshotting: 0x0 to D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test2996402341611195394.junit.dir\data\version-2\snapshot.0
+2020-06-22 14:11:56,221 [myid:] - INFO  [Standalone server with clientPort:11238:ZooKeeperServer@519] - Snapshot taken in 1 ms
+2020-06-22 14:11:56,222 [myid:] - INFO  [Standalone server with clientPort:11238:ContainerManager@83] - Using checkIntervalMs=60000 maxPerMinute=10000 maxNeverUsedIntervalMs=0
+2020-06-22 14:11:56,708 [myid:] - INFO  [NIOWorkerThread-1:NIOServerCnxn@507] - Processing stat command from /127.0.0.1:52979
+2020-06-22 14:11:56,708 [myid:] - INFO  [NIOWorkerThread-1:StatCommand@52] - Stat command output
+2020-06-22 14:11:56,708 [myid:] - INFO  [ConnnectionExpirer:NIOServerCnxnFactory$ConnectionExpirerThread@578] - ConnnectionExpirerThread interrupted
+2020-06-22 14:11:56,708 [myid:] - INFO  [NIOServerCxnFactory.SelectorThread-1:NIOServerCnxnFactory$SelectorThread@411] - selector thread exitted run method
+2020-06-22 14:11:56,708 [myid:] - INFO  [NIOServerCxnFactory.AcceptThread:0.0.0.0/0.0.0.0:11238:NIOServerCnxnFactory$AcceptThread@209] - accept thread exitted run method
+2020-06-22 14:11:56,708 [myid:] - INFO  [NIOServerCxnFactory.SelectorThread-0:NIOServerCnxnFactory$SelectorThread@411] - selector thread exitted run method
+2020-06-22 14:11:56,709 [myid:] - INFO  [Time-limited test:ZooKeeperServer@784] - shutting down
+2020-06-22 14:11:56,709 [myid:] - INFO  [Time-limited test:RequestThrottler@244] - Shutting down
+2020-06-22 14:11:56,709 [myid:] - INFO  [RequestThrottler:RequestThrottler@205] - Draining request throttler queue
+2020-06-22 14:11:56,709 [myid:] - INFO  [RequestThrottler:RequestThrottler@181] - RequestThrottler shutdown. Dropped 0 requests
+2020-06-22 14:11:56,709 [myid:] - INFO  [Time-limited test:SessionTrackerImpl@247] - Shutting down
+2020-06-22 14:11:56,709 [myid:] - INFO  [Time-limited test:PrepRequestProcessor@1047] - Shutting down
+2020-06-22 14:11:56,709 [myid:] - INFO  [Time-limited test:SyncRequestProcessor@256] - Shutting down
+2020-06-22 14:11:56,709 [myid:] - INFO  [ProcessThread(sid:0 cport:11238)::PrepRequestProcessor@159] - PrepRequestProcessor exited loop!
+2020-06-22 14:11:56,709 [myid:] - INFO  [SyncThread:0:SyncRequestProcessor@225] - SyncRequestProcessor exited!
+2020-06-22 14:11:56,709 [myid:] - INFO  [Time-limited test:FinalRequestProcessor@662] - shutdown of request processor complete
+2020-06-22 14:11:56,710 [myid:] - INFO  [Time-limited test:FourLetterWordMain@93] - connecting to 127.0.0.1 11238
+2020-06-22 14:11:56,710 [myid:] - INFO  [Standalone server with clientPort:11238:ManagedUtil@44] - Log4j 1.2 jmx support found and enabled.
+2020-06-22 14:11:56,711 [myid:] - ERROR [Standalone server with clientPort:11238:ManagedUtil@109] - Problems while registering log4j 1.2 jmx beans!
+javax.management.InstanceAlreadyExistsException: log4j:hierarchy=default
+	at com.sun.jmx.mbeanserver.Repository.addMBean(Repository.java:437)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerWithRepository(DefaultMBeanServerInterceptor.java:1898)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerDynamicMBean(DefaultMBeanServerInterceptor.java:966)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerObject(DefaultMBeanServerInterceptor.java:900)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerMBean(DefaultMBeanServerInterceptor.java:324)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.registerMBean(JmxMBeanServer.java:522)
+	at org.apache.zookeeper.jmx.ManagedUtil.registerLog4jMBeans(ManagedUtil.java:72)
+	at org.apache.zookeeper.server.ZooKeeperServerMain.initializeAndRun(ZooKeeperServerMain.java:100)
+	at org.apache.zookeeper.server.ZooKeeperServerMainTest$MainThread.run(ZooKeeperServerMainTest.java:117)
+2020-06-22 14:11:56,711 [myid:] - WARN  [Standalone server with clientPort:11238:ZooKeeperServerMain@102] - Unable to register log4j JMX control
+javax.management.JMException: javax.management.InstanceAlreadyExistsException: log4j:hierarchy=default
+	at org.apache.zookeeper.jmx.ManagedUtil.registerLog4jMBeans(ManagedUtil.java:110)
+	at org.apache.zookeeper.server.ZooKeeperServerMain.initializeAndRun(ZooKeeperServerMain.java:100)
+	at org.apache.zookeeper.server.ZooKeeperServerMainTest$MainThread.run(ZooKeeperServerMainTest.java:117)
+2020-06-22 14:11:56,711 [myid:] - INFO  [Standalone server with clientPort:11238:QuorumPeerConfig@173] - Reading configuration from: D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test2996402341611195394.junit.dir\zoo.cfg
+2020-06-22 14:11:56,711 [myid:] - INFO  [Standalone server with clientPort:11238:QuorumPeerConfig@459] - clientPortAddress is 0.0.0.0:11238
+2020-06-22 14:11:56,711 [myid:] - INFO  [Standalone server with clientPort:11238:QuorumPeerConfig@463] - secureClientPort is not set
+2020-06-22 14:11:56,711 [myid:] - INFO  [Standalone server with clientPort:11238:QuorumPeerConfig@479] - observerMasterPort is not set
+2020-06-22 14:11:56,711 [myid:] - INFO  [Standalone server with clientPort:11238:QuorumPeerConfig@496] - metricsProvider.className is org.apache.zookeeper.metrics.impl.DefaultMetricsProvider
+2020-06-22 14:11:56,711 [myid:] - INFO  [Standalone server with clientPort:11238:ZooKeeperServerMain@122] - Starting server
+2020-06-22 14:11:56,711 [myid:] - INFO  [Standalone server with clientPort:11238:ServerMetrics@62] - ServerMetrics initialized with provider org.apache.zookeeper.metrics.impl.DefaultMetricsProvider@697c0edc
+2020-06-22 14:11:56,712 [myid:] - INFO  [Standalone server with clientPort:11238:FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2020-06-22 14:11:56,712 [myid:] - INFO  [Standalone server with clientPort:11238:ZooKeeperServer@1246] - minSessionTimeout set to 4000
+2020-06-22 14:11:56,712 [myid:] - INFO  [Standalone server with clientPort:11238:ZooKeeperServer@1255] - maxSessionTimeout set to 40000
+2020-06-22 14:11:56,712 [myid:] - INFO  [Standalone server with clientPort:11238:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-22 14:11:56,712 [myid:] - INFO  [Standalone server with clientPort:11238:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-22 14:11:56,712 [myid:] - INFO  [Standalone server with clientPort:11238:RequestPathMetricsCollector@111] - zookeeper.pathStats.slotCapacity = 60
+2020-06-22 14:11:56,712 [myid:] - INFO  [Standalone server with clientPort:11238:RequestPathMetricsCollector@112] - zookeeper.pathStats.slotDuration = 15
+2020-06-22 14:11:56,712 [myid:] - INFO  [Standalone server with clientPort:11238:RequestPathMetricsCollector@113] - zookeeper.pathStats.maxDepth = 6
+2020-06-22 14:11:56,712 [myid:] - INFO  [Standalone server with clientPort:11238:RequestPathMetricsCollector@114] - zookeeper.pathStats.initialDelay = 5
+2020-06-22 14:11:56,712 [myid:] - INFO  [Standalone server with clientPort:11238:RequestPathMetricsCollector@115] - zookeeper.pathStats.delay = 5
+2020-06-22 14:11:56,712 [myid:] - INFO  [Standalone server with clientPort:11238:RequestPathMetricsCollector@116] - zookeeper.pathStats.enabled = false
+2020-06-22 14:11:56,712 [myid:] - INFO  [Standalone server with clientPort:11238:ZooKeeperServer@1471] - The max bytes for all large requests are set to 104857600
+2020-06-22 14:11:56,712 [myid:] - INFO  [Standalone server with clientPort:11238:ZooKeeperServer@1485] - The large request threshold is set to -1
+2020-06-22 14:11:56,712 [myid:] - INFO  [Standalone server with clientPort:11238:ZooKeeperServer@329] - Created server with tickTime 2000 minSessionTimeout 4000 maxSessionTimeout 40000 clientPortListenBacklog -1 datadir D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test2996402341611195394.junit.dir\data_txnlog\version-2 snapdir D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test2996402341611195394.junit.dir\data\version-2
+2020-06-22 14:11:56,712 [myid:] - INFO  [Standalone server with clientPort:11238:ServerCnxnFactory@169] - Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory
+2020-06-22 14:11:56,712 [myid:] - WARN  [Standalone server with clientPort:11238:ServerCnxnFactory@309] - maxCnxns is not configured, using default value 0.
+2020-06-22 14:11:56,712 [myid:] - INFO  [Standalone server with clientPort:11238:NIOServerCnxnFactory@666] - Configuring NIO connection handler with 10s sessionless connection timeout, 2 selector thread(s), 16 worker threads, and 64 kB direct buffers.
+2020-06-22 14:11:56,713 [myid:] - INFO  [Standalone server with clientPort:11238:NIOServerCnxnFactory@674] - binding to port 0.0.0.0/0.0.0.0:11238
+2020-06-22 14:11:56,715 [myid:] - INFO  [Standalone server with clientPort:11238:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:11:56,715 [myid:] - INFO  [Standalone server with clientPort:11238:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:11:56,715 [myid:] - INFO  [Standalone server with clientPort:11238:ZKDatabase@132] - zookeeper.snapshotSizeFactor = 0.33
+2020-06-22 14:11:56,715 [myid:] - INFO  [Standalone server with clientPort:11238:ZKDatabase@152] - zookeeper.commitLogCount=500
+2020-06-22 14:11:56,715 [myid:] - INFO  [Standalone server with clientPort:11238:FileSnap@85] - Reading snapshot D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test2996402341611195394.junit.dir\data\version-2\snapshot.0
+2020-06-22 14:11:56,715 [myid:] - INFO  [Standalone server with clientPort:11238:DataTree@1737] - The digest value is empty in snapshot
+2020-06-22 14:11:56,716 [myid:] - INFO  [Standalone server with clientPort:11238:ZKDatabase@289] - Snapshot loaded in 1 ms, highest zxid is 0x0, digest is 1371985504
+2020-06-22 14:11:56,716 [myid:] - INFO  [Standalone server with clientPort:11238:FileTxnSnapLog@470] - Snapshotting: 0x0 to D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test2996402341611195394.junit.dir\data\version-2\snapshot.0
+2020-06-22 14:11:56,716 [myid:] - INFO  [Standalone server with clientPort:11238:ZooKeeperServer@519] - Snapshot taken in 0 ms
+2020-06-22 14:11:56,717 [myid:] - INFO  [Standalone server with clientPort:11238:ContainerManager@83] - Using checkIntervalMs=60000 maxPerMinute=10000 maxNeverUsedIntervalMs=0
+2020-06-22 14:11:57,213 [myid:] - INFO  [NIOWorkerThread-1:NIOServerCnxn@507] - Processing stat command from /127.0.0.1:53006
+2020-06-22 14:11:57,213 [myid:] - INFO  [NIOWorkerThread-1:StatCommand@52] - Stat command output
+2020-06-22 14:11:57,213 [myid:] - WARN  [Time-limited test:JUnit4ZKTestRunner$LoggedInvokeMethod@105] - TEST METHOD FAILED testReadOnlyTxnLogDir
+java.lang.AssertionError: waiting for server being up
+	at org.apache.zookeeper.server.ZooKeeperServerMainTest.testReadOnlyTxnLogDir(ZooKeeperServerMainTest.java:280)
+	at org.apache.zookeeper.JUnit4ZKTestRunner$LoggedInvokeMethod.evaluate(JUnit4ZKTestRunner.java:86)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-22 14:11:57,213 [myid:] - ERROR [main:ZKTestCase$1@101] - FAILED testReadOnlyTxnLogDir
+java.lang.AssertionError: waiting for server being up
+	at org.apache.zookeeper.server.ZooKeeperServerMainTest.testReadOnlyTxnLogDir(ZooKeeperServerMainTest.java:280)
+	at org.apache.zookeeper.JUnit4ZKTestRunner$LoggedInvokeMethod.evaluate(JUnit4ZKTestRunner.java:86)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-22 14:11:57,213 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testReadOnlyTxnLogDir
+]]></system-out>
+  </testcase>
+  <testcase name="testFaultyMetricsProviderOnStart" classname="org.apache.zookeeper.server.ZooKeeperServerMainTest" time="0.015"/>
+</testsuite>

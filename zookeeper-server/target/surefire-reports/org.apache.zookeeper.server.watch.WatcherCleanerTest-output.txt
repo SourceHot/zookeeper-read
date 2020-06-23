@@ -1,0 +1,60 @@
+2020-06-22 14:11:13,973 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:11:13,992 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:11:14,158 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testDeadWatcherMetrics
+2020-06-22 14:11:14,159 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testDeadWatcherMetrics
+2020-06-22 14:11:14,257 [myid:] - INFO  [main:WatcherCleaner@87] - watcherCleanThreshold=1, watcherCleanIntervalInSeconds=1, watcherCleanThreadsNum=1, maxInProcessingDeadWatchers=1
+2020-06-22 14:11:14,259 [myid:] - WARN  [main:RateLogger@86] - Message:Waiting for dead watchers cleaning Value:null
+2020-06-22 14:11:14,262 [myid:] - INFO  [Thread-0:WatcherCleaner@158] - Processing 1 dead watchers
+2020-06-22 14:11:14,288 [myid:] - INFO  [DeadWatcherCleannerThread-1:WatcherCleaner$1@165] - Takes 23 to process 1 watches
+2020-06-22 14:11:14,289 [myid:] - INFO  [Thread-0:WatcherCleaner@158] - Processing 1 dead watchers
+2020-06-22 14:11:14,310 [myid:] - INFO  [DeadWatcherCleannerThread-1:WatcherCleaner$1@165] - Takes 20 to process 1 watches
+2020-06-22 14:11:14,313 [myid:] - INFO  [Thread-0:WatcherCleaner@158] - Processing 1 dead watchers
+2020-06-22 14:11:14,335 [myid:] - INFO  [DeadWatcherCleannerThread-1:WatcherCleaner$1@165] - Takes 21 to process 1 watches
+2020-06-22 14:11:14,371 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 11466
+2020-06-22 14:11:14,371 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 9
+2020-06-22 14:11:14,371 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testDeadWatcherMetrics
+2020-06-22 14:11:14,371 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testDeadWatcherMetrics
+2020-06-22 14:11:14,380 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testDeadWatcherMetrics
+2020-06-22 14:11:14,385 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testProcessDeadWatchersBasedOnTime
+2020-06-22 14:11:14,385 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testProcessDeadWatchersBasedOnTime
+2020-06-22 14:11:14,387 [myid:] - INFO  [main:WatcherCleaner@87] - watcherCleanThreshold=10, watcherCleanIntervalInSeconds=1, watcherCleanThreadsNum=1, maxInProcessingDeadWatchers=10
+2020-06-22 14:11:15,391 [myid:] - INFO  [Thread-1:WatcherCleaner@158] - Processing 1 dead watchers
+2020-06-22 14:11:15,391 [myid:] - INFO  [DeadWatcherCleannerThread-1:WatcherCleaner$1@165] - Takes 0 to process 1 watches
+2020-06-22 14:11:17,400 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 13200
+2020-06-22 14:11:17,400 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 11
+2020-06-22 14:11:17,400 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testProcessDeadWatchersBasedOnTime
+2020-06-22 14:11:17,400 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testProcessDeadWatchersBasedOnTime
+2020-06-22 14:11:17,401 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testProcessDeadWatchersBasedOnTime
+2020-06-22 14:11:17,403 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testProcessDeadWatchersBasedOnThreshold
+2020-06-22 14:11:17,403 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testProcessDeadWatchersBasedOnThreshold
+2020-06-22 14:11:17,404 [myid:] - INFO  [main:WatcherCleaner@87] - watcherCleanThreshold=3, watcherCleanIntervalInSeconds=60, watcherCleanThreadsNum=1, maxInProcessingDeadWatchers=10
+2020-06-22 14:11:17,426 [myid:] - INFO  [Thread-2:WatcherCleaner@158] - Processing 3 dead watchers
+2020-06-22 14:11:17,452 [myid:] - INFO  [DeadWatcherCleannerThread-1:WatcherCleaner$1@165] - Takes 0 to process 3 watches
+2020-06-22 14:11:17,452 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 13637
+2020-06-22 14:11:17,452 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 13
+2020-06-22 14:11:17,452 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testProcessDeadWatchersBasedOnThreshold
+2020-06-22 14:11:17,453 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testProcessDeadWatchersBasedOnThreshold
+2020-06-22 14:11:17,453 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testProcessDeadWatchersBasedOnThreshold
+2020-06-22 14:11:17,453 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testMaxInProcessingDeadWatchers
+2020-06-22 14:11:17,454 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testMaxInProcessingDeadWatchers
+2020-06-22 14:11:17,454 [myid:] - INFO  [main:WatcherCleaner@87] - watcherCleanThreshold=1, watcherCleanIntervalInSeconds=60, watcherCleanThreadsNum=1, maxInProcessingDeadWatchers=1
+2020-06-22 14:11:17,454 [myid:] - WARN  [main:RateLogger@86] - Message:Waiting for dead watchers cleaning Value:null
+2020-06-22 14:11:17,486 [myid:] - INFO  [Thread-3:WatcherCleaner@158] - Processing 1 dead watchers
+2020-06-22 14:11:17,569 [myid:] - WARN  [main:RateLogger@56] - Message: Waiting for dead watchers cleaning
+2020-06-22 14:11:17,700 [myid:] - WARN  [main:RateLogger@56] - Message: Waiting for dead watchers cleaning
+2020-06-22 14:11:17,801 [myid:] - WARN  [main:RateLogger@56] - Message: Waiting for dead watchers cleaning
+2020-06-22 14:11:17,908 [myid:] - WARN  [main:RateLogger@56] - Message: Waiting for dead watchers cleaning
+2020-06-22 14:11:18,008 [myid:] - WARN  [main:RateLogger@56] - Message: Waiting for dead watchers cleaning
+2020-06-22 14:11:18,109 [myid:] - WARN  [main:RateLogger@56] - Message: Waiting for dead watchers cleaning
+2020-06-22 14:11:18,216 [myid:] - WARN  [main:RateLogger@56] - Message: Waiting for dead watchers cleaning
+2020-06-22 14:11:18,316 [myid:] - WARN  [main:RateLogger@56] - Message: Waiting for dead watchers cleaning
+2020-06-22 14:11:18,417 [myid:] - WARN  [main:RateLogger@56] - Message: Waiting for dead watchers cleaning
+2020-06-22 14:11:18,503 [myid:] - INFO  [DeadWatcherCleannerThread-1:WatcherCleaner$1@165] - Takes 1000 to process 1 watches
+time used 1049
+2020-06-22 14:11:18,503 [myid:] - INFO  [Thread-3:WatcherCleaner@158] - Processing 1 dead watchers
+2020-06-22 14:11:19,504 [myid:] - INFO  [DeadWatcherCleannerThread-1:WatcherCleaner$1@165] - Takes 1000 to process 1 watches
+2020-06-22 14:11:19,504 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 14074
+2020-06-22 14:11:19,504 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 15
+2020-06-22 14:11:19,504 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testMaxInProcessingDeadWatchers
+2020-06-22 14:11:19,504 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testMaxInProcessingDeadWatchers
+2020-06-22 14:11:19,505 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testMaxInProcessingDeadWatchers

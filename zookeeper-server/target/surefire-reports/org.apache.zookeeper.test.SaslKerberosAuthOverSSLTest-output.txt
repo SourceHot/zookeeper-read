@@ -1,0 +1,71 @@
+2020-06-22 14:22:32,594 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:22:32,600 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:22:32,959 [myid:] - INFO  [main:MiniKdc@222] - Configuration:
+2020-06-22 14:22:32,959 [myid:] - INFO  [main:MiniKdc@223] - ---------------------------------------------------------------
+2020-06-22 14:22:32,962 [myid:] - INFO  [main:MiniKdc@225] -   debug: true
+2020-06-22 14:22:32,962 [myid:] - INFO  [main:MiniKdc@225] -   transport: TCP
+2020-06-22 14:22:32,962 [myid:] - INFO  [main:MiniKdc@225] -   max.ticket.lifetime: 86400000
+2020-06-22 14:22:32,962 [myid:] - INFO  [main:MiniKdc@225] -   org.name: EXAMPLE
+2020-06-22 14:22:32,963 [myid:] - INFO  [main:MiniKdc@225] -   kdc.port: 0
+2020-06-22 14:22:32,963 [myid:] - INFO  [main:MiniKdc@225] -   org.domain: COM
+2020-06-22 14:22:32,963 [myid:] - INFO  [main:MiniKdc@225] -   max.renewable.lifetime: 604800000
+2020-06-22 14:22:32,963 [myid:] - INFO  [main:MiniKdc@225] -   instance: DefaultKrbServer
+2020-06-22 14:22:32,963 [myid:] - INFO  [main:MiniKdc@225] -   kdc.bind.address: localhost
+2020-06-22 14:22:32,964 [myid:] - INFO  [main:MiniKdc@227] - ---------------------------------------------------------------
+2020-06-22 14:22:33,128 [myid:] - INFO  [main:MiniKdc@281] - MiniKdc stated.
+2020-06-22 14:22:33,131 [myid:] - INFO  [main:PortAssignment@154] - Test process 6/8 using ports from 24686 - 27378.
+2020-06-22 14:22:33,133 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 24687 from range 24686 - 27378.
+2020-06-22 14:22:33,137 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testAuth
+2020-06-22 14:22:33,190 [myid:] - INFO  [main:X509Util@77] - Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation
+2020-06-22 14:22:33,191 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 24688 from range 24686 - 27378.
+2020-06-22 14:22:33,328 [myid:] - INFO  [main:NettyServerCnxnFactory@483] - zookeeper.client.portUnification=false
+2020-06-22 14:22:33,328 [myid:] - INFO  [main:NettyServerCnxnFactory@495] - zookeeper.netty.advancedFlowControl.enabled = false
+2020-06-22 14:22:33,329 [myid:] - INFO  [main:NettyServerCnxnFactory@105] - handshakeThrottlingEnabled = false, zookeeper.netty.server.outstandingHandshake.limit = -1
+2020-06-22 14:22:33,574 [myid:] - INFO  [main:ServerCnxnFactory@169] - Using org.apache.zookeeper.server.NettyServerCnxnFactory as server connection factory
+Debug is  true storeKey true useTicketCache false useKeyTab true doNotPrompt true ticketCache is null isInitiator true KeyTab is D:desktopgit_repozookeeper-readzookeeper-server	argetsurefire$a904fe-7c16-4601-acd5-2176358b9393 refreshKrb5Config is true principal is zkquorum/localhost@EXAMPLE.COM tryFirstPass is false useFirstPass is false storePass is false clearPass is false
+Refreshing Kerberos configuration
+Java config name: D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test445318401468884392.junit.dir\1592806952958\krb5.conf
+Loaded from Java config
+>>> KdcAccessibility: reset
+>>> KdcAccessibility: reset
+Looking for keys for: zkquorum/localhost@EXAMPLE.COM
+Key for the principal zkquorum/localhost@EXAMPLE.COM not available in D:desktopgit_repozookeeper-readzookeeper-server	argetsurefire$a904fe-7c16-4601-acd5-2176358b9393
+		[Krb5LoginModule] authentication failed 
+Unable to obtain password from user
+
+2020-06-22 14:22:33,601 [myid:] - INFO  [main:ClientBase@583] - tearDown starting
+2020-06-22 14:22:33,602 [myid:] - INFO  [main:ClientBase@557] - STOPPING server
+2020-06-22 14:22:33,602 [myid:] - INFO  [main:NettyServerCnxnFactory@622] - shutdown called null
+2020-06-22 14:22:33,609 [myid:] - INFO  [main:FourLetterWordMain@93] - connecting to 127.0.0.1 24688
+2020-06-22 14:22:35,627 [myid:] - INFO  [main:JMXEnv@142] - ensureOnly:[]
+2020-06-22 14:22:35,628 [myid:] - ERROR [main:ZKTestCase$1@101] - FAILED testAuth
+org.junit.internal.runners.model.MultipleFailureException: There were 2 errors:
+  java.io.IOException(Could not configure server because SASL configuration did not allow the  ZooKeeper server to authenticate itself properly: javax.security.auth.login.LoginException: Unable to obtain password from user
+)
+  java.lang.NullPointerException(null)
+	at org.junit.runners.model.MultipleFailureException.assertEmpty(MultipleFailureException.java:67)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:39)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+2020-06-22 14:22:35,631 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testAuth
+2020-06-22 14:22:35,636 [myid:] - INFO  [main:DefaultInternalKdcServerImpl@102] - Default Internal kdc server stopped.
+2020-06-22 14:22:36,637 [myid:] - INFO  [main:MiniKdc@343] - MiniKdc stopped.

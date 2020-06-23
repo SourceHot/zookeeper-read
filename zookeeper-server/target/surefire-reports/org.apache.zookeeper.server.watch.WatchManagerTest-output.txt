@@ -1,0 +1,46 @@
+2020-06-22 14:11:20,065 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testDeadWatchers[0]
+2020-06-22 14:11:20,106 [myid:] - INFO  [Time-limited test:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:11:23,265 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testDeadWatchers[0]
+2020-06-22 14:11:23,265 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testDeadWatchers[0]
+2020-06-22 14:11:23,267 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testRemoveWatcherOnPath[0]
+2020-06-22 14:11:23,269 [myid:] - INFO  [Time-limited test:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:11:24,378 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testRemoveWatcherOnPath[0]
+2020-06-22 14:11:24,378 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testRemoveWatcherOnPath[0]
+2020-06-22 14:11:24,379 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testWatcherMetrics[0]
+2020-06-22 14:11:24,380 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:11:24,413 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testWatcherMetrics[0]
+2020-06-22 14:11:24,413 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testWatcherMetrics[0]
+2020-06-22 14:11:24,414 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testAddAndTriggerWatcher[0]
+2020-06-22 14:11:24,441 [myid:] - INFO  [Time-limited test:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:11:25,377 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testAddAndTriggerWatcher[0]
+2020-06-22 14:11:25,377 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testAddAndTriggerWatcher[0]
+2020-06-22 14:11:25,380 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testDeadWatchers[1]
+2020-06-22 14:11:25,394 [myid:] - INFO  [Time-limited test:WatcherCleaner@87] - watcherCleanThreshold=10, watcherCleanIntervalInSeconds=1, watcherCleanThreadsNum=2, maxInProcessingDeadWatchers=-1
+2020-06-22 14:11:25,394 [myid:] - INFO  [Time-limited test:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManagerOptimized as watch manager
+2020-06-22 14:11:25,496 [myid:] - INFO  [Thread-30:WatcherCleaner@158] - Processing 10 dead watchers
+2020-06-22 14:11:25,502 [myid:] - INFO  [DeadWatcherCleannerThread-1:WatcherCleaner$1@165] - Takes 1 to process 10 watches
+2020-06-22 14:11:25,650 [myid:] - INFO  [Thread-30:WatcherCleaner@158] - Processing 10 dead watchers
+2020-06-22 14:11:25,679 [myid:] - INFO  [DeadWatcherCleannerThread-2:WatcherCleaner$1@165] - Takes 2 to process 10 watches
+2020-06-22 14:11:25,685 [myid:] - INFO  [Thread-30:WatcherCleaner@158] - Processing 10 dead watchers
+2020-06-22 14:11:25,721 [myid:] - INFO  [DeadWatcherCleannerThread-1:WatcherCleaner$1@165] - Takes 0 to process 10 watches
+2020-06-22 14:11:25,731 [myid:] - INFO  [Thread-30:WatcherCleaner@158] - Processing 10 dead watchers
+2020-06-22 14:11:25,731 [myid:] - INFO  [DeadWatcherCleannerThread-2:WatcherCleaner$1@165] - Takes 0 to process 10 watches
+2020-06-22 14:11:26,731 [myid:] - INFO  [Thread-30:WatcherCleaner@158] - Processing 1 dead watchers
+2020-06-22 14:11:26,731 [myid:] - INFO  [DeadWatcherCleannerThread-1:WatcherCleaner$1@165] - Takes 0 to process 1 watches
+2020-06-22 14:11:27,913 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testDeadWatchers[1]
+2020-06-22 14:11:27,913 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testDeadWatchers[1]
+2020-06-22 14:11:27,914 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testRemoveWatcherOnPath[1]
+2020-06-22 14:11:27,929 [myid:] - INFO  [Time-limited test:WatcherCleaner@87] - watcherCleanThreshold=10, watcherCleanIntervalInSeconds=1, watcherCleanThreadsNum=2, maxInProcessingDeadWatchers=-1
+2020-06-22 14:11:27,930 [myid:] - INFO  [Time-limited test:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManagerOptimized as watch manager
+2020-06-22 14:11:29,181 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testRemoveWatcherOnPath[1]
+2020-06-22 14:11:29,181 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testRemoveWatcherOnPath[1]
+2020-06-22 14:11:29,181 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testWatcherMetrics[1]
+2020-06-22 14:11:29,182 [myid:] - INFO  [main:WatcherCleaner@87] - watcherCleanThreshold=10, watcherCleanIntervalInSeconds=1, watcherCleanThreadsNum=2, maxInProcessingDeadWatchers=-1
+2020-06-22 14:11:29,182 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManagerOptimized as watch manager
+2020-06-22 14:11:29,186 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testWatcherMetrics[1]
+2020-06-22 14:11:29,186 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testWatcherMetrics[1]
+2020-06-22 14:11:29,186 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testAddAndTriggerWatcher[1]
+2020-06-22 14:11:29,187 [myid:] - INFO  [Time-limited test:WatcherCleaner@87] - watcherCleanThreshold=10, watcherCleanIntervalInSeconds=1, watcherCleanThreadsNum=2, maxInProcessingDeadWatchers=-1
+2020-06-22 14:11:29,187 [myid:] - INFO  [Time-limited test:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManagerOptimized as watch manager
+2020-06-22 14:11:29,901 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testAddAndTriggerWatcher[1]
+2020-06-22 14:11:29,901 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testAddAndTriggerWatcher[1]

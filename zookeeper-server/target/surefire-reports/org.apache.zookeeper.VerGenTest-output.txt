@@ -1,0 +1,112 @@
+2020-06-22 14:24:25,040 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:24:25,047 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:24:25,047 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:24:25,048 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:24:25,049 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:24:25,050 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:24:25,051 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:24:25,052 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:24:25,054 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:24:25,055 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:24:25,055 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:24:25,055 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:24:25,056 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:24:25,056 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:24:25,070 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testGenFile[0]
+2020-06-22 14:24:25,070 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testGenFile
+2020-06-22 14:24:25,373 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 11639
+2020-06-22 14:24:25,373 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:24:25,373 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testGenFile
+2020-06-22 14:24:25,373 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testGenFile[0]
+2020-06-22 14:24:25,374 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testGenFile[0]
+2020-06-22 14:24:25,377 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testParser[0]
+2020-06-22 14:24:25,377 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testParser
+2020-06-22 14:24:25,378 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 11639
+2020-06-22 14:24:25,378 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:24:25,378 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testParser
+2020-06-22 14:24:25,378 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testParser[0]
+2020-06-22 14:24:25,378 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testParser[0]
+2020-06-22 14:24:25,379 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testGenFile[1]
+2020-06-22 14:24:25,379 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testGenFile
+2020-06-22 14:24:25,389 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 12265
+2020-06-22 14:24:25,389 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:24:25,389 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testGenFile
+2020-06-22 14:24:25,389 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testGenFile[1]
+2020-06-22 14:24:25,390 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testGenFile[1]
+2020-06-22 14:24:25,390 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testParser[1]
+2020-06-22 14:24:25,390 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testParser
+2020-06-22 14:24:25,391 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 12265
+2020-06-22 14:24:25,391 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:24:25,391 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testParser
+2020-06-22 14:24:25,392 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testParser[1]
+2020-06-22 14:24:25,392 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testParser[1]
+2020-06-22 14:24:25,392 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testGenFile[2]
+2020-06-22 14:24:25,392 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testGenFile
+2020-06-22 14:24:25,403 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 12265
+2020-06-22 14:24:25,403 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:24:25,404 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testGenFile
+2020-06-22 14:24:25,404 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testGenFile[2]
+2020-06-22 14:24:25,404 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testGenFile[2]
+2020-06-22 14:24:25,404 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testParser[2]
+2020-06-22 14:24:25,405 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testParser
+2020-06-22 14:24:25,405 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 12265
+2020-06-22 14:24:25,405 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:24:25,405 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testParser
+2020-06-22 14:24:25,406 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testParser[2]
+2020-06-22 14:24:25,406 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testParser[2]
+2020-06-22 14:24:25,406 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testGenFile[3]
+2020-06-22 14:24:25,407 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testGenFile
+2020-06-22 14:24:25,420 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 12265
+2020-06-22 14:24:25,420 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:24:25,420 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testGenFile
+2020-06-22 14:24:25,420 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testGenFile[3]
+2020-06-22 14:24:25,420 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testGenFile[3]
+2020-06-22 14:24:25,421 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testParser[3]
+2020-06-22 14:24:25,421 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testParser
+2020-06-22 14:24:25,422 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 12265
+2020-06-22 14:24:25,422 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:24:25,422 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testParser
+2020-06-22 14:24:25,422 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testParser[3]
+2020-06-22 14:24:25,422 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testParser[3]
+2020-06-22 14:24:25,423 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testGenFile[4]
+2020-06-22 14:24:25,423 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testGenFile
+2020-06-22 14:24:25,436 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 12265
+2020-06-22 14:24:25,436 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:24:25,436 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testGenFile
+2020-06-22 14:24:25,437 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testGenFile[4]
+2020-06-22 14:24:25,437 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testGenFile[4]
+2020-06-22 14:24:25,437 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testParser[4]
+2020-06-22 14:24:25,438 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testParser
+2020-06-22 14:24:25,438 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 12265
+2020-06-22 14:24:25,438 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:24:25,438 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testParser
+2020-06-22 14:24:25,438 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testParser[4]
+2020-06-22 14:24:25,438 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testParser[4]
+2020-06-22 14:24:25,439 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testGenFile[5]
+2020-06-22 14:24:25,439 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testGenFile
+2020-06-22 14:24:25,451 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 12265
+2020-06-22 14:24:25,451 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:24:25,452 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testGenFile
+2020-06-22 14:24:25,452 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testGenFile[5]
+2020-06-22 14:24:25,452 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testGenFile[5]
+2020-06-22 14:24:25,453 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testParser[5]
+2020-06-22 14:24:25,453 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testParser
+2020-06-22 14:24:25,453 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 12891
+2020-06-22 14:24:25,453 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:24:25,454 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testParser
+2020-06-22 14:24:25,454 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testParser[5]
+2020-06-22 14:24:25,454 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testParser[5]
+2020-06-22 14:24:25,454 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testGenFile[6]
+2020-06-22 14:24:25,455 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testGenFile
+2020-06-22 14:24:25,470 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 12891
+2020-06-22 14:24:25,471 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:24:25,471 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testGenFile
+2020-06-22 14:24:25,472 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testGenFile[6]
+2020-06-22 14:24:25,472 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testGenFile[6]
+2020-06-22 14:24:25,474 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testParser[6]
+2020-06-22 14:24:25,474 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testParser
+2020-06-22 14:24:25,475 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 12891
+2020-06-22 14:24:25,475 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:24:25,475 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testParser
+2020-06-22 14:24:25,475 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testParser[6]
+2020-06-22 14:24:25,476 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testParser[6]

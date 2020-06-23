@@ -1,0 +1,1 @@
+2020-06-22 14:07:53,863 [myid:] - INFO  [main:QuorumPeer@752] - zookeeper.quorumCnxnTimeoutMs=-1

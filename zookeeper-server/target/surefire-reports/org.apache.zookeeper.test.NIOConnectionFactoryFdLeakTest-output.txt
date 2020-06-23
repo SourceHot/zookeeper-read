@@ -1,0 +1,10 @@
+2020-06-22 14:17:10,581 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:17:10,588 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:17:10,730 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testFileDescriptorLeak
+2020-06-22 14:17:10,731 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testFileDescriptorLeak
+2020-06-22 14:17:10,750 [myid:] - INFO  [main:NIOConnectionFactoryFdLeakTest@44] - Unable to run test on non-unix system
+2020-06-22 14:17:10,757 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 8147
+2020-06-22 14:17:10,757 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:17:10,757 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testFileDescriptorLeak
+2020-06-22 14:17:10,758 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testFileDescriptorLeak
+2020-06-22 14:17:10,758 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testFileDescriptorLeak

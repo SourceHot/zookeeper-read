@@ -1,0 +1,253 @@
+2020-06-22 14:05:38,236 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:05:38,239 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:05:38,294 [myid:] - INFO  [main:PortAssignment@154] - Test process 5/8 using ports from 21993 - 24685.
+2020-06-22 14:05:38,299 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 21994 from range 21993 - 24685.
+2020-06-22 14:05:38,301 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testChecksums
+2020-06-22 14:05:38,302 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testChecksums
+2020-06-22 14:05:38,465 [myid:] - INFO  [main:ZookeeperBanner@42] - 
+2020-06-22 14:05:38,465 [myid:] - INFO  [main:ZookeeperBanner@42] -   ______                  _                                          
+2020-06-22 14:05:38,465 [myid:] - INFO  [main:ZookeeperBanner@42] -  |___  /                 | |                                         
+2020-06-22 14:05:38,465 [myid:] - INFO  [main:ZookeeperBanner@42] -     / /    ___     ___   | | __   ___    ___   _ __     ___   _ __   
+2020-06-22 14:05:38,465 [myid:] - INFO  [main:ZookeeperBanner@42] -    / /    / _ \   / _ \  | |/ /  / _ \  / _ \ | '_ \   / _ \ | '__|
+2020-06-22 14:05:38,466 [myid:] - INFO  [main:ZookeeperBanner@42] -   / /__  | (_) | | (_) | |   <  |  __/ |  __/ | |_) | |  __/ | |    
+2020-06-22 14:05:38,466 [myid:] - INFO  [main:ZookeeperBanner@42] -  /_____|  \___/   \___/  |_|\_\  \___|  \___| | .__/   \___| |_|
+2020-06-22 14:05:38,466 [myid:] - INFO  [main:ZookeeperBanner@42] -                                               | |                     
+2020-06-22 14:05:38,466 [myid:] - INFO  [main:ZookeeperBanner@42] -                                               |_|                     
+2020-06-22 14:05:38,466 [myid:] - INFO  [main:ZookeeperBanner@42] - 
+2020-06-22 14:05:38,472 [myid:] - INFO  [main:Environment@98] - Server environment:zookeeper.version=3.6.1--9de128fcd2cb3170e738547b0603a1ba7049df48, built on 06/22/2020 06:04 GMT
+2020-06-22 14:05:38,472 [myid:] - INFO  [main:Environment@98] - Server environment:host.name=LAPTOP-D7DF36F6
+2020-06-22 14:05:38,472 [myid:] - INFO  [main:Environment@98] - Server environment:java.version=1.8.0_252
+2020-06-22 14:05:38,472 [myid:] - INFO  [main:Environment@98] - Server environment:java.vendor=Oracle Corporation
+2020-06-22 14:05:38,472 [myid:] - INFO  [main:Environment@98] - Server environment:java.home=D:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.252-2\jre
+2020-06-22 14:05:38,472 [myid:] - INFO  [main:Environment@98] - Server environment:java.class.path=D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\test-classes;D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\classes;C:\Users\admin\.m2\repository\com\github\spotbugs\spotbugs-annotations\4.0.2\spotbugs-annotations-4.0.2.jar;C:\Users\admin\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\admin\.m2\repository\org\hamcrest\hamcrest-all\1.3\hamcrest-all-1.3.jar;C:\Users\admin\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\admin\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;D:\desktop\git_repo\zookeeper-read\zookeeper-jute\target\zookeeper-jute-3.6.1.jar;C:\Users\admin\.m2\repository\commons-cli\commons-cli\1.2\commons-cli-1.2.jar;C:\Users\admin\.m2\repository\org\apache\yetus\audience-annotations\0.5.0\audience-annotations-0.5.0.jar;C:\Users\admin\.m2\repository\io\netty\netty-handler\4.1.48.Final\netty-handler-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-common\4.1.48.Final\netty-common-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-resolver\4.1.48.Final\netty-resolver-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-buffer\4.1.48.Final\netty-buffer-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport\4.1.48.Final\netty-transport-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-codec\4.1.48.Final\netty-codec-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport-native-epoll\4.1.48.Final\netty-transport-native-epoll-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.48.Final\netty-transport-native-unix-common-4.1.48.Final.jar;C:\Users\admin\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\admin\.m2\repository\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;C:\Users\admin\.m2\repository\org\eclipse\jetty\jetty-server\9.4.24.v20191120\jetty-server-9.4.24.v20191120.jar;C:\Users\admin\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\admin\.m2\repository\org\eclipse\jetty\jetty-http\9.4.24.v20191120\jetty-http-9.4.24.v20191120.jar;C:\Users\admin\.m2\repository\org\eclipse\jetty\jetty-util\9.4.24.v20191120\jetty-util-9.4.24.v20191120.jar;C:\Users\admin\.m2\repository\org\eclipse\jetty\jetty-io\9.4.24.v20191120\jetty-io-9.4.24.v20191120.jar;C:\Users\admin\.m2\repository\org\eclipse\jetty\jetty-servlet\9.4.24.v20191120\jetty-servlet-9.4.24.v20191120.jar;C:\Users\admin\.m2\repository\org\eclipse\jetty\jetty-security\9.4.24.v20191120\jetty-security-9.4.24.v20191120.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\admin\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\admin\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.60\bcprov-jdk15on-1.60.jar;C:\Users\admin\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.60\bcpkix-jdk15on-1.60.jar;C:\Users\admin\.m2\repository\jline\jline\2.11\jline-2.11.jar;C:\Users\admin\.m2\repository\io\dropwizard\metrics\metrics-core\3.2.5\metrics-core-3.2.5.jar;C:\Users\admin\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-core\2.0.0\kerb-core-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerby-pkix\2.0.0\kerby-pkix-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerby-asn1\2.0.0\kerby-asn1-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerby-util\2.0.0\kerby-util-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-simplekdc\2.0.0\kerb-simplekdc-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-client\2.0.0\kerb-client-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-common\2.0.0\kerb-common-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-crypto\2.0.0\kerb-crypto-2.0.0.jar;C:\Users\admin\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-util\2.0.0\kerb-util-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\token-provider\2.0.0\token-provider-2.0.0.jar;C:\Users\admin\.m2\repository\com\nimbusds\nimbus-jose-jwt\4.41.2\nimbus-jose-jwt-4.41.2.jar;C:\Users\admin\.m2\repository\com\github\stephenc\jcip\jcip-annotations\1.0-1\jcip-annotations-1.0-1.jar;C:\Users\admin\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar;C:\Users\admin\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar;C:\Users\admin\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-admin\2.0.0\kerb-admin-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-server\2.0.0\kerb-server-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-identity\2.0.0\kerb-identity-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerby-xdr\2.0.0\kerby-xdr-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerby-config\2.0.0\kerby-config-2.0.0.jar;C:\Users\admin\.m2\repository\org\mockito\mockito-core\2.27.0\mockito-core-2.27.0.jar;C:\Users\admin\.m2\repository\net\bytebuddy\byte-buddy\1.9.10\byte-buddy-1.9.10.jar;C:\Users\admin\.m2\repository\net\bytebuddy\byte-buddy-agent\1.9.10\byte-buddy-agent-1.9.10.jar;C:\Users\admin\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:\Users\admin\.m2\repository\org\jmockit\jmockit\1.48\jmockit-1.48.jar;C:\Users\admin\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\admin\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\admin\.m2\repository\org\xerial\snappy\snappy-java\1.1.7\snappy-java-1.1.7.jar;
+2020-06-22 14:05:38,473 [myid:] - INFO  [main:Environment@98] - Server environment:java.library.path=D:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.252-2\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\Program Files (x86)\NetSarang\Xshell 6\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.252-2\bin;D:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.252-2\jre\bin;D:\Program Files\Git\cmd;D:\Go\bin;D:\Program Files\nodejs\;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;;D:\Programs\Microsoft VS Code\bin;C:\Users\admin\go\bin;C:\Users\admin\AppData\Roaming\npm;.
+2020-06-22 14:05:38,473 [myid:] - INFO  [main:Environment@98] - Server environment:java.io.tmpdir=C:\Users\admin\AppData\Local\Temp\
+2020-06-22 14:05:38,473 [myid:] - INFO  [main:Environment@98] - Server environment:java.compiler=<NA>
+2020-06-22 14:05:38,473 [myid:] - INFO  [main:Environment@98] - Server environment:os.name=Windows 10
+2020-06-22 14:05:38,473 [myid:] - INFO  [main:Environment@98] - Server environment:os.arch=amd64
+2020-06-22 14:05:38,473 [myid:] - INFO  [main:Environment@98] - Server environment:os.version=10.0
+2020-06-22 14:05:38,473 [myid:] - INFO  [main:Environment@98] - Server environment:user.name=admin
+2020-06-22 14:05:38,474 [myid:] - INFO  [main:Environment@98] - Server environment:user.home=C:\Users\admin
+2020-06-22 14:05:38,474 [myid:] - INFO  [main:Environment@98] - Server environment:user.dir=D:\desktop\git_repo\zookeeper-read\zookeeper-server
+2020-06-22 14:05:38,474 [myid:] - INFO  [main:Environment@98] - Server environment:os.memory.free=110MB
+2020-06-22 14:05:38,474 [myid:] - INFO  [main:Environment@98] - Server environment:os.memory.max=455MB
+2020-06-22 14:05:38,474 [myid:] - INFO  [main:Environment@98] - Server environment:os.memory.total=121MB
+2020-06-22 14:05:38,474 [myid:] - INFO  [main:ZooKeeperServer@128] - zookeeper.enableEagerACLCheck = false
+2020-06-22 14:05:38,474 [myid:] - INFO  [main:ZooKeeperServer@136] - zookeeper.digest.enabled = true
+2020-06-22 14:05:38,474 [myid:] - INFO  [main:ZooKeeperServer@140] - zookeeper.closeSessionTxn.enabled = true
+2020-06-22 14:05:38,474 [myid:] - INFO  [main:ZooKeeperServer@1434] - zookeeper.flushDelay=0
+2020-06-22 14:05:38,474 [myid:] - INFO  [main:ZooKeeperServer@1443] - zookeeper.maxWriteQueuePollTime=0
+2020-06-22 14:05:38,475 [myid:] - INFO  [main:ZooKeeperServer@1452] - zookeeper.maxBatchSize=1000
+2020-06-22 14:05:38,475 [myid:] - INFO  [main:ZooKeeperServer@241] - zookeeper.intBufferStartingSizeBytes = 1024
+2020-06-22 14:05:38,476 [myid:] - INFO  [main:FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2020-06-22 14:05:38,487 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:05:38,487 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:05:38,487 [myid:] - INFO  [main:ZKDatabase@132] - zookeeper.snapshotSizeFactor = 0.33
+2020-06-22 14:05:38,487 [myid:] - INFO  [main:ZKDatabase@152] - zookeeper.commitLogCount=500
+2020-06-22 14:05:38,488 [myid:] - INFO  [main:BlueThrottle@141] - Weighed connection throttling is disabled
+2020-06-22 14:05:38,489 [myid:] - INFO  [main:ZooKeeperServer@1246] - minSessionTimeout set to 6000
+2020-06-22 14:05:38,489 [myid:] - INFO  [main:ZooKeeperServer@1255] - maxSessionTimeout set to 60000
+2020-06-22 14:05:38,490 [myid:] - INFO  [main:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-22 14:05:38,490 [myid:] - INFO  [main:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-22 14:05:38,491 [myid:] - INFO  [main:RequestPathMetricsCollector@111] - zookeeper.pathStats.slotCapacity = 60
+2020-06-22 14:05:38,491 [myid:] - INFO  [main:RequestPathMetricsCollector@112] - zookeeper.pathStats.slotDuration = 15
+2020-06-22 14:05:38,491 [myid:] - INFO  [main:RequestPathMetricsCollector@113] - zookeeper.pathStats.maxDepth = 6
+2020-06-22 14:05:38,491 [myid:] - INFO  [main:RequestPathMetricsCollector@114] - zookeeper.pathStats.initialDelay = 5
+2020-06-22 14:05:38,491 [myid:] - INFO  [main:RequestPathMetricsCollector@115] - zookeeper.pathStats.delay = 5
+2020-06-22 14:05:38,491 [myid:] - INFO  [main:RequestPathMetricsCollector@116] - zookeeper.pathStats.enabled = false
+2020-06-22 14:05:38,493 [myid:] - INFO  [main:ZooKeeperServer@1471] - The max bytes for all large requests are set to 104857600
+2020-06-22 14:05:38,493 [myid:] - INFO  [main:ZooKeeperServer@1485] - The large request threshold is set to -1
+2020-06-22 14:05:38,493 [myid:] - INFO  [main:ZooKeeperServer@329] - Created server with tickTime 3000 minSessionTimeout 6000 maxSessionTimeout 60000 clientPortListenBacklog -1 datadir D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test4293896266942435339.junit.dir\version-2 snapdir D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test4293896266942435339.junit.dir\version-2
+2020-06-22 14:05:38,505 [myid:] - INFO  [main:ServerCnxnFactory@169] - Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory
+2020-06-22 14:05:38,506 [myid:] - WARN  [main:ServerCnxnFactory@309] - maxCnxns is not configured, using default value 0.
+2020-06-22 14:05:38,507 [myid:] - INFO  [main:NIOServerCnxnFactory@666] - Configuring NIO connection handler with 10s sessionless connection timeout, 2 selector thread(s), 16 worker threads, and 64 kB direct buffers.
+2020-06-22 14:05:38,509 [myid:] - INFO  [main:NIOServerCnxnFactory@674] - binding to port 0.0.0.0/0.0.0.0:21994
+2020-06-22 14:05:38,521 [myid:] - INFO  [main:FileTxnSnapLog@251] - Initialize file found, an empty database will not block voting participation
+2020-06-22 14:05:38,526 [myid:] - INFO  [main:SnapStream@61] - zookeeper.snapshot.compression.method = CHECKED
+2020-06-22 14:05:38,526 [myid:] - INFO  [main:FileTxnSnapLog@470] - Snapshotting: 0x0 to D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test4293896266942435339.junit.dir\version-2\snapshot.0
+2020-06-22 14:05:38,529 [myid:] - INFO  [main:ZKDatabase@289] - Snapshot loaded in 18 ms, highest zxid is 0x0, digest is 1371985504
+2020-06-22 14:05:38,529 [myid:] - INFO  [main:FileTxnSnapLog@470] - Snapshotting: 0x0 to D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test4293896266942435339.junit.dir\version-2\snapshot.0
+2020-06-22 14:05:38,530 [myid:] - INFO  [main:ZooKeeperServer@519] - Snapshot taken in 0 ms
+2020-06-22 14:05:38,537 [myid:] - INFO  [main:RequestThrottler@74] - zookeeper.request_throttler.shutdownTimeout = 10000
+2020-06-22 14:05:38,578 [myid:] - INFO  [main:CRCTest@113] - starting up the zookeeper server .. waiting
+2020-06-22 14:05:38,580 [myid:] - INFO  [main:FourLetterWordMain@93] - connecting to 127.0.0.1 21994
+2020-06-22 14:05:38,585 [myid:] - INFO  [NIOWorkerThread-1:FourLetterCommands@223] - The list of known four letter word commands is : [{1936881266=srvr, 1937006964=stat, 2003003491=wchc, 1685417328=dump, 1668445044=crst, 1936880500=srst, 1701738089=envi, 1668247142=conf, -720899=telnet close, 1751217000=hash, 2003003507=wchs, 2003003504=wchp, 1684632179=dirs, 1668247155=cons, 1835955314=mntr, 1769173615=isro, 1920298859=ruok, 1735683435=gtmk, 1937010027=stmk}]
+2020-06-22 14:05:38,585 [myid:] - INFO  [NIOWorkerThread-1:FourLetterCommands@224] - The list of enabled four letter word commands is : [[wchs, stat, wchp, dirs, stmk, conf, ruok, mntr, srvr, wchc, envi, srst, isro, dump, gtmk, telnet close, crst, hash, cons]]
+2020-06-22 14:05:38,585 [myid:] - INFO  [NIOWorkerThread-1:NIOServerCnxn@507] - Processing stat command from /127.0.0.1:53524
+2020-06-22 14:05:38,588 [myid:] - INFO  [NIOWorkerThread-1:StatCommand@52] - Stat command output
+2020-06-22 14:05:38,591 [myid:] - INFO  [main:Environment@98] - Client environment:zookeeper.version=3.6.1--9de128fcd2cb3170e738547b0603a1ba7049df48, built on 06/22/2020 06:04 GMT
+2020-06-22 14:05:38,592 [myid:] - INFO  [main:Environment@98] - Client environment:host.name=LAPTOP-D7DF36F6
+2020-06-22 14:05:38,592 [myid:] - INFO  [main:Environment@98] - Client environment:java.version=1.8.0_252
+2020-06-22 14:05:38,592 [myid:] - INFO  [main:Environment@98] - Client environment:java.vendor=Oracle Corporation
+2020-06-22 14:05:38,592 [myid:] - INFO  [main:Environment@98] - Client environment:java.home=D:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.252-2\jre
+2020-06-22 14:05:38,592 [myid:] - INFO  [main:Environment@98] - Client environment:java.class.path=D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\test-classes;D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\classes;C:\Users\admin\.m2\repository\com\github\spotbugs\spotbugs-annotations\4.0.2\spotbugs-annotations-4.0.2.jar;C:\Users\admin\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\admin\.m2\repository\org\hamcrest\hamcrest-all\1.3\hamcrest-all-1.3.jar;C:\Users\admin\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\admin\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;D:\desktop\git_repo\zookeeper-read\zookeeper-jute\target\zookeeper-jute-3.6.1.jar;C:\Users\admin\.m2\repository\commons-cli\commons-cli\1.2\commons-cli-1.2.jar;C:\Users\admin\.m2\repository\org\apache\yetus\audience-annotations\0.5.0\audience-annotations-0.5.0.jar;C:\Users\admin\.m2\repository\io\netty\netty-handler\4.1.48.Final\netty-handler-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-common\4.1.48.Final\netty-common-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-resolver\4.1.48.Final\netty-resolver-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-buffer\4.1.48.Final\netty-buffer-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport\4.1.48.Final\netty-transport-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-codec\4.1.48.Final\netty-codec-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport-native-epoll\4.1.48.Final\netty-transport-native-epoll-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.48.Final\netty-transport-native-unix-common-4.1.48.Final.jar;C:\Users\admin\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\admin\.m2\repository\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;C:\Users\admin\.m2\repository\org\eclipse\jetty\jetty-server\9.4.24.v20191120\jetty-server-9.4.24.v20191120.jar;C:\Users\admin\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\admin\.m2\repository\org\eclipse\jetty\jetty-http\9.4.24.v20191120\jetty-http-9.4.24.v20191120.jar;C:\Users\admin\.m2\repository\org\eclipse\jetty\jetty-util\9.4.24.v20191120\jetty-util-9.4.24.v20191120.jar;C:\Users\admin\.m2\repository\org\eclipse\jetty\jetty-io\9.4.24.v20191120\jetty-io-9.4.24.v20191120.jar;C:\Users\admin\.m2\repository\org\eclipse\jetty\jetty-servlet\9.4.24.v20191120\jetty-servlet-9.4.24.v20191120.jar;C:\Users\admin\.m2\repository\org\eclipse\jetty\jetty-security\9.4.24.v20191120\jetty-security-9.4.24.v20191120.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\admin\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\admin\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.60\bcprov-jdk15on-1.60.jar;C:\Users\admin\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.60\bcpkix-jdk15on-1.60.jar;C:\Users\admin\.m2\repository\jline\jline\2.11\jline-2.11.jar;C:\Users\admin\.m2\repository\io\dropwizard\metrics\metrics-core\3.2.5\metrics-core-3.2.5.jar;C:\Users\admin\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-core\2.0.0\kerb-core-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerby-pkix\2.0.0\kerby-pkix-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerby-asn1\2.0.0\kerby-asn1-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerby-util\2.0.0\kerby-util-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-simplekdc\2.0.0\kerb-simplekdc-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-client\2.0.0\kerb-client-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-common\2.0.0\kerb-common-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-crypto\2.0.0\kerb-crypto-2.0.0.jar;C:\Users\admin\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-util\2.0.0\kerb-util-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\token-provider\2.0.0\token-provider-2.0.0.jar;C:\Users\admin\.m2\repository\com\nimbusds\nimbus-jose-jwt\4.41.2\nimbus-jose-jwt-4.41.2.jar;C:\Users\admin\.m2\repository\com\github\stephenc\jcip\jcip-annotations\1.0-1\jcip-annotations-1.0-1.jar;C:\Users\admin\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar;C:\Users\admin\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar;C:\Users\admin\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-admin\2.0.0\kerb-admin-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-server\2.0.0\kerb-server-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-identity\2.0.0\kerb-identity-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerby-xdr\2.0.0\kerby-xdr-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerby-config\2.0.0\kerby-config-2.0.0.jar;C:\Users\admin\.m2\repository\org\mockito\mockito-core\2.27.0\mockito-core-2.27.0.jar;C:\Users\admin\.m2\repository\net\bytebuddy\byte-buddy\1.9.10\byte-buddy-1.9.10.jar;C:\Users\admin\.m2\repository\net\bytebuddy\byte-buddy-agent\1.9.10\byte-buddy-agent-1.9.10.jar;C:\Users\admin\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:\Users\admin\.m2\repository\org\jmockit\jmockit\1.48\jmockit-1.48.jar;C:\Users\admin\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\admin\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\admin\.m2\repository\org\xerial\snappy\snappy-java\1.1.7\snappy-java-1.1.7.jar;
+2020-06-22 14:05:38,592 [myid:] - INFO  [main:Environment@98] - Client environment:java.library.path=D:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.252-2\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\Program Files (x86)\NetSarang\Xshell 6\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.252-2\bin;D:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.252-2\jre\bin;D:\Program Files\Git\cmd;D:\Go\bin;D:\Program Files\nodejs\;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;;D:\Programs\Microsoft VS Code\bin;C:\Users\admin\go\bin;C:\Users\admin\AppData\Roaming\npm;.
+2020-06-22 14:05:38,593 [myid:] - INFO  [main:Environment@98] - Client environment:java.io.tmpdir=C:\Users\admin\AppData\Local\Temp\
+2020-06-22 14:05:38,593 [myid:] - INFO  [main:Environment@98] - Client environment:java.compiler=<NA>
+2020-06-22 14:05:38,593 [myid:] - INFO  [main:Environment@98] - Client environment:os.name=Windows 10
+2020-06-22 14:05:38,593 [myid:] - INFO  [main:Environment@98] - Client environment:os.arch=amd64
+2020-06-22 14:05:38,593 [myid:] - INFO  [main:Environment@98] - Client environment:os.version=10.0
+2020-06-22 14:05:38,593 [myid:] - INFO  [main:Environment@98] - Client environment:user.name=admin
+2020-06-22 14:05:38,593 [myid:] - INFO  [main:Environment@98] - Client environment:user.home=C:\Users\admin
+2020-06-22 14:05:38,593 [myid:] - INFO  [main:Environment@98] - Client environment:user.dir=D:\desktop\git_repo\zookeeper-read\zookeeper-server
+2020-06-22 14:05:38,593 [myid:] - INFO  [main:Environment@98] - Client environment:os.memory.free=98MB
+2020-06-22 14:05:38,593 [myid:] - INFO  [main:Environment@98] - Client environment:os.memory.max=455MB
+2020-06-22 14:05:38,593 [myid:] - INFO  [main:Environment@98] - Client environment:os.memory.total=121MB
+2020-06-22 14:05:38,595 [myid:] - INFO  [main:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:21994 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@27d415d9
+2020-06-22 14:05:38,597 [myid:] - INFO  [main:X509Util@77] - Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation
+2020-06-22 14:05:38,600 [myid:] - INFO  [main:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:05:38,604 [myid:] - INFO  [main:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:05:38,609 [myid:127.0.0.1:21994] - INFO  [main-SendThread(127.0.0.1:21994):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:21994.
+2020-06-22 14:05:38,609 [myid:127.0.0.1:21994] - INFO  [main-SendThread(127.0.0.1:21994):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:05:38,610 [myid:127.0.0.1:21994] - INFO  [main-SendThread(127.0.0.1:21994):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:53527, server: activate.navicat.com/127.0.0.1:21994
+2020-06-22 14:05:38,614 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.1
+2020-06-22 14:05:38,619 [myid:] - INFO  [SyncThread:0:ZKAuditProvider@42] - ZooKeeper audit is disabled.
+2020-06-22 14:05:38,623 [myid:127.0.0.1:21994] - INFO  [main-SendThread(127.0.0.1:21994):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:21994, session id = 0x10015e888ef0000, negotiated timeout = 30000
+2020-06-22 14:05:38,750 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0x52 to D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test4293896266942435339.junit.dir\version-2\snapshot.52
+2020-06-22 14:05:38,751 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.54
+2020-06-22 14:05:38,754 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 4 ms
+2020-06-22 14:05:38,858 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0xa5 to D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test4293896266942435339.junit.dir\version-2\snapshot.a5
+2020-06-22 14:05:38,859 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.a7
+2020-06-22 14:05:38,860 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 1 ms
+2020-06-22 14:05:39,005 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0x133 to D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test4293896266942435339.junit.dir\version-2\snapshot.133
+2020-06-22 14:05:39,006 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.135
+2020-06-22 14:05:39,008 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 3 ms
+2020-06-22 14:05:39,195 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0x1b5 to D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test4293896266942435339.junit.dir\version-2\snapshot.1b5
+2020-06-22 14:05:39,196 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.1b7
+2020-06-22 14:05:39,197 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 2 ms
+2020-06-22 14:05:39,307 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0x236 to D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test4293896266942435339.junit.dir\version-2\snapshot.236
+2020-06-22 14:05:39,308 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.238
+2020-06-22 14:05:39,310 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 2 ms
+2020-06-22 14:05:39,502 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0x2c3 to D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test4293896266942435339.junit.dir\version-2\snapshot.2c3
+2020-06-22 14:05:39,503 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.2c5
+2020-06-22 14:05:39,504 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 3 ms
+2020-06-22 14:05:39,606 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0x332 to D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test4293896266942435339.junit.dir\version-2\snapshot.332
+2020-06-22 14:05:39,606 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.334
+2020-06-22 14:05:39,609 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 3 ms
+2020-06-22 14:05:39,704 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0x3ab to D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test4293896266942435339.junit.dir\version-2\snapshot.3ab
+2020-06-22 14:05:39,705 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.3ad
+2020-06-22 14:05:39,708 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 4 ms
+2020-06-22 14:05:39,788 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0x421 to D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test4293896266942435339.junit.dir\version-2\snapshot.421
+2020-06-22 14:05:39,788 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.423
+2020-06-22 14:05:39,791 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 3 ms
+2020-06-22 14:05:39,910 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0x49c to D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test4293896266942435339.junit.dir\version-2\snapshot.49c
+2020-06-22 14:05:39,911 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.49e
+2020-06-22 14:05:39,916 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 5 ms
+2020-06-22 14:05:39,999 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0x4fd to D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test4293896266942435339.junit.dir\version-2\snapshot.4fd
+2020-06-22 14:05:40,000 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.4ff
+2020-06-22 14:05:40,004 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 4 ms
+2020-06-22 14:05:40,082 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0x562 to D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test4293896266942435339.junit.dir\version-2\snapshot.562
+2020-06-22 14:05:40,083 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.564
+2020-06-22 14:05:40,086 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 4 ms
+2020-06-22 14:05:40,173 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0x5cd to D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test4293896266942435339.junit.dir\version-2\snapshot.5cd
+2020-06-22 14:05:40,174 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.5cf
+2020-06-22 14:05:40,178 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 5 ms
+2020-06-22 14:05:40,289 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.63c
+2020-06-22 14:05:40,289 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0x63b to D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test4293896266942435339.junit.dir\version-2\snapshot.63b
+2020-06-22 14:05:40,299 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 10 ms
+2020-06-22 14:05:40,563 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0x6cf to D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test4293896266942435339.junit.dir\version-2\snapshot.6cf
+2020-06-22 14:05:40,564 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.6d1
+2020-06-22 14:05:40,571 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 8 ms
+2020-06-22 14:05:40,740 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0x745 to D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test4293896266942435339.junit.dir\version-2\snapshot.745
+2020-06-22 14:05:40,742 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.747
+2020-06-22 14:05:40,746 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 5 ms
+2020-06-22 14:05:40,857 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0x79f to D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test4293896266942435339.junit.dir\version-2\snapshot.79f
+2020-06-22 14:05:40,859 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.7a1
+2020-06-22 14:05:40,865 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 8 ms
+2020-06-22 14:05:41,014 [myid:] - INFO  [main:ZooKeeper@1618] - Session: 0x10015e888ef0000 closed
+2020-06-22 14:05:41,014 [myid:] - INFO  [main-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015e888ef0000
+2020-06-22 14:05:41,015 [myid:] - INFO  [ConnnectionExpirer:NIOServerCnxnFactory$ConnectionExpirerThread@578] - ConnnectionExpirerThread interrupted
+2020-06-22 14:05:41,015 [myid:] - INFO  [NIOServerCxnFactory.SelectorThread-0:NIOServerCnxnFactory$SelectorThread@411] - selector thread exitted run method
+2020-06-22 14:05:41,016 [myid:] - INFO  [NIOServerCxnFactory.AcceptThread:0.0.0.0/0.0.0.0:21994:NIOServerCnxnFactory$AcceptThread@209] - accept thread exitted run method
+2020-06-22 14:05:41,016 [myid:] - INFO  [NIOServerCxnFactory.SelectorThread-1:NIOServerCnxnFactory$SelectorThread@411] - selector thread exitted run method
+2020-06-22 14:05:41,016 [myid:] - INFO  [main:ZooKeeperServer@784] - shutting down
+2020-06-22 14:05:41,017 [myid:] - INFO  [main:RequestThrottler@244] - Shutting down
+2020-06-22 14:05:41,017 [myid:] - INFO  [RequestThrottler:RequestThrottler@205] - Draining request throttler queue
+2020-06-22 14:05:41,017 [myid:] - INFO  [RequestThrottler:RequestThrottler@181] - RequestThrottler shutdown. Dropped 0 requests
+2020-06-22 14:05:41,017 [myid:] - INFO  [main:SessionTrackerImpl@247] - Shutting down
+2020-06-22 14:05:41,017 [myid:] - INFO  [main:PrepRequestProcessor@1047] - Shutting down
+2020-06-22 14:05:41,017 [myid:] - INFO  [ProcessThread(sid:0 cport:21994)::PrepRequestProcessor@159] - PrepRequestProcessor exited loop!
+2020-06-22 14:05:41,017 [myid:] - INFO  [main:SyncRequestProcessor@256] - Shutting down
+2020-06-22 14:05:41,018 [myid:] - INFO  [SyncThread:0:SyncRequestProcessor@225] - SyncRequestProcessor exited!
+2020-06-22 14:05:41,018 [myid:] - INFO  [main:FinalRequestProcessor@662] - shutdown of request processor complete
+2020-06-22 14:05:41,020 [myid:] - INFO  [main:FourLetterWordMain@93] - connecting to 127.0.0.1 21994
+2020-06-22 14:05:43,023 [myid:] - INFO  [main:CRCTest@134] - file is D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test4293896266942435339.junit.dir\version-2\log.1
+2020-06-22 14:05:43,024 [myid:] - INFO  [main:CRCTest@134] - file is D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test4293896266942435339.junit.dir\version-2\log.135
+2020-06-22 14:05:43,025 [myid:] - INFO  [main:CRCTest@134] - file is D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test4293896266942435339.junit.dir\version-2\log.1b7
+2020-06-22 14:05:43,025 [myid:] - INFO  [main:CRCTest@134] - file is D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test4293896266942435339.junit.dir\version-2\log.238
+2020-06-22 14:05:43,025 [myid:] - INFO  [main:CRCTest@134] - file is D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test4293896266942435339.junit.dir\version-2\log.2c5
+2020-06-22 14:05:43,025 [myid:] - INFO  [main:CRCTest@134] - file is D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test4293896266942435339.junit.dir\version-2\log.334
+2020-06-22 14:05:43,025 [myid:] - INFO  [main:CRCTest@134] - file is D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test4293896266942435339.junit.dir\version-2\log.3ad
+2020-06-22 14:05:43,026 [myid:] - INFO  [main:CRCTest@134] - file is D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test4293896266942435339.junit.dir\version-2\log.423
+2020-06-22 14:05:43,026 [myid:] - INFO  [main:CRCTest@134] - file is D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test4293896266942435339.junit.dir\version-2\log.49e
+2020-06-22 14:05:43,026 [myid:] - INFO  [main:CRCTest@134] - file is D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test4293896266942435339.junit.dir\version-2\log.4ff
+2020-06-22 14:05:43,026 [myid:] - INFO  [main:CRCTest@134] - file is D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test4293896266942435339.junit.dir\version-2\log.54
+2020-06-22 14:05:43,026 [myid:] - INFO  [main:CRCTest@134] - file is D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test4293896266942435339.junit.dir\version-2\log.564
+2020-06-22 14:05:43,027 [myid:] - INFO  [main:CRCTest@134] - file is D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test4293896266942435339.junit.dir\version-2\log.5cf
+2020-06-22 14:05:43,027 [myid:] - INFO  [main:CRCTest@134] - file is D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test4293896266942435339.junit.dir\version-2\log.63c
+2020-06-22 14:05:43,027 [myid:] - INFO  [main:CRCTest@134] - file is D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test4293896266942435339.junit.dir\version-2\log.6d1
+2020-06-22 14:05:43,027 [myid:] - INFO  [main:CRCTest@134] - file is D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test4293896266942435339.junit.dir\version-2\log.747
+2020-06-22 14:05:43,028 [myid:] - INFO  [main:CRCTest@134] - file is D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test4293896266942435339.junit.dir\version-2\log.7a1
+2020-06-22 14:05:43,028 [myid:] - INFO  [main:CRCTest@134] - file is D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test4293896266942435339.junit.dir\version-2\log.a7
+2020-06-22 14:05:43,028 [myid:] - INFO  [main:CRCTest@134] - file is D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test4293896266942435339.junit.dir\version-2\snapshot.0
+2020-06-22 14:05:43,028 [myid:] - INFO  [main:CRCTest@134] - file is D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test4293896266942435339.junit.dir\version-2\snapshot.133
+2020-06-22 14:05:43,028 [myid:] - INFO  [main:CRCTest@134] - file is D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test4293896266942435339.junit.dir\version-2\snapshot.1b5
+2020-06-22 14:05:43,028 [myid:] - INFO  [main:CRCTest@134] - file is D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test4293896266942435339.junit.dir\version-2\snapshot.236
+2020-06-22 14:05:43,028 [myid:] - INFO  [main:CRCTest@134] - file is D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test4293896266942435339.junit.dir\version-2\snapshot.2c3
+2020-06-22 14:05:43,028 [myid:] - INFO  [main:CRCTest@134] - file is D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test4293896266942435339.junit.dir\version-2\snapshot.332
+2020-06-22 14:05:43,029 [myid:] - INFO  [main:CRCTest@134] - file is D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test4293896266942435339.junit.dir\version-2\snapshot.3ab
+2020-06-22 14:05:43,029 [myid:] - INFO  [main:CRCTest@134] - file is D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test4293896266942435339.junit.dir\version-2\snapshot.421
+2020-06-22 14:05:43,029 [myid:] - INFO  [main:CRCTest@134] - file is D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test4293896266942435339.junit.dir\version-2\snapshot.49c
+2020-06-22 14:05:43,029 [myid:] - INFO  [main:CRCTest@134] - file is D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test4293896266942435339.junit.dir\version-2\snapshot.4fd
+2020-06-22 14:05:43,029 [myid:] - INFO  [main:CRCTest@134] - file is D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test4293896266942435339.junit.dir\version-2\snapshot.52
+2020-06-22 14:05:43,029 [myid:] - INFO  [main:CRCTest@134] - file is D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test4293896266942435339.junit.dir\version-2\snapshot.562
+2020-06-22 14:05:43,029 [myid:] - INFO  [main:CRCTest@134] - file is D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test4293896266942435339.junit.dir\version-2\snapshot.5cd
+2020-06-22 14:05:43,029 [myid:] - INFO  [main:CRCTest@134] - file is D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test4293896266942435339.junit.dir\version-2\snapshot.63b
+2020-06-22 14:05:43,029 [myid:] - INFO  [main:CRCTest@134] - file is D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test4293896266942435339.junit.dir\version-2\snapshot.6cf
+2020-06-22 14:05:43,029 [myid:] - INFO  [main:CRCTest@134] - file is D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test4293896266942435339.junit.dir\version-2\snapshot.745
+2020-06-22 14:05:43,029 [myid:] - INFO  [main:CRCTest@134] - file is D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test4293896266942435339.junit.dir\version-2\snapshot.79f
+2020-06-22 14:05:43,029 [myid:] - INFO  [main:CRCTest@134] - file is D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test4293896266942435339.junit.dir\version-2\snapshot.a5
+2020-06-22 14:05:43,030 [myid:] - WARN  [main:CRCTest@149] - crc corruption
+java.io.IOException: CRC check failed
+	at org.apache.zookeeper.server.persistence.FileTxnLog$FileTxnIterator.next(FileTxnLog.java:778)
+	at org.apache.zookeeper.server.CRCTest.testChecksums(CRCTest.java:144)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at mockit.integration.junit4.JUnit4TestRunnerDecorator.executeTestMethod(JUnit4TestRunnerDecorator.java:157)
+	at mockit.integration.junit4.JUnit4TestRunnerDecorator.invokeExplosively(JUnit4TestRunnerDecorator.java:71)
+	at mockit.integration.junit4.FakeFrameworkMethod.invokeExplosively(FakeFrameworkMethod.java:29)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.apache.zookeeper.JUnit4ZKTestRunner$LoggedInvokeMethod.evaluate(JUnit4ZKTestRunner.java:86)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+2020-06-22 14:05:43,033 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:05:43,033 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:05:43,045 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 16132
+2020-06-22 14:05:43,045 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 8
+2020-06-22 14:05:43,046 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testChecksums
+2020-06-22 14:05:43,046 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testChecksums
+2020-06-22 14:05:43,046 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testChecksums

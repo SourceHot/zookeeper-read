@@ -1,0 +1,151 @@
+2020-06-22 14:07:24,722 [myid:] - INFO  [main:PortAssignment@154] - Test process 3/8 using ports from 16607 - 19299.
+2020-06-22 14:07:24,732 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16608 from range 16607 - 19299.
+2020-06-22 14:07:24,738 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16609 from range 16607 - 19299.
+2020-06-22 14:07:24,739 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16610 from range 16607 - 19299.
+2020-06-22 14:07:24,740 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16611 from range 16607 - 19299.
+2020-06-22 14:07:24,742 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16612 from range 16607 - 19299.
+2020-06-22 14:07:24,794 [myid:] - INFO  [main:QuorumPeer@752] - zookeeper.quorumCnxnTimeoutMs=-1
+2020-06-22 14:07:24,800 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16613 from range 16607 - 19299.
+2020-06-22 14:07:24,898 [myid:] - INFO  [main:ServerCnxnFactory@169] - Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory
+2020-06-22 14:07:24,902 [myid:] - WARN  [main:ServerCnxnFactory@309] - maxCnxns is not configured, using default value 0.
+2020-06-22 14:07:24,907 [myid:] - INFO  [main:NIOServerCnxnFactory@666] - Configuring NIO connection handler with 10s sessionless connection timeout, 2 selector thread(s), 16 worker threads, and 64 kB direct buffers.
+2020-06-22 14:07:24,912 [myid:] - INFO  [main:NIOServerCnxnFactory@674] - binding to port 0.0.0.0/0.0.0.0:16613
+2020-06-22 14:07:25,004 [myid:] - INFO  [main:Log@169] - Logging initialized @3274ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-06-22 14:07:25,200 [myid:] - WARN  [main:ContextHandler@1520] - o.e.j.s.ServletContextHandler@3c0a50da{/,null,UNAVAILABLE} contextPath ends with /*
+2020-06-22 14:07:25,200 [myid:] - WARN  [main:ContextHandler@1531] - Empty contextPath
+2020-06-22 14:07:25,226 [myid:] - INFO  [main:X509Util@77] - Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation
+2020-06-22 14:07:25,232 [myid:] - INFO  [main:FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2020-06-22 14:07:25,259 [myid:] - INFO  [main:ZookeeperBanner@42] - 
+2020-06-22 14:07:25,260 [myid:] - INFO  [main:ZookeeperBanner@42] -   ______                  _                                          
+2020-06-22 14:07:25,260 [myid:] - INFO  [main:ZookeeperBanner@42] -  |___  /                 | |                                         
+2020-06-22 14:07:25,260 [myid:] - INFO  [main:ZookeeperBanner@42] -     / /    ___     ___   | | __   ___    ___   _ __     ___   _ __   
+2020-06-22 14:07:25,260 [myid:] - INFO  [main:ZookeeperBanner@42] -    / /    / _ \   / _ \  | |/ /  / _ \  / _ \ | '_ \   / _ \ | '__|
+2020-06-22 14:07:25,260 [myid:] - INFO  [main:ZookeeperBanner@42] -   / /__  | (_) | | (_) | |   <  |  __/ |  __/ | |_) | |  __/ | |    
+2020-06-22 14:07:25,261 [myid:] - INFO  [main:ZookeeperBanner@42] -  /_____|  \___/   \___/  |_|\_\  \___|  \___| | .__/   \___| |_|
+2020-06-22 14:07:25,261 [myid:] - INFO  [main:ZookeeperBanner@42] -                                               | |                     
+2020-06-22 14:07:25,261 [myid:] - INFO  [main:ZookeeperBanner@42] -                                               |_|                     
+2020-06-22 14:07:25,261 [myid:] - INFO  [main:ZookeeperBanner@42] - 
+2020-06-22 14:07:25,272 [myid:] - INFO  [main:Environment@98] - Server environment:zookeeper.version=3.6.1--9de128fcd2cb3170e738547b0603a1ba7049df48, built on 06/22/2020 06:04 GMT
+2020-06-22 14:07:25,273 [myid:] - INFO  [main:Environment@98] - Server environment:host.name=LAPTOP-D7DF36F6
+2020-06-22 14:07:25,273 [myid:] - INFO  [main:Environment@98] - Server environment:java.version=1.8.0_252
+2020-06-22 14:07:25,273 [myid:] - INFO  [main:Environment@98] - Server environment:java.vendor=Oracle Corporation
+2020-06-22 14:07:25,273 [myid:] - INFO  [main:Environment@98] - Server environment:java.home=D:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.252-2\jre
+2020-06-22 14:07:25,274 [myid:] - INFO  [main:Environment@98] - Server environment:java.class.path=D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\test-classes;D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\classes;C:\Users\admin\.m2\repository\com\github\spotbugs\spotbugs-annotations\4.0.2\spotbugs-annotations-4.0.2.jar;C:\Users\admin\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\admin\.m2\repository\org\hamcrest\hamcrest-all\1.3\hamcrest-all-1.3.jar;C:\Users\admin\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\admin\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;D:\desktop\git_repo\zookeeper-read\zookeeper-jute\target\zookeeper-jute-3.6.1.jar;C:\Users\admin\.m2\repository\commons-cli\commons-cli\1.2\commons-cli-1.2.jar;C:\Users\admin\.m2\repository\org\apache\yetus\audience-annotations\0.5.0\audience-annotations-0.5.0.jar;C:\Users\admin\.m2\repository\io\netty\netty-handler\4.1.48.Final\netty-handler-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-common\4.1.48.Final\netty-common-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-resolver\4.1.48.Final\netty-resolver-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-buffer\4.1.48.Final\netty-buffer-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport\4.1.48.Final\netty-transport-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-codec\4.1.48.Final\netty-codec-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport-native-epoll\4.1.48.Final\netty-transport-native-epoll-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.48.Final\netty-transport-native-unix-common-4.1.48.Final.jar;C:\Users\admin\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\admin\.m2\repository\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;C:\Users\admin\.m2\repository\org\eclipse\jetty\jetty-server\9.4.24.v20191120\jetty-server-9.4.24.v20191120.jar;C:\Users\admin\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\admin\.m2\repository\org\eclipse\jetty\jetty-http\9.4.24.v20191120\jetty-http-9.4.24.v20191120.jar;C:\Users\admin\.m2\repository\org\eclipse\jetty\jetty-util\9.4.24.v20191120\jetty-util-9.4.24.v20191120.jar;C:\Users\admin\.m2\repository\org\eclipse\jetty\jetty-io\9.4.24.v20191120\jetty-io-9.4.24.v20191120.jar;C:\Users\admin\.m2\repository\org\eclipse\jetty\jetty-servlet\9.4.24.v20191120\jetty-servlet-9.4.24.v20191120.jar;C:\Users\admin\.m2\repository\org\eclipse\jetty\jetty-security\9.4.24.v20191120\jetty-security-9.4.24.v20191120.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\admin\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\admin\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.60\bcprov-jdk15on-1.60.jar;C:\Users\admin\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.60\bcpkix-jdk15on-1.60.jar;C:\Users\admin\.m2\repository\jline\jline\2.11\jline-2.11.jar;C:\Users\admin\.m2\repository\io\dropwizard\metrics\metrics-core\3.2.5\metrics-core-3.2.5.jar;C:\Users\admin\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-core\2.0.0\kerb-core-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerby-pkix\2.0.0\kerby-pkix-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerby-asn1\2.0.0\kerby-asn1-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerby-util\2.0.0\kerby-util-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-simplekdc\2.0.0\kerb-simplekdc-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-client\2.0.0\kerb-client-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-common\2.0.0\kerb-common-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-crypto\2.0.0\kerb-crypto-2.0.0.jar;C:\Users\admin\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-util\2.0.0\kerb-util-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\token-provider\2.0.0\token-provider-2.0.0.jar;C:\Users\admin\.m2\repository\com\nimbusds\nimbus-jose-jwt\4.41.2\nimbus-jose-jwt-4.41.2.jar;C:\Users\admin\.m2\repository\com\github\stephenc\jcip\jcip-annotations\1.0-1\jcip-annotations-1.0-1.jar;C:\Users\admin\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar;C:\Users\admin\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar;C:\Users\admin\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-admin\2.0.0\kerb-admin-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-server\2.0.0\kerb-server-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-identity\2.0.0\kerb-identity-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerby-xdr\2.0.0\kerby-xdr-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerby-config\2.0.0\kerby-config-2.0.0.jar;C:\Users\admin\.m2\repository\org\mockito\mockito-core\2.27.0\mockito-core-2.27.0.jar;C:\Users\admin\.m2\repository\net\bytebuddy\byte-buddy\1.9.10\byte-buddy-1.9.10.jar;C:\Users\admin\.m2\repository\net\bytebuddy\byte-buddy-agent\1.9.10\byte-buddy-agent-1.9.10.jar;C:\Users\admin\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:\Users\admin\.m2\repository\org\jmockit\jmockit\1.48\jmockit-1.48.jar;C:\Users\admin\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\admin\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\admin\.m2\repository\org\xerial\snappy\snappy-java\1.1.7\snappy-java-1.1.7.jar;
+2020-06-22 14:07:25,275 [myid:] - INFO  [main:Environment@98] - Server environment:java.library.path=D:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.252-2\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\Program Files (x86)\NetSarang\Xshell 6\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.252-2\bin;D:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.252-2\jre\bin;D:\Program Files\Git\cmd;D:\Go\bin;D:\Program Files\nodejs\;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;;D:\Programs\Microsoft VS Code\bin;C:\Users\admin\go\bin;C:\Users\admin\AppData\Roaming\npm;.
+2020-06-22 14:07:25,275 [myid:] - INFO  [main:Environment@98] - Server environment:java.io.tmpdir=C:\Users\admin\AppData\Local\Temp\
+2020-06-22 14:07:25,276 [myid:] - INFO  [main:Environment@98] - Server environment:java.compiler=<NA>
+2020-06-22 14:07:25,276 [myid:] - INFO  [main:Environment@98] - Server environment:os.name=Windows 10
+2020-06-22 14:07:25,276 [myid:] - INFO  [main:Environment@98] - Server environment:os.arch=amd64
+2020-06-22 14:07:25,276 [myid:] - INFO  [main:Environment@98] - Server environment:os.version=10.0
+2020-06-22 14:07:25,276 [myid:] - INFO  [main:Environment@98] - Server environment:user.name=admin
+2020-06-22 14:07:25,277 [myid:] - INFO  [main:Environment@98] - Server environment:user.home=C:\Users\admin
+2020-06-22 14:07:25,277 [myid:] - INFO  [main:Environment@98] - Server environment:user.dir=D:\desktop\git_repo\zookeeper-read\zookeeper-server
+2020-06-22 14:07:25,277 [myid:] - INFO  [main:Environment@98] - Server environment:os.memory.free=96MB
+2020-06-22 14:07:25,277 [myid:] - INFO  [main:Environment@98] - Server environment:os.memory.max=455MB
+2020-06-22 14:07:25,277 [myid:] - INFO  [main:Environment@98] - Server environment:os.memory.total=121MB
+2020-06-22 14:07:25,278 [myid:] - INFO  [main:ZooKeeperServer@128] - zookeeper.enableEagerACLCheck = false
+2020-06-22 14:07:25,278 [myid:] - INFO  [main:ZooKeeperServer@136] - zookeeper.digest.enabled = true
+2020-06-22 14:07:25,278 [myid:] - INFO  [main:ZooKeeperServer@140] - zookeeper.closeSessionTxn.enabled = true
+2020-06-22 14:07:25,278 [myid:] - INFO  [main:ZooKeeperServer@1434] - zookeeper.flushDelay=0
+2020-06-22 14:07:25,279 [myid:] - INFO  [main:ZooKeeperServer@1443] - zookeeper.maxWriteQueuePollTime=0
+2020-06-22 14:07:25,279 [myid:] - INFO  [main:ZooKeeperServer@1452] - zookeeper.maxBatchSize=1000
+2020-06-22 14:07:25,279 [myid:] - INFO  [main:ZooKeeperServer@241] - zookeeper.intBufferStartingSizeBytes = 1024
+2020-06-22 14:07:25,291 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:07:25,291 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:07:25,292 [myid:] - INFO  [main:ZKDatabase@132] - zookeeper.snapshotSizeFactor = 0.33
+2020-06-22 14:07:25,293 [myid:] - INFO  [main:ZKDatabase@152] - zookeeper.commitLogCount=500
+2020-06-22 14:07:25,293 [myid:] - WARN  [main:QuorumPeer@1784] - configFilename is null! This should only happen in tests.
+2020-06-22 14:07:25,297 [myid:] - WARN  [main:ContextHandler@1520] - o.e.j.s.ServletContextHandler@c8e4bb0{/,null,UNAVAILABLE} contextPath ends with /*
+2020-06-22 14:07:25,298 [myid:] - WARN  [main:ContextHandler@1531] - Empty contextPath
+2020-06-22 14:07:25,300 [myid:] - INFO  [main:FastLeaderElection@88] - zookeeper.fastleader.minNotificationInterval=200
+2020-06-22 14:07:25,300 [myid:] - INFO  [main:FastLeaderElection@90] - zookeeper.fastleader.maxNotificationInterval=60000
+2020-06-22 14:07:25,301 [myid:] - INFO  [main:QuorumPeer@2503] - Using 2000ms as the quorum cnxn socket timeout
+2020-06-22 14:07:25,316 [myid:] - INFO  [main:QuorumCnxManager$Listener@923] - Election port bind maximum retries is 3
+2020-06-22 14:07:25,339 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16614 from range 16607 - 19299.
+2020-06-22 14:07:25,340 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16615 from range 16607 - 19299.
+2020-06-22 14:07:25,341 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16616 from range 16607 - 19299.
+2020-06-22 14:07:25,341 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16617 from range 16607 - 19299.
+2020-06-22 14:07:25,341 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16618 from range 16607 - 19299.
+2020-06-22 14:07:25,342 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16619 from range 16607 - 19299.
+2020-06-22 14:07:25,342 [myid:] - INFO  [main:ServerCnxnFactory@169] - Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory
+2020-06-22 14:07:25,342 [myid:] - WARN  [main:ServerCnxnFactory@309] - maxCnxns is not configured, using default value 0.
+2020-06-22 14:07:25,343 [myid:] - INFO  [main:NIOServerCnxnFactory@666] - Configuring NIO connection handler with 10s sessionless connection timeout, 2 selector thread(s), 16 worker threads, and 64 kB direct buffers.
+2020-06-22 14:07:25,344 [myid:] - INFO  [main:NIOServerCnxnFactory@674] - binding to port 0.0.0.0/0.0.0.0:16619
+2020-06-22 14:07:25,346 [myid:] - WARN  [main:ContextHandler@1520] - o.e.j.s.ServletContextHandler@5ea434c8{/,null,UNAVAILABLE} contextPath ends with /*
+2020-06-22 14:07:25,347 [myid:] - WARN  [main:ContextHandler@1531] - Empty contextPath
+2020-06-22 14:07:25,347 [myid:] - INFO  [main:FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2020-06-22 14:07:25,348 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:07:25,348 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:07:25,348 [myid:] - INFO  [main:ZKDatabase@132] - zookeeper.snapshotSizeFactor = 0.33
+2020-06-22 14:07:25,349 [myid:] - INFO  [main:ZKDatabase@152] - zookeeper.commitLogCount=500
+2020-06-22 14:07:25,349 [myid:] - WARN  [main:QuorumPeer@1784] - configFilename is null! This should only happen in tests.
+2020-06-22 14:07:25,349 [myid:] - WARN  [main:ContextHandler@1520] - o.e.j.s.ServletContextHandler@ca263c2{/,null,UNAVAILABLE} contextPath ends with /*
+2020-06-22 14:07:25,350 [myid:] - WARN  [main:ContextHandler@1531] - Empty contextPath
+2020-06-22 14:07:25,350 [myid:] - INFO  [main:QuorumPeer@2503] - Using 2000ms as the quorum cnxn socket timeout
+2020-06-22 14:07:25,350 [myid:] - INFO  [main:QuorumCnxManager$Listener@923] - Election port bind maximum retries is 3
+2020-06-22 14:07:25,352 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16620 from range 16607 - 19299.
+2020-06-22 14:07:25,353 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16621 from range 16607 - 19299.
+2020-06-22 14:07:25,353 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16622 from range 16607 - 19299.
+2020-06-22 14:07:25,354 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16623 from range 16607 - 19299.
+2020-06-22 14:07:25,354 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16624 from range 16607 - 19299.
+2020-06-22 14:07:25,355 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16625 from range 16607 - 19299.
+2020-06-22 14:07:25,355 [myid:] - INFO  [main:ServerCnxnFactory@169] - Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory
+2020-06-22 14:07:25,355 [myid:] - WARN  [main:ServerCnxnFactory@309] - maxCnxns is not configured, using default value 0.
+2020-06-22 14:07:25,356 [myid:] - INFO  [main:NIOServerCnxnFactory@666] - Configuring NIO connection handler with 10s sessionless connection timeout, 2 selector thread(s), 16 worker threads, and 64 kB direct buffers.
+2020-06-22 14:07:25,357 [myid:] - INFO  [main:NIOServerCnxnFactory@674] - binding to port 0.0.0.0/0.0.0.0:16625
+2020-06-22 14:07:25,359 [myid:] - WARN  [main:ContextHandler@1520] - o.e.j.s.ServletContextHandler@341b80b2{/,null,UNAVAILABLE} contextPath ends with /*
+2020-06-22 14:07:25,359 [myid:] - WARN  [main:ContextHandler@1531] - Empty contextPath
+2020-06-22 14:07:25,359 [myid:] - INFO  [main:FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2020-06-22 14:07:25,360 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:07:25,361 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:07:25,361 [myid:] - INFO  [main:ZKDatabase@132] - zookeeper.snapshotSizeFactor = 0.33
+2020-06-22 14:07:25,361 [myid:] - INFO  [main:ZKDatabase@152] - zookeeper.commitLogCount=500
+2020-06-22 14:07:25,361 [myid:] - WARN  [main:QuorumPeer@1784] - configFilename is null! This should only happen in tests.
+2020-06-22 14:07:25,362 [myid:] - WARN  [main:ContextHandler@1520] - o.e.j.s.ServletContextHandler@1b083826{/,null,UNAVAILABLE} contextPath ends with /*
+2020-06-22 14:07:25,362 [myid:] - WARN  [main:ContextHandler@1531] - Empty contextPath
+2020-06-22 14:07:25,362 [myid:] - INFO  [main:QuorumPeer@2503] - Using 2000ms as the quorum cnxn socket timeout
+2020-06-22 14:07:25,363 [myid:] - INFO  [main:QuorumCnxManager$Listener@923] - Election port bind maximum retries is 3
+2020-06-22 14:07:25,365 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16626 from range 16607 - 19299.
+2020-06-22 14:07:25,366 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16627 from range 16607 - 19299.
+2020-06-22 14:07:25,366 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16628 from range 16607 - 19299.
+2020-06-22 14:07:25,367 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16629 from range 16607 - 19299.
+2020-06-22 14:07:25,367 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16630 from range 16607 - 19299.
+2020-06-22 14:07:25,367 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16631 from range 16607 - 19299.
+2020-06-22 14:07:25,368 [myid:] - INFO  [main:ServerCnxnFactory@169] - Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory
+2020-06-22 14:07:25,368 [myid:] - WARN  [main:ServerCnxnFactory@309] - maxCnxns is not configured, using default value 0.
+2020-06-22 14:07:25,368 [myid:] - INFO  [main:NIOServerCnxnFactory@666] - Configuring NIO connection handler with 10s sessionless connection timeout, 2 selector thread(s), 16 worker threads, and 64 kB direct buffers.
+2020-06-22 14:07:25,370 [myid:] - INFO  [main:NIOServerCnxnFactory@674] - binding to port 0.0.0.0/0.0.0.0:16631
+2020-06-22 14:07:25,371 [myid:] - WARN  [main:ContextHandler@1520] - o.e.j.s.ServletContextHandler@1f1c7bf6{/,null,UNAVAILABLE} contextPath ends with /*
+2020-06-22 14:07:25,371 [myid:] - WARN  [main:ContextHandler@1531] - Empty contextPath
+2020-06-22 14:07:25,372 [myid:] - INFO  [main:FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2020-06-22 14:07:25,373 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:07:25,373 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:07:25,373 [myid:] - INFO  [main:ZKDatabase@132] - zookeeper.snapshotSizeFactor = 0.33
+2020-06-22 14:07:25,373 [myid:] - INFO  [main:ZKDatabase@152] - zookeeper.commitLogCount=500
+2020-06-22 14:07:25,374 [myid:] - WARN  [main:QuorumPeer@1784] - configFilename is null! This should only happen in tests.
+2020-06-22 14:07:25,374 [myid:] - WARN  [main:ContextHandler@1520] - o.e.j.s.ServletContextHandler@20d3d15a{/,null,UNAVAILABLE} contextPath ends with /*
+2020-06-22 14:07:25,375 [myid:] - WARN  [main:ContextHandler@1531] - Empty contextPath
+2020-06-22 14:07:25,375 [myid:] - INFO  [main:QuorumPeer@2503] - Using 2000ms as the quorum cnxn socket timeout
+2020-06-22 14:07:25,375 [myid:] - INFO  [main:QuorumCnxManager$Listener@923] - Election port bind maximum retries is 3
+2020-06-22 14:07:25,377 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16632 from range 16607 - 19299.
+2020-06-22 14:07:25,378 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16633 from range 16607 - 19299.
+2020-06-22 14:07:25,379 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16634 from range 16607 - 19299.
+2020-06-22 14:07:25,379 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16635 from range 16607 - 19299.
+2020-06-22 14:07:25,379 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16636 from range 16607 - 19299.
+2020-06-22 14:07:25,380 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 16637 from range 16607 - 19299.
+2020-06-22 14:07:25,380 [myid:] - INFO  [main:ServerCnxnFactory@169] - Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory
+2020-06-22 14:07:25,382 [myid:] - WARN  [main:ServerCnxnFactory@309] - maxCnxns is not configured, using default value 0.
+2020-06-22 14:07:25,383 [myid:] - INFO  [main:NIOServerCnxnFactory@666] - Configuring NIO connection handler with 10s sessionless connection timeout, 2 selector thread(s), 16 worker threads, and 64 kB direct buffers.
+2020-06-22 14:07:25,384 [myid:] - INFO  [main:NIOServerCnxnFactory@674] - binding to port 0.0.0.0/0.0.0.0:16637
+2020-06-22 14:07:25,386 [myid:] - WARN  [main:ContextHandler@1520] - o.e.j.s.ServletContextHandler@212bf671{/,null,UNAVAILABLE} contextPath ends with /*
+2020-06-22 14:07:25,386 [myid:] - WARN  [main:ContextHandler@1531] - Empty contextPath
+2020-06-22 14:07:25,386 [myid:] - INFO  [main:FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2020-06-22 14:07:25,387 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:07:25,388 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:07:25,388 [myid:] - INFO  [main:ZKDatabase@132] - zookeeper.snapshotSizeFactor = 0.33
+2020-06-22 14:07:25,388 [myid:] - INFO  [main:ZKDatabase@152] - zookeeper.commitLogCount=500
+2020-06-22 14:07:25,388 [myid:] - WARN  [main:QuorumPeer@1784] - configFilename is null! This should only happen in tests.
+2020-06-22 14:07:25,389 [myid:] - WARN  [main:ContextHandler@1520] - o.e.j.s.ServletContextHandler@5762806e{/,null,UNAVAILABLE} contextPath ends with /*
+2020-06-22 14:07:25,389 [myid:] - WARN  [main:ContextHandler@1531] - Empty contextPath
+2020-06-22 14:07:25,389 [myid:] - INFO  [main:QuorumPeer@2503] - Using 2000ms as the quorum cnxn socket timeout
+2020-06-22 14:07:25,389 [myid:] - INFO  [main:QuorumCnxManager$Listener@923] - Election port bind maximum retries is 3

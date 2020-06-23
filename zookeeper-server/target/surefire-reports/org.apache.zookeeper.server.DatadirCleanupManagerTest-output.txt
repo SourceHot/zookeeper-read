@@ -1,0 +1,40 @@
+2020-06-22 14:05:43,922 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:05:43,929 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:05:44,018 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testWithZeroPurgeInterval
+2020-06-22 14:05:44,202 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testWithZeroPurgeInterval
+2020-06-22 14:05:44,204 [myid:] - INFO  [main:DatadirCleanupManager@78] - autopurge.snapRetainCount set to 3
+2020-06-22 14:05:44,204 [myid:] - INFO  [main:DatadirCleanupManager@79] - autopurge.purgeInterval set to 0
+2020-06-22 14:05:44,204 [myid:] - INFO  [main:DatadirCleanupManager@101] - Purge task is not scheduled.
+2020-06-22 14:05:44,205 [myid:] - WARN  [main:DatadirCleanupManager@121] - Purge task not started. Ignoring shutdown!
+2020-06-22 14:05:44,211 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 11540
+2020-06-22 14:05:44,211 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:05:44,212 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testWithZeroPurgeInterval
+2020-06-22 14:05:44,212 [myid:] - WARN  [main:DatadirCleanupManager@121] - Purge task not started. Ignoring shutdown!
+2020-06-22 14:05:44,213 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testWithZeroPurgeInterval
+2020-06-22 14:05:44,213 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testWithZeroPurgeInterval
+2020-06-22 14:05:44,214 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testPurgeTask
+2020-06-22 14:05:44,216 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testPurgeTask
+2020-06-22 14:05:44,218 [myid:] - INFO  [main:DatadirCleanupManager@78] - autopurge.snapRetainCount set to 3
+2020-06-22 14:05:44,218 [myid:] - INFO  [main:DatadirCleanupManager@79] - autopurge.purgeInterval set to 1
+2020-06-22 14:05:44,219 [myid:] - INFO  [PurgeTask:DatadirCleanupManager$PurgeTask@139] - Purge task started.
+2020-06-22 14:05:44,219 [myid:] - INFO  [main:DatadirCleanupManager@117] - Shutting down purge task.
+2020-06-22 14:05:44,220 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 11759
+2020-06-22 14:05:44,220 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 8
+2020-06-22 14:05:44,220 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testPurgeTask
+2020-06-22 14:05:44,220 [myid:] - WARN  [main:DatadirCleanupManager@121] - Purge task not started. Ignoring shutdown!
+2020-06-22 14:05:44,220 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testPurgeTask
+2020-06-22 14:05:44,220 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testPurgeTask
+2020-06-22 14:05:44,221 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testWithNegativePurgeInterval
+2020-06-22 14:05:44,222 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testWithNegativePurgeInterval
+2020-06-22 14:05:44,222 [myid:] - INFO  [main:DatadirCleanupManager@78] - autopurge.snapRetainCount set to 3
+2020-06-22 14:05:44,223 [myid:] - INFO  [main:DatadirCleanupManager@79] - autopurge.purgeInterval set to -1
+2020-06-22 14:05:44,223 [myid:] - INFO  [main:DatadirCleanupManager@101] - Purge task is not scheduled.
+2020-06-22 14:05:44,223 [myid:] - WARN  [main:DatadirCleanupManager@121] - Purge task not started. Ignoring shutdown!
+2020-06-22 14:05:44,223 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 11993
+2020-06-22 14:05:44,223 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 8
+2020-06-22 14:05:44,223 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testWithNegativePurgeInterval
+2020-06-22 14:05:44,223 [myid:] - WARN  [main:DatadirCleanupManager@121] - Purge task not started. Ignoring shutdown!
+2020-06-22 14:05:44,224 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testWithNegativePurgeInterval
+2020-06-22 14:05:44,224 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testWithNegativePurgeInterval
+2020-06-22 14:05:44,224 [myid:] - INFO  [PurgeTask:FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2020-06-22 14:05:44,232 [myid:] - INFO  [PurgeTask:DatadirCleanupManager$PurgeTask@145] - Purge task completed.

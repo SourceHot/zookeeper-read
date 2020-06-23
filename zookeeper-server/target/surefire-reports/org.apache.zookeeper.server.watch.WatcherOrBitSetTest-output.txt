@@ -1,0 +1,16 @@
+2020-06-22 14:11:14,274 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:11:14,283 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:11:14,426 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testWatcherSet
+2020-06-22 14:11:14,426 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testWatcherSet
+2020-06-22 14:11:14,464 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 7956
+2020-06-22 14:11:14,464 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:11:14,464 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testWatcherSet
+2020-06-22 14:11:14,465 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testWatcherSet
+2020-06-22 14:11:14,465 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testWatcherSet
+2020-06-22 14:11:14,469 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testBitSet
+2020-06-22 14:11:14,469 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testBitSet
+2020-06-22 14:11:14,470 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 7956
+2020-06-22 14:11:14,471 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:11:14,471 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testBitSet
+2020-06-22 14:11:14,472 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testBitSet
+2020-06-22 14:11:14,472 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testBitSet

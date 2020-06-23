@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.zookeeper.test.SaslKerberosAuthOverSSLTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 4.232 s <<< FAILURE! - in org.apache.zookeeper.test.SaslKerberosAuthOverSSLTest
+testAuth(org.apache.zookeeper.test.SaslKerberosAuthOverSSLTest)  Time elapsed: 2.499 s  <<< ERROR!
+java.io.IOException: 
+Could not configure server because SASL configuration did not allow the  ZooKeeper server to authenticate itself properly: javax.security.auth.login.LoginException: Unable to obtain password from user
+
+	at org.apache.zookeeper.test.SaslKerberosAuthOverSSLTest.setUp(SaslKerberosAuthOverSSLTest.java:88)
+
+testAuth(org.apache.zookeeper.test.SaslKerberosAuthOverSSLTest)  Time elapsed: 2.499 s  <<< ERROR!
+java.lang.NullPointerException
+	at org.apache.zookeeper.test.SaslKerberosAuthOverSSLTest.tearDown(SaslKerberosAuthOverSSLTest.java:97)
+

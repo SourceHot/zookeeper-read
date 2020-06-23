@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.zookeeper.server.quorum.QuorumSSLTest
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 590.152 s <<< FAILURE! - in org.apache.zookeeper.server.quorum.QuorumSSLTest
+testOCSP(org.apache.zookeeper.server.quorum.QuorumSSLTest)  Time elapsed: 45.759 s  <<< FAILURE!
+java.lang.AssertionError
+	at org.apache.zookeeper.server.quorum.QuorumSSLTest.testOCSP(QuorumSSLTest.java:802)
+
+testHostnameVerificationWithInvalidIpAddressAndValidHostname(org.apache.zookeeper.server.quorum.QuorumSSLTest)  Time elapsed: 44.706 s  <<< FAILURE!
+java.lang.AssertionError: expected:<true> but was:<false>
+	at org.apache.zookeeper.server.quorum.QuorumSSLTest.testHostnameVerification(QuorumSSLTest.java:697)
+	at org.apache.zookeeper.server.quorum.QuorumSSLTest.testHostnameVerificationWithInvalidIpAddressAndValidHostname(QuorumSSLTest.java:633)
+
+testCertificateRevocationList(org.apache.zookeeper.server.quorum.QuorumSSLTest)  Time elapsed: 38.815 s  <<< FAILURE!
+java.lang.AssertionError
+	at org.apache.zookeeper.server.quorum.QuorumSSLTest.testCertificateRevocationList(QuorumSSLTest.java:732)
+

@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.zookeeper.server.quorum.CommitProcessorMetricsTest
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 14.179 s <<< FAILURE! - in org.apache.zookeeper.server.quorum.CommitProcessorMetricsTest
+testReadCommitProcTime(org.apache.zookeeper.server.quorum.CommitProcessorMetricsTest)  Time elapsed: 1.065 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: a value equal to or greater than <1000L>
+     but: <999L> was less than <1000L>
+	at org.apache.zookeeper.server.quorum.CommitProcessorMetricsTest.checkTimeMetric(CommitProcessorMetricsTest.java:190)
+	at org.apache.zookeeper.server.quorum.CommitProcessorMetricsTest.testReadCommitProcTime(CommitProcessorMetricsTest.java:353)
+
+testWriteFinalProcTime(org.apache.zookeeper.server.quorum.CommitProcessorMetricsTest)  Time elapsed: 1.054 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: a value equal to or greater than <1000L>
+     but: <999L> was less than <1000L>
+	at org.apache.zookeeper.server.quorum.CommitProcessorMetricsTest.checkTimeMetric(CommitProcessorMetricsTest.java:190)
+	at org.apache.zookeeper.server.quorum.CommitProcessorMetricsTest.testWriteFinalProcTime(CommitProcessorMetricsTest.java:249)
+

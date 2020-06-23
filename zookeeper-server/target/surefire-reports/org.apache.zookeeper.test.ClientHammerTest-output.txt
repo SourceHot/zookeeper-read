@@ -1,0 +1,974 @@
+2020-06-22 14:13:45,743 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:13:45,748 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:13:45,844 [myid:] - INFO  [main:PortAssignment@154] - Test process 1/8 using ports from 11221 - 13913.
+2020-06-22 14:13:45,850 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 11222 from range 11221 - 13913.
+2020-06-22 14:13:45,852 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testHammerBasic
+2020-06-22 14:13:46,211 [myid:] - INFO  [main:JMXEnv@58] - connecting to addr service:jmx:rmi://127.0.0.1/stub/rO0ABXNyAC5qYXZheC5tYW5hZ2VtZW50LnJlbW90ZS5ybWkuUk1JU2VydmVySW1wbF9TdHViAAAAAAAAAAICAAB4cgAaamF2YS5ybWkuc2VydmVyLlJlbW90ZVN0dWLp/tzJi+FlGgIAAHhyABxqYXZhLnJtaS5zZXJ2ZXIuUmVtb3RlT2JqZWN002G0kQxhMx4DAAB4cHc4AAtVbmljYXN0UmVmMgAADTEwLjEwLjEyMi4xNjAAAOPZ8cRhRv7JS8krci7wAAABctqpRUSAAQB4
+2020-06-22 14:13:46,268 [myid:] - INFO  [main:ClientBase@514] - STARTING server
+2020-06-22 14:13:46,268 [myid:] - INFO  [main:ClientBase@423] - CREATING server instance 127.0.0.1:11222
+2020-06-22 14:13:46,293 [myid:] - INFO  [main:ServerCnxnFactory@169] - Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory
+2020-06-22 14:13:46,297 [myid:] - WARN  [main:ServerCnxnFactory@309] - maxCnxns is not configured, using default value 0.
+2020-06-22 14:13:46,301 [myid:] - INFO  [main:NIOServerCnxnFactory@666] - Configuring NIO connection handler with 10s sessionless connection timeout, 2 selector thread(s), 16 worker threads, and 64 kB direct buffers.
+2020-06-22 14:13:46,306 [myid:] - INFO  [main:NIOServerCnxnFactory@674] - binding to port 0.0.0.0/0.0.0.0:11222
+2020-06-22 14:13:46,309 [myid:] - INFO  [main:ClientBase@395] - STARTING server instance 127.0.0.1:11222
+2020-06-22 14:13:46,323 [myid:] - INFO  [main:ZookeeperBanner@42] - 
+2020-06-22 14:13:46,323 [myid:] - INFO  [main:ZookeeperBanner@42] -   ______                  _                                          
+2020-06-22 14:13:46,323 [myid:] - INFO  [main:ZookeeperBanner@42] -  |___  /                 | |                                         
+2020-06-22 14:13:46,325 [myid:] - INFO  [main:ZookeeperBanner@42] -     / /    ___     ___   | | __   ___    ___   _ __     ___   _ __   
+2020-06-22 14:13:46,326 [myid:] - INFO  [main:ZookeeperBanner@42] -    / /    / _ \   / _ \  | |/ /  / _ \  / _ \ | '_ \   / _ \ | '__|
+2020-06-22 14:13:46,326 [myid:] - INFO  [main:ZookeeperBanner@42] -   / /__  | (_) | | (_) | |   <  |  __/ |  __/ | |_) | |  __/ | |    
+2020-06-22 14:13:46,326 [myid:] - INFO  [main:ZookeeperBanner@42] -  /_____|  \___/   \___/  |_|\_\  \___|  \___| | .__/   \___| |_|
+2020-06-22 14:13:46,326 [myid:] - INFO  [main:ZookeeperBanner@42] -                                               | |                     
+2020-06-22 14:13:46,327 [myid:] - INFO  [main:ZookeeperBanner@42] -                                               |_|                     
+2020-06-22 14:13:46,327 [myid:] - INFO  [main:ZookeeperBanner@42] - 
+2020-06-22 14:13:46,336 [myid:] - INFO  [main:Environment@98] - Server environment:zookeeper.version=3.6.1--9de128fcd2cb3170e738547b0603a1ba7049df48, built on 06/22/2020 06:04 GMT
+2020-06-22 14:13:46,336 [myid:] - INFO  [main:Environment@98] - Server environment:host.name=LAPTOP-D7DF36F6
+2020-06-22 14:13:46,336 [myid:] - INFO  [main:Environment@98] - Server environment:java.version=1.8.0_252
+2020-06-22 14:13:46,336 [myid:] - INFO  [main:Environment@98] - Server environment:java.vendor=Oracle Corporation
+2020-06-22 14:13:46,337 [myid:] - INFO  [main:Environment@98] - Server environment:java.home=D:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.252-2\jre
+2020-06-22 14:13:46,337 [myid:] - INFO  [main:Environment@98] - Server environment:java.class.path=D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\test-classes;D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\classes;C:\Users\admin\.m2\repository\com\github\spotbugs\spotbugs-annotations\4.0.2\spotbugs-annotations-4.0.2.jar;C:\Users\admin\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\admin\.m2\repository\org\hamcrest\hamcrest-all\1.3\hamcrest-all-1.3.jar;C:\Users\admin\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\admin\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;D:\desktop\git_repo\zookeeper-read\zookeeper-jute\target\zookeeper-jute-3.6.1.jar;C:\Users\admin\.m2\repository\commons-cli\commons-cli\1.2\commons-cli-1.2.jar;C:\Users\admin\.m2\repository\org\apache\yetus\audience-annotations\0.5.0\audience-annotations-0.5.0.jar;C:\Users\admin\.m2\repository\io\netty\netty-handler\4.1.48.Final\netty-handler-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-common\4.1.48.Final\netty-common-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-resolver\4.1.48.Final\netty-resolver-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-buffer\4.1.48.Final\netty-buffer-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport\4.1.48.Final\netty-transport-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-codec\4.1.48.Final\netty-codec-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport-native-epoll\4.1.48.Final\netty-transport-native-epoll-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.48.Final\netty-transport-native-unix-common-4.1.48.Final.jar;C:\Users\admin\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\admin\.m2\repository\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;C:\Users\admin\.m2\repository\org\eclipse\jetty\jetty-server\9.4.24.v20191120\jetty-server-9.4.24.v20191120.jar;C:\Users\admin\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\admin\.m2\repository\org\eclipse\jetty\jetty-http\9.4.24.v20191120\jetty-http-9.4.24.v20191120.jar;C:\Users\admin\.m2\repository\org\eclipse\jetty\jetty-util\9.4.24.v20191120\jetty-util-9.4.24.v20191120.jar;C:\Users\admin\.m2\repository\org\eclipse\jetty\jetty-io\9.4.24.v20191120\jetty-io-9.4.24.v20191120.jar;C:\Users\admin\.m2\repository\org\eclipse\jetty\jetty-servlet\9.4.24.v20191120\jetty-servlet-9.4.24.v20191120.jar;C:\Users\admin\.m2\repository\org\eclipse\jetty\jetty-security\9.4.24.v20191120\jetty-security-9.4.24.v20191120.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\admin\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\admin\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.60\bcprov-jdk15on-1.60.jar;C:\Users\admin\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.60\bcpkix-jdk15on-1.60.jar;C:\Users\admin\.m2\repository\jline\jline\2.11\jline-2.11.jar;C:\Users\admin\.m2\repository\io\dropwizard\metrics\metrics-core\3.2.5\metrics-core-3.2.5.jar;C:\Users\admin\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-core\2.0.0\kerb-core-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerby-pkix\2.0.0\kerby-pkix-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerby-asn1\2.0.0\kerby-asn1-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerby-util\2.0.0\kerby-util-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-simplekdc\2.0.0\kerb-simplekdc-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-client\2.0.0\kerb-client-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-common\2.0.0\kerb-common-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-crypto\2.0.0\kerb-crypto-2.0.0.jar;C:\Users\admin\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-util\2.0.0\kerb-util-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\token-provider\2.0.0\token-provider-2.0.0.jar;C:\Users\admin\.m2\repository\com\nimbusds\nimbus-jose-jwt\4.41.2\nimbus-jose-jwt-4.41.2.jar;C:\Users\admin\.m2\repository\com\github\stephenc\jcip\jcip-annotations\1.0-1\jcip-annotations-1.0-1.jar;C:\Users\admin\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar;C:\Users\admin\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar;C:\Users\admin\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-admin\2.0.0\kerb-admin-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-server\2.0.0\kerb-server-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-identity\2.0.0\kerb-identity-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerby-xdr\2.0.0\kerby-xdr-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerby-config\2.0.0\kerby-config-2.0.0.jar;C:\Users\admin\.m2\repository\org\mockito\mockito-core\2.27.0\mockito-core-2.27.0.jar;C:\Users\admin\.m2\repository\net\bytebuddy\byte-buddy\1.9.10\byte-buddy-1.9.10.jar;C:\Users\admin\.m2\repository\net\bytebuddy\byte-buddy-agent\1.9.10\byte-buddy-agent-1.9.10.jar;C:\Users\admin\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:\Users\admin\.m2\repository\org\jmockit\jmockit\1.48\jmockit-1.48.jar;C:\Users\admin\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\admin\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\admin\.m2\repository\org\xerial\snappy\snappy-java\1.1.7\snappy-java-1.1.7.jar;
+2020-06-22 14:13:46,338 [myid:] - INFO  [main:Environment@98] - Server environment:java.library.path=D:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.252-2\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\Program Files (x86)\NetSarang\Xshell 6\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.252-2\bin;D:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.252-2\jre\bin;D:\Program Files\Git\cmd;D:\Go\bin;D:\Program Files\nodejs\;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;;D:\Programs\Microsoft VS Code\bin;C:\Users\admin\go\bin;C:\Users\admin\AppData\Roaming\npm;.
+2020-06-22 14:13:46,338 [myid:] - INFO  [main:Environment@98] - Server environment:java.io.tmpdir=C:\Users\admin\AppData\Local\Temp\
+2020-06-22 14:13:46,339 [myid:] - INFO  [main:Environment@98] - Server environment:java.compiler=<NA>
+2020-06-22 14:13:46,339 [myid:] - INFO  [main:Environment@98] - Server environment:os.name=Windows 10
+2020-06-22 14:13:46,339 [myid:] - INFO  [main:Environment@98] - Server environment:os.arch=amd64
+2020-06-22 14:13:46,339 [myid:] - INFO  [main:Environment@98] - Server environment:os.version=10.0
+2020-06-22 14:13:46,340 [myid:] - INFO  [main:Environment@98] - Server environment:user.name=admin
+2020-06-22 14:13:46,340 [myid:] - INFO  [main:Environment@98] - Server environment:user.home=C:\Users\admin
+2020-06-22 14:13:46,340 [myid:] - INFO  [main:Environment@98] - Server environment:user.dir=D:\desktop\git_repo\zookeeper-read\zookeeper-server
+2020-06-22 14:13:46,340 [myid:] - INFO  [main:Environment@98] - Server environment:os.memory.free=112MB
+2020-06-22 14:13:46,341 [myid:] - INFO  [main:Environment@98] - Server environment:os.memory.max=455MB
+2020-06-22 14:13:46,341 [myid:] - INFO  [main:Environment@98] - Server environment:os.memory.total=121MB
+2020-06-22 14:13:46,341 [myid:] - INFO  [main:ZooKeeperServer@128] - zookeeper.enableEagerACLCheck = false
+2020-06-22 14:13:46,342 [myid:] - INFO  [main:ZooKeeperServer@136] - zookeeper.digest.enabled = true
+2020-06-22 14:13:46,342 [myid:] - INFO  [main:ZooKeeperServer@140] - zookeeper.closeSessionTxn.enabled = true
+2020-06-22 14:13:46,342 [myid:] - INFO  [main:ZooKeeperServer@1434] - zookeeper.flushDelay=0
+2020-06-22 14:13:46,342 [myid:] - INFO  [main:ZooKeeperServer@1443] - zookeeper.maxWriteQueuePollTime=0
+2020-06-22 14:13:46,343 [myid:] - INFO  [main:ZooKeeperServer@1452] - zookeeper.maxBatchSize=1000
+2020-06-22 14:13:46,343 [myid:] - INFO  [main:ZooKeeperServer@241] - zookeeper.intBufferStartingSizeBytes = 1024
+2020-06-22 14:13:46,350 [myid:] - INFO  [main:FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2020-06-22 14:13:46,383 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:13:46,383 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:13:46,384 [myid:] - INFO  [main:ZKDatabase@132] - zookeeper.snapshotSizeFactor = 0.33
+2020-06-22 14:13:46,384 [myid:] - INFO  [main:ZKDatabase@152] - zookeeper.commitLogCount=500
+2020-06-22 14:13:46,386 [myid:] - INFO  [main:BlueThrottle@141] - Weighed connection throttling is disabled
+2020-06-22 14:13:46,389 [myid:] - INFO  [main:ZooKeeperServer@1246] - minSessionTimeout set to 6000
+2020-06-22 14:13:46,389 [myid:] - INFO  [main:ZooKeeperServer@1255] - maxSessionTimeout set to 60000
+2020-06-22 14:13:46,391 [myid:] - INFO  [main:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-22 14:13:46,391 [myid:] - INFO  [main:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-22 14:13:46,393 [myid:] - INFO  [main:RequestPathMetricsCollector@111] - zookeeper.pathStats.slotCapacity = 60
+2020-06-22 14:13:46,393 [myid:] - INFO  [main:RequestPathMetricsCollector@112] - zookeeper.pathStats.slotDuration = 15
+2020-06-22 14:13:46,393 [myid:] - INFO  [main:RequestPathMetricsCollector@113] - zookeeper.pathStats.maxDepth = 6
+2020-06-22 14:13:46,394 [myid:] - INFO  [main:RequestPathMetricsCollector@114] - zookeeper.pathStats.initialDelay = 5
+2020-06-22 14:13:46,395 [myid:] - INFO  [main:RequestPathMetricsCollector@115] - zookeeper.pathStats.delay = 5
+2020-06-22 14:13:46,399 [myid:] - INFO  [main:RequestPathMetricsCollector@116] - zookeeper.pathStats.enabled = false
+2020-06-22 14:13:46,414 [myid:] - INFO  [main:ZooKeeperServer@1471] - The max bytes for all large requests are set to 104857600
+2020-06-22 14:13:46,414 [myid:] - INFO  [main:ZooKeeperServer@1485] - The large request threshold is set to -1
+2020-06-22 14:13:46,415 [myid:] - INFO  [main:ZooKeeperServer@329] - Created server with tickTime 3000 minSessionTimeout 6000 maxSessionTimeout 60000 clientPortListenBacklog -1 datadir D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test290622838816039781.junit.dir\version-2 snapdir D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test290622838816039781.junit.dir\version-2
+2020-06-22 14:13:46,474 [myid:] - INFO  [main:FileTxnSnapLog@251] - Initialize file found, an empty database will not block voting participation
+2020-06-22 14:13:46,485 [myid:] - INFO  [main:SnapStream@61] - zookeeper.snapshot.compression.method = CHECKED
+2020-06-22 14:13:46,486 [myid:] - INFO  [main:FileTxnSnapLog@470] - Snapshotting: 0x0 to D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test290622838816039781.junit.dir\version-2\snapshot.0
+2020-06-22 14:13:46,490 [myid:] - INFO  [main:ZKDatabase@289] - Snapshot loaded in 71 ms, highest zxid is 0x0, digest is 1371985504
+2020-06-22 14:13:46,491 [myid:] - INFO  [main:FileTxnSnapLog@470] - Snapshotting: 0x0 to D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test290622838816039781.junit.dir\version-2\snapshot.0
+2020-06-22 14:13:46,491 [myid:] - INFO  [main:ZooKeeperServer@519] - Snapshot taken in 0 ms
+2020-06-22 14:13:46,509 [myid:] - INFO  [main:RequestThrottler@74] - zookeeper.request_throttler.shutdownTimeout = 10000
+2020-06-22 14:13:46,548 [myid:] - INFO  [main:FourLetterWordMain@93] - connecting to 127.0.0.1 11222
+2020-06-22 14:13:46,556 [myid:] - INFO  [NIOWorkerThread-1:FourLetterCommands@223] - The list of known four letter word commands is : [{1936881266=srvr, 1937006964=stat, 2003003491=wchc, 1685417328=dump, 1668445044=crst, 1936880500=srst, 1701738089=envi, 1668247142=conf, -720899=telnet close, 1751217000=hash, 2003003507=wchs, 2003003504=wchp, 1684632179=dirs, 1668247155=cons, 1835955314=mntr, 1769173615=isro, 1920298859=ruok, 1735683435=gtmk, 1937010027=stmk}]
+2020-06-22 14:13:46,557 [myid:] - INFO  [NIOWorkerThread-1:FourLetterCommands@224] - The list of enabled four letter word commands is : [[wchs, stat, wchp, dirs, stmk, conf, ruok, mntr, srvr, wchc, envi, srst, isro, dump, gtmk, telnet close, crst, hash, cons]]
+2020-06-22 14:13:46,557 [myid:] - INFO  [NIOWorkerThread-1:NIOServerCnxn@507] - Processing stat command from /127.0.0.1:58351
+2020-06-22 14:13:46,564 [myid:] - INFO  [NIOWorkerThread-1:StatCommand@52] - Stat command output
+2020-06-22 14:13:46,566 [myid:] - INFO  [main:JMXEnv@219] - ensureParent:[InMemoryDataTree, StandaloneServer_port]
+2020-06-22 14:13:46,571 [myid:] - INFO  [main:JMXEnv@235] - expect:InMemoryDataTree
+2020-06-22 14:13:46,572 [myid:] - INFO  [main:JMXEnv@239] - found:InMemoryDataTree org.apache.ZooKeeperService:name0=StandaloneServer_port11222,name1=InMemoryDataTree
+2020-06-22 14:13:46,573 [myid:] - INFO  [main:JMXEnv@235] - expect:StandaloneServer_port
+2020-06-22 14:13:46,573 [myid:] - INFO  [main:JMXEnv@239] - found:StandaloneServer_port org.apache.ZooKeeperService:name0=StandaloneServer_port11222
+2020-06-22 14:13:46,573 [myid:] - INFO  [main:ClientBase@501] - Client test setup finished
+2020-06-22 14:13:46,574 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testHammerBasic
+2020-06-22 14:13:46,584 [myid:] - INFO  [main:Environment@98] - Client environment:zookeeper.version=3.6.1--9de128fcd2cb3170e738547b0603a1ba7049df48, built on 06/22/2020 06:04 GMT
+2020-06-22 14:13:46,584 [myid:] - INFO  [main:Environment@98] - Client environment:host.name=LAPTOP-D7DF36F6
+2020-06-22 14:13:46,584 [myid:] - INFO  [main:Environment@98] - Client environment:java.version=1.8.0_252
+2020-06-22 14:13:46,584 [myid:] - INFO  [main:Environment@98] - Client environment:java.vendor=Oracle Corporation
+2020-06-22 14:13:46,585 [myid:] - INFO  [main:Environment@98] - Client environment:java.home=D:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.252-2\jre
+2020-06-22 14:13:46,585 [myid:] - INFO  [main:Environment@98] - Client environment:java.class.path=D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\test-classes;D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\classes;C:\Users\admin\.m2\repository\com\github\spotbugs\spotbugs-annotations\4.0.2\spotbugs-annotations-4.0.2.jar;C:\Users\admin\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\admin\.m2\repository\org\hamcrest\hamcrest-all\1.3\hamcrest-all-1.3.jar;C:\Users\admin\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\admin\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;D:\desktop\git_repo\zookeeper-read\zookeeper-jute\target\zookeeper-jute-3.6.1.jar;C:\Users\admin\.m2\repository\commons-cli\commons-cli\1.2\commons-cli-1.2.jar;C:\Users\admin\.m2\repository\org\apache\yetus\audience-annotations\0.5.0\audience-annotations-0.5.0.jar;C:\Users\admin\.m2\repository\io\netty\netty-handler\4.1.48.Final\netty-handler-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-common\4.1.48.Final\netty-common-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-resolver\4.1.48.Final\netty-resolver-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-buffer\4.1.48.Final\netty-buffer-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport\4.1.48.Final\netty-transport-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-codec\4.1.48.Final\netty-codec-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport-native-epoll\4.1.48.Final\netty-transport-native-epoll-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.48.Final\netty-transport-native-unix-common-4.1.48.Final.jar;C:\Users\admin\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\admin\.m2\repository\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;C:\Users\admin\.m2\repository\org\eclipse\jetty\jetty-server\9.4.24.v20191120\jetty-server-9.4.24.v20191120.jar;C:\Users\admin\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\admin\.m2\repository\org\eclipse\jetty\jetty-http\9.4.24.v20191120\jetty-http-9.4.24.v20191120.jar;C:\Users\admin\.m2\repository\org\eclipse\jetty\jetty-util\9.4.24.v20191120\jetty-util-9.4.24.v20191120.jar;C:\Users\admin\.m2\repository\org\eclipse\jetty\jetty-io\9.4.24.v20191120\jetty-io-9.4.24.v20191120.jar;C:\Users\admin\.m2\repository\org\eclipse\jetty\jetty-servlet\9.4.24.v20191120\jetty-servlet-9.4.24.v20191120.jar;C:\Users\admin\.m2\repository\org\eclipse\jetty\jetty-security\9.4.24.v20191120\jetty-security-9.4.24.v20191120.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\admin\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\admin\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.60\bcprov-jdk15on-1.60.jar;C:\Users\admin\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.60\bcpkix-jdk15on-1.60.jar;C:\Users\admin\.m2\repository\jline\jline\2.11\jline-2.11.jar;C:\Users\admin\.m2\repository\io\dropwizard\metrics\metrics-core\3.2.5\metrics-core-3.2.5.jar;C:\Users\admin\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-core\2.0.0\kerb-core-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerby-pkix\2.0.0\kerby-pkix-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerby-asn1\2.0.0\kerby-asn1-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerby-util\2.0.0\kerby-util-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-simplekdc\2.0.0\kerb-simplekdc-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-client\2.0.0\kerb-client-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-common\2.0.0\kerb-common-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-crypto\2.0.0\kerb-crypto-2.0.0.jar;C:\Users\admin\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-util\2.0.0\kerb-util-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\token-provider\2.0.0\token-provider-2.0.0.jar;C:\Users\admin\.m2\repository\com\nimbusds\nimbus-jose-jwt\4.41.2\nimbus-jose-jwt-4.41.2.jar;C:\Users\admin\.m2\repository\com\github\stephenc\jcip\jcip-annotations\1.0-1\jcip-annotations-1.0-1.jar;C:\Users\admin\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar;C:\Users\admin\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar;C:\Users\admin\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-admin\2.0.0\kerb-admin-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-server\2.0.0\kerb-server-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-identity\2.0.0\kerb-identity-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerby-xdr\2.0.0\kerby-xdr-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerby-config\2.0.0\kerby-config-2.0.0.jar;C:\Users\admin\.m2\repository\org\mockito\mockito-core\2.27.0\mockito-core-2.27.0.jar;C:\Users\admin\.m2\repository\net\bytebuddy\byte-buddy\1.9.10\byte-buddy-1.9.10.jar;C:\Users\admin\.m2\repository\net\bytebuddy\byte-buddy-agent\1.9.10\byte-buddy-agent-1.9.10.jar;C:\Users\admin\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:\Users\admin\.m2\repository\org\jmockit\jmockit\1.48\jmockit-1.48.jar;C:\Users\admin\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\admin\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\admin\.m2\repository\org\xerial\snappy\snappy-java\1.1.7\snappy-java-1.1.7.jar;
+2020-06-22 14:13:46,586 [myid:] - INFO  [main:Environment@98] - Client environment:java.library.path=D:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.252-2\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\Program Files (x86)\NetSarang\Xshell 6\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.252-2\bin;D:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.252-2\jre\bin;D:\Program Files\Git\cmd;D:\Go\bin;D:\Program Files\nodejs\;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;;D:\Programs\Microsoft VS Code\bin;C:\Users\admin\go\bin;C:\Users\admin\AppData\Roaming\npm;.
+2020-06-22 14:13:46,586 [myid:] - INFO  [main:Environment@98] - Client environment:java.io.tmpdir=C:\Users\admin\AppData\Local\Temp\
+2020-06-22 14:13:46,587 [myid:] - INFO  [main:Environment@98] - Client environment:java.compiler=<NA>
+2020-06-22 14:13:46,587 [myid:] - INFO  [main:Environment@98] - Client environment:os.name=Windows 10
+2020-06-22 14:13:46,587 [myid:] - INFO  [main:Environment@98] - Client environment:os.arch=amd64
+2020-06-22 14:13:46,587 [myid:] - INFO  [main:Environment@98] - Client environment:os.version=10.0
+2020-06-22 14:13:46,588 [myid:] - INFO  [main:Environment@98] - Client environment:user.name=admin
+2020-06-22 14:13:46,588 [myid:] - INFO  [main:Environment@98] - Client environment:user.home=C:\Users\admin
+2020-06-22 14:13:46,588 [myid:] - INFO  [main:Environment@98] - Client environment:user.dir=D:\desktop\git_repo\zookeeper-read\zookeeper-server
+2020-06-22 14:13:46,588 [myid:] - INFO  [main:Environment@98] - Client environment:os.memory.free=105MB
+2020-06-22 14:13:46,588 [myid:] - INFO  [main:Environment@98] - Client environment:os.memory.max=455MB
+2020-06-22 14:13:46,588 [myid:] - INFO  [main:Environment@98] - Client environment:os.memory.total=121MB
+2020-06-22 14:13:46,592 [myid:] - INFO  [main:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11222 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@2bea5ab4
+2020-06-22 14:13:46,598 [myid:] - INFO  [main:X509Util@77] - Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation
+2020-06-22 14:13:46,604 [myid:] - INFO  [main:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:13:46,614 [myid:] - INFO  [main:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:13:46,624 [myid:127.0.0.1:11222] - INFO  [main-SendThread(127.0.0.1:11222):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11222.
+2020-06-22 14:13:46,624 [myid:127.0.0.1:11222] - INFO  [main-SendThread(127.0.0.1:11222):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:13:46,625 [myid:127.0.0.1:11222] - INFO  [main-SendThread(127.0.0.1:11222):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:58356, server: activate.navicat.com/127.0.0.1:11222
+2020-06-22 14:13:46,635 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.1
+2020-06-22 14:13:46,645 [myid:] - INFO  [SyncThread:0:ZKAuditProvider@42] - ZooKeeper audit is disabled.
+2020-06-22 14:13:46,654 [myid:127.0.0.1:11222] - INFO  [main-SendThread(127.0.0.1:11222):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11222, session id = 0x10015effb0b0000, negotiated timeout = 30000
+2020-06-22 14:13:46,660 [myid:] - INFO  [main:JMXEnv@116] - expect:0x10015effb0b0000
+2020-06-22 14:13:46,661 [myid:] - INFO  [main:JMXEnv@119] - found:0x10015effb0b0000 org.apache.ZooKeeperService:name0=StandaloneServer_port11222,name1=Connections,name2=127.0.0.1,name3=0x10015effb0b0000
+2020-06-22 14:13:46,684 [myid:] - INFO  [main:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11222 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@101df177
+2020-06-22 14:13:46,685 [myid:] - INFO  [main:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:13:46,685 [myid:] - INFO  [main:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:13:46,686 [myid:127.0.0.1:11222] - INFO  [main-SendThread(127.0.0.1:11222):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11222.
+2020-06-22 14:13:46,687 [myid:127.0.0.1:11222] - INFO  [main-SendThread(127.0.0.1:11222):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:13:46,687 [myid:127.0.0.1:11222] - INFO  [main-SendThread(127.0.0.1:11222):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:58360, server: activate.navicat.com/127.0.0.1:11222
+2020-06-22 14:13:46,689 [myid:127.0.0.1:11222] - INFO  [main-SendThread(127.0.0.1:11222):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11222, session id = 0x10015effb0b0001, negotiated timeout = 30000
+2020-06-22 14:13:46,691 [myid:] - INFO  [main:JMXEnv@116] - expect:0x10015effb0b0001
+2020-06-22 14:13:46,691 [myid:] - INFO  [main:JMXEnv@119] - found:0x10015effb0b0001 org.apache.ZooKeeperService:name0=StandaloneServer_port11222,name1=Connections,name2=127.0.0.1,name3=0x10015effb0b0001
+2020-06-22 14:13:46,696 [myid:] - INFO  [main:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11222 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@33b37288
+2020-06-22 14:13:46,697 [myid:] - INFO  [main:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:13:46,698 [myid:] - INFO  [main:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:13:46,699 [myid:127.0.0.1:11222] - INFO  [main-SendThread(127.0.0.1:11222):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11222.
+2020-06-22 14:13:46,699 [myid:127.0.0.1:11222] - INFO  [main-SendThread(127.0.0.1:11222):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:13:46,700 [myid:127.0.0.1:11222] - INFO  [main-SendThread(127.0.0.1:11222):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:58363, server: activate.navicat.com/127.0.0.1:11222
+2020-06-22 14:13:46,703 [myid:127.0.0.1:11222] - INFO  [main-SendThread(127.0.0.1:11222):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11222, session id = 0x10015effb0b0002, negotiated timeout = 30000
+2020-06-22 14:13:46,706 [myid:] - INFO  [main:JMXEnv@116] - expect:0x10015effb0b0002
+2020-06-22 14:13:46,706 [myid:] - INFO  [main:JMXEnv@119] - found:0x10015effb0b0002 org.apache.ZooKeeperService:name0=StandaloneServer_port11222,name1=Connections,name2=127.0.0.1,name3=0x10015effb0b0002
+2020-06-22 14:13:46,709 [myid:] - INFO  [main:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11222 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@4e4aea35
+2020-06-22 14:13:46,711 [myid:] - INFO  [main:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:13:46,712 [myid:] - INFO  [main:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:13:46,714 [myid:127.0.0.1:11222] - INFO  [main-SendThread(127.0.0.1:11222):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11222.
+2020-06-22 14:13:46,714 [myid:127.0.0.1:11222] - INFO  [main-SendThread(127.0.0.1:11222):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:13:46,715 [myid:127.0.0.1:11222] - INFO  [main-SendThread(127.0.0.1:11222):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:58366, server: activate.navicat.com/127.0.0.1:11222
+2020-06-22 14:13:46,720 [myid:127.0.0.1:11222] - INFO  [main-SendThread(127.0.0.1:11222):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11222, session id = 0x10015effb0b0003, negotiated timeout = 30000
+2020-06-22 14:13:46,723 [myid:] - INFO  [main:JMXEnv@116] - expect:0x10015effb0b0003
+2020-06-22 14:13:46,723 [myid:] - INFO  [main:JMXEnv@119] - found:0x10015effb0b0003 org.apache.ZooKeeperService:name0=StandaloneServer_port11222,name1=Connections,name2=127.0.0.1,name3=0x10015effb0b0003
+2020-06-22 14:13:46,725 [myid:] - INFO  [main:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11222 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@517cd4b
+2020-06-22 14:13:46,727 [myid:] - INFO  [main:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:13:46,727 [myid:] - INFO  [main:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:13:46,730 [myid:127.0.0.1:11222] - INFO  [main-SendThread(127.0.0.1:11222):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11222.
+2020-06-22 14:13:46,730 [myid:127.0.0.1:11222] - INFO  [main-SendThread(127.0.0.1:11222):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:13:46,731 [myid:127.0.0.1:11222] - INFO  [main-SendThread(127.0.0.1:11222):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:58369, server: activate.navicat.com/127.0.0.1:11222
+2020-06-22 14:13:46,734 [myid:127.0.0.1:11222] - INFO  [main-SendThread(127.0.0.1:11222):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11222, session id = 0x10015effb0b0004, negotiated timeout = 30000
+2020-06-22 14:13:46,736 [myid:] - INFO  [main:JMXEnv@116] - expect:0x10015effb0b0004
+2020-06-22 14:13:46,737 [myid:] - INFO  [main:JMXEnv@119] - found:0x10015effb0b0004 org.apache.ZooKeeperService:name0=StandaloneServer_port11222,name1=Connections,name2=127.0.0.1,name3=0x10015effb0b0004
+2020-06-22 14:13:46,740 [myid:] - INFO  [main:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11222 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@d6da883
+2020-06-22 14:13:46,741 [myid:] - INFO  [main:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:13:46,742 [myid:] - INFO  [main:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:13:46,744 [myid:127.0.0.1:11222] - INFO  [main-SendThread(127.0.0.1:11222):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11222.
+2020-06-22 14:13:46,745 [myid:127.0.0.1:11222] - INFO  [main-SendThread(127.0.0.1:11222):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:13:46,746 [myid:127.0.0.1:11222] - INFO  [main-SendThread(127.0.0.1:11222):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:58372, server: activate.navicat.com/127.0.0.1:11222
+2020-06-22 14:13:46,750 [myid:127.0.0.1:11222] - INFO  [main-SendThread(127.0.0.1:11222):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11222, session id = 0x10015effb0b0005, negotiated timeout = 30000
+2020-06-22 14:13:46,752 [myid:] - INFO  [main:JMXEnv@116] - expect:0x10015effb0b0005
+2020-06-22 14:13:46,752 [myid:] - INFO  [main:JMXEnv@119] - found:0x10015effb0b0005 org.apache.ZooKeeperService:name0=StandaloneServer_port11222,name1=Connections,name2=127.0.0.1,name3=0x10015effb0b0005
+2020-06-22 14:13:46,755 [myid:] - INFO  [main:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11222 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@12028586
+2020-06-22 14:13:46,756 [myid:] - INFO  [main:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:13:46,757 [myid:] - INFO  [main:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:13:46,758 [myid:127.0.0.1:11222] - INFO  [main-SendThread(127.0.0.1:11222):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11222.
+2020-06-22 14:13:46,758 [myid:127.0.0.1:11222] - INFO  [main-SendThread(127.0.0.1:11222):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:13:46,759 [myid:127.0.0.1:11222] - INFO  [main-SendThread(127.0.0.1:11222):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:58375, server: activate.navicat.com/127.0.0.1:11222
+2020-06-22 14:13:46,762 [myid:127.0.0.1:11222] - INFO  [main-SendThread(127.0.0.1:11222):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11222, session id = 0x10015effb0b0006, negotiated timeout = 30000
+2020-06-22 14:13:46,765 [myid:] - INFO  [main:JMXEnv@116] - expect:0x10015effb0b0006
+2020-06-22 14:13:46,765 [myid:] - INFO  [main:JMXEnv@119] - found:0x10015effb0b0006 org.apache.ZooKeeperService:name0=StandaloneServer_port11222,name1=Connections,name2=127.0.0.1,name3=0x10015effb0b0006
+2020-06-22 14:13:46,768 [myid:] - INFO  [main:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11222 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@11c20519
+2020-06-22 14:13:46,770 [myid:] - INFO  [main:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:13:46,770 [myid:] - INFO  [main:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:13:46,772 [myid:127.0.0.1:11222] - INFO  [main-SendThread(127.0.0.1:11222):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11222.
+2020-06-22 14:13:46,772 [myid:127.0.0.1:11222] - INFO  [main-SendThread(127.0.0.1:11222):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:13:46,773 [myid:127.0.0.1:11222] - INFO  [main-SendThread(127.0.0.1:11222):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:58378, server: activate.navicat.com/127.0.0.1:11222
+2020-06-22 14:13:46,779 [myid:127.0.0.1:11222] - INFO  [main-SendThread(127.0.0.1:11222):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11222, session id = 0x10015effb0b0007, negotiated timeout = 30000
+2020-06-22 14:13:46,782 [myid:] - INFO  [main:JMXEnv@116] - expect:0x10015effb0b0007
+2020-06-22 14:13:46,782 [myid:] - INFO  [main:JMXEnv@119] - found:0x10015effb0b0007 org.apache.ZooKeeperService:name0=StandaloneServer_port11222,name1=Connections,name2=127.0.0.1,name3=0x10015effb0b0007
+2020-06-22 14:13:46,786 [myid:] - INFO  [main:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11222 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@365c30cc
+2020-06-22 14:13:46,788 [myid:] - INFO  [main:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:13:46,788 [myid:] - INFO  [main:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:13:46,792 [myid:127.0.0.1:11222] - INFO  [main-SendThread(127.0.0.1:11222):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11222.
+2020-06-22 14:13:46,792 [myid:127.0.0.1:11222] - INFO  [main-SendThread(127.0.0.1:11222):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:13:46,793 [myid:127.0.0.1:11222] - INFO  [main-SendThread(127.0.0.1:11222):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:58381, server: activate.navicat.com/127.0.0.1:11222
+2020-06-22 14:13:46,798 [myid:127.0.0.1:11222] - INFO  [main-SendThread(127.0.0.1:11222):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11222, session id = 0x10015effb0b0008, negotiated timeout = 30000
+2020-06-22 14:13:46,801 [myid:] - INFO  [main:JMXEnv@116] - expect:0x10015effb0b0008
+2020-06-22 14:13:46,802 [myid:] - INFO  [main:JMXEnv@119] - found:0x10015effb0b0008 org.apache.ZooKeeperService:name0=StandaloneServer_port11222,name1=Connections,name2=127.0.0.1,name3=0x10015effb0b0008
+2020-06-22 14:13:46,805 [myid:] - INFO  [main:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11222 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@71a794e5
+2020-06-22 14:13:46,807 [myid:] - INFO  [main:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:13:46,807 [myid:] - INFO  [main:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:13:46,809 [myid:127.0.0.1:11222] - INFO  [main-SendThread(127.0.0.1:11222):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11222.
+2020-06-22 14:13:46,809 [myid:127.0.0.1:11222] - INFO  [main-SendThread(127.0.0.1:11222):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:13:46,810 [myid:127.0.0.1:11222] - INFO  [main-SendThread(127.0.0.1:11222):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:58384, server: activate.navicat.com/127.0.0.1:11222
+2020-06-22 14:13:46,816 [myid:127.0.0.1:11222] - INFO  [main-SendThread(127.0.0.1:11222):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11222, session id = 0x10015effb0b0009, negotiated timeout = 30000
+2020-06-22 14:13:46,819 [myid:] - INFO  [main:JMXEnv@116] - expect:0x10015effb0b0009
+2020-06-22 14:13:46,819 [myid:] - INFO  [main:JMXEnv@119] - found:0x10015effb0b0009 org.apache.ZooKeeperService:name0=StandaloneServer_port11222,name1=Connections,name2=127.0.0.1,name3=0x10015effb0b0009
+2020-06-22 14:13:46,822 [myid:] - INFO  [main:ClientHammerTest@188] - Starting check for completed hammers
+2020-06-22 14:13:54,483 [myid:] - INFO  [BasicHammerThread-0:ZooKeeper@1618] - Session: 0x10015effb0b0000 closed
+2020-06-22 14:13:54,483 [myid:] - INFO  [main-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015effb0b0000
+2020-06-22 14:13:54,524 [myid:127.0.0.1:11222] - WARN  [main-SendThread(127.0.0.1:11222):ClientCnxn$SendThread@1266] - An exception was thrown while closing send thread for session 0x10015effb0b0003.
+EndOfStreamException: Unable to read additional data from server sessionid 0x10015effb0b0003, likely server has closed socket
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doIO(ClientCnxnSocketNIO.java:75)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:348)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1262)
+2020-06-22 14:13:54,530 [myid:127.0.0.1:11222] - WARN  [main-SendThread(127.0.0.1:11222):ClientCnxn$SendThread@1266] - An exception was thrown while closing send thread for session 0x10015effb0b0004.
+EndOfStreamException: Unable to read additional data from server sessionid 0x10015effb0b0004, likely server has closed socket
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doIO(ClientCnxnSocketNIO.java:75)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:348)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1262)
+2020-06-22 14:13:54,629 [myid:] - INFO  [main-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015effb0b0003
+2020-06-22 14:13:54,629 [myid:] - INFO  [BasicHammerThread-3:ZooKeeper@1618] - Session: 0x10015effb0b0003 closed
+2020-06-22 14:13:54,630 [myid:] - INFO  [BasicHammerThread-4:ZooKeeper@1618] - Session: 0x10015effb0b0004 closed
+2020-06-22 14:13:54,630 [myid:] - INFO  [main-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015effb0b0004
+2020-06-22 14:13:54,735 [myid:] - INFO  [main-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015effb0b0001
+2020-06-22 14:13:54,735 [myid:] - INFO  [BasicHammerThread-1:ZooKeeper@1618] - Session: 0x10015effb0b0001 closed
+2020-06-22 14:13:54,836 [myid:] - INFO  [BasicHammerThread-6:ZooKeeper@1618] - Session: 0x10015effb0b0006 closed
+2020-06-22 14:13:54,836 [myid:] - INFO  [main-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015effb0b0006
+2020-06-22 14:13:54,936 [myid:] - INFO  [BasicHammerThread-5:ZooKeeper@1618] - Session: 0x10015effb0b0005 closed
+2020-06-22 14:13:54,936 [myid:] - INFO  [main-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015effb0b0005
+2020-06-22 14:13:55,037 [myid:] - INFO  [main-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015effb0b0008
+2020-06-22 14:13:55,037 [myid:] - INFO  [BasicHammerThread-8:ZooKeeper@1618] - Session: 0x10015effb0b0008 closed
+2020-06-22 14:13:55,138 [myid:] - INFO  [BasicHammerThread-2:ZooKeeper@1618] - Session: 0x10015effb0b0002 closed
+2020-06-22 14:13:55,138 [myid:] - INFO  [main-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015effb0b0002
+2020-06-22 14:13:55,239 [myid:] - INFO  [BasicHammerThread-7:ZooKeeper@1618] - Session: 0x10015effb0b0007 closed
+2020-06-22 14:13:55,239 [myid:] - INFO  [main-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015effb0b0007
+2020-06-22 14:13:55,339 [myid:] - INFO  [BasicHammerThread-9:ZooKeeper@1618] - Session: 0x10015effb0b0009 closed
+2020-06-22 14:13:55,339 [myid:] - INFO  [main-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015effb0b0009
+2020-06-22 14:13:56,822 [myid:] - INFO  [main:ClientHammerTest@207] - Hammer threads completed creation operations
+2020-06-22 14:13:56,825 [myid:] - INFO  [main:ClientHammerTest@217] - Mon Jun 22 14:13:56 CST 2020 Total time 10248
+2020-06-22 14:13:56,826 [myid:] - INFO  [main:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11222 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@11e21d0e
+2020-06-22 14:13:56,826 [myid:] - INFO  [main:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:13:56,827 [myid:] - INFO  [main:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:13:56,828 [myid:127.0.0.1:11222] - INFO  [main-SendThread(127.0.0.1:11222):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11222.
+2020-06-22 14:13:56,828 [myid:127.0.0.1:11222] - INFO  [main-SendThread(127.0.0.1:11222):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:13:56,828 [myid:127.0.0.1:11222] - INFO  [main-SendThread(127.0.0.1:11222):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:58711, server: activate.navicat.com/127.0.0.1:11222
+2020-06-22 14:13:56,831 [myid:127.0.0.1:11222] - INFO  [main-SendThread(127.0.0.1:11222):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11222, session id = 0x10015effb0b000a, negotiated timeout = 30000
+2020-06-22 14:13:56,831 [myid:] - INFO  [main:JMXEnv@116] - expect:0x10015effb0b000a
+2020-06-22 14:13:56,832 [myid:] - INFO  [main:JMXEnv@119] - found:0x10015effb0b000a org.apache.ZooKeeperService:name0=StandaloneServer_port11222,name1=Connections,name2=127.0.0.1,name3=0x10015effb0b000a
+2020-06-22 14:13:56,832 [myid:] - INFO  [main:ClientHammerTest@221] - ******************* Connected to ZooKeeperMon Jun 22 14:13:56 CST 2020
+2020-06-22 14:13:56,832 [myid:] - INFO  [main:ClientHammerTest@223] - Doing thread: 0 Mon Jun 22 14:13:56 CST 2020
+2020-06-22 14:13:56,837 [myid:] - INFO  [main:ClientHammerTest@223] - Doing thread: 1 Mon Jun 22 14:13:56 CST 2020
+2020-06-22 14:13:56,839 [myid:] - INFO  [main:ClientHammerTest@223] - Doing thread: 2 Mon Jun 22 14:13:56 CST 2020
+2020-06-22 14:13:56,840 [myid:] - INFO  [main:ClientHammerTest@223] - Doing thread: 3 Mon Jun 22 14:13:56 CST 2020
+2020-06-22 14:13:56,841 [myid:] - INFO  [main:ClientHammerTest@223] - Doing thread: 4 Mon Jun 22 14:13:56 CST 2020
+2020-06-22 14:13:56,843 [myid:] - INFO  [main:ClientHammerTest@223] - Doing thread: 5 Mon Jun 22 14:13:56 CST 2020
+2020-06-22 14:13:56,845 [myid:] - INFO  [main:ClientHammerTest@223] - Doing thread: 6 Mon Jun 22 14:13:56 CST 2020
+2020-06-22 14:13:56,847 [myid:] - INFO  [main:ClientHammerTest@223] - Doing thread: 7 Mon Jun 22 14:13:56 CST 2020
+2020-06-22 14:13:56,849 [myid:] - INFO  [main:ClientHammerTest@223] - Doing thread: 8 Mon Jun 22 14:13:56 CST 2020
+2020-06-22 14:13:56,850 [myid:] - INFO  [main:ClientHammerTest@223] - Doing thread: 9 Mon Jun 22 14:13:56 CST 2020
+2020-06-22 14:13:56,973 [myid:] - INFO  [main:ZooKeeper@1618] - Session: 0x10015effb0b000a closed
+2020-06-22 14:13:56,973 [myid:] - INFO  [main-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015effb0b000a
+2020-06-22 14:13:56,977 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 14398
+2020-06-22 14:13:56,977 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 39
+2020-06-22 14:13:56,977 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testHammerBasic
+2020-06-22 14:13:56,977 [myid:] - INFO  [main:ClientBase@583] - tearDown starting
+2020-06-22 14:13:56,977 [myid:] - INFO  [main:ClientBase@557] - STOPPING server
+2020-06-22 14:13:56,977 [myid:] - INFO  [ConnnectionExpirer:NIOServerCnxnFactory$ConnectionExpirerThread@578] - ConnnectionExpirerThread interrupted
+2020-06-22 14:13:56,978 [myid:] - INFO  [NIOServerCxnFactory.SelectorThread-0:NIOServerCnxnFactory$SelectorThread@411] - selector thread exitted run method
+2020-06-22 14:13:56,978 [myid:] - INFO  [NIOServerCxnFactory.SelectorThread-1:NIOServerCnxnFactory$SelectorThread@411] - selector thread exitted run method
+2020-06-22 14:13:56,978 [myid:] - INFO  [NIOServerCxnFactory.AcceptThread:0.0.0.0/0.0.0.0:11222:NIOServerCnxnFactory$AcceptThread@209] - accept thread exitted run method
+2020-06-22 14:13:56,979 [myid:] - INFO  [main:ZooKeeperServer@784] - shutting down
+2020-06-22 14:13:56,979 [myid:] - INFO  [main:RequestThrottler@244] - Shutting down
+2020-06-22 14:13:56,979 [myid:] - INFO  [RequestThrottler:RequestThrottler@205] - Draining request throttler queue
+2020-06-22 14:13:56,979 [myid:] - INFO  [RequestThrottler:RequestThrottler@181] - RequestThrottler shutdown. Dropped 0 requests
+2020-06-22 14:13:56,980 [myid:] - INFO  [main:SessionTrackerImpl@247] - Shutting down
+2020-06-22 14:13:56,980 [myid:] - INFO  [main:PrepRequestProcessor@1047] - Shutting down
+2020-06-22 14:13:56,980 [myid:] - INFO  [main:SyncRequestProcessor@256] - Shutting down
+2020-06-22 14:13:56,980 [myid:] - INFO  [ProcessThread(sid:0 cport:11222)::PrepRequestProcessor@159] - PrepRequestProcessor exited loop!
+2020-06-22 14:13:56,980 [myid:] - INFO  [SyncThread:0:SyncRequestProcessor@225] - SyncRequestProcessor exited!
+2020-06-22 14:13:56,980 [myid:] - INFO  [main:FinalRequestProcessor@662] - shutdown of request processor complete
+2020-06-22 14:13:57,014 [myid:] - INFO  [main:FourLetterWordMain@93] - connecting to 127.0.0.1 11222
+2020-06-22 14:13:58,590 [myid:] - INFO  [SessionTracker:SessionTrackerImpl@170] - SessionTrackerImpl exited loop!
+2020-06-22 14:13:59,018 [myid:] - INFO  [main:JMXEnv@142] - ensureOnly:[]
+2020-06-22 14:13:59,024 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testHammerBasic
+2020-06-22 14:13:59,024 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testHammerBasic
+2020-06-22 14:13:59,025 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 11223 from range 11221 - 13913.
+2020-06-22 14:13:59,026 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testHammerSuper
+2020-06-22 14:13:59,027 [myid:] - INFO  [main:JMXEnv@58] - connecting to addr service:jmx:rmi://127.0.0.1/stub/rO0ABXNyAC5qYXZheC5tYW5hZ2VtZW50LnJlbW90ZS5ybWkuUk1JU2VydmVySW1wbF9TdHViAAAAAAAAAAICAAB4cgAaamF2YS5ybWkuc2VydmVyLlJlbW90ZVN0dWLp/tzJi+FlGgIAAHhyABxqYXZhLnJtaS5zZXJ2ZXIuUmVtb3RlT2JqZWN002G0kQxhMx4DAAB4cHc4AAtVbmljYXN0UmVmMgAADTEwLjEwLjEyMi4xNjAAAOPZB1huYhmzrp0rci7wAAABctqpRUSAFwB4
+2020-06-22 14:13:59,033 [myid:] - INFO  [main:ClientBase@514] - STARTING server
+2020-06-22 14:13:59,033 [myid:] - INFO  [main:ClientBase@423] - CREATING server instance 127.0.0.1:11223
+2020-06-22 14:13:59,034 [myid:] - INFO  [main:ServerCnxnFactory@169] - Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory
+2020-06-22 14:13:59,034 [myid:] - WARN  [main:ServerCnxnFactory@309] - maxCnxns is not configured, using default value 0.
+2020-06-22 14:13:59,034 [myid:] - INFO  [main:NIOServerCnxnFactory@666] - Configuring NIO connection handler with 10s sessionless connection timeout, 2 selector thread(s), 16 worker threads, and 64 kB direct buffers.
+2020-06-22 14:13:59,036 [myid:] - INFO  [main:NIOServerCnxnFactory@674] - binding to port 0.0.0.0/0.0.0.0:11223
+2020-06-22 14:13:59,037 [myid:] - INFO  [main:ClientBase@395] - STARTING server instance 127.0.0.1:11223
+2020-06-22 14:13:59,037 [myid:] - INFO  [main:FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2020-06-22 14:13:59,039 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:13:59,039 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:13:59,039 [myid:] - INFO  [main:ZKDatabase@132] - zookeeper.snapshotSizeFactor = 0.33
+2020-06-22 14:13:59,039 [myid:] - INFO  [main:ZKDatabase@152] - zookeeper.commitLogCount=500
+2020-06-22 14:13:59,040 [myid:] - INFO  [main:ZooKeeperServer@1246] - minSessionTimeout set to 6000
+2020-06-22 14:13:59,040 [myid:] - INFO  [main:ZooKeeperServer@1255] - maxSessionTimeout set to 60000
+2020-06-22 14:13:59,040 [myid:] - INFO  [main:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-22 14:13:59,040 [myid:] - INFO  [main:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-22 14:13:59,040 [myid:] - INFO  [main:RequestPathMetricsCollector@111] - zookeeper.pathStats.slotCapacity = 60
+2020-06-22 14:13:59,040 [myid:] - INFO  [main:RequestPathMetricsCollector@112] - zookeeper.pathStats.slotDuration = 15
+2020-06-22 14:13:59,041 [myid:] - INFO  [main:RequestPathMetricsCollector@113] - zookeeper.pathStats.maxDepth = 6
+2020-06-22 14:13:59,041 [myid:] - INFO  [main:RequestPathMetricsCollector@114] - zookeeper.pathStats.initialDelay = 5
+2020-06-22 14:13:59,041 [myid:] - INFO  [main:RequestPathMetricsCollector@115] - zookeeper.pathStats.delay = 5
+2020-06-22 14:13:59,041 [myid:] - INFO  [main:RequestPathMetricsCollector@116] - zookeeper.pathStats.enabled = false
+2020-06-22 14:13:59,041 [myid:] - INFO  [main:ZooKeeperServer@1471] - The max bytes for all large requests are set to 104857600
+2020-06-22 14:13:59,041 [myid:] - INFO  [main:ZooKeeperServer@1485] - The large request threshold is set to -1
+2020-06-22 14:13:59,042 [myid:] - INFO  [main:ZooKeeperServer@329] - Created server with tickTime 3000 minSessionTimeout 6000 maxSessionTimeout 60000 clientPortListenBacklog -1 datadir D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test2130055176335605320.junit.dir\version-2 snapdir D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test2130055176335605320.junit.dir\version-2
+2020-06-22 14:13:59,042 [myid:] - INFO  [main:FileTxnSnapLog@251] - Initialize file found, an empty database will not block voting participation
+2020-06-22 14:13:59,043 [myid:] - INFO  [main:FileTxnSnapLog@470] - Snapshotting: 0x0 to D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test2130055176335605320.junit.dir\version-2\snapshot.0
+2020-06-22 14:13:59,046 [myid:] - INFO  [main:ZKDatabase@289] - Snapshot loaded in 3 ms, highest zxid is 0x0, digest is 1371985504
+2020-06-22 14:13:59,046 [myid:] - INFO  [main:FileTxnSnapLog@470] - Snapshotting: 0x0 to D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test2130055176335605320.junit.dir\version-2\snapshot.0
+2020-06-22 14:13:59,047 [myid:] - INFO  [main:ZooKeeperServer@519] - Snapshot taken in 0 ms
+2020-06-22 14:13:59,048 [myid:] - INFO  [main:FourLetterWordMain@93] - connecting to 127.0.0.1 11223
+2020-06-22 14:13:59,050 [myid:] - INFO  [NIOWorkerThread-1:NIOServerCnxn@507] - Processing stat command from /127.0.0.1:58778
+2020-06-22 14:13:59,050 [myid:] - INFO  [NIOWorkerThread-1:StatCommand@52] - Stat command output
+2020-06-22 14:13:59,051 [myid:] - INFO  [main:JMXEnv@219] - ensureParent:[InMemoryDataTree, StandaloneServer_port]
+2020-06-22 14:13:59,053 [myid:] - INFO  [main:JMXEnv@235] - expect:InMemoryDataTree
+2020-06-22 14:13:59,053 [myid:] - INFO  [main:JMXEnv@239] - found:InMemoryDataTree org.apache.ZooKeeperService:name0=StandaloneServer_port11223,name1=InMemoryDataTree
+2020-06-22 14:13:59,053 [myid:] - INFO  [main:JMXEnv@235] - expect:StandaloneServer_port
+2020-06-22 14:13:59,054 [myid:] - INFO  [main:JMXEnv@239] - found:StandaloneServer_port org.apache.ZooKeeperService:name0=StandaloneServer_port11223
+2020-06-22 14:13:59,054 [myid:] - INFO  [main:ClientBase@501] - Client test setup finished
+2020-06-22 14:13:59,054 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testHammerSuper
+2020-06-22 14:13:59,054 [myid:] - INFO  [main:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11223 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@7364985f
+2020-06-22 14:13:59,055 [myid:] - INFO  [main:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:13:59,055 [myid:] - INFO  [main:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:13:59,057 [myid:127.0.0.1:11223] - INFO  [main-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11223.
+2020-06-22 14:13:59,057 [myid:127.0.0.1:11223] - INFO  [main-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:13:59,058 [myid:127.0.0.1:11223] - INFO  [main-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:58781, server: activate.navicat.com/127.0.0.1:11223
+2020-06-22 14:13:59,060 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.1
+2020-06-22 14:13:59,063 [myid:127.0.0.1:11223] - INFO  [main-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11223, session id = 0x10015f02c140000, negotiated timeout = 30000
+2020-06-22 14:13:59,065 [myid:] - INFO  [main:JMXEnv@116] - expect:0x10015f02c140000
+2020-06-22 14:13:59,065 [myid:] - INFO  [main:JMXEnv@119] - found:0x10015f02c140000 org.apache.ZooKeeperService:name0=StandaloneServer_port11223,name1=Connections,name2=127.0.0.1,name3=0x10015f02c140000
+2020-06-22 14:13:59,172 [myid:] - INFO  [main:ZooKeeper@1618] - Session: 0x10015f02c140000 closed
+2020-06-22 14:13:59,172 [myid:] - INFO  [main-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015f02c140000
+2020-06-22 14:13:59,173 [myid:] - INFO  [main:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11223 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@7ff2a664
+2020-06-22 14:13:59,173 [myid:] - INFO  [SuperHammerThread-0:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11223 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@4e32f54
+2020-06-22 14:13:59,174 [myid:] - INFO  [main:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:13:59,174 [myid:] - INFO  [SuperHammerThread-0:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:13:59,174 [myid:] - INFO  [main:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:13:59,174 [myid:] - INFO  [SuperHammerThread-0:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:13:59,176 [myid:127.0.0.1:11223] - INFO  [main-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11223.
+2020-06-22 14:13:59,176 [myid:127.0.0.1:11223] - INFO  [main-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:13:59,176 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11223.
+2020-06-22 14:13:59,176 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:13:59,176 [myid:127.0.0.1:11223] - INFO  [main-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:58786, server: activate.navicat.com/127.0.0.1:11223
+2020-06-22 14:13:59,178 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:58787, server: activate.navicat.com/127.0.0.1:11223
+2020-06-22 14:13:59,181 [myid:127.0.0.1:11223] - INFO  [main-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11223, session id = 0x10015f02c140001, negotiated timeout = 30000
+2020-06-22 14:13:59,182 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11223, session id = 0x10015f02c140002, negotiated timeout = 30000
+2020-06-22 14:13:59,185 [myid:] - INFO  [main:JMXEnv@116] - expect:0x10015f02c140001
+2020-06-22 14:13:59,185 [myid:] - INFO  [main:JMXEnv@119] - found:0x10015f02c140001 org.apache.ZooKeeperService:name0=StandaloneServer_port11223,name1=Connections,name2=127.0.0.1,name3=0x10015f02c140001
+2020-06-22 14:13:59,188 [myid:] - INFO  [SuperHammerThread-0:JMXEnv@116] - expect:0x10015f02c140002
+2020-06-22 14:13:59,189 [myid:] - INFO  [SuperHammerThread-0:JMXEnv@119] - found:0x10015f02c140002 org.apache.ZooKeeperService:name0=StandaloneServer_port11223,name1=Connections,name2=127.0.0.1,name3=0x10015f02c140002
+2020-06-22 14:13:59,295 [myid:] - INFO  [main:ZooKeeper@1618] - Session: 0x10015f02c140001 closed
+2020-06-22 14:13:59,295 [myid:] - INFO  [main-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015f02c140001
+2020-06-22 14:13:59,297 [myid:] - INFO  [SuperHammerThread-1:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11223 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@75871e49
+2020-06-22 14:13:59,297 [myid:] - INFO  [main:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11223 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@3f200884
+2020-06-22 14:13:59,299 [myid:] - INFO  [SuperHammerThread-1:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:13:59,299 [myid:] - INFO  [SuperHammerThread-1:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:13:59,300 [myid:] - INFO  [main:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:13:59,300 [myid:] - INFO  [main:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:13:59,306 [myid:127.0.0.1:11223] - INFO  [main-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11223.
+2020-06-22 14:13:59,306 [myid:127.0.0.1:11223] - INFO  [main-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:13:59,306 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11223.
+2020-06-22 14:13:59,307 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:13:59,307 [myid:127.0.0.1:11223] - INFO  [main-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:58793, server: activate.navicat.com/127.0.0.1:11223
+2020-06-22 14:13:59,307 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:58794, server: activate.navicat.com/127.0.0.1:11223
+2020-06-22 14:13:59,309 [myid:127.0.0.1:11223] - INFO  [main-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11223, session id = 0x10015f02c140003, negotiated timeout = 30000
+2020-06-22 14:13:59,310 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11223, session id = 0x10015f02c140004, negotiated timeout = 30000
+2020-06-22 14:13:59,311 [myid:] - INFO  [main:JMXEnv@116] - expect:0x10015f02c140003
+2020-06-22 14:13:59,312 [myid:] - INFO  [main:JMXEnv@119] - found:0x10015f02c140003 org.apache.ZooKeeperService:name0=StandaloneServer_port11223,name1=Connections,name2=127.0.0.1,name3=0x10015f02c140003
+2020-06-22 14:13:59,314 [myid:] - INFO  [SuperHammerThread-1:JMXEnv@116] - expect:0x10015f02c140004
+2020-06-22 14:13:59,314 [myid:] - INFO  [SuperHammerThread-1:JMXEnv@119] - found:0x10015f02c140004 org.apache.ZooKeeperService:name0=StandaloneServer_port11223,name1=Connections,name2=127.0.0.1,name3=0x10015f02c140004
+2020-06-22 14:13:59,396 [myid:] - INFO  [SuperHammerThread-0:ZooKeeper@1618] - Session: 0x10015f02c140002 closed
+2020-06-22 14:13:59,396 [myid:] - INFO  [SuperHammerThread-0-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015f02c140002
+2020-06-22 14:13:59,396 [myid:] - INFO  [SuperHammerThread-0:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11223 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@11307034
+2020-06-22 14:13:59,398 [myid:] - INFO  [SuperHammerThread-0:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:13:59,398 [myid:] - INFO  [SuperHammerThread-0:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:13:59,400 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11223.
+2020-06-22 14:13:59,401 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:13:59,401 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:58797, server: activate.navicat.com/127.0.0.1:11223
+2020-06-22 14:13:59,403 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11223, session id = 0x10015f02c140005, negotiated timeout = 30000
+2020-06-22 14:13:59,404 [myid:] - INFO  [SuperHammerThread-0:JMXEnv@116] - expect:0x10015f02c140005
+2020-06-22 14:13:59,405 [myid:] - INFO  [SuperHammerThread-0:JMXEnv@119] - found:0x10015f02c140005 org.apache.ZooKeeperService:name0=StandaloneServer_port11223,name1=Connections,name2=127.0.0.1,name3=0x10015f02c140005
+2020-06-22 14:13:59,496 [myid:] - INFO  [SuperHammerThread-1:ZooKeeper@1618] - Session: 0x10015f02c140004 closed
+2020-06-22 14:13:59,496 [myid:] - INFO  [SuperHammerThread-1-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015f02c140004
+2020-06-22 14:13:59,497 [myid:] - INFO  [SuperHammerThread-1:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11223 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@30e870d6
+2020-06-22 14:13:59,499 [myid:] - INFO  [SuperHammerThread-1:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:13:59,500 [myid:] - INFO  [SuperHammerThread-1:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:13:59,505 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11223.
+2020-06-22 14:13:59,506 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:13:59,506 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:58802, server: activate.navicat.com/127.0.0.1:11223
+2020-06-22 14:13:59,508 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11223, session id = 0x10015f02c140006, negotiated timeout = 30000
+2020-06-22 14:13:59,510 [myid:] - INFO  [SuperHammerThread-1:JMXEnv@116] - expect:0x10015f02c140006
+2020-06-22 14:13:59,510 [myid:] - INFO  [SuperHammerThread-1:JMXEnv@119] - found:0x10015f02c140006 org.apache.ZooKeeperService:name0=StandaloneServer_port11223,name1=Connections,name2=127.0.0.1,name3=0x10015f02c140006
+2020-06-22 14:13:59,596 [myid:] - INFO  [main:ZooKeeper@1618] - Session: 0x10015f02c140003 closed
+2020-06-22 14:13:59,596 [myid:] - INFO  [main-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015f02c140003
+2020-06-22 14:13:59,597 [myid:] - INFO  [main:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11223 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@429bd883
+2020-06-22 14:13:59,597 [myid:] - INFO  [SuperHammerThread-2:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11223 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@47c9db0
+2020-06-22 14:13:59,598 [myid:] - INFO  [main:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:13:59,598 [myid:] - INFO  [SuperHammerThread-2:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:13:59,599 [myid:] - INFO  [main:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:13:59,599 [myid:] - INFO  [SuperHammerThread-2:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:13:59,600 [myid:127.0.0.1:11223] - INFO  [main-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11223.
+2020-06-22 14:13:59,600 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11223.
+2020-06-22 14:13:59,601 [myid:127.0.0.1:11223] - INFO  [main-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:13:59,601 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:13:59,601 [myid:127.0.0.1:11223] - INFO  [main-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:58815, server: activate.navicat.com/127.0.0.1:11223
+2020-06-22 14:13:59,601 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:58816, server: activate.navicat.com/127.0.0.1:11223
+2020-06-22 14:13:59,603 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11223, session id = 0x10015f02c140007, negotiated timeout = 30000
+2020-06-22 14:13:59,604 [myid:127.0.0.1:11223] - INFO  [main-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11223, session id = 0x10015f02c140008, negotiated timeout = 30000
+2020-06-22 14:13:59,605 [myid:] - INFO  [SuperHammerThread-2:JMXEnv@116] - expect:0x10015f02c140007
+2020-06-22 14:13:59,605 [myid:] - INFO  [SuperHammerThread-2:JMXEnv@119] - found:0x10015f02c140007 org.apache.ZooKeeperService:name0=StandaloneServer_port11223,name1=Connections,name2=127.0.0.1,name3=0x10015f02c140007
+2020-06-22 14:13:59,607 [myid:] - INFO  [main:JMXEnv@116] - expect:0x10015f02c140008
+2020-06-22 14:13:59,607 [myid:] - INFO  [main:JMXEnv@119] - found:0x10015f02c140008 org.apache.ZooKeeperService:name0=StandaloneServer_port11223,name1=Connections,name2=127.0.0.1,name3=0x10015f02c140008
+2020-06-22 14:13:59,697 [myid:] - INFO  [SuperHammerThread-1-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015f02c140006
+2020-06-22 14:13:59,697 [myid:] - INFO  [SuperHammerThread-1:ZooKeeper@1618] - Session: 0x10015f02c140006 closed
+2020-06-22 14:13:59,698 [myid:] - INFO  [SuperHammerThread-1:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11223 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@50dbd309
+2020-06-22 14:13:59,699 [myid:] - INFO  [SuperHammerThread-1:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:13:59,699 [myid:] - INFO  [SuperHammerThread-1:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:13:59,700 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11223.
+2020-06-22 14:13:59,700 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:13:59,701 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:58833, server: activate.navicat.com/127.0.0.1:11223
+2020-06-22 14:13:59,702 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11223, session id = 0x10015f02c140009, negotiated timeout = 30000
+2020-06-22 14:13:59,704 [myid:] - INFO  [SuperHammerThread-1:JMXEnv@116] - expect:0x10015f02c140009
+2020-06-22 14:13:59,704 [myid:] - INFO  [SuperHammerThread-1:JMXEnv@119] - found:0x10015f02c140009 org.apache.ZooKeeperService:name0=StandaloneServer_port11223,name1=Connections,name2=127.0.0.1,name3=0x10015f02c140009
+2020-06-22 14:13:59,798 [myid:] - INFO  [SuperHammerThread-0-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015f02c140005
+2020-06-22 14:13:59,798 [myid:] - INFO  [SuperHammerThread-0:ZooKeeper@1618] - Session: 0x10015f02c140005 closed
+2020-06-22 14:13:59,798 [myid:] - INFO  [SuperHammerThread-0:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11223 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@21bf8360
+2020-06-22 14:13:59,799 [myid:] - INFO  [SuperHammerThread-0:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:13:59,800 [myid:] - INFO  [SuperHammerThread-0:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:13:59,801 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11223.
+2020-06-22 14:13:59,801 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:13:59,801 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:58839, server: activate.navicat.com/127.0.0.1:11223
+2020-06-22 14:13:59,803 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11223, session id = 0x10015f02c14000a, negotiated timeout = 30000
+2020-06-22 14:13:59,804 [myid:] - INFO  [SuperHammerThread-0:JMXEnv@116] - expect:0x10015f02c14000a
+2020-06-22 14:13:59,804 [myid:] - INFO  [SuperHammerThread-0:JMXEnv@119] - found:0x10015f02c14000a org.apache.ZooKeeperService:name0=StandaloneServer_port11223,name1=Connections,name2=127.0.0.1,name3=0x10015f02c14000a
+2020-06-22 14:13:59,899 [myid:] - INFO  [SuperHammerThread-1-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015f02c140009
+2020-06-22 14:13:59,899 [myid:] - INFO  [SuperHammerThread-1:ZooKeeper@1618] - Session: 0x10015f02c140009 closed
+2020-06-22 14:13:59,900 [myid:] - INFO  [SuperHammerThread-1:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11223 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@356e050b
+2020-06-22 14:13:59,901 [myid:] - INFO  [SuperHammerThread-1:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:13:59,901 [myid:] - INFO  [SuperHammerThread-1:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:13:59,902 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11223.
+2020-06-22 14:13:59,902 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:13:59,903 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:58848, server: activate.navicat.com/127.0.0.1:11223
+2020-06-22 14:13:59,904 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11223, session id = 0x10015f02c14000b, negotiated timeout = 30000
+2020-06-22 14:13:59,905 [myid:] - INFO  [SuperHammerThread-1:JMXEnv@116] - expect:0x10015f02c14000b
+2020-06-22 14:13:59,905 [myid:] - INFO  [SuperHammerThread-1:JMXEnv@119] - found:0x10015f02c14000b org.apache.ZooKeeperService:name0=StandaloneServer_port11223,name1=Connections,name2=127.0.0.1,name3=0x10015f02c14000b
+2020-06-22 14:13:59,999 [myid:] - INFO  [main:ZooKeeper@1618] - Session: 0x10015f02c140008 closed
+2020-06-22 14:13:59,999 [myid:] - INFO  [main-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015f02c140008
+2020-06-22 14:14:00,000 [myid:] - INFO  [main:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11223 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@4461c7e3
+2020-06-22 14:14:00,000 [myid:] - INFO  [SuperHammerThread-3:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11223 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@9949fae
+2020-06-22 14:14:00,001 [myid:] - INFO  [SuperHammerThread-3:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:14:00,001 [myid:] - INFO  [main:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:14:00,001 [myid:] - INFO  [SuperHammerThread-3:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:14:00,002 [myid:] - INFO  [main:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:14:00,006 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11223.
+2020-06-22 14:14:00,007 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:14:00,007 [myid:127.0.0.1:11223] - INFO  [main-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11223.
+2020-06-22 14:14:00,007 [myid:127.0.0.1:11223] - INFO  [main-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:14:00,007 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:58853, server: activate.navicat.com/127.0.0.1:11223
+2020-06-22 14:14:00,008 [myid:127.0.0.1:11223] - INFO  [main-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:58854, server: activate.navicat.com/127.0.0.1:11223
+2020-06-22 14:14:00,009 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11223, session id = 0x10015f02c14000c, negotiated timeout = 30000
+2020-06-22 14:14:00,010 [myid:127.0.0.1:11223] - INFO  [main-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11223, session id = 0x10015f02c14000d, negotiated timeout = 30000
+2020-06-22 14:14:00,011 [myid:] - INFO  [SuperHammerThread-3:JMXEnv@116] - expect:0x10015f02c14000c
+2020-06-22 14:14:00,011 [myid:] - INFO  [SuperHammerThread-3:JMXEnv@119] - found:0x10015f02c14000c org.apache.ZooKeeperService:name0=StandaloneServer_port11223,name1=Connections,name2=127.0.0.1,name3=0x10015f02c14000c
+2020-06-22 14:14:00,013 [myid:] - INFO  [main:JMXEnv@116] - expect:0x10015f02c14000d
+2020-06-22 14:14:00,014 [myid:] - INFO  [main:JMXEnv@119] - found:0x10015f02c14000d org.apache.ZooKeeperService:name0=StandaloneServer_port11223,name1=Connections,name2=127.0.0.1,name3=0x10015f02c14000d
+2020-06-22 14:14:00,099 [myid:] - INFO  [SuperHammerThread-2-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015f02c140007
+2020-06-22 14:14:00,099 [myid:] - INFO  [SuperHammerThread-2:ZooKeeper@1618] - Session: 0x10015f02c140007 closed
+2020-06-22 14:14:00,100 [myid:] - INFO  [SuperHammerThread-2:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11223 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@6cda471b
+2020-06-22 14:14:00,100 [myid:] - INFO  [SuperHammerThread-2:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:14:00,101 [myid:] - INFO  [SuperHammerThread-2:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:14:00,102 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11223.
+2020-06-22 14:14:00,102 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:14:00,103 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:58857, server: activate.navicat.com/127.0.0.1:11223
+2020-06-22 14:14:00,104 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11223, session id = 0x10015f02c14000e, negotiated timeout = 30000
+2020-06-22 14:14:00,105 [myid:] - INFO  [SuperHammerThread-2:JMXEnv@116] - expect:0x10015f02c14000e
+2020-06-22 14:14:00,105 [myid:] - INFO  [SuperHammerThread-2:JMXEnv@119] - found:0x10015f02c14000e org.apache.ZooKeeperService:name0=StandaloneServer_port11223,name1=Connections,name2=127.0.0.1,name3=0x10015f02c14000e
+2020-06-22 14:14:00,200 [myid:] - INFO  [main:ZooKeeper@1618] - Session: 0x10015f02c14000d closed
+2020-06-22 14:14:00,200 [myid:] - INFO  [main-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015f02c14000d
+2020-06-22 14:14:00,200 [myid:] - INFO  [main:ClientHammerTest@188] - Starting check for completed hammers
+2020-06-22 14:14:00,201 [myid:] - INFO  [SuperHammerThread-4:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11223 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@463a95ea
+2020-06-22 14:14:00,201 [myid:] - INFO  [SuperHammerThread-4:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:14:00,202 [myid:] - INFO  [SuperHammerThread-4:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:14:00,203 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11223.
+2020-06-22 14:14:00,203 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:14:00,204 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:58860, server: activate.navicat.com/127.0.0.1:11223
+2020-06-22 14:14:00,205 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11223, session id = 0x10015f02c14000f, negotiated timeout = 30000
+2020-06-22 14:14:00,206 [myid:] - INFO  [SuperHammerThread-4:JMXEnv@116] - expect:0x10015f02c14000f
+2020-06-22 14:14:00,206 [myid:] - INFO  [SuperHammerThread-4:JMXEnv@119] - found:0x10015f02c14000f org.apache.ZooKeeperService:name0=StandaloneServer_port11223,name1=Connections,name2=127.0.0.1,name3=0x10015f02c14000f
+2020-06-22 14:14:00,301 [myid:] - INFO  [SuperHammerThread-3:ZooKeeper@1618] - Session: 0x10015f02c14000c closed
+2020-06-22 14:14:00,301 [myid:] - INFO  [SuperHammerThread-3-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015f02c14000c
+2020-06-22 14:14:00,301 [myid:] - INFO  [SuperHammerThread-3:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11223 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@2c0747f2
+2020-06-22 14:14:00,302 [myid:] - INFO  [SuperHammerThread-3:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:14:00,302 [myid:] - INFO  [SuperHammerThread-3:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:14:00,303 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11223.
+2020-06-22 14:14:00,304 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:14:00,304 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:58866, server: activate.navicat.com/127.0.0.1:11223
+2020-06-22 14:14:00,305 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11223, session id = 0x10015f02c140010, negotiated timeout = 30000
+2020-06-22 14:14:00,307 [myid:] - INFO  [SuperHammerThread-3:JMXEnv@116] - expect:0x10015f02c140010
+2020-06-22 14:14:00,307 [myid:] - INFO  [SuperHammerThread-3:JMXEnv@119] - found:0x10015f02c140010 org.apache.ZooKeeperService:name0=StandaloneServer_port11223,name1=Connections,name2=127.0.0.1,name3=0x10015f02c140010
+2020-06-22 14:14:00,401 [myid:] - INFO  [SuperHammerThread-1-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015f02c14000b
+2020-06-22 14:14:00,401 [myid:] - INFO  [SuperHammerThread-1:ZooKeeper@1618] - Session: 0x10015f02c14000b closed
+2020-06-22 14:14:00,401 [myid:] - INFO  [SuperHammerThread-1:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11223 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@43ede755
+2020-06-22 14:14:00,402 [myid:] - INFO  [SuperHammerThread-1:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:14:00,402 [myid:] - INFO  [SuperHammerThread-1:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:14:00,403 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11223.
+2020-06-22 14:14:00,404 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:14:00,404 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:58869, server: activate.navicat.com/127.0.0.1:11223
+2020-06-22 14:14:00,405 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11223, session id = 0x10015f02c140011, negotiated timeout = 30000
+2020-06-22 14:14:00,407 [myid:] - INFO  [SuperHammerThread-1:JMXEnv@116] - expect:0x10015f02c140011
+2020-06-22 14:14:00,407 [myid:] - INFO  [SuperHammerThread-1:JMXEnv@119] - found:0x10015f02c140011 org.apache.ZooKeeperService:name0=StandaloneServer_port11223,name1=Connections,name2=127.0.0.1,name3=0x10015f02c140011
+2020-06-22 14:14:00,502 [myid:] - INFO  [SuperHammerThread-0:ZooKeeper@1618] - Session: 0x10015f02c14000a closed
+2020-06-22 14:14:00,502 [myid:] - INFO  [SuperHammerThread-0-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015f02c14000a
+2020-06-22 14:14:00,502 [myid:] - INFO  [SuperHammerThread-0:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11223 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@306d05d9
+2020-06-22 14:14:00,503 [myid:] - INFO  [SuperHammerThread-0:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:14:00,504 [myid:] - INFO  [SuperHammerThread-0:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:14:00,505 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11223.
+2020-06-22 14:14:00,505 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:14:00,505 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:58873, server: activate.navicat.com/127.0.0.1:11223
+2020-06-22 14:14:00,507 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11223, session id = 0x10015f02c140012, negotiated timeout = 30000
+2020-06-22 14:14:00,508 [myid:] - INFO  [SuperHammerThread-0:JMXEnv@116] - expect:0x10015f02c140012
+2020-06-22 14:14:00,508 [myid:] - INFO  [SuperHammerThread-0:JMXEnv@119] - found:0x10015f02c140012 org.apache.ZooKeeperService:name0=StandaloneServer_port11223,name1=Connections,name2=127.0.0.1,name3=0x10015f02c140012
+2020-06-22 14:14:00,603 [myid:] - INFO  [SuperHammerThread-1:ZooKeeper@1618] - Session: 0x10015f02c140011 closed
+2020-06-22 14:14:00,603 [myid:] - INFO  [SuperHammerThread-1-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015f02c140011
+2020-06-22 14:14:00,603 [myid:] - INFO  [SuperHammerThread-1:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11223 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@5b8f6d00
+2020-06-22 14:14:00,604 [myid:] - INFO  [SuperHammerThread-1:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:14:00,604 [myid:] - INFO  [SuperHammerThread-1:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:14:00,605 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11223.
+2020-06-22 14:14:00,605 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:14:00,606 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:58876, server: activate.navicat.com/127.0.0.1:11223
+2020-06-22 14:14:00,607 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11223, session id = 0x10015f02c140013, negotiated timeout = 30000
+2020-06-22 14:14:00,608 [myid:] - INFO  [SuperHammerThread-1:JMXEnv@116] - expect:0x10015f02c140013
+2020-06-22 14:14:00,608 [myid:] - INFO  [SuperHammerThread-1:JMXEnv@119] - found:0x10015f02c140013 org.apache.ZooKeeperService:name0=StandaloneServer_port11223,name1=Connections,name2=127.0.0.1,name3=0x10015f02c140013
+2020-06-22 14:14:00,704 [myid:] - INFO  [SuperHammerThread-3:ZooKeeper@1618] - Session: 0x10015f02c140010 closed
+2020-06-22 14:14:00,704 [myid:] - INFO  [SuperHammerThread-3-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015f02c140010
+2020-06-22 14:14:00,704 [myid:] - INFO  [SuperHammerThread-3:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11223 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@2cc836f5
+2020-06-22 14:14:00,705 [myid:] - INFO  [SuperHammerThread-3:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:14:00,705 [myid:] - INFO  [SuperHammerThread-3:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:14:00,706 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11223.
+2020-06-22 14:14:00,706 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:14:00,707 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:58889, server: activate.navicat.com/127.0.0.1:11223
+2020-06-22 14:14:00,708 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11223, session id = 0x10015f02c140014, negotiated timeout = 30000
+2020-06-22 14:14:00,709 [myid:] - INFO  [SuperHammerThread-3:JMXEnv@116] - expect:0x10015f02c140014
+2020-06-22 14:14:00,709 [myid:] - INFO  [SuperHammerThread-3:JMXEnv@119] - found:0x10015f02c140014 org.apache.ZooKeeperService:name0=StandaloneServer_port11223,name1=Connections,name2=127.0.0.1,name3=0x10015f02c140014
+2020-06-22 14:14:00,804 [myid:] - INFO  [SuperHammerThread-4-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015f02c14000f
+2020-06-22 14:14:00,804 [myid:] - INFO  [SuperHammerThread-4:ZooKeeper@1618] - Session: 0x10015f02c14000f closed
+2020-06-22 14:14:00,804 [myid:] - INFO  [SuperHammerThread-4:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11223 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@5cea95c5
+2020-06-22 14:14:00,805 [myid:] - INFO  [SuperHammerThread-4:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:14:00,805 [myid:] - INFO  [SuperHammerThread-4:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:14:00,806 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11223.
+2020-06-22 14:14:00,806 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:14:00,807 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:58894, server: activate.navicat.com/127.0.0.1:11223
+2020-06-22 14:14:00,808 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11223, session id = 0x10015f02c140015, negotiated timeout = 30000
+2020-06-22 14:14:00,809 [myid:] - INFO  [SuperHammerThread-4:JMXEnv@116] - expect:0x10015f02c140015
+2020-06-22 14:14:00,809 [myid:] - INFO  [SuperHammerThread-4:JMXEnv@119] - found:0x10015f02c140015 org.apache.ZooKeeperService:name0=StandaloneServer_port11223,name1=Connections,name2=127.0.0.1,name3=0x10015f02c140015
+2020-06-22 14:14:00,905 [myid:] - INFO  [SuperHammerThread-2-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015f02c14000e
+2020-06-22 14:14:00,905 [myid:] - INFO  [SuperHammerThread-2:ZooKeeper@1618] - Session: 0x10015f02c14000e closed
+2020-06-22 14:14:00,905 [myid:] - INFO  [SuperHammerThread-2:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11223 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@2120b103
+2020-06-22 14:14:00,906 [myid:] - INFO  [SuperHammerThread-2:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:14:00,906 [myid:] - INFO  [SuperHammerThread-2:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:14:00,907 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11223.
+2020-06-22 14:14:00,907 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:14:00,907 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:58897, server: activate.navicat.com/127.0.0.1:11223
+2020-06-22 14:14:00,909 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11223, session id = 0x10015f02c140016, negotiated timeout = 30000
+2020-06-22 14:14:00,910 [myid:] - INFO  [SuperHammerThread-2:JMXEnv@116] - expect:0x10015f02c140016
+2020-06-22 14:14:00,910 [myid:] - INFO  [SuperHammerThread-2:JMXEnv@119] - found:0x10015f02c140016 org.apache.ZooKeeperService:name0=StandaloneServer_port11223,name1=Connections,name2=127.0.0.1,name3=0x10015f02c140016
+2020-06-22 14:14:01,006 [myid:] - INFO  [SuperHammerThread-4-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015f02c140015
+2020-06-22 14:14:01,006 [myid:] - INFO  [SuperHammerThread-4:ZooKeeper@1618] - Session: 0x10015f02c140015 closed
+2020-06-22 14:14:01,006 [myid:] - INFO  [SuperHammerThread-4:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11223 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@6366fb1f
+2020-06-22 14:14:01,007 [myid:] - INFO  [SuperHammerThread-4:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:14:01,007 [myid:] - INFO  [SuperHammerThread-4:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:14:01,008 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11223.
+2020-06-22 14:14:01,008 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:14:01,008 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:58900, server: activate.navicat.com/127.0.0.1:11223
+2020-06-22 14:14:01,010 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11223, session id = 0x10015f02c140017, negotiated timeout = 30000
+2020-06-22 14:14:01,011 [myid:] - INFO  [SuperHammerThread-4:JMXEnv@116] - expect:0x10015f02c140017
+2020-06-22 14:14:01,011 [myid:] - INFO  [SuperHammerThread-4:JMXEnv@119] - found:0x10015f02c140017 org.apache.ZooKeeperService:name0=StandaloneServer_port11223,name1=Connections,name2=127.0.0.1,name3=0x10015f02c140017
+2020-06-22 14:14:01,106 [myid:] - INFO  [SuperHammerThread-3:ZooKeeper@1618] - Session: 0x10015f02c140014 closed
+2020-06-22 14:14:01,106 [myid:] - INFO  [SuperHammerThread-3-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015f02c140014
+2020-06-22 14:14:01,106 [myid:] - INFO  [SuperHammerThread-3:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11223 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@1f058106
+2020-06-22 14:14:01,107 [myid:] - INFO  [SuperHammerThread-3:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:14:01,107 [myid:] - INFO  [SuperHammerThread-3:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:14:01,108 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11223.
+2020-06-22 14:14:01,108 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:14:01,108 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:58903, server: activate.navicat.com/127.0.0.1:11223
+2020-06-22 14:14:01,110 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11223, session id = 0x10015f02c140018, negotiated timeout = 30000
+2020-06-22 14:14:01,111 [myid:] - INFO  [SuperHammerThread-3:JMXEnv@116] - expect:0x10015f02c140018
+2020-06-22 14:14:01,111 [myid:] - INFO  [SuperHammerThread-3:JMXEnv@119] - found:0x10015f02c140018 org.apache.ZooKeeperService:name0=StandaloneServer_port11223,name1=Connections,name2=127.0.0.1,name3=0x10015f02c140018
+2020-06-22 14:14:01,207 [myid:] - INFO  [SuperHammerThread-1-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015f02c140013
+2020-06-22 14:14:01,207 [myid:] - INFO  [SuperHammerThread-1:ZooKeeper@1618] - Session: 0x10015f02c140013 closed
+2020-06-22 14:14:01,207 [myid:] - INFO  [SuperHammerThread-1:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11223 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@2ef7728e
+2020-06-22 14:14:01,208 [myid:] - INFO  [SuperHammerThread-1:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:14:01,208 [myid:] - INFO  [SuperHammerThread-1:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:14:01,209 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11223.
+2020-06-22 14:14:01,209 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:14:01,210 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:58906, server: activate.navicat.com/127.0.0.1:11223
+2020-06-22 14:14:01,211 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11223, session id = 0x10015f02c140019, negotiated timeout = 30000
+2020-06-22 14:14:01,212 [myid:] - INFO  [SuperHammerThread-1:JMXEnv@116] - expect:0x10015f02c140019
+2020-06-22 14:14:01,213 [myid:] - INFO  [SuperHammerThread-1:JMXEnv@119] - found:0x10015f02c140019 org.apache.ZooKeeperService:name0=StandaloneServer_port11223,name1=Connections,name2=127.0.0.1,name3=0x10015f02c140019
+2020-06-22 14:14:01,308 [myid:] - INFO  [SuperHammerThread-0-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015f02c140012
+2020-06-22 14:14:01,308 [myid:] - INFO  [SuperHammerThread-0:ZooKeeper@1618] - Session: 0x10015f02c140012 closed
+2020-06-22 14:14:01,308 [myid:] - INFO  [SuperHammerThread-0:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11223 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@37c852d3
+2020-06-22 14:14:01,309 [myid:] - INFO  [SuperHammerThread-0:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:14:01,309 [myid:] - INFO  [SuperHammerThread-0:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:14:01,310 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11223.
+2020-06-22 14:14:01,310 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:14:01,311 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:58910, server: activate.navicat.com/127.0.0.1:11223
+2020-06-22 14:14:01,312 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11223, session id = 0x10015f02c14001a, negotiated timeout = 30000
+2020-06-22 14:14:01,313 [myid:] - INFO  [SuperHammerThread-0:JMXEnv@116] - expect:0x10015f02c14001a
+2020-06-22 14:14:01,313 [myid:] - INFO  [SuperHammerThread-0:JMXEnv@119] - found:0x10015f02c14001a org.apache.ZooKeeperService:name0=StandaloneServer_port11223,name1=Connections,name2=127.0.0.1,name3=0x10015f02c14001a
+2020-06-22 14:14:01,409 [myid:] - INFO  [SuperHammerThread-1:ZooKeeper@1618] - Session: 0x10015f02c140019 closed
+2020-06-22 14:14:01,409 [myid:] - INFO  [SuperHammerThread-1-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015f02c140019
+2020-06-22 14:14:01,409 [myid:] - INFO  [SuperHammerThread-1:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11223 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@79ead119
+2020-06-22 14:14:01,410 [myid:] - INFO  [SuperHammerThread-1:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:14:01,410 [myid:] - INFO  [SuperHammerThread-1:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:14:01,411 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11223.
+2020-06-22 14:14:01,411 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:14:01,412 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:58914, server: activate.navicat.com/127.0.0.1:11223
+2020-06-22 14:14:01,413 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11223, session id = 0x10015f02c14001b, negotiated timeout = 30000
+2020-06-22 14:14:01,414 [myid:] - INFO  [SuperHammerThread-1:JMXEnv@116] - expect:0x10015f02c14001b
+2020-06-22 14:14:01,414 [myid:] - INFO  [SuperHammerThread-1:JMXEnv@119] - found:0x10015f02c14001b org.apache.ZooKeeperService:name0=StandaloneServer_port11223,name1=Connections,name2=127.0.0.1,name3=0x10015f02c14001b
+2020-06-22 14:14:01,509 [myid:] - INFO  [SuperHammerThread-3-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015f02c140018
+2020-06-22 14:14:01,509 [myid:] - INFO  [SuperHammerThread-3:ZooKeeper@1618] - Session: 0x10015f02c140018 closed
+2020-06-22 14:14:01,510 [myid:] - INFO  [SuperHammerThread-3:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11223 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@764932e9
+2020-06-22 14:14:01,511 [myid:] - INFO  [SuperHammerThread-3:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:14:01,511 [myid:] - INFO  [SuperHammerThread-3:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:14:01,512 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11223.
+2020-06-22 14:14:01,512 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:14:01,513 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:58917, server: activate.navicat.com/127.0.0.1:11223
+2020-06-22 14:14:01,514 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11223, session id = 0x10015f02c14001c, negotiated timeout = 30000
+2020-06-22 14:14:01,515 [myid:] - INFO  [SuperHammerThread-3:JMXEnv@116] - expect:0x10015f02c14001c
+2020-06-22 14:14:01,515 [myid:] - INFO  [SuperHammerThread-3:JMXEnv@119] - found:0x10015f02c14001c org.apache.ZooKeeperService:name0=StandaloneServer_port11223,name1=Connections,name2=127.0.0.1,name3=0x10015f02c14001c
+2020-06-22 14:14:01,610 [myid:] - INFO  [SuperHammerThread-4:ZooKeeper@1618] - Session: 0x10015f02c140017 closed
+2020-06-22 14:14:01,610 [myid:] - INFO  [SuperHammerThread-4-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015f02c140017
+2020-06-22 14:14:01,610 [myid:] - INFO  [SuperHammerThread-4:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11223 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@52d2cea1
+2020-06-22 14:14:01,611 [myid:] - INFO  [SuperHammerThread-4:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:14:01,611 [myid:] - INFO  [SuperHammerThread-4:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:14:01,612 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11223.
+2020-06-22 14:14:01,612 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:14:01,613 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:58921, server: activate.navicat.com/127.0.0.1:11223
+2020-06-22 14:14:01,614 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11223, session id = 0x10015f02c14001d, negotiated timeout = 30000
+2020-06-22 14:14:01,615 [myid:] - INFO  [SuperHammerThread-4:JMXEnv@116] - expect:0x10015f02c14001d
+2020-06-22 14:14:01,615 [myid:] - INFO  [SuperHammerThread-4:JMXEnv@119] - found:0x10015f02c14001d org.apache.ZooKeeperService:name0=StandaloneServer_port11223,name1=Connections,name2=127.0.0.1,name3=0x10015f02c14001d
+2020-06-22 14:14:01,711 [myid:] - INFO  [SuperHammerThread-2:ZooKeeper@1618] - Session: 0x10015f02c140016 closed
+2020-06-22 14:14:01,711 [myid:] - INFO  [SuperHammerThread-2-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015f02c140016
+2020-06-22 14:14:01,711 [myid:] - INFO  [SuperHammerThread-2:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11223 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@2686aaf5
+2020-06-22 14:14:01,712 [myid:] - INFO  [SuperHammerThread-2:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:14:01,712 [myid:] - INFO  [SuperHammerThread-2:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:14:01,713 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11223.
+2020-06-22 14:14:01,713 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:14:01,714 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:58925, server: activate.navicat.com/127.0.0.1:11223
+2020-06-22 14:14:01,715 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11223, session id = 0x10015f02c14001e, negotiated timeout = 30000
+2020-06-22 14:14:01,716 [myid:] - INFO  [SuperHammerThread-2:JMXEnv@116] - expect:0x10015f02c14001e
+2020-06-22 14:14:01,716 [myid:] - INFO  [SuperHammerThread-2:JMXEnv@119] - found:0x10015f02c14001e org.apache.ZooKeeperService:name0=StandaloneServer_port11223,name1=Connections,name2=127.0.0.1,name3=0x10015f02c14001e
+2020-06-22 14:14:01,812 [myid:] - INFO  [SuperHammerThread-4-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015f02c14001d
+2020-06-22 14:14:01,812 [myid:] - INFO  [SuperHammerThread-4:ZooKeeper@1618] - Session: 0x10015f02c14001d closed
+2020-06-22 14:14:01,812 [myid:] - INFO  [SuperHammerThread-4:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11223 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@4ace57a9
+2020-06-22 14:14:01,813 [myid:] - INFO  [SuperHammerThread-4:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:14:01,813 [myid:] - INFO  [SuperHammerThread-4:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:14:01,814 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11223.
+2020-06-22 14:14:01,815 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:14:01,815 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:58928, server: activate.navicat.com/127.0.0.1:11223
+2020-06-22 14:14:01,816 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11223, session id = 0x10015f02c14001f, negotiated timeout = 30000
+2020-06-22 14:14:01,817 [myid:] - INFO  [SuperHammerThread-4:JMXEnv@116] - expect:0x10015f02c14001f
+2020-06-22 14:14:01,817 [myid:] - INFO  [SuperHammerThread-4:JMXEnv@119] - found:0x10015f02c14001f org.apache.ZooKeeperService:name0=StandaloneServer_port11223,name1=Connections,name2=127.0.0.1,name3=0x10015f02c14001f
+2020-06-22 14:14:01,912 [myid:] - INFO  [SuperHammerThread-3-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015f02c14001c
+2020-06-22 14:14:01,912 [myid:] - INFO  [SuperHammerThread-3:ZooKeeper@1618] - Session: 0x10015f02c14001c closed
+2020-06-22 14:14:01,912 [myid:] - INFO  [SuperHammerThread-3:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11223 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@6db644e
+2020-06-22 14:14:01,913 [myid:] - INFO  [SuperHammerThread-3:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:14:01,913 [myid:] - INFO  [SuperHammerThread-3:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:14:01,914 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11223.
+2020-06-22 14:14:01,914 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:14:01,915 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:58935, server: activate.navicat.com/127.0.0.1:11223
+2020-06-22 14:14:01,916 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11223, session id = 0x10015f02c140020, negotiated timeout = 30000
+2020-06-22 14:14:01,918 [myid:] - INFO  [SuperHammerThread-3:JMXEnv@116] - expect:0x10015f02c140020
+2020-06-22 14:14:01,918 [myid:] - INFO  [SuperHammerThread-3:JMXEnv@119] - found:0x10015f02c140020 org.apache.ZooKeeperService:name0=StandaloneServer_port11223,name1=Connections,name2=127.0.0.1,name3=0x10015f02c140020
+2020-06-22 14:14:02,013 [myid:] - INFO  [SuperHammerThread-1:ZooKeeper@1618] - Session: 0x10015f02c14001b closed
+2020-06-22 14:14:02,013 [myid:] - INFO  [SuperHammerThread-1-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015f02c14001b
+2020-06-22 14:14:02,013 [myid:] - INFO  [SuperHammerThread-1:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11223 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@771ab998
+2020-06-22 14:14:02,014 [myid:] - INFO  [SuperHammerThread-1:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:14:02,014 [myid:] - INFO  [SuperHammerThread-1:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:14:02,015 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11223.
+2020-06-22 14:14:02,015 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:14:02,016 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:58947, server: activate.navicat.com/127.0.0.1:11223
+2020-06-22 14:14:02,017 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11223, session id = 0x10015f02c140021, negotiated timeout = 30000
+2020-06-22 14:14:02,018 [myid:] - INFO  [SuperHammerThread-1:JMXEnv@116] - expect:0x10015f02c140021
+2020-06-22 14:14:02,018 [myid:] - INFO  [SuperHammerThread-1:JMXEnv@119] - found:0x10015f02c140021 org.apache.ZooKeeperService:name0=StandaloneServer_port11223,name1=Connections,name2=127.0.0.1,name3=0x10015f02c140021
+2020-06-22 14:14:02,114 [myid:] - INFO  [SuperHammerThread-0:ZooKeeper@1618] - Session: 0x10015f02c14001a closed
+2020-06-22 14:14:02,115 [myid:] - INFO  [SuperHammerThread-0:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11223 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@31691834
+2020-06-22 14:14:02,114 [myid:] - INFO  [SuperHammerThread-0-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015f02c14001a
+2020-06-22 14:14:02,117 [myid:] - INFO  [SuperHammerThread-0:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:14:02,117 [myid:] - INFO  [SuperHammerThread-0:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:14:02,118 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11223.
+2020-06-22 14:14:02,118 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:14:02,119 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:58951, server: activate.navicat.com/127.0.0.1:11223
+2020-06-22 14:14:02,120 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11223, session id = 0x10015f02c140022, negotiated timeout = 30000
+2020-06-22 14:14:02,121 [myid:] - INFO  [SuperHammerThread-0:JMXEnv@116] - expect:0x10015f02c140022
+2020-06-22 14:14:02,121 [myid:] - INFO  [SuperHammerThread-0:JMXEnv@119] - found:0x10015f02c140022 org.apache.ZooKeeperService:name0=StandaloneServer_port11223,name1=Connections,name2=127.0.0.1,name3=0x10015f02c140022
+2020-06-22 14:14:02,214 [myid:] - INFO  [SuperHammerThread-1:ZooKeeper@1618] - Session: 0x10015f02c140021 closed
+2020-06-22 14:14:02,214 [myid:] - INFO  [SuperHammerThread-1-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015f02c140021
+2020-06-22 14:14:02,214 [myid:] - INFO  [SuperHammerThread-1:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11223 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@7c670df3
+2020-06-22 14:14:02,215 [myid:] - INFO  [SuperHammerThread-1:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:14:02,216 [myid:] - INFO  [SuperHammerThread-1:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:14:02,217 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11223.
+2020-06-22 14:14:02,217 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:14:02,218 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:58955, server: activate.navicat.com/127.0.0.1:11223
+2020-06-22 14:14:02,219 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11223, session id = 0x10015f02c140023, negotiated timeout = 30000
+2020-06-22 14:14:02,220 [myid:] - INFO  [SuperHammerThread-1:JMXEnv@116] - expect:0x10015f02c140023
+2020-06-22 14:14:02,220 [myid:] - INFO  [SuperHammerThread-1:JMXEnv@119] - found:0x10015f02c140023 org.apache.ZooKeeperService:name0=StandaloneServer_port11223,name1=Connections,name2=127.0.0.1,name3=0x10015f02c140023
+2020-06-22 14:14:02,315 [myid:] - INFO  [SuperHammerThread-3:ZooKeeper@1618] - Session: 0x10015f02c140020 closed
+2020-06-22 14:14:02,315 [myid:] - INFO  [SuperHammerThread-3-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015f02c140020
+2020-06-22 14:14:02,315 [myid:] - INFO  [SuperHammerThread-3:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11223 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@7f7bf73
+2020-06-22 14:14:02,316 [myid:] - INFO  [SuperHammerThread-3:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:14:02,316 [myid:] - INFO  [SuperHammerThread-3:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:14:02,317 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11223.
+2020-06-22 14:14:02,317 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:14:02,317 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:58958, server: activate.navicat.com/127.0.0.1:11223
+2020-06-22 14:14:02,318 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11223, session id = 0x10015f02c140024, negotiated timeout = 30000
+2020-06-22 14:14:02,319 [myid:] - INFO  [SuperHammerThread-3:JMXEnv@116] - expect:0x10015f02c140024
+2020-06-22 14:14:02,319 [myid:] - INFO  [SuperHammerThread-3:JMXEnv@119] - found:0x10015f02c140024 org.apache.ZooKeeperService:name0=StandaloneServer_port11223,name1=Connections,name2=127.0.0.1,name3=0x10015f02c140024
+2020-06-22 14:14:02,416 [myid:] - INFO  [SuperHammerThread-4-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015f02c14001f
+2020-06-22 14:14:02,416 [myid:] - INFO  [SuperHammerThread-4:ZooKeeper@1618] - Session: 0x10015f02c14001f closed
+2020-06-22 14:14:02,416 [myid:] - INFO  [SuperHammerThread-4:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11223 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@63937e46
+2020-06-22 14:14:02,417 [myid:] - INFO  [SuperHammerThread-4:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:14:02,418 [myid:] - INFO  [SuperHammerThread-4:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:14:02,419 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11223.
+2020-06-22 14:14:02,419 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:14:02,419 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:58963, server: activate.navicat.com/127.0.0.1:11223
+2020-06-22 14:14:02,421 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11223, session id = 0x10015f02c140025, negotiated timeout = 30000
+2020-06-22 14:14:02,422 [myid:] - INFO  [SuperHammerThread-4:JMXEnv@116] - expect:0x10015f02c140025
+2020-06-22 14:14:02,422 [myid:] - INFO  [SuperHammerThread-4:JMXEnv@119] - found:0x10015f02c140025 org.apache.ZooKeeperService:name0=StandaloneServer_port11223,name1=Connections,name2=127.0.0.1,name3=0x10015f02c140025
+2020-06-22 14:14:02,517 [myid:] - INFO  [SuperHammerThread-2:ZooKeeper@1618] - Session: 0x10015f02c14001e closed
+2020-06-22 14:14:02,517 [myid:] - INFO  [SuperHammerThread-2-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015f02c14001e
+2020-06-22 14:14:02,517 [myid:] - INFO  [SuperHammerThread-2:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11223 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@54ed7a99
+2020-06-22 14:14:02,518 [myid:] - INFO  [SuperHammerThread-2:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:14:02,519 [myid:] - INFO  [SuperHammerThread-2:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:14:02,522 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11223.
+2020-06-22 14:14:02,522 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:14:02,523 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:58976, server: activate.navicat.com/127.0.0.1:11223
+2020-06-22 14:14:02,524 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11223, session id = 0x10015f02c140026, negotiated timeout = 30000
+2020-06-22 14:14:02,525 [myid:] - INFO  [SuperHammerThread-2:JMXEnv@116] - expect:0x10015f02c140026
+2020-06-22 14:14:02,525 [myid:] - INFO  [SuperHammerThread-2:JMXEnv@119] - found:0x10015f02c140026 org.apache.ZooKeeperService:name0=StandaloneServer_port11223,name1=Connections,name2=127.0.0.1,name3=0x10015f02c140026
+2020-06-22 14:14:02,617 [myid:] - INFO  [SuperHammerThread-4:ZooKeeper@1618] - Session: 0x10015f02c140025 closed
+2020-06-22 14:14:02,617 [myid:] - INFO  [SuperHammerThread-4-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015f02c140025
+2020-06-22 14:14:02,617 [myid:] - INFO  [SuperHammerThread-4:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11223 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@2ca9f897
+2020-06-22 14:14:02,618 [myid:] - INFO  [SuperHammerThread-4:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:14:02,618 [myid:] - INFO  [SuperHammerThread-4:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:14:02,619 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11223.
+2020-06-22 14:14:02,619 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:14:02,620 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:58985, server: activate.navicat.com/127.0.0.1:11223
+2020-06-22 14:14:02,621 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11223, session id = 0x10015f02c140027, negotiated timeout = 30000
+2020-06-22 14:14:02,622 [myid:] - INFO  [SuperHammerThread-4:JMXEnv@116] - expect:0x10015f02c140027
+2020-06-22 14:14:02,622 [myid:] - INFO  [SuperHammerThread-4:JMXEnv@119] - found:0x10015f02c140027 org.apache.ZooKeeperService:name0=StandaloneServer_port11223,name1=Connections,name2=127.0.0.1,name3=0x10015f02c140027
+2020-06-22 14:14:02,718 [myid:] - INFO  [SuperHammerThread-3:ZooKeeper@1618] - Session: 0x10015f02c140024 closed
+2020-06-22 14:14:02,718 [myid:] - INFO  [SuperHammerThread-3-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015f02c140024
+2020-06-22 14:14:02,718 [myid:] - INFO  [SuperHammerThread-3:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11223 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@12279a4d
+2020-06-22 14:14:02,719 [myid:] - INFO  [SuperHammerThread-3:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:14:02,720 [myid:] - INFO  [SuperHammerThread-3:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:14:02,720 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11223.
+2020-06-22 14:14:02,720 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:14:02,721 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:58989, server: activate.navicat.com/127.0.0.1:11223
+2020-06-22 14:14:02,722 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11223, session id = 0x10015f02c140028, negotiated timeout = 30000
+2020-06-22 14:14:02,723 [myid:] - INFO  [SuperHammerThread-3:JMXEnv@116] - expect:0x10015f02c140028
+2020-06-22 14:14:02,723 [myid:] - INFO  [SuperHammerThread-3:JMXEnv@119] - found:0x10015f02c140028 org.apache.ZooKeeperService:name0=StandaloneServer_port11223,name1=Connections,name2=127.0.0.1,name3=0x10015f02c140028
+2020-06-22 14:14:02,819 [myid:] - INFO  [SuperHammerThread-1:ZooKeeper@1618] - Session: 0x10015f02c140023 closed
+2020-06-22 14:14:02,819 [myid:] - INFO  [SuperHammerThread-1-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015f02c140023
+2020-06-22 14:14:02,920 [myid:] - INFO  [SuperHammerThread-0:ZooKeeper@1618] - Session: 0x10015f02c140022 closed
+2020-06-22 14:14:02,920 [myid:] - INFO  [SuperHammerThread-0-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015f02c140022
+2020-06-22 14:14:02,920 [myid:] - INFO  [SuperHammerThread-0:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11223 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@2b1f54bf
+2020-06-22 14:14:02,921 [myid:] - INFO  [SuperHammerThread-0:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:14:02,922 [myid:] - INFO  [SuperHammerThread-0:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:14:02,922 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11223.
+2020-06-22 14:14:02,922 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:14:02,923 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:59004, server: activate.navicat.com/127.0.0.1:11223
+2020-06-22 14:14:02,924 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11223, session id = 0x10015f02c140029, negotiated timeout = 30000
+2020-06-22 14:14:02,925 [myid:] - INFO  [SuperHammerThread-0:JMXEnv@116] - expect:0x10015f02c140029
+2020-06-22 14:14:02,925 [myid:] - INFO  [SuperHammerThread-0:JMXEnv@119] - found:0x10015f02c140029 org.apache.ZooKeeperService:name0=StandaloneServer_port11223,name1=Connections,name2=127.0.0.1,name3=0x10015f02c140029
+2020-06-22 14:14:03,020 [myid:] - INFO  [SuperHammerThread-3:ZooKeeper@1618] - Session: 0x10015f02c140028 closed
+2020-06-22 14:14:03,020 [myid:] - INFO  [SuperHammerThread-3-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015f02c140028
+2020-06-22 14:14:03,020 [myid:] - INFO  [SuperHammerThread-3:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11223 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@3cc8f2b0
+2020-06-22 14:14:03,021 [myid:] - INFO  [SuperHammerThread-3:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:14:03,021 [myid:] - INFO  [SuperHammerThread-3:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:14:03,022 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11223.
+2020-06-22 14:14:03,023 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:14:03,023 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:59007, server: activate.navicat.com/127.0.0.1:11223
+2020-06-22 14:14:03,025 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11223, session id = 0x10015f02c14002a, negotiated timeout = 30000
+2020-06-22 14:14:03,026 [myid:] - INFO  [SuperHammerThread-3:JMXEnv@116] - expect:0x10015f02c14002a
+2020-06-22 14:14:03,026 [myid:] - INFO  [SuperHammerThread-3:JMXEnv@119] - found:0x10015f02c14002a org.apache.ZooKeeperService:name0=StandaloneServer_port11223,name1=Connections,name2=127.0.0.1,name3=0x10015f02c14002a
+2020-06-22 14:14:03,121 [myid:] - INFO  [SuperHammerThread-4:ZooKeeper@1618] - Session: 0x10015f02c140027 closed
+2020-06-22 14:14:03,121 [myid:] - INFO  [SuperHammerThread-4-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015f02c140027
+2020-06-22 14:14:03,121 [myid:] - INFO  [SuperHammerThread-4:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11223 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@401d01dd
+2020-06-22 14:14:03,122 [myid:] - INFO  [SuperHammerThread-4:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:14:03,122 [myid:] - INFO  [SuperHammerThread-4:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:14:03,123 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11223.
+2020-06-22 14:14:03,123 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:14:03,123 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:59010, server: activate.navicat.com/127.0.0.1:11223
+2020-06-22 14:14:03,125 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11223, session id = 0x10015f02c14002b, negotiated timeout = 30000
+2020-06-22 14:14:03,126 [myid:] - INFO  [SuperHammerThread-4:JMXEnv@116] - expect:0x10015f02c14002b
+2020-06-22 14:14:03,126 [myid:] - INFO  [SuperHammerThread-4:JMXEnv@119] - found:0x10015f02c14002b org.apache.ZooKeeperService:name0=StandaloneServer_port11223,name1=Connections,name2=127.0.0.1,name3=0x10015f02c14002b
+2020-06-22 14:14:03,222 [myid:] - INFO  [SuperHammerThread-2:ZooKeeper@1618] - Session: 0x10015f02c140026 closed
+2020-06-22 14:14:03,222 [myid:] - INFO  [SuperHammerThread-2-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015f02c140026
+2020-06-22 14:14:03,222 [myid:] - INFO  [SuperHammerThread-2:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11223 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@31f64ba7
+2020-06-22 14:14:03,223 [myid:] - INFO  [SuperHammerThread-2:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:14:03,224 [myid:] - INFO  [SuperHammerThread-2:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:14:03,224 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11223.
+2020-06-22 14:14:03,224 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:14:03,225 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:59013, server: activate.navicat.com/127.0.0.1:11223
+2020-06-22 14:14:03,226 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11223, session id = 0x10015f02c14002c, negotiated timeout = 30000
+2020-06-22 14:14:03,228 [myid:] - INFO  [SuperHammerThread-2:JMXEnv@116] - expect:0x10015f02c14002c
+2020-06-22 14:14:03,228 [myid:] - INFO  [SuperHammerThread-2:JMXEnv@119] - found:0x10015f02c14002c org.apache.ZooKeeperService:name0=StandaloneServer_port11223,name1=Connections,name2=127.0.0.1,name3=0x10015f02c14002c
+2020-06-22 14:14:03,323 [myid:] - INFO  [SuperHammerThread-4:ZooKeeper@1618] - Session: 0x10015f02c14002b closed
+2020-06-22 14:14:03,323 [myid:] - INFO  [SuperHammerThread-4-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015f02c14002b
+2020-06-22 14:14:03,323 [myid:] - INFO  [SuperHammerThread-4:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11223 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@3c935842
+2020-06-22 14:14:03,324 [myid:] - INFO  [SuperHammerThread-4:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:14:03,324 [myid:] - INFO  [SuperHammerThread-4:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:14:03,325 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11223.
+2020-06-22 14:14:03,325 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:14:03,325 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:59016, server: activate.navicat.com/127.0.0.1:11223
+2020-06-22 14:14:03,327 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11223, session id = 0x10015f02c14002d, negotiated timeout = 30000
+2020-06-22 14:14:03,328 [myid:] - INFO  [SuperHammerThread-4:JMXEnv@116] - expect:0x10015f02c14002d
+2020-06-22 14:14:03,328 [myid:] - INFO  [SuperHammerThread-4:JMXEnv@119] - found:0x10015f02c14002d org.apache.ZooKeeperService:name0=StandaloneServer_port11223,name1=Connections,name2=127.0.0.1,name3=0x10015f02c14002d
+2020-06-22 14:14:03,423 [myid:] - INFO  [SuperHammerThread-3:ZooKeeper@1618] - Session: 0x10015f02c14002a closed
+2020-06-22 14:14:03,423 [myid:] - INFO  [SuperHammerThread-3-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015f02c14002a
+2020-06-22 14:14:03,423 [myid:] - INFO  [SuperHammerThread-3:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11223 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@3c43ac1d
+2020-06-22 14:14:03,424 [myid:] - INFO  [SuperHammerThread-3:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:14:03,424 [myid:] - INFO  [SuperHammerThread-3:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:14:03,425 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11223.
+2020-06-22 14:14:03,425 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:14:03,425 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:59019, server: activate.navicat.com/127.0.0.1:11223
+2020-06-22 14:14:03,426 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11223, session id = 0x10015f02c14002e, negotiated timeout = 30000
+2020-06-22 14:14:03,427 [myid:] - INFO  [SuperHammerThread-3:JMXEnv@116] - expect:0x10015f02c14002e
+2020-06-22 14:14:03,427 [myid:] - INFO  [SuperHammerThread-3:JMXEnv@119] - found:0x10015f02c14002e org.apache.ZooKeeperService:name0=StandaloneServer_port11223,name1=Connections,name2=127.0.0.1,name3=0x10015f02c14002e
+2020-06-22 14:14:03,524 [myid:] - INFO  [SuperHammerThread-0-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015f02c140029
+2020-06-22 14:14:03,524 [myid:] - INFO  [SuperHammerThread-0:ZooKeeper@1618] - Session: 0x10015f02c140029 closed
+2020-06-22 14:14:03,524 [myid:] - INFO  [SuperHammerThread-0:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11223 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@6c416610
+2020-06-22 14:14:03,525 [myid:] - INFO  [SuperHammerThread-0:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:14:03,525 [myid:] - INFO  [SuperHammerThread-0:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:14:03,526 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11223.
+2020-06-22 14:14:03,526 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:14:03,526 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:59022, server: activate.navicat.com/127.0.0.1:11223
+2020-06-22 14:14:03,528 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11223, session id = 0x10015f02c14002f, negotiated timeout = 30000
+2020-06-22 14:14:03,529 [myid:] - INFO  [SuperHammerThread-0:JMXEnv@116] - expect:0x10015f02c14002f
+2020-06-22 14:14:03,529 [myid:] - INFO  [SuperHammerThread-0:JMXEnv@119] - found:0x10015f02c14002f org.apache.ZooKeeperService:name0=StandaloneServer_port11223,name1=Connections,name2=127.0.0.1,name3=0x10015f02c14002f
+2020-06-22 14:14:03,625 [myid:] - INFO  [SuperHammerThread-3:ZooKeeper@1618] - Session: 0x10015f02c14002e closed
+2020-06-22 14:14:03,625 [myid:] - INFO  [SuperHammerThread-3-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015f02c14002e
+2020-06-22 14:14:03,725 [myid:] - INFO  [SuperHammerThread-4:ZooKeeper@1618] - Session: 0x10015f02c14002d closed
+2020-06-22 14:14:03,725 [myid:] - INFO  [SuperHammerThread-4-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015f02c14002d
+2020-06-22 14:14:03,725 [myid:] - INFO  [SuperHammerThread-4:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11223 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@764ec6ba
+2020-06-22 14:14:03,726 [myid:] - INFO  [SuperHammerThread-4:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:14:03,726 [myid:] - INFO  [SuperHammerThread-4:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:14:03,727 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11223.
+2020-06-22 14:14:03,727 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:14:03,727 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:59026, server: activate.navicat.com/127.0.0.1:11223
+2020-06-22 14:14:03,729 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11223, session id = 0x10015f02c140030, negotiated timeout = 30000
+2020-06-22 14:14:03,730 [myid:] - INFO  [SuperHammerThread-4:JMXEnv@116] - expect:0x10015f02c140030
+2020-06-22 14:14:03,730 [myid:] - INFO  [SuperHammerThread-4:JMXEnv@119] - found:0x10015f02c140030 org.apache.ZooKeeperService:name0=StandaloneServer_port11223,name1=Connections,name2=127.0.0.1,name3=0x10015f02c140030
+2020-06-22 14:14:03,826 [myid:] - INFO  [SuperHammerThread-2:ZooKeeper@1618] - Session: 0x10015f02c14002c closed
+2020-06-22 14:14:03,826 [myid:] - INFO  [SuperHammerThread-2-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015f02c14002c
+2020-06-22 14:14:03,826 [myid:] - INFO  [SuperHammerThread-2:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11223 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@290a7e39
+2020-06-22 14:14:03,827 [myid:] - INFO  [SuperHammerThread-2:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:14:03,827 [myid:] - INFO  [SuperHammerThread-2:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:14:03,828 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11223.
+2020-06-22 14:14:03,828 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:14:03,829 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:59029, server: activate.navicat.com/127.0.0.1:11223
+2020-06-22 14:14:03,830 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11223, session id = 0x10015f02c140031, negotiated timeout = 30000
+2020-06-22 14:14:03,831 [myid:] - INFO  [SuperHammerThread-2:JMXEnv@116] - expect:0x10015f02c140031
+2020-06-22 14:14:03,831 [myid:] - INFO  [SuperHammerThread-2:JMXEnv@119] - found:0x10015f02c140031 org.apache.ZooKeeperService:name0=StandaloneServer_port11223,name1=Connections,name2=127.0.0.1,name3=0x10015f02c140031
+2020-06-22 14:14:03,927 [myid:] - INFO  [SuperHammerThread-4-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015f02c140030
+2020-06-22 14:14:03,927 [myid:] - INFO  [SuperHammerThread-4:ZooKeeper@1618] - Session: 0x10015f02c140030 closed
+2020-06-22 14:14:04,028 [myid:] - INFO  [SuperHammerThread-0-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015f02c14002f
+2020-06-22 14:14:04,028 [myid:] - INFO  [SuperHammerThread-0:ZooKeeper@1618] - Session: 0x10015f02c14002f closed
+2020-06-22 14:14:04,028 [myid:] - INFO  [SuperHammerThread-0:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11223 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@5e45e9ba
+2020-06-22 14:14:04,029 [myid:] - INFO  [SuperHammerThread-0:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:14:04,029 [myid:] - INFO  [SuperHammerThread-0:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:14:04,030 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11223.
+2020-06-22 14:14:04,030 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:14:04,031 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:59033, server: activate.navicat.com/127.0.0.1:11223
+2020-06-22 14:14:04,032 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11223, session id = 0x10015f02c140032, negotiated timeout = 30000
+2020-06-22 14:14:04,033 [myid:] - INFO  [SuperHammerThread-0:JMXEnv@116] - expect:0x10015f02c140032
+2020-06-22 14:14:04,033 [myid:] - INFO  [SuperHammerThread-0:JMXEnv@119] - found:0x10015f02c140032 org.apache.ZooKeeperService:name0=StandaloneServer_port11223,name1=Connections,name2=127.0.0.1,name3=0x10015f02c140032
+2020-06-22 14:14:04,129 [myid:] - INFO  [SuperHammerThread-2:ZooKeeper@1618] - Session: 0x10015f02c140031 closed
+2020-06-22 14:14:04,129 [myid:] - INFO  [SuperHammerThread-2:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11223 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@44d550f6
+2020-06-22 14:14:04,129 [myid:] - INFO  [SuperHammerThread-2-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015f02c140031
+2020-06-22 14:14:04,130 [myid:] - INFO  [SuperHammerThread-2:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:14:04,130 [myid:] - INFO  [SuperHammerThread-2:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:14:04,135 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11223.
+2020-06-22 14:14:04,135 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:14:04,135 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:59109, server: activate.navicat.com/127.0.0.1:11223
+2020-06-22 14:14:04,140 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11223, session id = 0x10015f02c140033, negotiated timeout = 30000
+2020-06-22 14:14:04,141 [myid:] - INFO  [SuperHammerThread-2:JMXEnv@116] - expect:0x10015f02c140033
+2020-06-22 14:14:04,141 [myid:] - INFO  [SuperHammerThread-2:JMXEnv@119] - found:0x10015f02c140033 org.apache.ZooKeeperService:name0=StandaloneServer_port11223,name1=Connections,name2=127.0.0.1,name3=0x10015f02c140033
+2020-06-22 14:14:04,148 [myid:127.0.0.1:11223] - WARN  [SuperHammerThread-2-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1266] - An exception was thrown while closing send thread for session 0x10015f02c140033.
+EndOfStreamException: Unable to read additional data from server sessionid 0x10015f02c140033, likely server has closed socket
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doIO(ClientCnxnSocketNIO.java:75)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:348)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1262)
+2020-06-22 14:14:04,230 [myid:] - INFO  [SuperHammerThread-0:ZooKeeper@1618] - Session: 0x10015f02c140032 closed
+2020-06-22 14:14:04,231 [myid:] - INFO  [SuperHammerThread-0:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11223 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@ab115cf
+2020-06-22 14:14:04,231 [myid:] - INFO  [SuperHammerThread-0-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015f02c140032
+2020-06-22 14:14:04,232 [myid:] - INFO  [SuperHammerThread-0:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:14:04,233 [myid:] - INFO  [SuperHammerThread-0:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:14:04,250 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11223.
+2020-06-22 14:14:04,250 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:14:04,251 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:59125, server: activate.navicat.com/127.0.0.1:11223
+2020-06-22 14:14:04,253 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11223, session id = 0x10015f02c140034, negotiated timeout = 30000
+2020-06-22 14:14:04,255 [myid:] - INFO  [SuperHammerThread-0:JMXEnv@116] - expect:0x10015f02c140034
+2020-06-22 14:14:04,255 [myid:] - INFO  [SuperHammerThread-0:JMXEnv@119] - found:0x10015f02c140034 org.apache.ZooKeeperService:name0=StandaloneServer_port11223,name1=Connections,name2=127.0.0.1,name3=0x10015f02c140034
+2020-06-22 14:14:04,333 [myid:] - INFO  [SuperHammerThread-2:ZooKeeper@1618] - Session: 0x10015f02c140033 closed
+2020-06-22 14:14:04,333 [myid:] - INFO  [SuperHammerThread-2-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015f02c140033
+2020-06-22 14:14:04,334 [myid:] - INFO  [SuperHammerThread-2:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11223 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@15776a6f
+2020-06-22 14:14:04,335 [myid:] - INFO  [SuperHammerThread-2:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:14:04,335 [myid:] - INFO  [SuperHammerThread-2:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:14:04,338 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11223.
+2020-06-22 14:14:04,339 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:14:04,339 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:59128, server: activate.navicat.com/127.0.0.1:11223
+2020-06-22 14:14:04,342 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11223, session id = 0x10015f02c140035, negotiated timeout = 30000
+2020-06-22 14:14:04,344 [myid:] - INFO  [SuperHammerThread-2:JMXEnv@116] - expect:0x10015f02c140035
+2020-06-22 14:14:04,344 [myid:] - INFO  [SuperHammerThread-2:JMXEnv@119] - found:0x10015f02c140035 org.apache.ZooKeeperService:name0=StandaloneServer_port11223,name1=Connections,name2=127.0.0.1,name3=0x10015f02c140035
+2020-06-22 14:14:04,441 [myid:] - INFO  [SuperHammerThread-0:ZooKeeper@1618] - Session: 0x10015f02c140034 closed
+2020-06-22 14:14:04,441 [myid:] - INFO  [SuperHammerThread-0-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015f02c140034
+2020-06-22 14:14:04,541 [myid:] - INFO  [SuperHammerThread-2-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015f02c140035
+2020-06-22 14:14:04,541 [myid:] - INFO  [SuperHammerThread-2:ZooKeeper@1618] - Session: 0x10015f02c140035 closed
+2020-06-22 14:14:04,542 [myid:] - INFO  [SuperHammerThread-2:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11223 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@5e64794a
+2020-06-22 14:14:04,543 [myid:] - INFO  [SuperHammerThread-2:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:14:04,544 [myid:] - INFO  [SuperHammerThread-2:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:14:04,551 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11223.
+2020-06-22 14:14:04,551 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:14:04,551 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:59133, server: activate.navicat.com/127.0.0.1:11223
+2020-06-22 14:14:04,554 [myid:127.0.0.1:11223] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11223, session id = 0x10015f02c140036, negotiated timeout = 30000
+2020-06-22 14:14:04,555 [myid:] - INFO  [SuperHammerThread-2:JMXEnv@116] - expect:0x10015f02c140036
+2020-06-22 14:14:04,555 [myid:] - INFO  [SuperHammerThread-2:JMXEnv@119] - found:0x10015f02c140036 org.apache.ZooKeeperService:name0=StandaloneServer_port11223,name1=Connections,name2=127.0.0.1,name3=0x10015f02c140036
+2020-06-22 14:14:04,668 [myid:] - INFO  [SuperHammerThread-2:ZooKeeper@1618] - Session: 0x10015f02c140036 closed
+2020-06-22 14:14:04,668 [myid:] - INFO  [SuperHammerThread-2-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015f02c140036
+2020-06-22 14:14:10,201 [myid:] - INFO  [main:ClientHammerTest@207] - Hammer threads completed creation operations
+2020-06-22 14:14:10,201 [myid:] - INFO  [main:ClientHammerTest@217] - Mon Jun 22 14:14:10 CST 2020 Total time 11146
+2020-06-22 14:14:10,201 [myid:] - INFO  [main:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:11223 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@226a82c4
+2020-06-22 14:14:10,201 [myid:] - INFO  [main:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-06-22 14:14:10,202 [myid:] - INFO  [main:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-06-22 14:14:10,202 [myid:127.0.0.1:11223] - INFO  [main-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1154] - Opening socket connection to server activate.navicat.com/127.0.0.1:11223.
+2020-06-22 14:14:10,202 [myid:127.0.0.1:11223] - INFO  [main-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-06-22 14:14:10,203 [myid:127.0.0.1:11223] - INFO  [main-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:59462, server: activate.navicat.com/127.0.0.1:11223
+2020-06-22 14:14:10,204 [myid:127.0.0.1:11223] - INFO  [main-SendThread(127.0.0.1:11223):ClientCnxn$SendThread@1420] - Session establishment complete on server activate.navicat.com/127.0.0.1:11223, session id = 0x10015f02c140037, negotiated timeout = 30000
+2020-06-22 14:14:10,204 [myid:] - INFO  [main:JMXEnv@116] - expect:0x10015f02c140037
+2020-06-22 14:14:10,204 [myid:] - INFO  [main:JMXEnv@119] - found:0x10015f02c140037 org.apache.ZooKeeperService:name0=StandaloneServer_port11223,name1=Connections,name2=127.0.0.1,name3=0x10015f02c140037
+2020-06-22 14:14:10,205 [myid:] - INFO  [main:ClientHammerTest@221] - ******************* Connected to ZooKeeperMon Jun 22 14:14:10 CST 2020
+2020-06-22 14:14:10,205 [myid:] - INFO  [main:ClientHammerTest@223] - Doing thread: 0 Mon Jun 22 14:14:10 CST 2020
+2020-06-22 14:14:10,205 [myid:] - INFO  [main:ClientHammerTest@223] - Doing thread: 1 Mon Jun 22 14:14:10 CST 2020
+2020-06-22 14:14:10,206 [myid:] - INFO  [main:ClientHammerTest@223] - Doing thread: 2 Mon Jun 22 14:14:10 CST 2020
+2020-06-22 14:14:10,206 [myid:] - INFO  [main:ClientHammerTest@223] - Doing thread: 3 Mon Jun 22 14:14:10 CST 2020
+2020-06-22 14:14:10,207 [myid:] - INFO  [main:ClientHammerTest@223] - Doing thread: 4 Mon Jun 22 14:14:10 CST 2020
+2020-06-22 14:14:10,311 [myid:] - INFO  [main:ZooKeeper@1618] - Session: 0x10015f02c140037 closed
+2020-06-22 14:14:10,311 [myid:] - INFO  [main-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x10015f02c140037
+2020-06-22 14:14:10,311 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 17804
+2020-06-22 14:14:10,311 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 39
+2020-06-22 14:14:10,311 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testHammerSuper
+2020-06-22 14:14:10,311 [myid:] - INFO  [main:ClientBase@583] - tearDown starting
+2020-06-22 14:14:10,313 [myid:] - INFO  [main:ClientBase@557] - STOPPING server
+2020-06-22 14:14:10,313 [myid:] - INFO  [ConnnectionExpirer:NIOServerCnxnFactory$ConnectionExpirerThread@578] - ConnnectionExpirerThread interrupted
+2020-06-22 14:14:10,314 [myid:] - INFO  [NIOServerCxnFactory.AcceptThread:0.0.0.0/0.0.0.0:11223:NIOServerCnxnFactory$AcceptThread@209] - accept thread exitted run method
+2020-06-22 14:14:10,314 [myid:] - INFO  [NIOServerCxnFactory.SelectorThread-0:NIOServerCnxnFactory$SelectorThread@411] - selector thread exitted run method
+2020-06-22 14:14:10,315 [myid:] - INFO  [NIOServerCxnFactory.SelectorThread-1:NIOServerCnxnFactory$SelectorThread@411] - selector thread exitted run method
+2020-06-22 14:14:10,315 [myid:] - INFO  [main:ZooKeeperServer@784] - shutting down
+2020-06-22 14:14:10,315 [myid:] - INFO  [main:RequestThrottler@244] - Shutting down
+2020-06-22 14:14:10,315 [myid:] - INFO  [RequestThrottler:RequestThrottler@205] - Draining request throttler queue
+2020-06-22 14:14:10,316 [myid:] - INFO  [RequestThrottler:RequestThrottler@181] - RequestThrottler shutdown. Dropped 0 requests
+2020-06-22 14:14:10,316 [myid:] - INFO  [main:SessionTrackerImpl@247] - Shutting down
+2020-06-22 14:14:10,316 [myid:] - INFO  [main:PrepRequestProcessor@1047] - Shutting down
+2020-06-22 14:14:10,316 [myid:] - INFO  [main:SyncRequestProcessor@256] - Shutting down
+2020-06-22 14:14:10,316 [myid:] - INFO  [ProcessThread(sid:0 cport:11223)::PrepRequestProcessor@159] - PrepRequestProcessor exited loop!
+2020-06-22 14:14:10,316 [myid:] - INFO  [SyncThread:0:SyncRequestProcessor@225] - SyncRequestProcessor exited!
+2020-06-22 14:14:10,316 [myid:] - INFO  [main:FinalRequestProcessor@662] - shutdown of request processor complete
+2020-06-22 14:14:10,317 [myid:] - INFO  [main:FourLetterWordMain@93] - connecting to 127.0.0.1 11223
+2020-06-22 14:14:10,588 [myid:] - INFO  [SessionTracker:SessionTrackerImpl@170] - SessionTrackerImpl exited loop!
+2020-06-22 14:14:12,321 [myid:] - INFO  [main:JMXEnv@142] - ensureOnly:[]
+2020-06-22 14:14:12,324 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testHammerSuper
+2020-06-22 14:14:12,324 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testHammerSuper

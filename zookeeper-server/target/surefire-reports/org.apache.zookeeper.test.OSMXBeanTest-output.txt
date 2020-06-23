@@ -1,0 +1,24 @@
+2020-06-22 14:19:18,357 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:19:18,364 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:19:18,449 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testGetUnix
+2020-06-22 14:19:18,461 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testGetUnix
+2020-06-22 14:19:18,462 [myid:] - INFO  [main:OSMXBeanTest@47] - Running in a Windows system! Output won't be printed!
+2020-06-22 14:19:18,468 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 8741
+2020-06-22 14:19:18,468 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:19:18,468 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testGetUnix
+2020-06-22 14:19:18,469 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testGetUnix
+2020-06-22 14:19:18,469 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testGetUnix
+2020-06-22 14:19:18,471 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testGetMaxFileDescriptorCount
+2020-06-22 14:19:18,471 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testGetMaxFileDescriptorCount
+2020-06-22 14:19:18,471 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 8741
+2020-06-22 14:19:18,472 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:19:18,472 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testGetMaxFileDescriptorCount
+2020-06-22 14:19:18,472 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testGetMaxFileDescriptorCount
+2020-06-22 14:19:18,473 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testGetMaxFileDescriptorCount
+2020-06-22 14:19:18,474 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testGetOpenFileDescriptorCount
+2020-06-22 14:19:18,475 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testGetOpenFileDescriptorCount
+2020-06-22 14:19:18,475 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 8741
+2020-06-22 14:19:18,475 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:19:18,475 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testGetOpenFileDescriptorCount
+2020-06-22 14:19:18,475 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testGetOpenFileDescriptorCount
+2020-06-22 14:19:18,475 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testGetOpenFileDescriptorCount

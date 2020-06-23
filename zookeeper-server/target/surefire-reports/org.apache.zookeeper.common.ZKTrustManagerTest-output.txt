@@ -1,0 +1,58 @@
+2020-06-22 14:05:16,530 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:05:16,535 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:05:28,029 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testClientHostnameVerificationWithClientHostnameVerificationDisabled
+2020-06-22 14:05:28,928 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testClientHostnameVerificationWithClientHostnameVerificationDisabled
+2020-06-22 14:05:29,177 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 55999
+2020-06-22 14:05:29,178 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:05:29,178 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testClientHostnameVerificationWithClientHostnameVerificationDisabled
+2020-06-22 14:05:29,178 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testClientHostnameVerificationWithClientHostnameVerificationDisabled
+2020-06-22 14:05:29,178 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testClientHostnameVerificationWithClientHostnameVerificationDisabled
+2020-06-22 14:05:29,181 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testServerHostnameVerificationWithHostnameVerificationDisabled
+2020-06-22 14:05:29,182 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testServerHostnameVerificationWithHostnameVerificationDisabled
+2020-06-22 14:05:29,233 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 55999
+2020-06-22 14:05:29,233 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:05:29,233 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testServerHostnameVerificationWithHostnameVerificationDisabled
+2020-06-22 14:05:29,234 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testServerHostnameVerificationWithHostnameVerificationDisabled
+2020-06-22 14:05:29,234 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testServerHostnameVerificationWithHostnameVerificationDisabled
+2020-06-22 14:05:29,235 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testServerHostnameVerificationWithHostnameVerificationDisabledAndClientHostnameVerificationEnabled
+2020-06-22 14:05:29,236 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testServerHostnameVerificationWithHostnameVerificationDisabledAndClientHostnameVerificationEnabled
+2020-06-22 14:05:29,274 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 55999
+2020-06-22 14:05:29,275 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:05:29,275 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testServerHostnameVerificationWithHostnameVerificationDisabledAndClientHostnameVerificationEnabled
+2020-06-22 14:05:29,275 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testServerHostnameVerificationWithHostnameVerificationDisabledAndClientHostnameVerificationEnabled
+2020-06-22 14:05:29,275 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testServerHostnameVerificationWithHostnameVerificationDisabledAndClientHostnameVerificationEnabled
+2020-06-22 14:05:29,275 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testClientHostnameVerificationWithHostname
+2020-06-22 14:05:29,276 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testClientHostnameVerificationWithHostname
+2020-06-22 14:05:29,321 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 55999
+2020-06-22 14:05:29,321 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:05:29,321 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testClientHostnameVerificationWithHostname
+2020-06-22 14:05:29,321 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testClientHostnameVerificationWithHostname
+2020-06-22 14:05:29,321 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testClientHostnameVerificationWithHostname
+2020-06-22 14:05:29,322 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testClientHostnameVerificationWithIPAddress
+2020-06-22 14:05:29,323 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testClientHostnameVerificationWithIPAddress
+2020-06-22 14:05:29,360 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 58586
+2020-06-22 14:05:29,360 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:05:29,360 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testClientHostnameVerificationWithIPAddress
+2020-06-22 14:05:29,361 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testClientHostnameVerificationWithIPAddress
+2020-06-22 14:05:29,361 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testClientHostnameVerificationWithIPAddress
+2020-06-22 14:05:29,362 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testServerHostnameVerificationWithIPAddress
+2020-06-22 14:05:29,362 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testServerHostnameVerificationWithIPAddress
+2020-06-22 14:05:29,396 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 58586
+2020-06-22 14:05:29,397 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:05:29,397 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testServerHostnameVerificationWithIPAddress
+2020-06-22 14:05:29,397 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testServerHostnameVerificationWithIPAddress
+2020-06-22 14:05:29,397 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testServerHostnameVerificationWithIPAddress
+2020-06-22 14:05:29,397 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testClientHostnameVerificationWithHostnameVerificationDisabled
+2020-06-22 14:05:29,397 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testClientHostnameVerificationWithHostnameVerificationDisabled
+2020-06-22 14:05:29,430 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 58586
+2020-06-22 14:05:29,430 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:05:29,430 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testClientHostnameVerificationWithHostnameVerificationDisabled
+2020-06-22 14:05:29,430 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testClientHostnameVerificationWithHostnameVerificationDisabled
+2020-06-22 14:05:29,430 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testClientHostnameVerificationWithHostnameVerificationDisabled
+2020-06-22 14:05:29,431 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testServerHostnameVerificationWithHostname
+2020-06-22 14:05:29,432 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testServerHostnameVerificationWithHostname
+2020-06-22 14:05:29,469 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 58586
+2020-06-22 14:05:29,469 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:05:29,469 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testServerHostnameVerificationWithHostname
+2020-06-22 14:05:29,469 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testServerHostnameVerificationWithHostname
+2020-06-22 14:05:29,469 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testServerHostnameVerificationWithHostname

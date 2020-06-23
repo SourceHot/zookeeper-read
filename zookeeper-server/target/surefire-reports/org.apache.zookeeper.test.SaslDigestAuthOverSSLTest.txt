@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.zookeeper.test.SaslDigestAuthOverSSLTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 33.694 s <<< FAILURE! - in org.apache.zookeeper.test.SaslDigestAuthOverSSLTest
+testAuth(org.apache.zookeeper.test.SaslDigestAuthOverSSLTest)  Time elapsed: 33.476 s  <<< FAILURE!
+java.lang.AssertionError: waiting for server up
+	at org.apache.zookeeper.test.SaslDigestAuthOverSSLTest.setUp(SaslDigestAuthOverSSLTest.java:62)
+

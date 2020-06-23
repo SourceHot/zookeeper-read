@@ -1,0 +1,998 @@
+2020-06-22 14:09:40,768 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:09:40,772 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:09:40,850 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testNormalFollowerRun
+2020-06-22 14:09:40,861 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testNormalFollowerRun
+2020-06-22 14:09:41,029 [myid:] - INFO  [main:QuorumPeer@752] - zookeeper.quorumCnxnTimeoutMs=-1
+2020-06-22 14:09:41,035 [myid:] - INFO  [main:X509Util@77] - Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation
+2020-06-22 14:09:41,039 [myid:] - INFO  [main:PortAssignment@154] - Test process 2/8 using ports from 13914 - 16606.
+2020-06-22 14:09:41,042 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13915 from range 13914 - 16606.
+2020-06-22 14:09:41,043 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13916 from range 13914 - 16606.
+2020-06-22 14:09:41,044 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13917 from range 13914 - 16606.
+2020-06-22 14:09:41,044 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13918 from range 13914 - 16606.
+2020-06-22 14:09:41,045 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13919 from range 13914 - 16606.
+2020-06-22 14:09:41,045 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13920 from range 13914 - 16606.
+2020-06-22 14:09:41,045 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13921 from range 13914 - 16606.
+2020-06-22 14:09:41,046 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13922 from range 13914 - 16606.
+2020-06-22 14:09:41,047 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13923 from range 13914 - 16606.
+2020-06-22 14:09:41,049 [myid:] - WARN  [main:QuorumPeer@1784] - configFilename is null! This should only happen in tests.
+2020-06-22 14:09:41,060 [myid:] - INFO  [main:FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2020-06-22 14:09:41,075 [myid:] - INFO  [main:ZookeeperBanner@42] - 
+2020-06-22 14:09:41,075 [myid:] - INFO  [main:ZookeeperBanner@42] -   ______                  _                                          
+2020-06-22 14:09:41,076 [myid:] - INFO  [main:ZookeeperBanner@42] -  |___  /                 | |                                         
+2020-06-22 14:09:41,076 [myid:] - INFO  [main:ZookeeperBanner@42] -     / /    ___     ___   | | __   ___    ___   _ __     ___   _ __   
+2020-06-22 14:09:41,076 [myid:] - INFO  [main:ZookeeperBanner@42] -    / /    / _ \   / _ \  | |/ /  / _ \  / _ \ | '_ \   / _ \ | '__|
+2020-06-22 14:09:41,076 [myid:] - INFO  [main:ZookeeperBanner@42] -   / /__  | (_) | | (_) | |   <  |  __/ |  __/ | |_) | |  __/ | |    
+2020-06-22 14:09:41,076 [myid:] - INFO  [main:ZookeeperBanner@42] -  /_____|  \___/   \___/  |_|\_\  \___|  \___| | .__/   \___| |_|
+2020-06-22 14:09:41,076 [myid:] - INFO  [main:ZookeeperBanner@42] -                                               | |                     
+2020-06-22 14:09:41,076 [myid:] - INFO  [main:ZookeeperBanner@42] -                                               |_|                     
+2020-06-22 14:09:41,076 [myid:] - INFO  [main:ZookeeperBanner@42] - 
+2020-06-22 14:09:41,093 [myid:] - INFO  [main:Environment@98] - Server environment:zookeeper.version=3.6.1--9de128fcd2cb3170e738547b0603a1ba7049df48, built on 06/22/2020 06:04 GMT
+2020-06-22 14:09:41,094 [myid:] - INFO  [main:Environment@98] - Server environment:host.name=LAPTOP-D7DF36F6
+2020-06-22 14:09:41,094 [myid:] - INFO  [main:Environment@98] - Server environment:java.version=1.8.0_252
+2020-06-22 14:09:41,094 [myid:] - INFO  [main:Environment@98] - Server environment:java.vendor=Oracle Corporation
+2020-06-22 14:09:41,094 [myid:] - INFO  [main:Environment@98] - Server environment:java.home=D:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.252-2\jre
+2020-06-22 14:09:41,094 [myid:] - INFO  [main:Environment@98] - Server environment:java.class.path=D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\test-classes;D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\classes;C:\Users\admin\.m2\repository\com\github\spotbugs\spotbugs-annotations\4.0.2\spotbugs-annotations-4.0.2.jar;C:\Users\admin\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\admin\.m2\repository\org\hamcrest\hamcrest-all\1.3\hamcrest-all-1.3.jar;C:\Users\admin\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\admin\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;D:\desktop\git_repo\zookeeper-read\zookeeper-jute\target\zookeeper-jute-3.6.1.jar;C:\Users\admin\.m2\repository\commons-cli\commons-cli\1.2\commons-cli-1.2.jar;C:\Users\admin\.m2\repository\org\apache\yetus\audience-annotations\0.5.0\audience-annotations-0.5.0.jar;C:\Users\admin\.m2\repository\io\netty\netty-handler\4.1.48.Final\netty-handler-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-common\4.1.48.Final\netty-common-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-resolver\4.1.48.Final\netty-resolver-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-buffer\4.1.48.Final\netty-buffer-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport\4.1.48.Final\netty-transport-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-codec\4.1.48.Final\netty-codec-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport-native-epoll\4.1.48.Final\netty-transport-native-epoll-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.48.Final\netty-transport-native-unix-common-4.1.48.Final.jar;C:\Users\admin\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\admin\.m2\repository\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;C:\Users\admin\.m2\repository\org\eclipse\jetty\jetty-server\9.4.24.v20191120\jetty-server-9.4.24.v20191120.jar;C:\Users\admin\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\admin\.m2\repository\org\eclipse\jetty\jetty-http\9.4.24.v20191120\jetty-http-9.4.24.v20191120.jar;C:\Users\admin\.m2\repository\org\eclipse\jetty\jetty-util\9.4.24.v20191120\jetty-util-9.4.24.v20191120.jar;C:\Users\admin\.m2\repository\org\eclipse\jetty\jetty-io\9.4.24.v20191120\jetty-io-9.4.24.v20191120.jar;C:\Users\admin\.m2\repository\org\eclipse\jetty\jetty-servlet\9.4.24.v20191120\jetty-servlet-9.4.24.v20191120.jar;C:\Users\admin\.m2\repository\org\eclipse\jetty\jetty-security\9.4.24.v20191120\jetty-security-9.4.24.v20191120.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\admin\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\admin\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.60\bcprov-jdk15on-1.60.jar;C:\Users\admin\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.60\bcpkix-jdk15on-1.60.jar;C:\Users\admin\.m2\repository\jline\jline\2.11\jline-2.11.jar;C:\Users\admin\.m2\repository\io\dropwizard\metrics\metrics-core\3.2.5\metrics-core-3.2.5.jar;C:\Users\admin\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-core\2.0.0\kerb-core-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerby-pkix\2.0.0\kerby-pkix-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerby-asn1\2.0.0\kerby-asn1-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerby-util\2.0.0\kerby-util-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-simplekdc\2.0.0\kerb-simplekdc-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-client\2.0.0\kerb-client-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-common\2.0.0\kerb-common-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-crypto\2.0.0\kerb-crypto-2.0.0.jar;C:\Users\admin\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-util\2.0.0\kerb-util-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\token-provider\2.0.0\token-provider-2.0.0.jar;C:\Users\admin\.m2\repository\com\nimbusds\nimbus-jose-jwt\4.41.2\nimbus-jose-jwt-4.41.2.jar;C:\Users\admin\.m2\repository\com\github\stephenc\jcip\jcip-annotations\1.0-1\jcip-annotations-1.0-1.jar;C:\Users\admin\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar;C:\Users\admin\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar;C:\Users\admin\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-admin\2.0.0\kerb-admin-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-server\2.0.0\kerb-server-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-identity\2.0.0\kerb-identity-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerby-xdr\2.0.0\kerby-xdr-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerby-config\2.0.0\kerby-config-2.0.0.jar;C:\Users\admin\.m2\repository\org\mockito\mockito-core\2.27.0\mockito-core-2.27.0.jar;C:\Users\admin\.m2\repository\net\bytebuddy\byte-buddy\1.9.10\byte-buddy-1.9.10.jar;C:\Users\admin\.m2\repository\net\bytebuddy\byte-buddy-agent\1.9.10\byte-buddy-agent-1.9.10.jar;C:\Users\admin\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:\Users\admin\.m2\repository\org\jmockit\jmockit\1.48\jmockit-1.48.jar;C:\Users\admin\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\admin\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\admin\.m2\repository\org\xerial\snappy\snappy-java\1.1.7\snappy-java-1.1.7.jar;
+2020-06-22 14:09:41,095 [myid:] - INFO  [main:Environment@98] - Server environment:java.library.path=D:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.252-2\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\Program Files (x86)\NetSarang\Xshell 6\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.252-2\bin;D:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.252-2\jre\bin;D:\Program Files\Git\cmd;D:\Go\bin;D:\Program Files\nodejs\;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;;D:\Programs\Microsoft VS Code\bin;C:\Users\admin\go\bin;C:\Users\admin\AppData\Roaming\npm;.
+2020-06-22 14:09:41,095 [myid:] - INFO  [main:Environment@98] - Server environment:java.io.tmpdir=C:\Users\admin\AppData\Local\Temp\
+2020-06-22 14:09:41,095 [myid:] - INFO  [main:Environment@98] - Server environment:java.compiler=<NA>
+2020-06-22 14:09:41,096 [myid:] - INFO  [main:Environment@98] - Server environment:os.name=Windows 10
+2020-06-22 14:09:41,096 [myid:] - INFO  [main:Environment@98] - Server environment:os.arch=amd64
+2020-06-22 14:09:41,096 [myid:] - INFO  [main:Environment@98] - Server environment:os.version=10.0
+2020-06-22 14:09:41,096 [myid:] - INFO  [main:Environment@98] - Server environment:user.name=admin
+2020-06-22 14:09:41,096 [myid:] - INFO  [main:Environment@98] - Server environment:user.home=C:\Users\admin
+2020-06-22 14:09:41,096 [myid:] - INFO  [main:Environment@98] - Server environment:user.dir=D:\desktop\git_repo\zookeeper-read\zookeeper-server
+2020-06-22 14:09:41,096 [myid:] - INFO  [main:Environment@98] - Server environment:os.memory.free=106MB
+2020-06-22 14:09:41,096 [myid:] - INFO  [main:Environment@98] - Server environment:os.memory.max=455MB
+2020-06-22 14:09:41,097 [myid:] - INFO  [main:Environment@98] - Server environment:os.memory.total=121MB
+2020-06-22 14:09:41,097 [myid:] - INFO  [main:ZooKeeperServer@128] - zookeeper.enableEagerACLCheck = false
+2020-06-22 14:09:41,097 [myid:] - INFO  [main:ZooKeeperServer@136] - zookeeper.digest.enabled = true
+2020-06-22 14:09:41,097 [myid:] - INFO  [main:ZooKeeperServer@140] - zookeeper.closeSessionTxn.enabled = true
+2020-06-22 14:09:41,097 [myid:] - INFO  [main:ZooKeeperServer@1434] - zookeeper.flushDelay=0
+2020-06-22 14:09:41,097 [myid:] - INFO  [main:ZooKeeperServer@1443] - zookeeper.maxWriteQueuePollTime=0
+2020-06-22 14:09:41,097 [myid:] - INFO  [main:ZooKeeperServer@1452] - zookeeper.maxBatchSize=1000
+2020-06-22 14:09:41,097 [myid:] - INFO  [main:ZooKeeperServer@241] - zookeeper.intBufferStartingSizeBytes = 1024
+2020-06-22 14:09:41,104 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:09:41,104 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:09:41,104 [myid:] - INFO  [main:ZKDatabase@132] - zookeeper.snapshotSizeFactor = 0.33
+2020-06-22 14:09:41,104 [myid:] - INFO  [main:ZKDatabase@152] - zookeeper.commitLogCount=500
+2020-06-22 14:09:41,106 [myid:] - INFO  [main:BlueThrottle@141] - Weighed connection throttling is disabled
+2020-06-22 14:09:41,108 [myid:] - INFO  [main:ZooKeeperServer@1246] - minSessionTimeout set to 4000
+2020-06-22 14:09:41,109 [myid:] - INFO  [main:ZooKeeperServer@1255] - maxSessionTimeout set to 40000
+2020-06-22 14:09:41,111 [myid:] - INFO  [main:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-22 14:09:41,111 [myid:] - INFO  [main:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-22 14:09:41,112 [myid:] - INFO  [main:RequestPathMetricsCollector@111] - zookeeper.pathStats.slotCapacity = 60
+2020-06-22 14:09:41,112 [myid:] - INFO  [main:RequestPathMetricsCollector@112] - zookeeper.pathStats.slotDuration = 15
+2020-06-22 14:09:41,113 [myid:] - INFO  [main:RequestPathMetricsCollector@113] - zookeeper.pathStats.maxDepth = 6
+2020-06-22 14:09:41,113 [myid:] - INFO  [main:RequestPathMetricsCollector@114] - zookeeper.pathStats.initialDelay = 5
+2020-06-22 14:09:41,113 [myid:] - INFO  [main:RequestPathMetricsCollector@115] - zookeeper.pathStats.delay = 5
+2020-06-22 14:09:41,113 [myid:] - INFO  [main:RequestPathMetricsCollector@116] - zookeeper.pathStats.enabled = false
+2020-06-22 14:09:41,115 [myid:] - INFO  [main:ZooKeeperServer@1471] - The max bytes for all large requests are set to 104857600
+2020-06-22 14:09:41,115 [myid:] - INFO  [main:ZooKeeperServer@1485] - The large request threshold is set to -1
+2020-06-22 14:09:41,116 [myid:] - INFO  [main:ZooKeeperServer@329] - Created server with tickTime 2000 minSessionTimeout 4000 maxSessionTimeout 40000 clientPortListenBacklog -1 datadir src\test\resources\data\test7632055468014313360dir\version-2 snapdir src\test\resources\data\test7632055468014313360dir\version-2
+2020-06-22 14:09:41,119 [myid:] - INFO  [main:Learner@117] - leaderConnectDelayDuringRetryMs: 100
+2020-06-22 14:09:41,119 [myid:] - INFO  [main:Learner@118] - TCP NoDelay set to: true
+2020-06-22 14:09:41,138 [myid:] - INFO  [Thread-0:Follower@75] - FOLLOWING - LEADER ELECTION TOOK - 367803533 MS
+2020-06-22 14:09:41,193 [myid:] - INFO  [Thread-0:QuorumPeer@863] - Peer state changed: looking - discovery
+2020-06-22 14:09:41,206 [myid:] - INFO  [LeaderConnector-/127.0.0.1:63657:Learner$LeaderConnector@330] - Successfully connected to leader, using address: /127.0.0.1:63657
+2020-06-22 14:09:41,215 [myid:] - INFO  [Thread-0:SnapStream@61] - zookeeper.snapshot.compression.method = CHECKED
+2020-06-22 14:09:41,216 [myid:] - INFO  [Thread-0:FileTxnSnapLog@251] - Initialize file found, an empty database will not block voting participation
+2020-06-22 14:09:41,219 [myid:] - INFO  [Thread-0:FileTxnSnapLog@470] - Snapshotting: 0x0 to src\test\resources\data\test7632055468014313360dir\version-2\snapshot.0
+2020-06-22 14:09:41,224 [myid:] - INFO  [Thread-0:ZKDatabase@289] - Snapshot loaded in 15 ms, highest zxid is 0x0, digest is 1371985504
+2020-06-22 14:09:42,318 [myid:] - INFO  [main:FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2020-06-22 14:09:42,319 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:09:42,320 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:09:42,320 [myid:] - INFO  [main:ZKDatabase@132] - zookeeper.snapshotSizeFactor = 0.33
+2020-06-22 14:09:42,320 [myid:] - INFO  [main:ZKDatabase@152] - zookeeper.commitLogCount=500
+2020-06-22 14:09:42,346 [myid:] - INFO  [Thread-0:QuorumPeer@863] - Peer state changed: looking - synchronization
+2020-06-22 14:09:42,347 [myid:] - INFO  [Thread-0:QuorumPeer@868] - Peer state changed: looking - synchronization - snap
+2020-06-22 14:09:42,347 [myid:] - INFO  [Thread-0:Learner@516] - Getting a snapshot from leader 0x100000001
+2020-06-22 14:09:42,367 [myid:] - INFO  [Thread-0:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:09:42,367 [myid:] - INFO  [Thread-0:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:09:42,383 [myid:] - INFO  [Thread-0:Learner@677] - Learner received NEWLEADER message
+2020-06-22 14:09:42,384 [myid:] - INFO  [Thread-0:FileTxnSnapLog@470] - Snapshotting: 0x100000001 to src\test\resources\data\test7632055468014313360dir\version-2\snapshot.100000001
+2020-06-22 14:09:42,386 [myid:] - INFO  [Thread-0:ZooKeeperServer@519] - Snapshot taken in 3 ms
+2020-06-22 14:09:42,393 [myid:] - INFO  [main:FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2020-06-22 14:09:42,394 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:09:42,394 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:09:42,394 [myid:] - INFO  [main:ZKDatabase@132] - zookeeper.snapshotSizeFactor = 0.33
+2020-06-22 14:09:42,394 [myid:] - INFO  [main:ZKDatabase@152] - zookeeper.commitLogCount=500
+2020-06-22 14:09:42,395 [myid:] - INFO  [main:FileSnap@85] - Reading snapshot src\test\resources\data\test7632055468014313360dir\version-2\snapshot.100000001
+2020-06-22 14:09:42,398 [myid:] - INFO  [main:DataTree@1737] - The digest value is empty in snapshot
+2020-06-22 14:09:42,400 [myid:] - INFO  [main:ZKDatabase@289] - Snapshot loaded in 5 ms, highest zxid is 0x100000001, digest is 6265425359
+2020-06-22 14:09:42,403 [myid:] - WARN  [Thread-0:Learner@577] - Got zxid 0x1000003e8 expected 0x1
+2020-06-22 14:09:42,405 [myid:] - INFO  [Thread-0:Learner@661] - Learner received UPTODATE message
+2020-06-22 14:09:42,407 [myid:] - INFO  [Thread-0:QuorumPeer@868] - Peer state changed: looking - synchronization
+2020-06-22 14:09:42,416 [myid:] - INFO  [Thread-0:CommitProcessor@476] - Configuring CommitProcessor with readBatchSize -1 commitBatchSize 1
+2020-06-22 14:09:42,417 [myid:] - INFO  [Thread-0:CommitProcessor@438] - Configuring CommitProcessor with 8 worker threads.
+2020-06-22 14:09:42,422 [myid:] - INFO  [Thread-0:RequestThrottler@74] - zookeeper.request_throttler.shutdownTimeout = 10000
+2020-06-22 14:09:42,448 [myid:] - INFO  [Thread-0:QuorumPeer@863] - Peer state changed: looking - broadcast
+2020-06-22 14:09:42,448 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.1000003e8
+2020-06-22 14:09:42,454 [myid:] - INFO  [main:FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2020-06-22 14:09:42,455 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:09:42,455 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:09:42,455 [myid:] - INFO  [main:ZKDatabase@132] - zookeeper.snapshotSizeFactor = 0.33
+2020-06-22 14:09:42,455 [myid:] - INFO  [main:ZKDatabase@152] - zookeeper.commitLogCount=500
+2020-06-22 14:09:42,456 [myid:] - INFO  [main:FileSnap@85] - Reading snapshot src\test\resources\data\test7632055468014313360dir\version-2\snapshot.100000001
+2020-06-22 14:09:42,457 [myid:] - INFO  [main:DataTree@1737] - The digest value is empty in snapshot
+2020-06-22 14:09:42,459 [myid:] - INFO  [main:FileTxnSnapLog@363] - 1 txns loaded in 0 ms
+2020-06-22 14:09:42,459 [myid:] - INFO  [main:ZKDatabase@289] - Snapshot loaded in 3 ms, highest zxid is 0x1000003e8, digest is 4942340014
+2020-06-22 14:09:42,461 [myid:] - INFO  [main:Follower@292] - shutdown Follower
+2020-06-22 14:09:42,462 [myid:] - INFO  [main:LearnerZooKeeperServer@160] - Shutting down
+2020-06-22 14:09:42,463 [myid:] - WARN  [Thread-0:Follower@129] - Exception when following the leader
+java.net.SocketException: Socket Closed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readInt(DataInputStream.java:387)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.Learner.readPacket(Learner.java:182)
+	at org.apache.zookeeper.server.quorum.Follower.followLeader(Follower.java:125)
+	at org.apache.zookeeper.server.quorum.Zab1_0Test$1.run(Zab1_0Test.java:430)
+2020-06-22 14:09:42,463 [myid:] - INFO  [main:ZooKeeperServer@784] - shutting down
+2020-06-22 14:09:42,466 [myid:] - INFO  [main:RequestThrottler@244] - Shutting down
+2020-06-22 14:09:42,467 [myid:] - INFO  [RequestThrottler:RequestThrottler@205] - Draining request throttler queue
+2020-06-22 14:09:42,467 [myid:] - INFO  [Thread-0:Follower@143] - Disconnected from leader (with address: /127.0.0.1:63657). Was connected for 1258ms. Sync state: true
+2020-06-22 14:09:42,467 [myid:] - INFO  [RequestThrottler:RequestThrottler@181] - RequestThrottler shutdown. Dropped 0 requests
+2020-06-22 14:09:42,468 [myid:] - INFO  [main:FollowerRequestProcessor@148] - Shutting down
+2020-06-22 14:09:42,468 [myid:] - INFO  [main:CommitProcessor@617] - Shutting down
+2020-06-22 14:09:42,468 [myid:] - INFO  [FollowerRequestProcessor:0:FollowerRequestProcessor@112] - FollowerRequestProcessor exited loop!
+2020-06-22 14:09:42,468 [myid:] - INFO  [main:FinalRequestProcessor@662] - shutdown of request processor complete
+2020-06-22 14:09:42,469 [myid:] - INFO  [CommitProcessor:0:CommitProcessor@406] - CommitProcessor exited loop!
+2020-06-22 14:09:42,470 [myid:] - INFO  [main:SyncRequestProcessor@256] - Shutting down
+2020-06-22 14:09:42,470 [myid:] - INFO  [SyncThread:0:SyncRequestProcessor@225] - SyncRequestProcessor exited!
+2020-06-22 14:09:42,471 [myid:] - INFO  [main:Follower@292] - shutdown Follower
+2020-06-22 14:09:42,480 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 13358
+2020-06-22 14:09:42,480 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:09:42,481 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testNormalFollowerRun
+2020-06-22 14:09:42,481 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testNormalFollowerRun
+2020-06-22 14:09:42,481 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testNormalFollowerRun
+2020-06-22 14:09:42,483 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testLeaderInConnectingFollowers
+2020-06-22 14:09:42,484 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testLeaderInConnectingFollowers
+2020-06-22 14:09:42,486 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13924 from range 13914 - 16606.
+2020-06-22 14:09:42,486 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13925 from range 13914 - 16606.
+2020-06-22 14:09:42,487 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13926 from range 13914 - 16606.
+2020-06-22 14:09:42,488 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13927 from range 13914 - 16606.
+2020-06-22 14:09:42,488 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13928 from range 13914 - 16606.
+2020-06-22 14:09:42,489 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13929 from range 13914 - 16606.
+2020-06-22 14:09:42,489 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13930 from range 13914 - 16606.
+2020-06-22 14:09:42,490 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13931 from range 13914 - 16606.
+2020-06-22 14:09:42,490 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13932 from range 13914 - 16606.
+2020-06-22 14:09:42,491 [myid:] - WARN  [main:QuorumPeer@1784] - configFilename is null! This should only happen in tests.
+2020-06-22 14:09:42,493 [myid:] - INFO  [main:FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2020-06-22 14:09:42,494 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:09:42,494 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:09:42,495 [myid:] - INFO  [main:ZKDatabase@132] - zookeeper.snapshotSizeFactor = 0.33
+2020-06-22 14:09:42,495 [myid:] - INFO  [main:ZKDatabase@152] - zookeeper.commitLogCount=500
+2020-06-22 14:09:42,497 [myid:] - INFO  [main:ZooKeeperServer@1246] - minSessionTimeout set to 4000
+2020-06-22 14:09:42,497 [myid:] - INFO  [main:ZooKeeperServer@1255] - maxSessionTimeout set to 40000
+2020-06-22 14:09:42,497 [myid:] - INFO  [main:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-22 14:09:42,498 [myid:] - INFO  [main:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-22 14:09:42,498 [myid:] - INFO  [main:RequestPathMetricsCollector@111] - zookeeper.pathStats.slotCapacity = 60
+2020-06-22 14:09:42,498 [myid:] - INFO  [main:RequestPathMetricsCollector@112] - zookeeper.pathStats.slotDuration = 15
+2020-06-22 14:09:42,498 [myid:] - INFO  [main:RequestPathMetricsCollector@113] - zookeeper.pathStats.maxDepth = 6
+2020-06-22 14:09:42,498 [myid:] - INFO  [main:RequestPathMetricsCollector@114] - zookeeper.pathStats.initialDelay = 5
+2020-06-22 14:09:42,498 [myid:] - INFO  [main:RequestPathMetricsCollector@115] - zookeeper.pathStats.delay = 5
+2020-06-22 14:09:42,499 [myid:] - INFO  [main:RequestPathMetricsCollector@116] - zookeeper.pathStats.enabled = false
+2020-06-22 14:09:42,499 [myid:] - INFO  [main:ZooKeeperServer@1471] - The max bytes for all large requests are set to 104857600
+2020-06-22 14:09:42,499 [myid:] - INFO  [main:ZooKeeperServer@1485] - The large request threshold is set to -1
+2020-06-22 14:09:42,499 [myid:] - INFO  [main:ZooKeeperServer@329] - Created server with tickTime 2000 minSessionTimeout 4000 maxSessionTimeout 40000 clientPortListenBacklog -1 datadir src\test\resources\data\test9183604376432350667dir\version-2 snapdir src\test\resources\data\test9183604376432350667dir\version-2
+2020-06-22 14:09:42,503 [myid:] - INFO  [main:LearnerMaster@47] - zookeeper.leader.maxConcurrentSnapSyncs = 10
+2020-06-22 14:09:42,503 [myid:] - INFO  [main:LearnerMaster@50] - zookeeper.leader.maxConcurrentDiffSyncs = 100
+2020-06-22 14:09:42,504 [myid:] - INFO  [main:Leader@84] - TCP NoDelay set to: true
+2020-06-22 14:09:42,504 [myid:] - INFO  [main:Leader@105] - zookeeper.leader.ackLoggingFrequency = 1000
+2020-06-22 14:09:42,504 [myid:] - INFO  [main:Leader@1351] - zookeeper.leader.maxTimeToWaitForEpoch = -1ms
+2020-06-22 14:09:46,520 [myid:] - INFO  [main:Leader@792] - Shutting down
+2020-06-22 14:09:46,520 [myid:] - INFO  [main:Leader@798] - Shutdown called. For the reason end of test
+2020-06-22 14:09:46,521 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 15509
+2020-06-22 14:09:46,521 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:09:46,521 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testLeaderInConnectingFollowers
+2020-06-22 14:09:46,521 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testLeaderInConnectingFollowers
+2020-06-22 14:09:46,521 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testLeaderInConnectingFollowers
+2020-06-22 14:09:46,522 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testNormalFollowerRunWithDiff
+2020-06-22 14:09:46,522 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testNormalFollowerRunWithDiff
+2020-06-22 14:09:46,524 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13933 from range 13914 - 16606.
+2020-06-22 14:09:46,525 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13934 from range 13914 - 16606.
+2020-06-22 14:09:46,525 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13935 from range 13914 - 16606.
+2020-06-22 14:09:46,525 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13936 from range 13914 - 16606.
+2020-06-22 14:09:46,526 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13937 from range 13914 - 16606.
+2020-06-22 14:09:46,526 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13938 from range 13914 - 16606.
+2020-06-22 14:09:46,526 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13939 from range 13914 - 16606.
+2020-06-22 14:09:46,527 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13940 from range 13914 - 16606.
+2020-06-22 14:09:46,527 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13941 from range 13914 - 16606.
+2020-06-22 14:09:46,527 [myid:] - WARN  [main:QuorumPeer@1784] - configFilename is null! This should only happen in tests.
+2020-06-22 14:09:46,528 [myid:] - INFO  [main:FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2020-06-22 14:09:46,529 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:09:46,529 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:09:46,529 [myid:] - INFO  [main:ZKDatabase@132] - zookeeper.snapshotSizeFactor = 0.33
+2020-06-22 14:09:46,529 [myid:] - INFO  [main:ZKDatabase@152] - zookeeper.commitLogCount=500
+2020-06-22 14:09:46,529 [myid:] - INFO  [main:ZooKeeperServer@1246] - minSessionTimeout set to 4000
+2020-06-22 14:09:46,529 [myid:] - INFO  [main:ZooKeeperServer@1255] - maxSessionTimeout set to 40000
+2020-06-22 14:09:46,529 [myid:] - INFO  [main:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-22 14:09:46,530 [myid:] - INFO  [main:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-22 14:09:46,530 [myid:] - INFO  [main:RequestPathMetricsCollector@111] - zookeeper.pathStats.slotCapacity = 60
+2020-06-22 14:09:46,530 [myid:] - INFO  [main:RequestPathMetricsCollector@112] - zookeeper.pathStats.slotDuration = 15
+2020-06-22 14:09:46,530 [myid:] - INFO  [main:RequestPathMetricsCollector@113] - zookeeper.pathStats.maxDepth = 6
+2020-06-22 14:09:46,530 [myid:] - INFO  [main:RequestPathMetricsCollector@114] - zookeeper.pathStats.initialDelay = 5
+2020-06-22 14:09:46,530 [myid:] - INFO  [main:RequestPathMetricsCollector@115] - zookeeper.pathStats.delay = 5
+2020-06-22 14:09:46,530 [myid:] - INFO  [main:RequestPathMetricsCollector@116] - zookeeper.pathStats.enabled = false
+2020-06-22 14:09:46,530 [myid:] - INFO  [main:ZooKeeperServer@1471] - The max bytes for all large requests are set to 104857600
+2020-06-22 14:09:46,531 [myid:] - INFO  [main:ZooKeeperServer@1485] - The large request threshold is set to -1
+2020-06-22 14:09:46,531 [myid:] - INFO  [main:ZooKeeperServer@329] - Created server with tickTime 2000 minSessionTimeout 4000 maxSessionTimeout 40000 clientPortListenBacklog -1 datadir src\test\resources\data\test1413102229140429200dir\version-2 snapdir src\test\resources\data\test1413102229140429200dir\version-2
+2020-06-22 14:09:46,531 [myid:] - INFO  [Thread-4:Follower@75] - FOLLOWING - LEADER ELECTION TOOK - 367808944 MS
+2020-06-22 14:09:46,532 [myid:] - INFO  [Thread-4:QuorumPeer@863] - Peer state changed: looking - discovery
+2020-06-22 14:09:46,532 [myid:] - INFO  [LeaderConnector-/127.0.0.1:63926:Learner$LeaderConnector@330] - Successfully connected to leader, using address: /127.0.0.1:63926
+2020-06-22 14:09:46,533 [myid:] - INFO  [Thread-4:FileTxnSnapLog@251] - Initialize file found, an empty database will not block voting participation
+2020-06-22 14:09:46,533 [myid:] - INFO  [Thread-4:FileTxnSnapLog@470] - Snapshotting: 0x0 to src\test\resources\data\test1413102229140429200dir\version-2\snapshot.0
+2020-06-22 14:09:46,534 [myid:] - INFO  [main:FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2020-06-22 14:09:46,535 [myid:] - INFO  [Thread-4:ZKDatabase@289] - Snapshot loaded in 2 ms, highest zxid is 0x0, digest is 1371985504
+2020-06-22 14:09:46,535 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:09:46,536 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:09:46,536 [myid:] - INFO  [main:ZKDatabase@132] - zookeeper.snapshotSizeFactor = 0.33
+2020-06-22 14:09:46,536 [myid:] - INFO  [main:ZKDatabase@152] - zookeeper.commitLogCount=500
+2020-06-22 14:09:46,539 [myid:] - INFO  [Thread-4:QuorumPeer@863] - Peer state changed: looking - synchronization
+2020-06-22 14:09:46,539 [myid:] - INFO  [Thread-4:Learner@511] - Getting a diff from the leader 0x100000001
+2020-06-22 14:09:46,540 [myid:] - INFO  [Thread-4:QuorumPeer@868] - Peer state changed: looking - synchronization - diff
+2020-06-22 14:09:46,541 [myid:] - WARN  [Thread-4:Learner@577] - Got zxid 0x100000002 expected 0x1
+2020-06-22 14:09:46,541 [myid:] - INFO  [Thread-4:Learner@677] - Learner received NEWLEADER message
+2020-06-22 14:09:46,544 [myid:] - INFO  [Thread-4:Learner@661] - Learner received UPTODATE message
+2020-06-22 14:09:46,544 [myid:] - INFO  [Thread-4:QuorumPeer@868] - Peer state changed: looking - synchronization
+2020-06-22 14:09:46,545 [myid:] - INFO  [Thread-4:CommitProcessor@476] - Configuring CommitProcessor with readBatchSize -1 commitBatchSize 1
+2020-06-22 14:09:46,545 [myid:] - INFO  [Thread-4:CommitProcessor@438] - Configuring CommitProcessor with 8 worker threads.
+2020-06-22 14:09:46,546 [myid:] - INFO  [Thread-4:QuorumPeer@863] - Peer state changed: looking - broadcast
+2020-06-22 14:09:46,547 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.100000002
+2020-06-22 14:09:46,547 [myid:] - INFO  [CommitProcessor:0:LearnerSessionTracker@116] - Committing global session 0x4
+2020-06-22 14:09:46,550 [myid:] - INFO  [main:FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2020-06-22 14:09:46,550 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:09:46,550 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:09:46,550 [myid:] - INFO  [main:ZKDatabase@132] - zookeeper.snapshotSizeFactor = 0.33
+2020-06-22 14:09:46,551 [myid:] - INFO  [main:ZKDatabase@152] - zookeeper.commitLogCount=500
+2020-06-22 14:09:46,551 [myid:] - INFO  [main:FileSnap@85] - Reading snapshot src\test\resources\data\test1413102229140429200dir\version-2\snapshot.0
+2020-06-22 14:09:46,551 [myid:] - INFO  [main:DataTree@1737] - The digest value is empty in snapshot
+2020-06-22 14:09:46,552 [myid:] - INFO  [main:FileTxnSnapLog@363] - 1 txns loaded in 0 ms
+2020-06-22 14:09:46,552 [myid:] - INFO  [main:ZKDatabase@289] - Snapshot loaded in 1 ms, highest zxid is 0x100000002, digest is 1371985504
+2020-06-22 14:09:46,552 [myid:] - INFO  [main:Zab1_0Test$5@799] - zkdb2 sessions:[]
+2020-06-22 14:09:46,552 [myid:] - INFO  [main:Zab1_0Test$5@800] - zkdb2 with timeouts:{4=30000}
+2020-06-22 14:09:46,553 [myid:] - INFO  [main:Follower@292] - shutdown Follower
+2020-06-22 14:09:46,553 [myid:] - WARN  [Thread-4:Follower@129] - Exception when following the leader
+java.net.SocketException: Socket Closed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readInt(DataInputStream.java:387)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.Learner.readPacket(Learner.java:182)
+	at org.apache.zookeeper.server.quorum.Follower.followLeader(Follower.java:125)
+	at org.apache.zookeeper.server.quorum.Zab1_0Test$1.run(Zab1_0Test.java:430)
+2020-06-22 14:09:46,553 [myid:] - INFO  [main:LearnerZooKeeperServer@160] - Shutting down
+2020-06-22 14:09:46,554 [myid:] - INFO  [Thread-4:Follower@143] - Disconnected from leader (with address: /127.0.0.1:63926). Was connected for 21ms. Sync state: true
+2020-06-22 14:09:46,554 [myid:] - INFO  [main:ZooKeeperServer@784] - shutting down
+2020-06-22 14:09:46,555 [myid:] - INFO  [main:RequestThrottler@244] - Shutting down
+2020-06-22 14:09:46,555 [myid:] - INFO  [RequestThrottler:RequestThrottler@205] - Draining request throttler queue
+2020-06-22 14:09:46,555 [myid:] - INFO  [RequestThrottler:RequestThrottler@181] - RequestThrottler shutdown. Dropped 0 requests
+2020-06-22 14:09:46,555 [myid:] - INFO  [main:FollowerRequestProcessor@148] - Shutting down
+2020-06-22 14:09:46,555 [myid:] - INFO  [main:CommitProcessor@617] - Shutting down
+2020-06-22 14:09:46,555 [myid:] - INFO  [FollowerRequestProcessor:0:FollowerRequestProcessor@112] - FollowerRequestProcessor exited loop!
+2020-06-22 14:09:46,556 [myid:] - INFO  [CommitProcessor:0:CommitProcessor@406] - CommitProcessor exited loop!
+2020-06-22 14:09:46,556 [myid:] - INFO  [main:FinalRequestProcessor@662] - shutdown of request processor complete
+2020-06-22 14:09:46,557 [myid:] - INFO  [main:SyncRequestProcessor@256] - Shutting down
+2020-06-22 14:09:46,557 [myid:] - INFO  [SyncThread:0:SyncRequestProcessor@225] - SyncRequestProcessor exited!
+2020-06-22 14:09:46,557 [myid:] - INFO  [main:Follower@292] - shutdown Follower
+2020-06-22 14:09:46,559 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 17803
+2020-06-22 14:09:46,559 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:09:46,559 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testNormalFollowerRunWithDiff
+2020-06-22 14:09:46,559 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testNormalFollowerRunWithDiff
+2020-06-22 14:09:46,560 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testNormalFollowerRunWithDiff
+2020-06-22 14:09:46,560 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testUnnecessarySnap
+2020-06-22 14:09:46,560 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testUnnecessarySnap
+2020-06-22 14:09:46,563 [myid:] - INFO  [main:FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2020-06-22 14:09:46,564 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:09:46,564 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:09:46,564 [myid:] - INFO  [main:ZKDatabase@132] - zookeeper.snapshotSizeFactor = 0.33
+2020-06-22 14:09:46,564 [myid:] - INFO  [main:ZKDatabase@152] - zookeeper.commitLogCount=500
+2020-06-22 14:09:46,564 [myid:] - INFO  [main:FileTxnSnapLog@470] - Snapshotting: 0x100000002 to src\test\resources\data\test6441666236963958721dir\version-2\snapshot.100000002
+2020-06-22 14:09:46,566 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13942 from range 13914 - 16606.
+2020-06-22 14:09:46,566 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13943 from range 13914 - 16606.
+2020-06-22 14:09:46,566 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13944 from range 13914 - 16606.
+2020-06-22 14:09:46,566 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13945 from range 13914 - 16606.
+2020-06-22 14:09:46,567 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13946 from range 13914 - 16606.
+2020-06-22 14:09:46,567 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13947 from range 13914 - 16606.
+2020-06-22 14:09:46,567 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13948 from range 13914 - 16606.
+2020-06-22 14:09:46,567 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13949 from range 13914 - 16606.
+2020-06-22 14:09:46,568 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13950 from range 13914 - 16606.
+2020-06-22 14:09:46,568 [myid:] - WARN  [main:QuorumPeer@1784] - configFilename is null! This should only happen in tests.
+2020-06-22 14:09:46,569 [myid:] - INFO  [main:FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2020-06-22 14:09:46,569 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:09:46,569 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:09:46,570 [myid:] - INFO  [main:ZKDatabase@132] - zookeeper.snapshotSizeFactor = 0.33
+2020-06-22 14:09:46,570 [myid:] - INFO  [main:ZKDatabase@152] - zookeeper.commitLogCount=500
+2020-06-22 14:09:46,570 [myid:] - INFO  [main:ZooKeeperServer@1246] - minSessionTimeout set to 4000
+2020-06-22 14:09:46,570 [myid:] - INFO  [main:ZooKeeperServer@1255] - maxSessionTimeout set to 40000
+2020-06-22 14:09:46,570 [myid:] - INFO  [main:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-22 14:09:46,570 [myid:] - INFO  [main:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-22 14:09:46,570 [myid:] - INFO  [main:RequestPathMetricsCollector@111] - zookeeper.pathStats.slotCapacity = 60
+2020-06-22 14:09:46,570 [myid:] - INFO  [main:RequestPathMetricsCollector@112] - zookeeper.pathStats.slotDuration = 15
+2020-06-22 14:09:46,571 [myid:] - INFO  [main:RequestPathMetricsCollector@113] - zookeeper.pathStats.maxDepth = 6
+2020-06-22 14:09:46,571 [myid:] - INFO  [main:RequestPathMetricsCollector@114] - zookeeper.pathStats.initialDelay = 5
+2020-06-22 14:09:46,571 [myid:] - INFO  [main:RequestPathMetricsCollector@115] - zookeeper.pathStats.delay = 5
+2020-06-22 14:09:46,571 [myid:] - INFO  [main:RequestPathMetricsCollector@116] - zookeeper.pathStats.enabled = false
+2020-06-22 14:09:46,571 [myid:] - INFO  [main:ZooKeeperServer@1471] - The max bytes for all large requests are set to 104857600
+2020-06-22 14:09:46,571 [myid:] - INFO  [main:ZooKeeperServer@1485] - The large request threshold is set to -1
+2020-06-22 14:09:46,571 [myid:] - INFO  [main:ZooKeeperServer@329] - Created server with tickTime 2000 minSessionTimeout 4000 maxSessionTimeout 40000 clientPortListenBacklog -1 datadir src\test\resources\data\test6441666236963958721dir\version-2 snapdir src\test\resources\data\test6441666236963958721dir\version-2
+2020-06-22 14:09:46,576 [myid:] - INFO  [Thread-5:Leader@581] - LEADING - LEADER ELECTION TOOK - 367808988 MS
+2020-06-22 14:09:46,577 [myid:] - INFO  [Thread-5:QuorumPeer@863] - Peer state changed: looking - discovery
+2020-06-22 14:09:46,577 [myid:] - INFO  [Thread-5:FileSnap@85] - Reading snapshot src\test\resources\data\test6441666236963958721dir\version-2\snapshot.100000002
+2020-06-22 14:09:46,579 [myid:] - INFO  [Thread-5:DataTree@1730] - The digest in the snapshot has digest version of 2, , with zxid as 0x100000002, and digest value as 7870406566
+2020-06-22 14:09:46,579 [myid:] - INFO  [Thread-5:FileTxnSnapLog@251] - Initialize file found, an empty database will not block voting participation
+2020-06-22 14:09:46,579 [myid:] - INFO  [Thread-5:ZKDatabase@289] - Snapshot loaded in 3 ms, highest zxid is 0x100000002, digest is 7870406566
+2020-06-22 14:09:46,580 [myid:] - INFO  [Thread-5:FileTxnSnapLog@470] - Snapshotting: 0x100000002 to src\test\resources\data\test6441666236963958721dir\version-2\snapshot.100000002
+2020-06-22 14:09:46,580 [myid:] - INFO  [Thread-5:ZooKeeperServer@519] - Snapshot taken in 0 ms
+2020-06-22 14:09:46,601 [myid:] - INFO  [LearnerHandler-/127.0.0.1:63929:LearnerHandler@504] - Follower sid: 1 : info : 127.0.0.1:13945:13946:participant;127.0.0.1:13947
+2020-06-22 14:09:46,605 [myid:] - WARN  [Thread-5:QuorumPeer@1784] - configFilename is null! This should only happen in tests.
+2020-06-22 14:09:46,605 [myid:] - INFO  [LearnerHandler-/127.0.0.1:63929:ZKDatabase@345] - On disk txn sync enabled with snapshotSizeFactor 0.33
+2020-06-22 14:09:46,605 [myid:] - INFO  [LearnerHandler-/127.0.0.1:63929:LearnerHandler@800] - Synchronizing with Learner sid: 1 maxCommittedLog=0x0 minCommittedLog=0x0 lastProcessedZxid=0x100000002 peerLastZxid=0x100000002
+2020-06-22 14:09:46,605 [myid:] - INFO  [LearnerHandler-/127.0.0.1:63929:LearnerHandler@845] - Sending DIFF zxid=0x100000002 for peer sid: 1
+2020-06-22 14:09:46,607 [myid:] - INFO  [Thread-5:QuorumPeer@863] - Peer state changed: looking - synchronization
+2020-06-22 14:09:46,608 [myid:] - INFO  [main:Leader@792] - Shutting down
+2020-06-22 14:09:46,608 [myid:] - INFO  [main:Leader@798] - Shutdown called. For the reason end of test
+2020-06-22 14:09:46,608 [myid:] - WARN  [LearnerCnxAcceptorHandler-/127.0.0.1:13942:Leader$LearnerCnxAcceptor$LearnerCnxAcceptorHandler@523] - Exception while shutting down acceptor.
+java.net.SocketException: socket closed
+	at java.net.DualStackPlainSocketImpl.accept0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketAccept(DualStackPlainSocketImpl.java:131)
+	at java.net.AbstractPlainSocketImpl.accept(AbstractPlainSocketImpl.java:409)
+	at java.net.PlainSocketImpl.accept(PlainSocketImpl.java:199)
+	at java.net.ServerSocket.implAccept(ServerSocket.java:560)
+	at java.net.ServerSocket.accept(ServerSocket.java:528)
+	at org.apache.zookeeper.server.quorum.Leader$LearnerCnxAcceptor$LearnerCnxAcceptorHandler.acceptConnections(Leader.java:510)
+	at org.apache.zookeeper.server.quorum.Leader$LearnerCnxAcceptor$LearnerCnxAcceptorHandler.run(Leader.java:493)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-22 14:09:46,608 [myid:] - WARN  [LearnerHandler-/127.0.0.1:63929:LearnerHandler@730] - ******* GOODBYE /127.0.0.1:63929 ********
+2020-06-22 14:09:46,609 [myid:] - INFO  [Thread-5:Leader@792] - Shutting down
+2020-06-22 14:09:46,609 [myid:] - WARN  [LearnerHandler-/127.0.0.1:63929:LearnerHandler@1044] - Ignoring unexpected exception
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireInterruptibly(AbstractQueuedSynchronizer.java:1220)
+	at java.util.concurrent.locks.ReentrantLock.lockInterruptibly(ReentrantLock.java:335)
+	at java.util.concurrent.LinkedBlockingQueue.put(LinkedBlockingQueue.java:339)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.shutdown(LearnerHandler.java:1042)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:732)
+2020-06-22 14:09:46,609 [myid:] - INFO  [Thread-5:Leader@792] - Shutting down
+2020-06-22 14:09:46,610 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 20982
+2020-06-22 14:09:46,610 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:09:46,610 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testUnnecessarySnap
+2020-06-22 14:09:46,611 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testUnnecessarySnap
+2020-06-22 14:09:46,611 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testUnnecessarySnap
+2020-06-22 14:09:46,611 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testLastAcceptedEpoch
+2020-06-22 14:09:46,611 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testLastAcceptedEpoch
+2020-06-22 14:09:46,612 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13951 from range 13914 - 16606.
+2020-06-22 14:09:46,613 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13952 from range 13914 - 16606.
+2020-06-22 14:09:46,613 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13953 from range 13914 - 16606.
+2020-06-22 14:09:46,613 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13954 from range 13914 - 16606.
+2020-06-22 14:09:46,614 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13955 from range 13914 - 16606.
+2020-06-22 14:09:46,614 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13956 from range 13914 - 16606.
+2020-06-22 14:09:46,614 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13957 from range 13914 - 16606.
+2020-06-22 14:09:46,615 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13958 from range 13914 - 16606.
+2020-06-22 14:09:46,615 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13959 from range 13914 - 16606.
+2020-06-22 14:09:46,615 [myid:] - WARN  [main:QuorumPeer@1784] - configFilename is null! This should only happen in tests.
+2020-06-22 14:09:46,616 [myid:] - INFO  [main:FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2020-06-22 14:09:46,617 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:09:46,617 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:09:46,617 [myid:] - INFO  [main:ZKDatabase@132] - zookeeper.snapshotSizeFactor = 0.33
+2020-06-22 14:09:46,617 [myid:] - INFO  [main:ZKDatabase@152] - zookeeper.commitLogCount=500
+2020-06-22 14:09:46,617 [myid:] - INFO  [main:ZooKeeperServer@1246] - minSessionTimeout set to 4000
+2020-06-22 14:09:46,617 [myid:] - INFO  [main:ZooKeeperServer@1255] - maxSessionTimeout set to 40000
+2020-06-22 14:09:46,617 [myid:] - INFO  [main:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-22 14:09:46,617 [myid:] - INFO  [main:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-22 14:09:46,617 [myid:] - INFO  [main:RequestPathMetricsCollector@111] - zookeeper.pathStats.slotCapacity = 60
+2020-06-22 14:09:46,617 [myid:] - INFO  [main:RequestPathMetricsCollector@112] - zookeeper.pathStats.slotDuration = 15
+2020-06-22 14:09:46,617 [myid:] - INFO  [main:RequestPathMetricsCollector@113] - zookeeper.pathStats.maxDepth = 6
+2020-06-22 14:09:46,618 [myid:] - INFO  [main:RequestPathMetricsCollector@114] - zookeeper.pathStats.initialDelay = 5
+2020-06-22 14:09:46,618 [myid:] - INFO  [main:RequestPathMetricsCollector@115] - zookeeper.pathStats.delay = 5
+2020-06-22 14:09:46,618 [myid:] - INFO  [main:RequestPathMetricsCollector@116] - zookeeper.pathStats.enabled = false
+2020-06-22 14:09:46,618 [myid:] - INFO  [main:ZooKeeperServer@1471] - The max bytes for all large requests are set to 104857600
+2020-06-22 14:09:46,618 [myid:] - INFO  [main:ZooKeeperServer@1485] - The large request threshold is set to -1
+2020-06-22 14:09:46,618 [myid:] - INFO  [main:ZooKeeperServer@329] - Created server with tickTime 2000 minSessionTimeout 4000 maxSessionTimeout 40000 clientPortListenBacklog -1 datadir src\test\resources\data\test8273612530269272067dir\version-2 snapdir src\test\resources\data\test8273612530269272067dir\version-2
+2020-06-22 14:09:46,621 [myid:] - INFO  [Thread-7:Leader@581] - LEADING - LEADER ELECTION TOOK - 367809033 MS
+2020-06-22 14:09:46,621 [myid:] - INFO  [Thread-7:QuorumPeer@863] - Peer state changed: looking - discovery
+2020-06-22 14:09:46,621 [myid:] - INFO  [Thread-7:FileTxnSnapLog@251] - Initialize file found, an empty database will not block voting participation
+2020-06-22 14:09:46,622 [myid:] - INFO  [Thread-7:FileTxnSnapLog@470] - Snapshotting: 0x0 to src\test\resources\data\test8273612530269272067dir\version-2\snapshot.0
+2020-06-22 14:09:46,622 [myid:] - INFO  [Thread-7:ZKDatabase@289] - Snapshot loaded in 2 ms, highest zxid is 0x0, digest is 1371985504
+2020-06-22 14:09:46,623 [myid:] - INFO  [Thread-7:FileTxnSnapLog@470] - Snapshotting: 0x0 to src\test\resources\data\test8273612530269272067dir\version-2\snapshot.0
+2020-06-22 14:09:46,623 [myid:] - INFO  [Thread-7:ZooKeeperServer@519] - Snapshot taken in 0 ms
+2020-06-22 14:09:46,644 [myid:] - INFO  [main:Leader@792] - Shutting down
+2020-06-22 14:09:46,644 [myid:] - INFO  [main:Leader@798] - Shutdown called. For the reason end of test
+2020-06-22 14:09:46,644 [myid:] - WARN  [LearnerCnxAcceptorHandler-/127.0.0.1:13951:Leader$LearnerCnxAcceptor$LearnerCnxAcceptorHandler@523] - Exception while shutting down acceptor.
+java.net.SocketException: socket closed
+	at java.net.DualStackPlainSocketImpl.accept0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketAccept(DualStackPlainSocketImpl.java:131)
+	at java.net.AbstractPlainSocketImpl.accept(AbstractPlainSocketImpl.java:409)
+	at java.net.PlainSocketImpl.accept(PlainSocketImpl.java:199)
+	at java.net.ServerSocket.implAccept(ServerSocket.java:560)
+	at java.net.ServerSocket.accept(ServerSocket.java:528)
+	at org.apache.zookeeper.server.quorum.Leader$LearnerCnxAcceptor$LearnerCnxAcceptorHandler.acceptConnections(Leader.java:510)
+	at org.apache.zookeeper.server.quorum.Leader$LearnerCnxAcceptor$LearnerCnxAcceptorHandler.run(Leader.java:493)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-22 14:09:46,645 [myid:] - WARN  [Thread-7:QuorumPeer@1784] - configFilename is null! This should only happen in tests.
+2020-06-22 14:09:46,645 [myid:] - INFO  [Thread-7:Zab1_0Test$LeadThread@97] - Leader thread interrupted
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at org.apache.zookeeper.server.quorum.Leader.waitForEpochAck(Leader.java:1469)
+	at org.apache.zookeeper.server.quorum.Leader.lead(Leader.java:653)
+	at org.apache.zookeeper.server.quorum.Zab1_0Test$LeadThread.run(Zab1_0Test.java:95)
+2020-06-22 14:09:46,645 [myid:] - INFO  [Thread-7:Leader@792] - Shutting down
+2020-06-22 14:09:46,646 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 21965
+2020-06-22 14:09:46,646 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:09:46,646 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testLastAcceptedEpoch
+2020-06-22 14:09:46,646 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testLastAcceptedEpoch
+2020-06-22 14:09:46,646 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testLastAcceptedEpoch
+2020-06-22 14:09:46,647 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testLeaderBehind
+2020-06-22 14:09:46,647 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testLeaderBehind
+2020-06-22 14:09:46,649 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13960 from range 13914 - 16606.
+2020-06-22 14:09:46,650 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13961 from range 13914 - 16606.
+2020-06-22 14:09:46,650 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13962 from range 13914 - 16606.
+2020-06-22 14:09:46,651 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13963 from range 13914 - 16606.
+2020-06-22 14:09:46,651 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13964 from range 13914 - 16606.
+2020-06-22 14:09:46,651 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13965 from range 13914 - 16606.
+2020-06-22 14:09:46,652 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13966 from range 13914 - 16606.
+2020-06-22 14:09:46,652 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13967 from range 13914 - 16606.
+2020-06-22 14:09:46,652 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13968 from range 13914 - 16606.
+2020-06-22 14:09:46,652 [myid:] - WARN  [main:QuorumPeer@1784] - configFilename is null! This should only happen in tests.
+2020-06-22 14:09:46,654 [myid:] - INFO  [main:FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2020-06-22 14:09:46,655 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:09:46,655 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:09:46,655 [myid:] - INFO  [main:ZKDatabase@132] - zookeeper.snapshotSizeFactor = 0.33
+2020-06-22 14:09:46,655 [myid:] - INFO  [main:ZKDatabase@152] - zookeeper.commitLogCount=500
+2020-06-22 14:09:46,655 [myid:] - INFO  [main:ZooKeeperServer@1246] - minSessionTimeout set to 4000
+2020-06-22 14:09:46,655 [myid:] - INFO  [main:ZooKeeperServer@1255] - maxSessionTimeout set to 40000
+2020-06-22 14:09:46,655 [myid:] - INFO  [main:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-22 14:09:46,655 [myid:] - INFO  [main:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-22 14:09:46,656 [myid:] - INFO  [main:RequestPathMetricsCollector@111] - zookeeper.pathStats.slotCapacity = 60
+2020-06-22 14:09:46,656 [myid:] - INFO  [main:RequestPathMetricsCollector@112] - zookeeper.pathStats.slotDuration = 15
+2020-06-22 14:09:46,656 [myid:] - INFO  [main:RequestPathMetricsCollector@113] - zookeeper.pathStats.maxDepth = 6
+2020-06-22 14:09:46,656 [myid:] - INFO  [main:RequestPathMetricsCollector@114] - zookeeper.pathStats.initialDelay = 5
+2020-06-22 14:09:46,656 [myid:] - INFO  [main:RequestPathMetricsCollector@115] - zookeeper.pathStats.delay = 5
+2020-06-22 14:09:46,656 [myid:] - INFO  [main:RequestPathMetricsCollector@116] - zookeeper.pathStats.enabled = false
+2020-06-22 14:09:46,656 [myid:] - INFO  [main:ZooKeeperServer@1471] - The max bytes for all large requests are set to 104857600
+2020-06-22 14:09:46,656 [myid:] - INFO  [main:ZooKeeperServer@1485] - The large request threshold is set to -1
+2020-06-22 14:09:46,656 [myid:] - INFO  [main:ZooKeeperServer@329] - Created server with tickTime 2000 minSessionTimeout 4000 maxSessionTimeout 40000 clientPortListenBacklog -1 datadir src\test\resources\data\test2659947064816604941dir\version-2 snapdir src\test\resources\data\test2659947064816604941dir\version-2
+2020-06-22 14:09:46,657 [myid:] - INFO  [Thread-8:Leader@581] - LEADING - LEADER ELECTION TOOK - 367809069 MS
+2020-06-22 14:09:46,657 [myid:] - INFO  [Thread-8:QuorumPeer@863] - Peer state changed: looking - discovery
+2020-06-22 14:09:46,657 [myid:] - INFO  [Thread-8:FileTxnSnapLog@251] - Initialize file found, an empty database will not block voting participation
+2020-06-22 14:09:46,658 [myid:] - INFO  [Thread-8:FileTxnSnapLog@470] - Snapshotting: 0x0 to src\test\resources\data\test2659947064816604941dir\version-2\snapshot.0
+2020-06-22 14:09:46,659 [myid:] - INFO  [Thread-8:ZKDatabase@289] - Snapshot loaded in 2 ms, highest zxid is 0x0, digest is 1371985504
+2020-06-22 14:09:46,659 [myid:] - INFO  [Thread-8:FileTxnSnapLog@470] - Snapshotting: 0x0 to src\test\resources\data\test2659947064816604941dir\version-2\snapshot.0
+2020-06-22 14:09:46,660 [myid:] - INFO  [Thread-8:ZooKeeperServer@519] - Snapshot taken in 1 ms
+2020-06-22 14:09:46,679 [myid:] - INFO  [LearnerHandler-/127.0.0.1:63932:LearnerHandler@504] - Follower sid: 1 : info : 127.0.0.1:13963:13964:participant;127.0.0.1:13965
+2020-06-22 14:09:46,682 [myid:] - WARN  [Thread-8:QuorumPeer@1784] - configFilename is null! This should only happen in tests.
+2020-06-22 14:09:46,682 [myid:] - INFO  [LearnerHandler-/127.0.0.1:63932:ZKDatabase@345] - On disk txn sync enabled with snapshotSizeFactor 0.33
+2020-06-22 14:09:46,682 [myid:] - INFO  [LearnerHandler-/127.0.0.1:63932:LearnerHandler@800] - Synchronizing with Learner sid: 1 maxCommittedLog=0x0 minCommittedLog=0x0 lastProcessedZxid=0x0 peerLastZxid=0x0
+2020-06-22 14:09:46,682 [myid:] - INFO  [LearnerHandler-/127.0.0.1:63932:LearnerHandler@845] - Sending DIFF zxid=0x0 for peer sid: 1
+2020-06-22 14:09:46,685 [myid:] - INFO  [Thread-8:QuorumPeer@863] - Peer state changed: looking - synchronization
+2020-06-22 14:09:46,685 [myid:] - INFO  [Thread-8:Leader@1501] - Have quorum of supporters, sids: [[0, 1],[0, 1]]; starting up and setting last processed zxid: 0x1500000000
+2020-06-22 14:09:46,688 [myid:] - INFO  [Thread-8:CommitProcessor@476] - Configuring CommitProcessor with readBatchSize -1 commitBatchSize 1
+2020-06-22 14:09:46,688 [myid:] - INFO  [Thread-8:CommitProcessor@438] - Configuring CommitProcessor with 8 worker threads.
+2020-06-22 14:09:46,695 [myid:] - INFO  [Thread-8:ContainerManager@83] - Using checkIntervalMs=60000 maxPerMinute=10000 maxNeverUsedIntervalMs=0
+2020-06-22 14:09:46,700 [myid:] - INFO  [Thread-8:QuorumPeer@863] - Peer state changed: looking - broadcast
+2020-06-22 14:09:46,700 [myid:] - INFO  [main:Leader@792] - Shutting down
+2020-06-22 14:09:46,700 [myid:] - INFO  [main:Leader@798] - Shutdown called. For the reason end of test
+2020-06-22 14:09:46,700 [myid:] - INFO  [main:ZooKeeperServer@784] - shutting down
+2020-06-22 14:09:46,700 [myid:] - WARN  [LearnerCnxAcceptorHandler-/127.0.0.1:13960:Leader$LearnerCnxAcceptor$LearnerCnxAcceptorHandler@523] - Exception while shutting down acceptor.
+java.net.SocketException: socket closed
+	at java.net.DualStackPlainSocketImpl.accept0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketAccept(DualStackPlainSocketImpl.java:131)
+	at java.net.AbstractPlainSocketImpl.accept(AbstractPlainSocketImpl.java:409)
+	at java.net.PlainSocketImpl.accept(PlainSocketImpl.java:199)
+	at java.net.ServerSocket.implAccept(ServerSocket.java:560)
+	at java.net.ServerSocket.accept(ServerSocket.java:528)
+	at org.apache.zookeeper.server.quorum.Leader$LearnerCnxAcceptor$LearnerCnxAcceptorHandler.acceptConnections(Leader.java:510)
+	at org.apache.zookeeper.server.quorum.Leader$LearnerCnxAcceptor$LearnerCnxAcceptorHandler.run(Leader.java:493)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-22 14:09:46,702 [myid:] - INFO  [main:RequestThrottler@244] - Shutting down
+2020-06-22 14:09:46,702 [myid:] - INFO  [RequestThrottler:RequestThrottler@205] - Draining request throttler queue
+2020-06-22 14:09:46,703 [myid:] - INFO  [RequestThrottler:RequestThrottler@181] - RequestThrottler shutdown. Dropped 0 requests
+2020-06-22 14:09:46,703 [myid:] - INFO  [main:SessionTrackerImpl@247] - Shutting down
+2020-06-22 14:09:46,703 [myid:] - INFO  [main:LeaderRequestProcessor@79] - Shutting down
+2020-06-22 14:09:46,703 [myid:] - INFO  [main:PrepRequestProcessor@1047] - Shutting down
+2020-06-22 14:09:46,703 [myid:] - INFO  [main:ProposalRequestProcessor@87] - Shutting down
+2020-06-22 14:09:46,703 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@159] - PrepRequestProcessor exited loop!
+2020-06-22 14:09:46,703 [myid:] - INFO  [main:CommitProcessor@617] - Shutting down
+2020-06-22 14:09:46,704 [myid:] - INFO  [CommitProcessor:0:CommitProcessor@406] - CommitProcessor exited loop!
+2020-06-22 14:09:46,704 [myid:] - INFO  [main:Leader$ToBeAppliedRequestProcessor@1106] - Shutting down
+2020-06-22 14:09:46,704 [myid:] - INFO  [main:FinalRequestProcessor@662] - shutdown of request processor complete
+2020-06-22 14:09:46,704 [myid:] - INFO  [main:SyncRequestProcessor@256] - Shutting down
+2020-06-22 14:09:46,704 [myid:] - INFO  [SyncThread:0:SyncRequestProcessor@225] - SyncRequestProcessor exited!
+2020-06-22 14:09:46,705 [myid:] - WARN  [LearnerHandler-/127.0.0.1:63932:LearnerHandler@730] - ******* GOODBYE /127.0.0.1:63932 ********
+2020-06-22 14:09:46,705 [myid:] - WARN  [LearnerHandler-/127.0.0.1:63932:LearnerHandler@1044] - Ignoring unexpected exception
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireInterruptibly(AbstractQueuedSynchronizer.java:1220)
+	at java.util.concurrent.locks.ReentrantLock.lockInterruptibly(ReentrantLock.java:335)
+	at java.util.concurrent.LinkedBlockingQueue.put(LinkedBlockingQueue.java:339)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.shutdown(LearnerHandler.java:1042)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:732)
+2020-06-22 14:09:46,705 [myid:] - INFO  [Thread-8:Zab1_0Test$LeadThread@97] - Leader thread interrupted
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at org.apache.zookeeper.server.quorum.Leader.lead(Leader.java:730)
+	at org.apache.zookeeper.server.quorum.Zab1_0Test$LeadThread.run(Zab1_0Test.java:95)
+2020-06-22 14:09:46,706 [myid:] - INFO  [Thread-8:Leader@792] - Shutting down
+2020-06-22 14:09:46,707 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 25570
+2020-06-22 14:09:46,707 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 8
+2020-06-22 14:09:46,707 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testLeaderBehind
+2020-06-22 14:09:46,707 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testLeaderBehind
+2020-06-22 14:09:46,707 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testLeaderBehind
+2020-06-22 14:09:46,707 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testLeaderInElectingFollowers
+2020-06-22 14:09:46,707 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testLeaderInElectingFollowers
+2020-06-22 14:09:46,709 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13969 from range 13914 - 16606.
+2020-06-22 14:09:46,709 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13970 from range 13914 - 16606.
+2020-06-22 14:09:46,709 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13971 from range 13914 - 16606.
+2020-06-22 14:09:46,710 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13972 from range 13914 - 16606.
+2020-06-22 14:09:46,710 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13973 from range 13914 - 16606.
+2020-06-22 14:09:46,710 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13974 from range 13914 - 16606.
+2020-06-22 14:09:46,711 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13975 from range 13914 - 16606.
+2020-06-22 14:09:46,711 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13976 from range 13914 - 16606.
+2020-06-22 14:09:46,711 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13977 from range 13914 - 16606.
+2020-06-22 14:09:46,711 [myid:] - WARN  [main:QuorumPeer@1784] - configFilename is null! This should only happen in tests.
+2020-06-22 14:09:46,713 [myid:] - INFO  [main:FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2020-06-22 14:09:46,713 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:09:46,714 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:09:46,714 [myid:] - INFO  [main:ZKDatabase@132] - zookeeper.snapshotSizeFactor = 0.33
+2020-06-22 14:09:46,714 [myid:] - INFO  [main:ZKDatabase@152] - zookeeper.commitLogCount=500
+2020-06-22 14:09:46,714 [myid:] - INFO  [main:ZooKeeperServer@1246] - minSessionTimeout set to 4000
+2020-06-22 14:09:46,714 [myid:] - INFO  [main:ZooKeeperServer@1255] - maxSessionTimeout set to 40000
+2020-06-22 14:09:46,714 [myid:] - INFO  [main:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-22 14:09:46,714 [myid:] - INFO  [main:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-22 14:09:46,715 [myid:] - INFO  [main:RequestPathMetricsCollector@111] - zookeeper.pathStats.slotCapacity = 60
+2020-06-22 14:09:46,715 [myid:] - INFO  [main:RequestPathMetricsCollector@112] - zookeeper.pathStats.slotDuration = 15
+2020-06-22 14:09:46,715 [myid:] - INFO  [main:RequestPathMetricsCollector@113] - zookeeper.pathStats.maxDepth = 6
+2020-06-22 14:09:46,715 [myid:] - INFO  [main:RequestPathMetricsCollector@114] - zookeeper.pathStats.initialDelay = 5
+2020-06-22 14:09:46,715 [myid:] - INFO  [main:RequestPathMetricsCollector@115] - zookeeper.pathStats.delay = 5
+2020-06-22 14:09:46,715 [myid:] - INFO  [main:RequestPathMetricsCollector@116] - zookeeper.pathStats.enabled = false
+2020-06-22 14:09:46,715 [myid:] - INFO  [main:ZooKeeperServer@1471] - The max bytes for all large requests are set to 104857600
+2020-06-22 14:09:46,715 [myid:] - INFO  [main:ZooKeeperServer@1485] - The large request threshold is set to -1
+2020-06-22 14:09:46,716 [myid:] - INFO  [main:ZooKeeperServer@329] - Created server with tickTime 2000 minSessionTimeout 4000 maxSessionTimeout 40000 clientPortListenBacklog -1 datadir src\test\resources\data\test7112310390093896969dir\version-2 snapdir src\test\resources\data\test7112310390093896969dir\version-2
+2020-06-22 14:09:47,589 [myid:] - INFO  [SessionTracker:SessionTrackerImpl@170] - SessionTrackerImpl exited loop!
+2020-06-22 14:09:50,717 [myid:] - INFO  [main:Leader@792] - Shutting down
+2020-06-22 14:09:50,717 [myid:] - INFO  [main:Leader@798] - Shutdown called. For the reason end of test
+2020-06-22 14:09:50,718 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 28049
+2020-06-22 14:09:50,718 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:09:50,718 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testLeaderInElectingFollowers
+2020-06-22 14:09:50,718 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testLeaderInElectingFollowers
+2020-06-22 14:09:50,718 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testLeaderInElectingFollowers
+2020-06-22 14:09:50,718 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testTxnTimeout
+2020-06-22 14:09:50,719 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testTxnTimeout
+2020-06-22 14:09:50,722 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13978 from range 13914 - 16606.
+2020-06-22 14:09:50,722 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13979 from range 13914 - 16606.
+2020-06-22 14:09:50,722 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13980 from range 13914 - 16606.
+2020-06-22 14:09:50,723 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13981 from range 13914 - 16606.
+2020-06-22 14:09:50,723 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13982 from range 13914 - 16606.
+2020-06-22 14:09:50,723 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13983 from range 13914 - 16606.
+2020-06-22 14:09:50,724 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13984 from range 13914 - 16606.
+2020-06-22 14:09:50,724 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13985 from range 13914 - 16606.
+2020-06-22 14:09:50,724 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13986 from range 13914 - 16606.
+2020-06-22 14:09:50,724 [myid:] - WARN  [main:QuorumPeer@1784] - configFilename is null! This should only happen in tests.
+2020-06-22 14:09:50,726 [myid:] - INFO  [main:FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2020-06-22 14:09:50,726 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:09:50,726 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:09:50,726 [myid:] - INFO  [main:ZKDatabase@132] - zookeeper.snapshotSizeFactor = 0.33
+2020-06-22 14:09:50,726 [myid:] - INFO  [main:ZKDatabase@152] - zookeeper.commitLogCount=500
+2020-06-22 14:09:50,727 [myid:] - INFO  [main:ZooKeeperServer@1246] - minSessionTimeout set to 4000
+2020-06-22 14:09:50,727 [myid:] - INFO  [main:ZooKeeperServer@1255] - maxSessionTimeout set to 40000
+2020-06-22 14:09:50,727 [myid:] - INFO  [main:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-22 14:09:50,727 [myid:] - INFO  [main:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-22 14:09:50,727 [myid:] - INFO  [main:RequestPathMetricsCollector@111] - zookeeper.pathStats.slotCapacity = 60
+2020-06-22 14:09:50,727 [myid:] - INFO  [main:RequestPathMetricsCollector@112] - zookeeper.pathStats.slotDuration = 15
+2020-06-22 14:09:50,727 [myid:] - INFO  [main:RequestPathMetricsCollector@113] - zookeeper.pathStats.maxDepth = 6
+2020-06-22 14:09:50,727 [myid:] - INFO  [main:RequestPathMetricsCollector@114] - zookeeper.pathStats.initialDelay = 5
+2020-06-22 14:09:50,727 [myid:] - INFO  [main:RequestPathMetricsCollector@115] - zookeeper.pathStats.delay = 5
+2020-06-22 14:09:50,727 [myid:] - INFO  [main:RequestPathMetricsCollector@116] - zookeeper.pathStats.enabled = false
+2020-06-22 14:09:50,727 [myid:] - INFO  [main:ZooKeeperServer@1471] - The max bytes for all large requests are set to 104857600
+2020-06-22 14:09:50,728 [myid:] - INFO  [main:ZooKeeperServer@1485] - The large request threshold is set to -1
+2020-06-22 14:09:50,728 [myid:] - INFO  [main:ZooKeeperServer@329] - Created server with tickTime 2000 minSessionTimeout 4000 maxSessionTimeout 40000 clientPortListenBacklog -1 datadir src\test\resources\data\test3535096447614130033dir\version-2 snapdir src\test\resources\data\test3535096447614130033dir\version-2
+2020-06-22 14:09:50,728 [myid:] - INFO  [Thread-13:Leader@581] - LEADING - LEADER ELECTION TOOK - 367813140 MS
+2020-06-22 14:09:50,728 [myid:] - INFO  [Thread-13:QuorumPeer@863] - Peer state changed: looking - discovery
+2020-06-22 14:09:50,729 [myid:] - INFO  [Thread-13:FileTxnSnapLog@251] - Initialize file found, an empty database will not block voting participation
+2020-06-22 14:09:50,729 [myid:] - INFO  [Thread-13:FileTxnSnapLog@470] - Snapshotting: 0x0 to src\test\resources\data\test3535096447614130033dir\version-2\snapshot.0
+2020-06-22 14:09:50,730 [myid:] - INFO  [Thread-13:ZKDatabase@289] - Snapshot loaded in 2 ms, highest zxid is 0x0, digest is 1371985504
+2020-06-22 14:09:50,730 [myid:] - INFO  [Thread-13:FileTxnSnapLog@470] - Snapshotting: 0x0 to src\test\resources\data\test3535096447614130033dir\version-2\snapshot.0
+2020-06-22 14:09:50,730 [myid:] - INFO  [Thread-13:ZooKeeperServer@519] - Snapshot taken in 0 ms
+2020-06-22 14:09:50,750 [myid:] - INFO  [LearnerHandler-/127.0.0.1:64042:LearnerHandler@504] - Follower sid: 1 : info : 127.0.0.1:13981:13982:participant;127.0.0.1:13983
+2020-06-22 14:09:50,753 [myid:] - WARN  [Thread-13:QuorumPeer@1784] - configFilename is null! This should only happen in tests.
+2020-06-22 14:09:50,753 [myid:] - INFO  [LearnerHandler-/127.0.0.1:64042:ZKDatabase@345] - On disk txn sync enabled with snapshotSizeFactor 0.33
+2020-06-22 14:09:50,753 [myid:] - INFO  [LearnerHandler-/127.0.0.1:64042:LearnerHandler@800] - Synchronizing with Learner sid: 1 maxCommittedLog=0x0 minCommittedLog=0x0 lastProcessedZxid=0x0 peerLastZxid=0x0
+2020-06-22 14:09:50,753 [myid:] - INFO  [LearnerHandler-/127.0.0.1:64042:LearnerHandler@845] - Sending DIFF zxid=0x0 for peer sid: 1
+2020-06-22 14:09:50,756 [myid:] - INFO  [Thread-13:QuorumPeer@863] - Peer state changed: looking - synchronization
+2020-06-22 14:09:50,756 [myid:] - INFO  [Thread-13:Leader@1501] - Have quorum of supporters, sids: [[0, 1],[0, 1]]; starting up and setting last processed zxid: 0x100000000
+2020-06-22 14:09:50,757 [myid:] - INFO  [Thread-13:CommitProcessor@476] - Configuring CommitProcessor with readBatchSize -1 commitBatchSize 1
+2020-06-22 14:09:50,757 [myid:] - INFO  [Thread-13:CommitProcessor@438] - Configuring CommitProcessor with 8 worker threads.
+2020-06-22 14:09:50,757 [myid:] - INFO  [Thread-13:ContainerManager@83] - Using checkIntervalMs=60000 maxPerMinute=10000 maxNeverUsedIntervalMs=0
+2020-06-22 14:09:50,757 [myid:] - INFO  [Thread-13:QuorumPeer@863] - Peer state changed: looking - broadcast
+2020-06-22 14:09:50,758 [myid:] - INFO  [main:Zab1_0Test$7@910] - Proposal sent.
+2020-06-22 14:09:51,758 [myid:] - INFO  [main:Zab1_0Test$7@915] - Ping received: 0
+2020-06-22 14:09:52,758 [myid:] - INFO  [main:Zab1_0Test$7@915] - Ping received: 1
+2020-06-22 14:09:53,772 [myid:] - INFO  [main:Zab1_0Test$7@915] - Ping received: 2
+2020-06-22 14:09:54,772 [myid:] - WARN  [Thread-13:LearnerHandler@1077] - Closing connection to peer due to transaction timeout.
+2020-06-22 14:09:54,772 [myid:] - INFO  [main:Leader@792] - Shutting down
+2020-06-22 14:09:54,772 [myid:] - WARN  [LearnerHandler-/127.0.0.1:64042:LearnerHandler@730] - ******* GOODBYE /127.0.0.1:64042 ********
+2020-06-22 14:09:54,773 [myid:] - INFO  [main:Leader@798] - Shutdown called. For the reason end of test
+2020-06-22 14:09:54,773 [myid:] - WARN  [LearnerHandler-/127.0.0.1:64042:LearnerHandler@1044] - Ignoring unexpected exception
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireInterruptibly(AbstractQueuedSynchronizer.java:1220)
+	at java.util.concurrent.locks.ReentrantLock.lockInterruptibly(ReentrantLock.java:335)
+	at java.util.concurrent.LinkedBlockingQueue.put(LinkedBlockingQueue.java:339)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.shutdown(LearnerHandler.java:1042)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:732)
+2020-06-22 14:09:54,773 [myid:] - WARN  [LearnerCnxAcceptorHandler-/127.0.0.1:13978:Leader$LearnerCnxAcceptor$LearnerCnxAcceptorHandler@523] - Exception while shutting down acceptor.
+java.net.SocketException: socket closed
+	at java.net.DualStackPlainSocketImpl.accept0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketAccept(DualStackPlainSocketImpl.java:131)
+	at java.net.AbstractPlainSocketImpl.accept(AbstractPlainSocketImpl.java:409)
+	at java.net.PlainSocketImpl.accept(PlainSocketImpl.java:199)
+	at java.net.ServerSocket.implAccept(ServerSocket.java:560)
+	at java.net.ServerSocket.accept(ServerSocket.java:528)
+	at org.apache.zookeeper.server.quorum.Leader$LearnerCnxAcceptor$LearnerCnxAcceptorHandler.acceptConnections(Leader.java:510)
+	at org.apache.zookeeper.server.quorum.Leader$LearnerCnxAcceptor$LearnerCnxAcceptorHandler.run(Leader.java:493)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-22 14:09:54,773 [myid:] - INFO  [main:ZooKeeperServer@784] - shutting down
+2020-06-22 14:09:54,774 [myid:] - INFO  [main:RequestThrottler@244] - Shutting down
+2020-06-22 14:09:54,774 [myid:] - INFO  [RequestThrottler:RequestThrottler@205] - Draining request throttler queue
+2020-06-22 14:09:54,774 [myid:] - INFO  [RequestThrottler:RequestThrottler@181] - RequestThrottler shutdown. Dropped 0 requests
+2020-06-22 14:09:54,774 [myid:] - INFO  [main:SessionTrackerImpl@247] - Shutting down
+2020-06-22 14:09:54,774 [myid:] - INFO  [main:LeaderRequestProcessor@79] - Shutting down
+2020-06-22 14:09:54,774 [myid:] - INFO  [main:PrepRequestProcessor@1047] - Shutting down
+2020-06-22 14:09:54,774 [myid:] - INFO  [main:ProposalRequestProcessor@87] - Shutting down
+2020-06-22 14:09:54,774 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@159] - PrepRequestProcessor exited loop!
+2020-06-22 14:09:54,775 [myid:] - INFO  [main:CommitProcessor@617] - Shutting down
+2020-06-22 14:09:54,775 [myid:] - INFO  [CommitProcessor:0:CommitProcessor@406] - CommitProcessor exited loop!
+2020-06-22 14:09:54,775 [myid:] - INFO  [main:Leader$ToBeAppliedRequestProcessor@1106] - Shutting down
+2020-06-22 14:09:54,775 [myid:] - INFO  [main:FinalRequestProcessor@662] - shutdown of request processor complete
+2020-06-22 14:09:54,775 [myid:] - INFO  [main:SyncRequestProcessor@256] - Shutting down
+2020-06-22 14:09:54,775 [myid:] - INFO  [SyncThread:0:SyncRequestProcessor@225] - SyncRequestProcessor exited!
+2020-06-22 14:09:54,776 [myid:] - INFO  [Thread-13:Zab1_0Test$LeadThread@97] - Leader thread interrupted
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at org.apache.zookeeper.server.quorum.Leader.lead(Leader.java:730)
+	at org.apache.zookeeper.server.quorum.Zab1_0Test$LeadThread.run(Zab1_0Test.java:95)
+2020-06-22 14:09:54,776 [myid:] - INFO  [Thread-13:Leader@792] - Shutting down
+2020-06-22 14:09:54,777 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 31326
+2020-06-22 14:09:54,778 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 8
+2020-06-22 14:09:54,778 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testTxnTimeout
+2020-06-22 14:09:54,778 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testTxnTimeout
+2020-06-22 14:09:54,778 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testTxnTimeout
+2020-06-22 14:09:54,778 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testAbandonBeforeACKEpoch
+2020-06-22 14:09:54,778 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testAbandonBeforeACKEpoch
+2020-06-22 14:09:54,791 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13987 from range 13914 - 16606.
+2020-06-22 14:09:54,791 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13988 from range 13914 - 16606.
+2020-06-22 14:09:54,791 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13989 from range 13914 - 16606.
+2020-06-22 14:09:54,792 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13990 from range 13914 - 16606.
+2020-06-22 14:09:54,792 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13991 from range 13914 - 16606.
+2020-06-22 14:09:54,792 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13992 from range 13914 - 16606.
+2020-06-22 14:09:54,792 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13993 from range 13914 - 16606.
+2020-06-22 14:09:54,793 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13994 from range 13914 - 16606.
+2020-06-22 14:09:54,793 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13995 from range 13914 - 16606.
+2020-06-22 14:09:54,793 [myid:] - WARN  [main:QuorumPeer@1784] - configFilename is null! This should only happen in tests.
+2020-06-22 14:09:54,795 [myid:] - INFO  [main:FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2020-06-22 14:09:54,795 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:09:54,795 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:09:54,795 [myid:] - INFO  [main:ZKDatabase@132] - zookeeper.snapshotSizeFactor = 0.33
+2020-06-22 14:09:54,795 [myid:] - INFO  [main:ZKDatabase@152] - zookeeper.commitLogCount=500
+2020-06-22 14:09:54,795 [myid:] - INFO  [main:ZooKeeperServer@1246] - minSessionTimeout set to 4000
+2020-06-22 14:09:54,796 [myid:] - INFO  [main:ZooKeeperServer@1255] - maxSessionTimeout set to 40000
+2020-06-22 14:09:54,796 [myid:] - INFO  [main:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-22 14:09:54,796 [myid:] - INFO  [main:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-22 14:09:54,796 [myid:] - INFO  [main:RequestPathMetricsCollector@111] - zookeeper.pathStats.slotCapacity = 60
+2020-06-22 14:09:54,796 [myid:] - INFO  [main:RequestPathMetricsCollector@112] - zookeeper.pathStats.slotDuration = 15
+2020-06-22 14:09:54,796 [myid:] - INFO  [main:RequestPathMetricsCollector@113] - zookeeper.pathStats.maxDepth = 6
+2020-06-22 14:09:54,796 [myid:] - INFO  [main:RequestPathMetricsCollector@114] - zookeeper.pathStats.initialDelay = 5
+2020-06-22 14:09:54,796 [myid:] - INFO  [main:RequestPathMetricsCollector@115] - zookeeper.pathStats.delay = 5
+2020-06-22 14:09:54,796 [myid:] - INFO  [main:RequestPathMetricsCollector@116] - zookeeper.pathStats.enabled = false
+2020-06-22 14:09:54,796 [myid:] - INFO  [main:ZooKeeperServer@1471] - The max bytes for all large requests are set to 104857600
+2020-06-22 14:09:54,796 [myid:] - INFO  [main:ZooKeeperServer@1485] - The large request threshold is set to -1
+2020-06-22 14:09:54,797 [myid:] - INFO  [main:ZooKeeperServer@329] - Created server with tickTime 2000 minSessionTimeout 4000 maxSessionTimeout 40000 clientPortListenBacklog -1 datadir src\test\resources\data\test6748433564967914534dir\version-2 snapdir src\test\resources\data\test6748433564967914534dir\version-2
+2020-06-22 14:09:54,797 [myid:] - INFO  [Thread-16:Leader@581] - LEADING - LEADER ELECTION TOOK - 367817209 MS
+2020-06-22 14:09:54,797 [myid:] - INFO  [Thread-16:QuorumPeer@863] - Peer state changed: looking - discovery
+2020-06-22 14:09:54,798 [myid:] - INFO  [Thread-16:FileTxnSnapLog@251] - Initialize file found, an empty database will not block voting participation
+2020-06-22 14:09:54,798 [myid:] - INFO  [Thread-16:FileTxnSnapLog@470] - Snapshotting: 0x0 to src\test\resources\data\test6748433564967914534dir\version-2\snapshot.0
+2020-06-22 14:09:54,799 [myid:] - INFO  [Thread-16:ZKDatabase@289] - Snapshot loaded in 2 ms, highest zxid is 0x0, digest is 1371985504
+2020-06-22 14:09:54,799 [myid:] - INFO  [Thread-16:FileTxnSnapLog@470] - Snapshotting: 0x0 to src\test\resources\data\test6748433564967914534dir\version-2\snapshot.0
+2020-06-22 14:09:54,800 [myid:] - INFO  [Thread-16:ZooKeeperServer@519] - Snapshot taken in 0 ms
+2020-06-22 14:09:54,819 [myid:] - INFO  [LearnerHandler-/127.0.0.1:64171:LearnerHandler@504] - Follower sid: 1 : info : 127.0.0.1:13990:13991:participant;127.0.0.1:13992
+2020-06-22 14:09:54,826 [myid:] - WARN  [Thread-16:QuorumPeer@1784] - configFilename is null! This should only happen in tests.
+2020-06-22 14:09:55,588 [myid:] - INFO  [SessionTracker:SessionTrackerImpl@170] - SessionTrackerImpl exited loop!
+2020-06-22 14:09:58,825 [myid:] - ERROR [LearnerHandler-/127.0.0.1:64171:LearnerHandler@707] - Unexpected exception causing shutdown while sock still open
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readInt(DataInputStream.java:387)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:535)
+2020-06-22 14:09:58,826 [myid:] - WARN  [LearnerHandler-/127.0.0.1:64171:LearnerHandler@730] - ******* GOODBYE /127.0.0.1:64171 ********
+2020-06-22 14:09:58,827 [myid:] - INFO  [Thread-16:Zab1_0Test$LeadThread@97] - Leader thread interrupted
+java.lang.InterruptedException: Timeout while waiting for epoch to be acked by quorum
+	at org.apache.zookeeper.server.quorum.Leader.waitForEpochAck(Leader.java:1473)
+	at org.apache.zookeeper.server.quorum.Leader.lead(Leader.java:653)
+	at org.apache.zookeeper.server.quorum.Zab1_0Test$LeadThread.run(Zab1_0Test.java:95)
+2020-06-22 14:09:58,827 [myid:] - INFO  [Thread-16:Leader@792] - Shutting down
+2020-06-22 14:09:58,827 [myid:] - INFO  [Thread-16:Leader@798] - Shutdown called. For the reason lead ended
+2020-06-22 14:09:58,827 [myid:] - WARN  [LearnerCnxAcceptorHandler-/127.0.0.1:13987:Leader$LearnerCnxAcceptor$LearnerCnxAcceptorHandler@523] - Exception while shutting down acceptor.
+java.net.SocketException: socket closed
+	at java.net.DualStackPlainSocketImpl.accept0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketAccept(DualStackPlainSocketImpl.java:131)
+	at java.net.AbstractPlainSocketImpl.accept(AbstractPlainSocketImpl.java:409)
+	at java.net.PlainSocketImpl.accept(PlainSocketImpl.java:199)
+	at java.net.ServerSocket.implAccept(ServerSocket.java:560)
+	at java.net.ServerSocket.accept(ServerSocket.java:528)
+	at org.apache.zookeeper.server.quorum.Leader$LearnerCnxAcceptor$LearnerCnxAcceptorHandler.acceptConnections(Leader.java:510)
+	at org.apache.zookeeper.server.quorum.Leader$LearnerCnxAcceptor$LearnerCnxAcceptorHandler.run(Leader.java:493)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-22 14:10:03,826 [myid:] - INFO  [main:Leader@792] - Shutting down
+2020-06-22 14:10:03,827 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 32936
+2020-06-22 14:10:03,827 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:10:03,827 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testAbandonBeforeACKEpoch
+2020-06-22 14:10:03,827 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testAbandonBeforeACKEpoch
+2020-06-22 14:10:03,827 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testAbandonBeforeACKEpoch
+2020-06-22 14:10:03,827 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testInitialAcceptedCurrent
+2020-06-22 14:10:03,827 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testInitialAcceptedCurrent
+2020-06-22 14:10:03,828 [myid:] - INFO  [main:FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2020-06-22 14:10:03,829 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:10:03,829 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:10:03,829 [myid:] - INFO  [main:FileTxnSnapLog@470] - Snapshotting: 0x0 to src\test\resources\data\test4203192067694317226.dir\version-2\snapshot.0
+2020-06-22 14:10:03,830 [myid:] - INFO  [main:FileTxnLog@284] - Creating new log file: log.300000003
+2020-06-22 14:10:03,840 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:10:03,840 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:10:03,841 [myid:] - INFO  [main:ZKDatabase@132] - zookeeper.snapshotSizeFactor = 0.33
+2020-06-22 14:10:03,841 [myid:] - INFO  [main:ZKDatabase@152] - zookeeper.commitLogCount=500
+2020-06-22 14:10:03,841 [myid:] - INFO  [main:FileSnap@85] - Reading snapshot src\test\resources\data\test4203192067694317226.dir\version-2\snapshot.0
+2020-06-22 14:10:03,841 [myid:] - INFO  [main:DataTree@1737] - The digest value is empty in snapshot
+2020-06-22 14:10:03,842 [myid:] - INFO  [main:FileTxnSnapLog@363] - 1 txns loaded in 0 ms
+2020-06-22 14:10:03,842 [myid:] - INFO  [main:ZKDatabase@289] - Snapshot loaded in 1 ms, highest zxid is 0x300000003, digest is 1371985504
+2020-06-22 14:10:03,842 [myid:] - INFO  [main:QuorumPeer@1102] - currentEpoch not found! Creating with a reasonable default of 3. This should only happen when you are upgrading your installation
+2020-06-22 14:10:03,844 [myid:] - INFO  [main:QuorumPeer@1122] - acceptedEpoch not found! Creating with a reasonable default of 3. This should only happen when you are upgrading your installation
+2020-06-22 14:10:03,847 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 32936
+2020-06-22 14:10:03,847 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:10:03,847 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testInitialAcceptedCurrent
+2020-06-22 14:10:03,847 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testInitialAcceptedCurrent
+2020-06-22 14:10:03,847 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testInitialAcceptedCurrent
+2020-06-22 14:10:03,847 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testNormalObserverRun
+2020-06-22 14:10:03,848 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testNormalObserverRun
+2020-06-22 14:10:03,850 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13996 from range 13914 - 16606.
+2020-06-22 14:10:03,850 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13997 from range 13914 - 16606.
+2020-06-22 14:10:03,851 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13998 from range 13914 - 16606.
+2020-06-22 14:10:03,851 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 13999 from range 13914 - 16606.
+2020-06-22 14:10:03,851 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 14000 from range 13914 - 16606.
+2020-06-22 14:10:03,851 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 14001 from range 13914 - 16606.
+2020-06-22 14:10:03,852 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 14002 from range 13914 - 16606.
+2020-06-22 14:10:03,852 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 14003 from range 13914 - 16606.
+2020-06-22 14:10:03,852 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 14004 from range 13914 - 16606.
+2020-06-22 14:10:03,852 [myid:] - WARN  [main:QuorumPeer@1784] - configFilename is null! This should only happen in tests.
+2020-06-22 14:10:03,854 [myid:] - INFO  [main:FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2020-06-22 14:10:03,854 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:10:03,854 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:10:03,854 [myid:] - INFO  [main:ZKDatabase@132] - zookeeper.snapshotSizeFactor = 0.33
+2020-06-22 14:10:03,854 [myid:] - INFO  [main:ZKDatabase@152] - zookeeper.commitLogCount=500
+2020-06-22 14:10:03,855 [myid:] - INFO  [main:ZooKeeperServer@1246] - minSessionTimeout set to 4000
+2020-06-22 14:10:03,855 [myid:] - INFO  [main:ZooKeeperServer@1255] - maxSessionTimeout set to 40000
+2020-06-22 14:10:03,855 [myid:] - INFO  [main:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-22 14:10:03,855 [myid:] - INFO  [main:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-22 14:10:03,856 [myid:] - INFO  [main:RequestPathMetricsCollector@111] - zookeeper.pathStats.slotCapacity = 60
+2020-06-22 14:10:03,856 [myid:] - INFO  [main:RequestPathMetricsCollector@112] - zookeeper.pathStats.slotDuration = 15
+2020-06-22 14:10:03,856 [myid:] - INFO  [main:RequestPathMetricsCollector@113] - zookeeper.pathStats.maxDepth = 6
+2020-06-22 14:10:03,856 [myid:] - INFO  [main:RequestPathMetricsCollector@114] - zookeeper.pathStats.initialDelay = 5
+2020-06-22 14:10:03,856 [myid:] - INFO  [main:RequestPathMetricsCollector@115] - zookeeper.pathStats.delay = 5
+2020-06-22 14:10:03,856 [myid:] - INFO  [main:RequestPathMetricsCollector@116] - zookeeper.pathStats.enabled = false
+2020-06-22 14:10:03,856 [myid:] - INFO  [main:ZooKeeperServer@1471] - The max bytes for all large requests are set to 104857600
+2020-06-22 14:10:03,856 [myid:] - INFO  [main:ZooKeeperServer@1485] - The large request threshold is set to -1
+2020-06-22 14:10:03,856 [myid:] - INFO  [main:ZooKeeperServer@329] - Created server with tickTime 2000 minSessionTimeout 4000 maxSessionTimeout 40000 clientPortListenBacklog -1 datadir src\test\resources\data\test5560255371210893766dir\version-2 snapdir src\test\resources\data\test5560255371210893766dir\version-2
+2020-06-22 14:10:03,857 [myid:] - INFO  [main:ObserverZooKeeperServer@55] - syncEnabled =true
+2020-06-22 14:10:03,857 [myid:] - INFO  [main:Observer@71] - zookeeper.observer.reconnectDelayMs = 0
+2020-06-22 14:10:03,858 [myid:] - INFO  [main:Observer@73] - zookeeper.observer.election.DelayMs = 200
+2020-06-22 14:10:03,860 [myid:] - INFO  [Thread-17:QuorumPeer@863] - Peer state changed: looking - discovery
+2020-06-22 14:10:03,860 [myid:] - INFO  [Thread-17:Observer@162] - Observing new leader sid=1 addr=/127.0.0.1:64613
+2020-06-22 14:10:03,861 [myid:] - INFO  [LeaderConnector-/127.0.0.1:64613:Learner$LeaderConnector@330] - Successfully connected to leader, using address: /127.0.0.1:64613
+2020-06-22 14:10:03,862 [myid:] - INFO  [Thread-17:FileTxnSnapLog@251] - Initialize file found, an empty database will not block voting participation
+2020-06-22 14:10:03,862 [myid:] - INFO  [Thread-17:FileTxnSnapLog@470] - Snapshotting: 0x0 to src\test\resources\data\test5560255371210893766dir\version-2\snapshot.0
+2020-06-22 14:10:03,862 [myid:] - INFO  [main:FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2020-06-22 14:10:03,863 [myid:] - INFO  [Thread-17:ZKDatabase@289] - Snapshot loaded in 2 ms, highest zxid is 0x0, digest is 1371985504
+2020-06-22 14:10:03,863 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:10:03,863 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:10:03,864 [myid:] - INFO  [main:ZKDatabase@132] - zookeeper.snapshotSizeFactor = 0.33
+2020-06-22 14:10:03,864 [myid:] - INFO  [main:ZKDatabase@152] - zookeeper.commitLogCount=500
+2020-06-22 14:10:03,867 [myid:] - INFO  [Thread-17:QuorumPeer@863] - Peer state changed: looking - synchronization
+2020-06-22 14:10:03,867 [myid:] - INFO  [Thread-17:QuorumPeer@868] - Peer state changed: looking - synchronization - snap
+2020-06-22 14:10:03,867 [myid:] - INFO  [Thread-17:Learner@516] - Getting a snapshot from leader 0x100000002
+2020-06-22 14:10:03,867 [myid:] - INFO  [Thread-17:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:10:03,867 [myid:] - INFO  [Thread-17:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:10:03,870 [myid:] - INFO  [Thread-17:Learner@677] - Learner received NEWLEADER message
+2020-06-22 14:10:03,870 [myid:] - INFO  [Thread-17:FileTxnSnapLog@470] - Snapshotting: 0x100000002 to src\test\resources\data\test5560255371210893766dir\version-2\snapshot.100000002
+2020-06-22 14:10:03,871 [myid:] - INFO  [Thread-17:ZooKeeperServer@519] - Snapshot taken in 1 ms
+2020-06-22 14:10:03,873 [myid:] - INFO  [main:FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2020-06-22 14:10:03,874 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:10:03,874 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:10:03,874 [myid:] - INFO  [main:ZKDatabase@132] - zookeeper.snapshotSizeFactor = 0.33
+2020-06-22 14:10:03,874 [myid:] - INFO  [main:ZKDatabase@152] - zookeeper.commitLogCount=500
+2020-06-22 14:10:03,874 [myid:] - INFO  [main:FileSnap@85] - Reading snapshot src\test\resources\data\test5560255371210893766dir\version-2\snapshot.100000002
+2020-06-22 14:10:03,875 [myid:] - INFO  [main:DataTree@1737] - The digest value is empty in snapshot
+2020-06-22 14:10:03,875 [myid:] - INFO  [main:ZKDatabase@289] - Snapshot loaded in 1 ms, highest zxid is 0x100000002, digest is 11746053666
+2020-06-22 14:10:03,876 [myid:] - WARN  [Thread-17:Learner@577] - Got zxid 0x1000003e8 expected 0x1
+2020-06-22 14:10:03,876 [myid:] - INFO  [Thread-17:Learner@661] - Learner received UPTODATE message
+2020-06-22 14:10:03,877 [myid:] - INFO  [Thread-17:QuorumPeer@868] - Peer state changed: looking - synchronization
+2020-06-22 14:10:03,877 [myid:] - INFO  [Thread-17:CommitProcessor@476] - Configuring CommitProcessor with readBatchSize -1 commitBatchSize 1
+2020-06-22 14:10:03,877 [myid:] - INFO  [Thread-17:CommitProcessor@438] - Configuring CommitProcessor with 8 worker threads.
+2020-06-22 14:10:03,878 [myid:] - INFO  [Thread-17:QuorumPeer@863] - Peer state changed: looking - broadcast
+2020-06-22 14:10:03,878 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.1000003e8
+2020-06-22 14:10:03,879 [myid:] - INFO  [main:LearnerZooKeeperServer@160] - Shutting down
+2020-06-22 14:10:03,879 [myid:] - INFO  [main:ZooKeeperServer@784] - shutting down
+2020-06-22 14:10:03,879 [myid:] - INFO  [main:RequestThrottler@244] - Shutting down
+2020-06-22 14:10:03,879 [myid:] - INFO  [RequestThrottler:RequestThrottler@205] - Draining request throttler queue
+2020-06-22 14:10:03,879 [myid:] - INFO  [RequestThrottler:RequestThrottler@181] - RequestThrottler shutdown. Dropped 0 requests
+2020-06-22 14:10:03,879 [myid:] - INFO  [main:ObserverRequestProcessor@152] - Shutting down
+2020-06-22 14:10:03,879 [myid:] - INFO  [main:CommitProcessor@617] - Shutting down
+2020-06-22 14:10:03,879 [myid:] - INFO  [ObserverRequestProcessor:0:ObserverRequestProcessor@120] - ObserverRequestProcessor exited loop!
+2020-06-22 14:10:03,880 [myid:] - INFO  [main:FinalRequestProcessor@662] - shutdown of request processor complete
+2020-06-22 14:10:03,880 [myid:] - INFO  [CommitProcessor:0:CommitProcessor@406] - CommitProcessor exited loop!
+2020-06-22 14:10:03,880 [myid:] - INFO  [main:SyncRequestProcessor@256] - Shutting down
+2020-06-22 14:10:03,881 [myid:] - INFO  [SyncThread:0:SyncRequestProcessor@225] - SyncRequestProcessor exited!
+2020-06-22 14:10:03,881 [myid:] - INFO  [main:SyncRequestProcessor@256] - Shutting down
+2020-06-22 14:10:03,881 [myid:] - INFO  [main:FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2020-06-22 14:10:03,881 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:10:03,882 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:10:03,882 [myid:] - INFO  [main:ZKDatabase@132] - zookeeper.snapshotSizeFactor = 0.33
+2020-06-22 14:10:03,882 [myid:] - INFO  [main:ZKDatabase@152] - zookeeper.commitLogCount=500
+2020-06-22 14:10:03,882 [myid:] - INFO  [main:FileSnap@85] - Reading snapshot src\test\resources\data\test5560255371210893766dir\version-2\snapshot.100000002
+2020-06-22 14:10:03,883 [myid:] - INFO  [main:DataTree@1737] - The digest value is empty in snapshot
+2020-06-22 14:10:03,883 [myid:] - INFO  [main:FileTxnSnapLog@363] - 2 txns loaded in 0 ms
+2020-06-22 14:10:03,884 [myid:] - INFO  [main:ZKDatabase@289] - Snapshot loaded in 2 ms, highest zxid is 0x1000003e9, digest is 7279041465
+2020-06-22 14:10:03,884 [myid:] - INFO  [main:Observer@243] - shutdown Observer
+2020-06-22 14:10:03,884 [myid:] - WARN  [Thread-17:Observer@126] - Exception when observing the leader
+java.net.SocketException: Socket Closed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readInt(DataInputStream.java:387)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.Learner.readPacket(Learner.java:182)
+	at org.apache.zookeeper.server.quorum.Observer.observeLeader(Observer.java:122)
+	at org.apache.zookeeper.server.quorum.Zab1_0Test$2.run(Zab1_0Test.java:481)
+2020-06-22 14:10:03,885 [myid:] - INFO  [Thread-17:Observer@138] - Disconnected from leader (with address: /127.0.0.1:64613). Was connected for 24ms. Sync state: true
+2020-06-22 14:10:03,886 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 36459
+2020-06-22 14:10:03,886 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:10:03,886 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testNormalObserverRun
+2020-06-22 14:10:03,886 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testNormalObserverRun
+2020-06-22 14:10:03,886 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testNormalObserverRun
+2020-06-22 14:10:03,887 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testNormalRun
+2020-06-22 14:10:03,887 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testNormalRun
+2020-06-22 14:10:03,889 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 14005 from range 13914 - 16606.
+2020-06-22 14:10:03,890 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 14006 from range 13914 - 16606.
+2020-06-22 14:10:03,890 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 14007 from range 13914 - 16606.
+2020-06-22 14:10:03,890 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 14008 from range 13914 - 16606.
+2020-06-22 14:10:03,891 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 14009 from range 13914 - 16606.
+2020-06-22 14:10:03,891 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 14010 from range 13914 - 16606.
+2020-06-22 14:10:03,891 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 14011 from range 13914 - 16606.
+2020-06-22 14:10:03,892 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 14012 from range 13914 - 16606.
+2020-06-22 14:10:03,892 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 14013 from range 13914 - 16606.
+2020-06-22 14:10:03,892 [myid:] - WARN  [main:QuorumPeer@1784] - configFilename is null! This should only happen in tests.
+2020-06-22 14:10:03,894 [myid:] - INFO  [main:FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2020-06-22 14:10:03,894 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:10:03,894 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:10:03,894 [myid:] - INFO  [main:ZKDatabase@132] - zookeeper.snapshotSizeFactor = 0.33
+2020-06-22 14:10:03,894 [myid:] - INFO  [main:ZKDatabase@152] - zookeeper.commitLogCount=500
+2020-06-22 14:10:03,895 [myid:] - INFO  [main:ZooKeeperServer@1246] - minSessionTimeout set to 4000
+2020-06-22 14:10:03,895 [myid:] - INFO  [main:ZooKeeperServer@1255] - maxSessionTimeout set to 40000
+2020-06-22 14:10:03,895 [myid:] - INFO  [main:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-22 14:10:03,895 [myid:] - INFO  [main:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-22 14:10:03,895 [myid:] - INFO  [main:RequestPathMetricsCollector@111] - zookeeper.pathStats.slotCapacity = 60
+2020-06-22 14:10:03,895 [myid:] - INFO  [main:RequestPathMetricsCollector@112] - zookeeper.pathStats.slotDuration = 15
+2020-06-22 14:10:03,895 [myid:] - INFO  [main:RequestPathMetricsCollector@113] - zookeeper.pathStats.maxDepth = 6
+2020-06-22 14:10:03,895 [myid:] - INFO  [main:RequestPathMetricsCollector@114] - zookeeper.pathStats.initialDelay = 5
+2020-06-22 14:10:03,895 [myid:] - INFO  [main:RequestPathMetricsCollector@115] - zookeeper.pathStats.delay = 5
+2020-06-22 14:10:03,896 [myid:] - INFO  [main:RequestPathMetricsCollector@116] - zookeeper.pathStats.enabled = false
+2020-06-22 14:10:03,896 [myid:] - INFO  [main:ZooKeeperServer@1471] - The max bytes for all large requests are set to 104857600
+2020-06-22 14:10:03,896 [myid:] - INFO  [main:ZooKeeperServer@1485] - The large request threshold is set to -1
+2020-06-22 14:10:03,896 [myid:] - INFO  [main:ZooKeeperServer@329] - Created server with tickTime 2000 minSessionTimeout 4000 maxSessionTimeout 40000 clientPortListenBacklog -1 datadir src\test\resources\data\test5064930568665206861dir\version-2 snapdir src\test\resources\data\test5064930568665206861dir\version-2
+2020-06-22 14:10:03,896 [myid:] - INFO  [Thread-18:Leader@581] - LEADING - LEADER ELECTION TOOK - 367826308 MS
+2020-06-22 14:10:03,897 [myid:] - INFO  [Thread-18:QuorumPeer@863] - Peer state changed: looking - discovery
+2020-06-22 14:10:03,897 [myid:] - INFO  [Thread-18:FileTxnSnapLog@251] - Initialize file found, an empty database will not block voting participation
+2020-06-22 14:10:03,897 [myid:] - INFO  [Thread-18:FileTxnSnapLog@470] - Snapshotting: 0x0 to src\test\resources\data\test5064930568665206861dir\version-2\snapshot.0
+2020-06-22 14:10:03,899 [myid:] - INFO  [Thread-18:ZKDatabase@289] - Snapshot loaded in 2 ms, highest zxid is 0x0, digest is 1371985504
+2020-06-22 14:10:03,899 [myid:] - INFO  [Thread-18:FileTxnSnapLog@470] - Snapshotting: 0x0 to src\test\resources\data\test5064930568665206861dir\version-2\snapshot.0
+2020-06-22 14:10:03,899 [myid:] - INFO  [Thread-18:ZooKeeperServer@519] - Snapshot taken in 0 ms
+2020-06-22 14:10:03,917 [myid:] - INFO  [LearnerHandler-/127.0.0.1:64615:LearnerHandler@504] - Follower sid: 1 : info : 127.0.0.1:14008:14009:participant;127.0.0.1:14010
+2020-06-22 14:10:03,920 [myid:] - WARN  [Thread-18:QuorumPeer@1784] - configFilename is null! This should only happen in tests.
+2020-06-22 14:10:03,921 [myid:] - INFO  [LearnerHandler-/127.0.0.1:64615:ZKDatabase@345] - On disk txn sync enabled with snapshotSizeFactor 0.33
+2020-06-22 14:10:03,921 [myid:] - INFO  [LearnerHandler-/127.0.0.1:64615:LearnerHandler@800] - Synchronizing with Learner sid: 1 maxCommittedLog=0x0 minCommittedLog=0x0 lastProcessedZxid=0x0 peerLastZxid=0x0
+2020-06-22 14:10:03,921 [myid:] - INFO  [LearnerHandler-/127.0.0.1:64615:LearnerHandler@845] - Sending DIFF zxid=0x0 for peer sid: 1
+2020-06-22 14:10:03,923 [myid:] - INFO  [Thread-18:QuorumPeer@863] - Peer state changed: looking - synchronization
+2020-06-22 14:10:03,923 [myid:] - INFO  [Thread-18:Leader@1501] - Have quorum of supporters, sids: [[0, 1],[0, 1]]; starting up and setting last processed zxid: 0x100000000
+2020-06-22 14:10:03,924 [myid:] - INFO  [Thread-18:CommitProcessor@476] - Configuring CommitProcessor with readBatchSize -1 commitBatchSize 1
+2020-06-22 14:10:03,924 [myid:] - INFO  [Thread-18:CommitProcessor@438] - Configuring CommitProcessor with 8 worker threads.
+2020-06-22 14:10:03,924 [myid:] - INFO  [Thread-18:ContainerManager@83] - Using checkIntervalMs=60000 maxPerMinute=10000 maxNeverUsedIntervalMs=0
+2020-06-22 14:10:03,924 [myid:] - INFO  [Thread-18:QuorumPeer@863] - Peer state changed: looking - broadcast
+2020-06-22 14:10:03,925 [myid:] - INFO  [main:Leader@792] - Shutting down
+2020-06-22 14:10:03,925 [myid:] - INFO  [main:Leader@798] - Shutdown called. For the reason end of test
+2020-06-22 14:10:03,925 [myid:] - INFO  [main:ZooKeeperServer@784] - shutting down
+2020-06-22 14:10:03,925 [myid:] - WARN  [LearnerCnxAcceptorHandler-/127.0.0.1:14005:Leader$LearnerCnxAcceptor$LearnerCnxAcceptorHandler@523] - Exception while shutting down acceptor.
+java.net.SocketException: socket closed
+	at java.net.DualStackPlainSocketImpl.accept0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketAccept(DualStackPlainSocketImpl.java:131)
+	at java.net.AbstractPlainSocketImpl.accept(AbstractPlainSocketImpl.java:409)
+	at java.net.PlainSocketImpl.accept(PlainSocketImpl.java:199)
+	at java.net.ServerSocket.implAccept(ServerSocket.java:560)
+	at java.net.ServerSocket.accept(ServerSocket.java:528)
+	at org.apache.zookeeper.server.quorum.Leader$LearnerCnxAcceptor$LearnerCnxAcceptorHandler.acceptConnections(Leader.java:510)
+	at org.apache.zookeeper.server.quorum.Leader$LearnerCnxAcceptor$LearnerCnxAcceptorHandler.run(Leader.java:493)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-22 14:10:03,926 [myid:] - INFO  [main:RequestThrottler@244] - Shutting down
+2020-06-22 14:10:03,926 [myid:] - INFO  [RequestThrottler:RequestThrottler@205] - Draining request throttler queue
+2020-06-22 14:10:03,926 [myid:] - INFO  [RequestThrottler:RequestThrottler@181] - RequestThrottler shutdown. Dropped 0 requests
+2020-06-22 14:10:03,926 [myid:] - INFO  [main:SessionTrackerImpl@247] - Shutting down
+2020-06-22 14:10:03,926 [myid:] - INFO  [main:LeaderRequestProcessor@79] - Shutting down
+2020-06-22 14:10:03,926 [myid:] - INFO  [main:PrepRequestProcessor@1047] - Shutting down
+2020-06-22 14:10:03,927 [myid:] - INFO  [main:ProposalRequestProcessor@87] - Shutting down
+2020-06-22 14:10:03,927 [myid:] - INFO  [main:CommitProcessor@617] - Shutting down
+2020-06-22 14:10:03,927 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@159] - PrepRequestProcessor exited loop!
+2020-06-22 14:10:03,927 [myid:] - INFO  [CommitProcessor:0:CommitProcessor@406] - CommitProcessor exited loop!
+2020-06-22 14:10:03,927 [myid:] - INFO  [main:Leader$ToBeAppliedRequestProcessor@1106] - Shutting down
+2020-06-22 14:10:03,927 [myid:] - INFO  [main:FinalRequestProcessor@662] - shutdown of request processor complete
+2020-06-22 14:10:03,927 [myid:] - INFO  [main:SyncRequestProcessor@256] - Shutting down
+2020-06-22 14:10:03,927 [myid:] - INFO  [SyncThread:0:SyncRequestProcessor@225] - SyncRequestProcessor exited!
+2020-06-22 14:10:03,928 [myid:] - WARN  [LearnerHandler-/127.0.0.1:64615:LearnerHandler@730] - ******* GOODBYE /127.0.0.1:64615 ********
+2020-06-22 14:10:03,928 [myid:] - WARN  [LearnerHandler-/127.0.0.1:64615:LearnerHandler@1044] - Ignoring unexpected exception
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireInterruptibly(AbstractQueuedSynchronizer.java:1220)
+	at java.util.concurrent.locks.ReentrantLock.lockInterruptibly(ReentrantLock.java:335)
+	at java.util.concurrent.LinkedBlockingQueue.put(LinkedBlockingQueue.java:339)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.shutdown(LearnerHandler.java:1042)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:732)
+2020-06-22 14:10:03,929 [myid:] - INFO  [Thread-18:Zab1_0Test$LeadThread@97] - Leader thread interrupted
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at org.apache.zookeeper.server.quorum.Leader.lead(Leader.java:730)
+	at org.apache.zookeeper.server.quorum.Zab1_0Test$LeadThread.run(Zab1_0Test.java:95)
+2020-06-22 14:10:03,929 [myid:] - INFO  [Thread-18:Leader@792] - Shutting down
+2020-06-22 14:10:03,930 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 39409
+2020-06-22 14:10:03,930 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 8
+2020-06-22 14:10:03,931 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testNormalRun
+2020-06-22 14:10:03,931 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testNormalRun
+2020-06-22 14:10:03,931 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testNormalRun

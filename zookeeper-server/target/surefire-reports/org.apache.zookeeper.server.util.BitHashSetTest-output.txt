@@ -1,0 +1,16 @@
+2020-06-22 14:10:52,466 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:10:52,471 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:10:52,539 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testAddWatchBit
+2020-06-22 14:10:52,539 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testAddWatchBit
+2020-06-22 14:10:52,567 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 8297
+2020-06-22 14:10:52,568 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:10:52,568 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testAddWatchBit
+2020-06-22 14:10:52,568 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testAddWatchBit
+2020-06-22 14:10:52,568 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testAddWatchBit
+2020-06-22 14:10:52,570 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testRemoveWatchBit
+2020-06-22 14:10:52,570 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testRemoveWatchBit
+2020-06-22 14:10:52,571 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 8297
+2020-06-22 14:10:52,571 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:10:52,571 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testRemoveWatchBit
+2020-06-22 14:10:52,571 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testRemoveWatchBit
+2020-06-22 14:10:52,572 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testRemoveWatchBit

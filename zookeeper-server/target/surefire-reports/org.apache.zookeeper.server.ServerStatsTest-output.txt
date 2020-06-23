@@ -1,0 +1,30 @@
+2020-06-22 14:10:06,102 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:10:06,109 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:10:06,179 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testLatencyMetrics
+2020-06-22 14:10:06,688 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testLatencyMetrics
+2020-06-22 14:10:06,714 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 35414
+2020-06-22 14:10:06,714 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:10:06,714 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testLatencyMetrics
+2020-06-22 14:10:06,714 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testLatencyMetrics
+2020-06-22 14:10:06,715 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testLatencyMetrics
+2020-06-22 14:10:06,717 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testReset
+2020-06-22 14:10:06,717 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testReset
+2020-06-22 14:10:06,720 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 36366
+2020-06-22 14:10:06,720 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:10:06,721 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testReset
+2020-06-22 14:10:06,721 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testReset
+2020-06-22 14:10:06,721 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testReset
+2020-06-22 14:10:06,723 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testPacketsMetrics
+2020-06-22 14:10:06,723 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testPacketsMetrics
+2020-06-22 14:10:06,723 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 36366
+2020-06-22 14:10:06,724 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:10:06,724 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testPacketsMetrics
+2020-06-22 14:10:06,724 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testPacketsMetrics
+2020-06-22 14:10:06,724 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testPacketsMetrics
+2020-06-22 14:10:06,725 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testFsyncThresholdExceedMetrics
+2020-06-22 14:10:06,725 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testFsyncThresholdExceedMetrics
+2020-06-22 14:10:06,725 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 36366
+2020-06-22 14:10:06,725 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 7
+2020-06-22 14:10:06,726 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testFsyncThresholdExceedMetrics
+2020-06-22 14:10:06,726 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testFsyncThresholdExceedMetrics
+2020-06-22 14:10:06,726 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testFsyncThresholdExceedMetrics

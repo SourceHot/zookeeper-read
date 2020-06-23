@@ -1,0 +1,400 @@
+2020-06-22 14:07:03,595 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:07:03,604 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:07:03,726 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testManyCommitWorkersMixedWorkload
+2020-06-22 14:07:03,726 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testManyCommitWorkersMixedWorkload
+2020-06-22 14:07:04,000 [myid:] - INFO  [main:ZookeeperBanner@42] - 
+2020-06-22 14:07:04,001 [myid:] - INFO  [main:ZookeeperBanner@42] -   ______                  _                                          
+2020-06-22 14:07:04,001 [myid:] - INFO  [main:ZookeeperBanner@42] -  |___  /                 | |                                         
+2020-06-22 14:07:04,001 [myid:] - INFO  [main:ZookeeperBanner@42] -     / /    ___     ___   | | __   ___    ___   _ __     ___   _ __   
+2020-06-22 14:07:04,001 [myid:] - INFO  [main:ZookeeperBanner@42] -    / /    / _ \   / _ \  | |/ /  / _ \  / _ \ | '_ \   / _ \ | '__|
+2020-06-22 14:07:04,002 [myid:] - INFO  [main:ZookeeperBanner@42] -   / /__  | (_) | | (_) | |   <  |  __/ |  __/ | |_) | |  __/ | |    
+2020-06-22 14:07:04,002 [myid:] - INFO  [main:ZookeeperBanner@42] -  /_____|  \___/   \___/  |_|\_\  \___|  \___| | .__/   \___| |_|
+2020-06-22 14:07:04,002 [myid:] - INFO  [main:ZookeeperBanner@42] -                                               | |                     
+2020-06-22 14:07:04,002 [myid:] - INFO  [main:ZookeeperBanner@42] -                                               |_|                     
+2020-06-22 14:07:04,002 [myid:] - INFO  [main:ZookeeperBanner@42] - 
+2020-06-22 14:07:04,012 [myid:] - INFO  [main:Environment@98] - Server environment:zookeeper.version=3.6.1--9de128fcd2cb3170e738547b0603a1ba7049df48, built on 06/22/2020 06:04 GMT
+2020-06-22 14:07:04,012 [myid:] - INFO  [main:Environment@98] - Server environment:host.name=LAPTOP-D7DF36F6
+2020-06-22 14:07:04,014 [myid:] - INFO  [main:Environment@98] - Server environment:java.version=1.8.0_252
+2020-06-22 14:07:04,014 [myid:] - INFO  [main:Environment@98] - Server environment:java.vendor=Oracle Corporation
+2020-06-22 14:07:04,015 [myid:] - INFO  [main:Environment@98] - Server environment:java.home=D:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.252-2\jre
+2020-06-22 14:07:04,015 [myid:] - INFO  [main:Environment@98] - Server environment:java.class.path=D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\test-classes;D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\classes;C:\Users\admin\.m2\repository\com\github\spotbugs\spotbugs-annotations\4.0.2\spotbugs-annotations-4.0.2.jar;C:\Users\admin\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\admin\.m2\repository\org\hamcrest\hamcrest-all\1.3\hamcrest-all-1.3.jar;C:\Users\admin\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\admin\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;D:\desktop\git_repo\zookeeper-read\zookeeper-jute\target\zookeeper-jute-3.6.1.jar;C:\Users\admin\.m2\repository\commons-cli\commons-cli\1.2\commons-cli-1.2.jar;C:\Users\admin\.m2\repository\org\apache\yetus\audience-annotations\0.5.0\audience-annotations-0.5.0.jar;C:\Users\admin\.m2\repository\io\netty\netty-handler\4.1.48.Final\netty-handler-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-common\4.1.48.Final\netty-common-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-resolver\4.1.48.Final\netty-resolver-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-buffer\4.1.48.Final\netty-buffer-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport\4.1.48.Final\netty-transport-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-codec\4.1.48.Final\netty-codec-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport-native-epoll\4.1.48.Final\netty-transport-native-epoll-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.48.Final\netty-transport-native-unix-common-4.1.48.Final.jar;C:\Users\admin\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\admin\.m2\repository\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;C:\Users\admin\.m2\repository\org\eclipse\jetty\jetty-server\9.4.24.v20191120\jetty-server-9.4.24.v20191120.jar;C:\Users\admin\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\admin\.m2\repository\org\eclipse\jetty\jetty-http\9.4.24.v20191120\jetty-http-9.4.24.v20191120.jar;C:\Users\admin\.m2\repository\org\eclipse\jetty\jetty-util\9.4.24.v20191120\jetty-util-9.4.24.v20191120.jar;C:\Users\admin\.m2\repository\org\eclipse\jetty\jetty-io\9.4.24.v20191120\jetty-io-9.4.24.v20191120.jar;C:\Users\admin\.m2\repository\org\eclipse\jetty\jetty-servlet\9.4.24.v20191120\jetty-servlet-9.4.24.v20191120.jar;C:\Users\admin\.m2\repository\org\eclipse\jetty\jetty-security\9.4.24.v20191120\jetty-security-9.4.24.v20191120.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\admin\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\admin\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.60\bcprov-jdk15on-1.60.jar;C:\Users\admin\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.60\bcpkix-jdk15on-1.60.jar;C:\Users\admin\.m2\repository\jline\jline\2.11\jline-2.11.jar;C:\Users\admin\.m2\repository\io\dropwizard\metrics\metrics-core\3.2.5\metrics-core-3.2.5.jar;C:\Users\admin\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-core\2.0.0\kerb-core-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerby-pkix\2.0.0\kerby-pkix-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerby-asn1\2.0.0\kerby-asn1-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerby-util\2.0.0\kerby-util-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-simplekdc\2.0.0\kerb-simplekdc-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-client\2.0.0\kerb-client-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-common\2.0.0\kerb-common-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-crypto\2.0.0\kerb-crypto-2.0.0.jar;C:\Users\admin\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-util\2.0.0\kerb-util-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\token-provider\2.0.0\token-provider-2.0.0.jar;C:\Users\admin\.m2\repository\com\nimbusds\nimbus-jose-jwt\4.41.2\nimbus-jose-jwt-4.41.2.jar;C:\Users\admin\.m2\repository\com\github\stephenc\jcip\jcip-annotations\1.0-1\jcip-annotations-1.0-1.jar;C:\Users\admin\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar;C:\Users\admin\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar;C:\Users\admin\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-admin\2.0.0\kerb-admin-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-server\2.0.0\kerb-server-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerb-identity\2.0.0\kerb-identity-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerby-xdr\2.0.0\kerby-xdr-2.0.0.jar;C:\Users\admin\.m2\repository\org\apache\kerby\kerby-config\2.0.0\kerby-config-2.0.0.jar;C:\Users\admin\.m2\repository\org\mockito\mockito-core\2.27.0\mockito-core-2.27.0.jar;C:\Users\admin\.m2\repository\net\bytebuddy\byte-buddy\1.9.10\byte-buddy-1.9.10.jar;C:\Users\admin\.m2\repository\net\bytebuddy\byte-buddy-agent\1.9.10\byte-buddy-agent-1.9.10.jar;C:\Users\admin\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:\Users\admin\.m2\repository\org\jmockit\jmockit\1.48\jmockit-1.48.jar;C:\Users\admin\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\admin\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\admin\.m2\repository\org\xerial\snappy\snappy-java\1.1.7\snappy-java-1.1.7.jar;
+2020-06-22 14:07:04,015 [myid:] - INFO  [main:Environment@98] - Server environment:java.library.path=D:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.252-2\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\Program Files (x86)\NetSarang\Xshell 6\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.252-2\bin;D:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.252-2\jre\bin;D:\Program Files\Git\cmd;D:\Go\bin;D:\Program Files\nodejs\;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;;D:\Programs\Microsoft VS Code\bin;C:\Users\admin\go\bin;C:\Users\admin\AppData\Roaming\npm;.
+2020-06-22 14:07:04,016 [myid:] - INFO  [main:Environment@98] - Server environment:java.io.tmpdir=C:\Users\admin\AppData\Local\Temp\
+2020-06-22 14:07:04,016 [myid:] - INFO  [main:Environment@98] - Server environment:java.compiler=<NA>
+2020-06-22 14:07:04,016 [myid:] - INFO  [main:Environment@98] - Server environment:os.name=Windows 10
+2020-06-22 14:07:04,016 [myid:] - INFO  [main:Environment@98] - Server environment:os.arch=amd64
+2020-06-22 14:07:04,016 [myid:] - INFO  [main:Environment@98] - Server environment:os.version=10.0
+2020-06-22 14:07:04,016 [myid:] - INFO  [main:Environment@98] - Server environment:user.name=admin
+2020-06-22 14:07:04,017 [myid:] - INFO  [main:Environment@98] - Server environment:user.home=C:\Users\admin
+2020-06-22 14:07:04,017 [myid:] - INFO  [main:Environment@98] - Server environment:user.dir=D:\desktop\git_repo\zookeeper-read\zookeeper-server
+2020-06-22 14:07:04,017 [myid:] - INFO  [main:Environment@98] - Server environment:os.memory.free=110MB
+2020-06-22 14:07:04,017 [myid:] - INFO  [main:Environment@98] - Server environment:os.memory.max=455MB
+2020-06-22 14:07:04,017 [myid:] - INFO  [main:Environment@98] - Server environment:os.memory.total=121MB
+2020-06-22 14:07:04,017 [myid:] - INFO  [main:ZooKeeperServer@128] - zookeeper.enableEagerACLCheck = false
+2020-06-22 14:07:04,017 [myid:] - INFO  [main:ZooKeeperServer@136] - zookeeper.digest.enabled = true
+2020-06-22 14:07:04,018 [myid:] - INFO  [main:ZooKeeperServer@140] - zookeeper.closeSessionTxn.enabled = true
+2020-06-22 14:07:04,018 [myid:] - INFO  [main:ZooKeeperServer@1434] - zookeeper.flushDelay=0
+2020-06-22 14:07:04,018 [myid:] - INFO  [main:ZooKeeperServer@1443] - zookeeper.maxWriteQueuePollTime=0
+2020-06-22 14:07:04,018 [myid:] - INFO  [main:ZooKeeperServer@1452] - zookeeper.maxBatchSize=1000
+2020-06-22 14:07:04,018 [myid:] - INFO  [main:ZooKeeperServer@241] - zookeeper.intBufferStartingSizeBytes = 1024
+2020-06-22 14:07:04,021 [myid:] - INFO  [main:FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2020-06-22 14:07:04,040 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:07:04,040 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:07:04,040 [myid:] - INFO  [main:ZKDatabase@132] - zookeeper.snapshotSizeFactor = 0.33
+2020-06-22 14:07:04,040 [myid:] - INFO  [main:ZKDatabase@152] - zookeeper.commitLogCount=500
+2020-06-22 14:07:04,041 [myid:] - INFO  [main:BlueThrottle@141] - Weighed connection throttling is disabled
+2020-06-22 14:07:04,044 [myid:] - INFO  [main:ZooKeeperServer@1246] - minSessionTimeout set to 8000
+2020-06-22 14:07:04,044 [myid:] - INFO  [main:ZooKeeperServer@1255] - maxSessionTimeout set to 80000
+2020-06-22 14:07:04,045 [myid:] - INFO  [main:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-22 14:07:04,045 [myid:] - INFO  [main:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-22 14:07:04,046 [myid:] - INFO  [main:RequestPathMetricsCollector@111] - zookeeper.pathStats.slotCapacity = 60
+2020-06-22 14:07:04,047 [myid:] - INFO  [main:RequestPathMetricsCollector@112] - zookeeper.pathStats.slotDuration = 15
+2020-06-22 14:07:04,047 [myid:] - INFO  [main:RequestPathMetricsCollector@113] - zookeeper.pathStats.maxDepth = 6
+2020-06-22 14:07:04,047 [myid:] - INFO  [main:RequestPathMetricsCollector@114] - zookeeper.pathStats.initialDelay = 5
+2020-06-22 14:07:04,047 [myid:] - INFO  [main:RequestPathMetricsCollector@115] - zookeeper.pathStats.delay = 5
+2020-06-22 14:07:04,047 [myid:] - INFO  [main:RequestPathMetricsCollector@116] - zookeeper.pathStats.enabled = false
+2020-06-22 14:07:04,050 [myid:] - INFO  [main:ZooKeeperServer@1471] - The max bytes for all large requests are set to 104857600
+2020-06-22 14:07:04,050 [myid:] - INFO  [main:ZooKeeperServer@1485] - The large request threshold is set to -1
+2020-06-22 14:07:04,050 [myid:] - INFO  [main:ZooKeeperServer@329] - Created server with tickTime 4000 minSessionTimeout 8000 maxSessionTimeout 80000 clientPortListenBacklog -1 datadir D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test6201305269803272665.junit.dir\version-2 snapdir D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test6201305269803272665.junit.dir\version-2
+2020-06-22 14:07:04,062 [myid:] - INFO  [main:CommitProcessor@476] - Configuring CommitProcessor with readBatchSize -1 commitBatchSize 1
+2020-06-22 14:07:04,062 [myid:] - INFO  [main:CommitProcessor@438] - Configuring CommitProcessor with 16 worker threads.
+2020-06-22 14:07:04,070 [myid:] - INFO  [main:RequestThrottler@74] - zookeeper.request_throttler.shutdownTimeout = 10000
+2020-06-22 14:07:04,158 [myid:] - INFO  [main:CommitProcessorTest@268] - testManyCommitWorkersMixedWorkload 8X0w/100r + 8X25w/75r workload test
+2020-06-22 14:07:09,171 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 30541
+2020-06-22 14:07:09,171 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 44
+2020-06-22 14:07:09,172 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testManyCommitWorkersMixedWorkload
+2020-06-22 14:07:09,172 [myid:] - INFO  [main:CommitProcessorTest@125] - tearDown starting
+2020-06-22 14:07:09,172 [myid:] - INFO  [main:ZooKeeperServer@784] - shutting down
+2020-06-22 14:07:09,173 [myid:] - INFO  [main:RequestThrottler@244] - Shutting down
+2020-06-22 14:07:09,173 [myid:] - INFO  [RequestThrottler:RequestThrottler@205] - Draining request throttler queue
+2020-06-22 14:07:09,173 [myid:] - INFO  [RequestThrottler:RequestThrottler@181] - RequestThrottler shutdown. Dropped 0 requests
+2020-06-22 14:07:09,174 [myid:] - INFO  [main:SessionTrackerImpl@247] - Shutting down
+2020-06-22 14:07:09,174 [myid:] - INFO  [main:PrepRequestProcessor@1047] - Shutting down
+2020-06-22 14:07:09,174 [myid:] - INFO  [main:CommitProcessorTest$MockProposalRequestProcessor@354] - shutdown MockProposalRequestProcessor
+2020-06-22 14:07:09,174 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@159] - PrepRequestProcessor exited loop!
+2020-06-22 14:07:09,174 [myid:] - INFO  [main:CommitProcessor@617] - Shutting down
+2020-06-22 14:07:09,192 [myid:] - INFO  [main:CommitProcessorTest$ValidateProcessor@501] - shutdown validateReadRequestVariant
+2020-06-22 14:07:09,192 [myid:] - INFO  [main:FinalRequestProcessor@662] - shutdown of request processor complete
+2020-06-22 14:07:09,196 [myid:] - ERROR [Thread-2:CommitProcessorTest$TestClientThread@194] - Uncaught exception in test: 
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at org.apache.zookeeper.server.quorum.CommitProcessorTest$TestClientThread.run(CommitProcessorTest.java:191)
+2020-06-22 14:07:09,199 [myid:] - ERROR [Thread-3:CommitProcessorTest$TestClientThread@194] - Uncaught exception in test: 
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at org.apache.zookeeper.server.quorum.CommitProcessorTest$TestClientThread.run(CommitProcessorTest.java:191)
+2020-06-22 14:07:09,199 [myid:] - ERROR [Thread-5:CommitProcessorTest$TestClientThread@194] - Uncaught exception in test: 
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at org.apache.zookeeper.server.quorum.CommitProcessorTest$TestClientThread.run(CommitProcessorTest.java:191)
+2020-06-22 14:07:09,200 [myid:] - ERROR [Thread-6:CommitProcessorTest$TestClientThread@194] - Uncaught exception in test: 
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at org.apache.zookeeper.server.quorum.CommitProcessorTest$TestClientThread.run(CommitProcessorTest.java:191)
+2020-06-22 14:07:09,200 [myid:] - ERROR [Thread-8:CommitProcessorTest$TestClientThread@194] - Uncaught exception in test: 
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at org.apache.zookeeper.server.quorum.CommitProcessorTest$TestClientThread.run(CommitProcessorTest.java:191)
+2020-06-22 14:07:09,200 [myid:] - ERROR [Thread-10:CommitProcessorTest$TestClientThread@194] - Uncaught exception in test: 
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at org.apache.zookeeper.server.quorum.CommitProcessorTest$TestClientThread.run(CommitProcessorTest.java:191)
+2020-06-22 14:07:09,201 [myid:] - ERROR [Thread-14:CommitProcessorTest$TestClientThread@194] - Uncaught exception in test: 
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at org.apache.zookeeper.server.quorum.CommitProcessorTest$TestClientThread.run(CommitProcessorTest.java:191)
+2020-06-22 14:07:09,201 [myid:] - ERROR [Thread-15:CommitProcessorTest$TestClientThread@194] - Uncaught exception in test: 
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at org.apache.zookeeper.server.quorum.CommitProcessorTest$TestClientThread.run(CommitProcessorTest.java:191)
+2020-06-22 14:07:09,201 [myid:] - ERROR [Thread-16:CommitProcessorTest$TestClientThread@194] - Uncaught exception in test: 
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at org.apache.zookeeper.server.quorum.CommitProcessorTest$TestClientThread.run(CommitProcessorTest.java:191)
+2020-06-22 14:07:09,203 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testManyCommitWorkersMixedWorkload
+2020-06-22 14:07:09,204 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testManyCommitWorkersMixedWorkload
+2020-06-22 14:07:09,204 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testOneCommitWorkerReadOnlyWorkload
+2020-06-22 14:07:09,205 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testOneCommitWorkerReadOnlyWorkload
+2020-06-22 14:07:09,205 [myid:] - INFO  [main:CommitProcessorTest@229] - testOneCommitWorkerReadOnlyWorkload
+2020-06-22 14:07:09,206 [myid:] - INFO  [main:FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2020-06-22 14:07:09,207 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:07:09,207 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:07:09,207 [myid:] - INFO  [main:ZKDatabase@132] - zookeeper.snapshotSizeFactor = 0.33
+2020-06-22 14:07:09,207 [myid:] - INFO  [main:ZKDatabase@152] - zookeeper.commitLogCount=500
+2020-06-22 14:07:09,207 [myid:] - INFO  [main:ZooKeeperServer@1246] - minSessionTimeout set to 8000
+2020-06-22 14:07:09,207 [myid:] - INFO  [main:ZooKeeperServer@1255] - maxSessionTimeout set to 80000
+2020-06-22 14:07:09,207 [myid:] - INFO  [main:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-22 14:07:09,208 [myid:] - INFO  [main:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-22 14:07:09,208 [myid:] - INFO  [main:RequestPathMetricsCollector@111] - zookeeper.pathStats.slotCapacity = 60
+2020-06-22 14:07:09,208 [myid:] - INFO  [main:RequestPathMetricsCollector@112] - zookeeper.pathStats.slotDuration = 15
+2020-06-22 14:07:09,208 [myid:] - INFO  [main:RequestPathMetricsCollector@113] - zookeeper.pathStats.maxDepth = 6
+2020-06-22 14:07:09,208 [myid:] - INFO  [main:RequestPathMetricsCollector@114] - zookeeper.pathStats.initialDelay = 5
+2020-06-22 14:07:09,208 [myid:] - INFO  [main:RequestPathMetricsCollector@115] - zookeeper.pathStats.delay = 5
+2020-06-22 14:07:09,208 [myid:] - INFO  [main:RequestPathMetricsCollector@116] - zookeeper.pathStats.enabled = false
+2020-06-22 14:07:09,208 [myid:] - INFO  [main:ZooKeeperServer@1471] - The max bytes for all large requests are set to 104857600
+2020-06-22 14:07:09,209 [myid:] - INFO  [main:ZooKeeperServer@1485] - The large request threshold is set to -1
+2020-06-22 14:07:09,209 [myid:] - INFO  [main:ZooKeeperServer@329] - Created server with tickTime 4000 minSessionTimeout 8000 maxSessionTimeout 80000 clientPortListenBacklog -1 datadir D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test2604018599897132287.junit.dir\version-2 snapdir D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test2604018599897132287.junit.dir\version-2
+2020-06-22 14:07:09,209 [myid:] - INFO  [main:CommitProcessor@476] - Configuring CommitProcessor with readBatchSize -1 commitBatchSize 1
+2020-06-22 14:07:09,209 [myid:] - INFO  [main:CommitProcessor@438] - Configuring CommitProcessor with 1 worker threads.
+2020-06-22 14:07:09,589 [myid:] - INFO  [SessionTracker:SessionTrackerImpl@170] - SessionTrackerImpl exited loop!
+2020-06-22 14:07:14,216 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 35319
+2020-06-22 14:07:14,216 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 24
+2020-06-22 14:07:14,216 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testOneCommitWorkerReadOnlyWorkload
+2020-06-22 14:07:14,216 [myid:] - INFO  [main:CommitProcessorTest@125] - tearDown starting
+2020-06-22 14:07:14,217 [myid:] - INFO  [main:ZooKeeperServer@784] - shutting down
+2020-06-22 14:07:14,217 [myid:] - INFO  [main:RequestThrottler@244] - Shutting down
+2020-06-22 14:07:14,217 [myid:] - INFO  [RequestThrottler:RequestThrottler@205] - Draining request throttler queue
+2020-06-22 14:07:14,217 [myid:] - INFO  [RequestThrottler:RequestThrottler@181] - RequestThrottler shutdown. Dropped 0 requests
+2020-06-22 14:07:14,217 [myid:] - INFO  [main:SessionTrackerImpl@247] - Shutting down
+2020-06-22 14:07:14,218 [myid:] - INFO  [main:PrepRequestProcessor@1047] - Shutting down
+2020-06-22 14:07:14,218 [myid:] - INFO  [main:CommitProcessorTest$MockProposalRequestProcessor@354] - shutdown MockProposalRequestProcessor
+2020-06-22 14:07:14,218 [myid:] - INFO  [main:CommitProcessor@617] - Shutting down
+2020-06-22 14:07:14,218 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@159] - PrepRequestProcessor exited loop!
+2020-06-22 14:07:14,218 [myid:] - INFO  [CommitProcessor:1:CommitProcessor@406] - CommitProcessor exited loop!
+2020-06-22 14:07:14,221 [myid:] - INFO  [main:CommitProcessorTest$ValidateProcessor@501] - shutdown validateReadRequestVariant
+2020-06-22 14:07:14,221 [myid:] - INFO  [main:FinalRequestProcessor@662] - shutdown of request processor complete
+2020-06-22 14:07:14,222 [myid:] - ERROR [Thread-19:CommitProcessorTest$TestClientThread@194] - Uncaught exception in test: 
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at org.apache.zookeeper.server.quorum.CommitProcessorTest$TestClientThread.run(CommitProcessorTest.java:191)
+2020-06-22 14:07:14,222 [myid:] - ERROR [Thread-20:CommitProcessorTest$TestClientThread@194] - Uncaught exception in test: 
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at org.apache.zookeeper.server.quorum.CommitProcessorTest$TestClientThread.run(CommitProcessorTest.java:191)
+2020-06-22 14:07:14,223 [myid:] - ERROR [Thread-21:CommitProcessorTest$TestClientThread@194] - Uncaught exception in test: 
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at org.apache.zookeeper.server.quorum.CommitProcessorTest$TestClientThread.run(CommitProcessorTest.java:191)
+2020-06-22 14:07:14,223 [myid:] - ERROR [Thread-22:CommitProcessorTest$TestClientThread@194] - Uncaught exception in test: 
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at org.apache.zookeeper.server.quorum.CommitProcessorTest$TestClientThread.run(CommitProcessorTest.java:191)
+2020-06-22 14:07:14,223 [myid:] - ERROR [Thread-23:CommitProcessorTest$TestClientThread@194] - Uncaught exception in test: 
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at org.apache.zookeeper.server.quorum.CommitProcessorTest$TestClientThread.run(CommitProcessorTest.java:191)
+2020-06-22 14:07:14,224 [myid:] - ERROR [Thread-24:CommitProcessorTest$TestClientThread@194] - Uncaught exception in test: 
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at org.apache.zookeeper.server.quorum.CommitProcessorTest$TestClientThread.run(CommitProcessorTest.java:191)
+2020-06-22 14:07:14,227 [myid:] - ERROR [Thread-25:CommitProcessorTest$TestClientThread@194] - Uncaught exception in test: 
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at org.apache.zookeeper.server.quorum.CommitProcessorTest$TestClientThread.run(CommitProcessorTest.java:191)
+2020-06-22 14:07:14,227 [myid:] - ERROR [Thread-26:CommitProcessorTest$TestClientThread@194] - Uncaught exception in test: 
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at org.apache.zookeeper.server.quorum.CommitProcessorTest$TestClientThread.run(CommitProcessorTest.java:191)
+2020-06-22 14:07:14,229 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testOneCommitWorkerReadOnlyWorkload
+2020-06-22 14:07:14,229 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testOneCommitWorkerReadOnlyWorkload
+2020-06-22 14:07:14,230 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testOneCommitWorkerMixedWorkload
+2020-06-22 14:07:14,230 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testOneCommitWorkerMixedWorkload
+2020-06-22 14:07:14,232 [myid:] - INFO  [main:FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2020-06-22 14:07:14,233 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:07:14,234 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:07:14,234 [myid:] - INFO  [main:ZKDatabase@132] - zookeeper.snapshotSizeFactor = 0.33
+2020-06-22 14:07:14,234 [myid:] - INFO  [main:ZKDatabase@152] - zookeeper.commitLogCount=500
+2020-06-22 14:07:14,235 [myid:] - INFO  [main:ZooKeeperServer@1246] - minSessionTimeout set to 8000
+2020-06-22 14:07:14,235 [myid:] - INFO  [main:ZooKeeperServer@1255] - maxSessionTimeout set to 80000
+2020-06-22 14:07:14,236 [myid:] - INFO  [main:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-22 14:07:14,236 [myid:] - INFO  [main:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-22 14:07:14,237 [myid:] - INFO  [main:RequestPathMetricsCollector@111] - zookeeper.pathStats.slotCapacity = 60
+2020-06-22 14:07:14,237 [myid:] - INFO  [main:RequestPathMetricsCollector@112] - zookeeper.pathStats.slotDuration = 15
+2020-06-22 14:07:14,237 [myid:] - INFO  [main:RequestPathMetricsCollector@113] - zookeeper.pathStats.maxDepth = 6
+2020-06-22 14:07:14,238 [myid:] - INFO  [main:RequestPathMetricsCollector@114] - zookeeper.pathStats.initialDelay = 5
+2020-06-22 14:07:14,238 [myid:] - INFO  [main:RequestPathMetricsCollector@115] - zookeeper.pathStats.delay = 5
+2020-06-22 14:07:14,239 [myid:] - INFO  [main:RequestPathMetricsCollector@116] - zookeeper.pathStats.enabled = false
+2020-06-22 14:07:14,243 [myid:] - INFO  [main:ZooKeeperServer@1471] - The max bytes for all large requests are set to 104857600
+2020-06-22 14:07:14,244 [myid:] - INFO  [main:ZooKeeperServer@1485] - The large request threshold is set to -1
+2020-06-22 14:07:14,244 [myid:] - INFO  [main:ZooKeeperServer@329] - Created server with tickTime 4000 minSessionTimeout 8000 maxSessionTimeout 80000 clientPortListenBacklog -1 datadir D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test6095136086821412622.junit.dir\version-2 snapdir D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test6095136086821412622.junit.dir\version-2
+2020-06-22 14:07:14,247 [myid:] - INFO  [main:CommitProcessor@476] - Configuring CommitProcessor with readBatchSize -1 commitBatchSize 1
+2020-06-22 14:07:14,247 [myid:] - INFO  [main:CommitProcessor@438] - Configuring CommitProcessor with 1 worker threads.
+2020-06-22 14:07:14,249 [myid:] - INFO  [main:CommitProcessorTest@243] - testOneCommitWorkerMixedWorkload 25w/75r workload test
+2020-06-22 14:07:17,588 [myid:] - INFO  [SessionTracker:SessionTrackerImpl@170] - SessionTrackerImpl exited loop!
+2020-06-22 14:07:19,262 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 9722
+2020-06-22 14:07:19,263 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 25
+2020-06-22 14:07:19,263 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testOneCommitWorkerMixedWorkload
+2020-06-22 14:07:19,263 [myid:] - INFO  [main:CommitProcessorTest@125] - tearDown starting
+2020-06-22 14:07:19,264 [myid:] - INFO  [main:ZooKeeperServer@784] - shutting down
+2020-06-22 14:07:19,264 [myid:] - INFO  [main:RequestThrottler@244] - Shutting down
+2020-06-22 14:07:19,264 [myid:] - INFO  [RequestThrottler:RequestThrottler@205] - Draining request throttler queue
+2020-06-22 14:07:19,264 [myid:] - INFO  [RequestThrottler:RequestThrottler@181] - RequestThrottler shutdown. Dropped 0 requests
+2020-06-22 14:07:19,265 [myid:] - INFO  [main:SessionTrackerImpl@247] - Shutting down
+2020-06-22 14:07:19,266 [myid:] - INFO  [main:PrepRequestProcessor@1047] - Shutting down
+2020-06-22 14:07:19,266 [myid:] - INFO  [main:CommitProcessorTest$MockProposalRequestProcessor@354] - shutdown MockProposalRequestProcessor
+2020-06-22 14:07:19,267 [myid:] - INFO  [main:CommitProcessor@617] - Shutting down
+2020-06-22 14:07:19,272 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@159] - PrepRequestProcessor exited loop!
+2020-06-22 14:07:19,273 [myid:] - INFO  [main:CommitProcessorTest$ValidateProcessor@501] - shutdown validateReadRequestVariant
+2020-06-22 14:07:19,275 [myid:] - INFO  [main:FinalRequestProcessor@662] - shutdown of request processor complete
+2020-06-22 14:07:19,283 [myid:] - ERROR [Thread-31:CommitProcessorTest$TestClientThread@194] - Uncaught exception in test: 
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at org.apache.zookeeper.server.quorum.CommitProcessorTest$TestClientThread.run(CommitProcessorTest.java:191)
+2020-06-22 14:07:19,305 [myid:] - ERROR [Thread-37:CommitProcessorTest$TestClientThread@194] - Uncaught exception in test: 
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at org.apache.zookeeper.server.quorum.CommitProcessorTest$TestClientThread.run(CommitProcessorTest.java:191)
+2020-06-22 14:07:19,305 [myid:] - ERROR [Thread-38:CommitProcessorTest$TestClientThread@194] - Uncaught exception in test: 
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at org.apache.zookeeper.server.quorum.CommitProcessorTest$TestClientThread.run(CommitProcessorTest.java:191)
+2020-06-22 14:07:19,320 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testOneCommitWorkerMixedWorkload
+2020-06-22 14:07:19,320 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testOneCommitWorkerMixedWorkload
+2020-06-22 14:07:19,322 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testManyCommitWorkersReadOnly
+2020-06-22 14:07:19,322 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testManyCommitWorkersReadOnly
+2020-06-22 14:07:19,324 [myid:] - INFO  [main:CommitProcessorTest@254] - testManyCommitWorkersReadOnly
+2020-06-22 14:07:19,327 [myid:] - INFO  [main:FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2020-06-22 14:07:19,328 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:07:19,329 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:07:19,329 [myid:] - INFO  [main:ZKDatabase@132] - zookeeper.snapshotSizeFactor = 0.33
+2020-06-22 14:07:19,329 [myid:] - INFO  [main:ZKDatabase@152] - zookeeper.commitLogCount=500
+2020-06-22 14:07:19,330 [myid:] - INFO  [main:ZooKeeperServer@1246] - minSessionTimeout set to 8000
+2020-06-22 14:07:19,330 [myid:] - INFO  [main:ZooKeeperServer@1255] - maxSessionTimeout set to 80000
+2020-06-22 14:07:19,330 [myid:] - INFO  [main:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-22 14:07:19,331 [myid:] - INFO  [main:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-22 14:07:19,331 [myid:] - INFO  [main:RequestPathMetricsCollector@111] - zookeeper.pathStats.slotCapacity = 60
+2020-06-22 14:07:19,331 [myid:] - INFO  [main:RequestPathMetricsCollector@112] - zookeeper.pathStats.slotDuration = 15
+2020-06-22 14:07:19,332 [myid:] - INFO  [main:RequestPathMetricsCollector@113] - zookeeper.pathStats.maxDepth = 6
+2020-06-22 14:07:19,332 [myid:] - INFO  [main:RequestPathMetricsCollector@114] - zookeeper.pathStats.initialDelay = 5
+2020-06-22 14:07:19,332 [myid:] - INFO  [main:RequestPathMetricsCollector@115] - zookeeper.pathStats.delay = 5
+2020-06-22 14:07:19,332 [myid:] - INFO  [main:RequestPathMetricsCollector@116] - zookeeper.pathStats.enabled = false
+2020-06-22 14:07:19,333 [myid:] - INFO  [main:ZooKeeperServer@1471] - The max bytes for all large requests are set to 104857600
+2020-06-22 14:07:19,333 [myid:] - INFO  [main:ZooKeeperServer@1485] - The large request threshold is set to -1
+2020-06-22 14:07:19,333 [myid:] - INFO  [main:ZooKeeperServer@329] - Created server with tickTime 4000 minSessionTimeout 8000 maxSessionTimeout 80000 clientPortListenBacklog -1 datadir D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test1965339439672485871.junit.dir\version-2 snapdir D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test1965339439672485871.junit.dir\version-2
+2020-06-22 14:07:19,334 [myid:] - INFO  [main:CommitProcessor@476] - Configuring CommitProcessor with readBatchSize -1 commitBatchSize 1
+2020-06-22 14:07:19,335 [myid:] - INFO  [main:CommitProcessor@438] - Configuring CommitProcessor with 10 worker threads.
+2020-06-22 14:07:21,598 [myid:] - INFO  [SessionTracker:SessionTrackerImpl@170] - SessionTrackerImpl exited loop!
+2020-06-22 14:07:24,370 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 13932
+2020-06-22 14:07:24,371 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 35
+2020-06-22 14:07:24,371 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testManyCommitWorkersReadOnly
+2020-06-22 14:07:24,371 [myid:] - INFO  [main:CommitProcessorTest@125] - tearDown starting
+2020-06-22 14:07:24,371 [myid:] - INFO  [main:ZooKeeperServer@784] - shutting down
+2020-06-22 14:07:24,372 [myid:] - INFO  [main:RequestThrottler@244] - Shutting down
+2020-06-22 14:07:24,372 [myid:] - INFO  [RequestThrottler:RequestThrottler@205] - Draining request throttler queue
+2020-06-22 14:07:24,372 [myid:] - INFO  [RequestThrottler:RequestThrottler@181] - RequestThrottler shutdown. Dropped 0 requests
+2020-06-22 14:07:24,387 [myid:] - INFO  [main:SessionTrackerImpl@247] - Shutting down
+2020-06-22 14:07:24,388 [myid:] - INFO  [main:PrepRequestProcessor@1047] - Shutting down
+2020-06-22 14:07:24,388 [myid:] - INFO  [main:CommitProcessorTest$MockProposalRequestProcessor@354] - shutdown MockProposalRequestProcessor
+2020-06-22 14:07:24,389 [myid:] - INFO  [main:CommitProcessor@617] - Shutting down
+2020-06-22 14:07:24,389 [myid:] - INFO  [CommitProcessor:1:CommitProcessor@406] - CommitProcessor exited loop!
+2020-06-22 14:07:24,391 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@159] - PrepRequestProcessor exited loop!
+2020-06-22 14:07:24,417 [myid:] - INFO  [main:CommitProcessorTest$ValidateProcessor@501] - shutdown validateReadRequestVariant
+2020-06-22 14:07:24,418 [myid:] - INFO  [main:FinalRequestProcessor@662] - shutdown of request processor complete
+2020-06-22 14:07:24,419 [myid:] - ERROR [Thread-41:CommitProcessorTest$TestClientThread@194] - Uncaught exception in test: 
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at org.apache.zookeeper.server.quorum.CommitProcessorTest$TestClientThread.run(CommitProcessorTest.java:191)
+2020-06-22 14:07:24,429 [myid:] - ERROR [Thread-43:CommitProcessorTest$TestClientThread@194] - Uncaught exception in test: 
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at org.apache.zookeeper.server.quorum.CommitProcessorTest$TestClientThread.run(CommitProcessorTest.java:191)
+2020-06-22 14:07:24,441 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testManyCommitWorkersReadOnly
+2020-06-22 14:07:24,441 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testManyCommitWorkersReadOnly
+2020-06-22 14:07:24,442 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testNoCommitWorkersReadOnlyWorkload
+2020-06-22 14:07:24,442 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testNoCommitWorkersReadOnlyWorkload
+2020-06-22 14:07:24,442 [myid:] - INFO  [main:CommitProcessorTest@203] - testNoCommitWorkersReadOnlyWorkload
+2020-06-22 14:07:24,443 [myid:] - INFO  [main:FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2020-06-22 14:07:24,444 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:07:24,444 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:07:24,445 [myid:] - INFO  [main:ZKDatabase@132] - zookeeper.snapshotSizeFactor = 0.33
+2020-06-22 14:07:24,445 [myid:] - INFO  [main:ZKDatabase@152] - zookeeper.commitLogCount=500
+2020-06-22 14:07:24,445 [myid:] - INFO  [main:ZooKeeperServer@1246] - minSessionTimeout set to 8000
+2020-06-22 14:07:24,445 [myid:] - INFO  [main:ZooKeeperServer@1255] - maxSessionTimeout set to 80000
+2020-06-22 14:07:24,446 [myid:] - INFO  [main:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-22 14:07:24,446 [myid:] - INFO  [main:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-22 14:07:24,446 [myid:] - INFO  [main:RequestPathMetricsCollector@111] - zookeeper.pathStats.slotCapacity = 60
+2020-06-22 14:07:24,447 [myid:] - INFO  [main:RequestPathMetricsCollector@112] - zookeeper.pathStats.slotDuration = 15
+2020-06-22 14:07:24,447 [myid:] - INFO  [main:RequestPathMetricsCollector@113] - zookeeper.pathStats.maxDepth = 6
+2020-06-22 14:07:24,447 [myid:] - INFO  [main:RequestPathMetricsCollector@114] - zookeeper.pathStats.initialDelay = 5
+2020-06-22 14:07:24,447 [myid:] - INFO  [main:RequestPathMetricsCollector@115] - zookeeper.pathStats.delay = 5
+2020-06-22 14:07:24,447 [myid:] - INFO  [main:RequestPathMetricsCollector@116] - zookeeper.pathStats.enabled = false
+2020-06-22 14:07:24,448 [myid:] - INFO  [main:ZooKeeperServer@1471] - The max bytes for all large requests are set to 104857600
+2020-06-22 14:07:24,448 [myid:] - INFO  [main:ZooKeeperServer@1485] - The large request threshold is set to -1
+2020-06-22 14:07:24,448 [myid:] - INFO  [main:ZooKeeperServer@329] - Created server with tickTime 4000 minSessionTimeout 8000 maxSessionTimeout 80000 clientPortListenBacklog -1 datadir D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test4876131755692358606.junit.dir\version-2 snapdir D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test4876131755692358606.junit.dir\version-2
+2020-06-22 14:07:24,448 [myid:] - INFO  [main:CommitProcessor@476] - Configuring CommitProcessor with readBatchSize -1 commitBatchSize 1
+2020-06-22 14:07:24,448 [myid:] - INFO  [main:CommitProcessor@438] - Configuring CommitProcessor with no worker threads.
+2020-06-22 14:07:25,593 [myid:] - INFO  [SessionTracker:SessionTrackerImpl@170] - SessionTrackerImpl exited loop!
+2020-06-22 14:07:29,450 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 16961
+2020-06-22 14:07:29,450 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 26
+2020-06-22 14:07:29,450 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testNoCommitWorkersReadOnlyWorkload
+2020-06-22 14:07:29,451 [myid:] - INFO  [main:CommitProcessorTest@125] - tearDown starting
+2020-06-22 14:07:29,451 [myid:] - INFO  [main:ZooKeeperServer@784] - shutting down
+2020-06-22 14:07:29,451 [myid:] - INFO  [main:RequestThrottler@244] - Shutting down
+2020-06-22 14:07:29,480 [myid:] - INFO  [RequestThrottler:RequestThrottler@205] - Draining request throttler queue
+2020-06-22 14:07:29,480 [myid:] - INFO  [RequestThrottler:RequestThrottler@181] - RequestThrottler shutdown. Dropped 0 requests
+2020-06-22 14:07:29,480 [myid:] - INFO  [main:SessionTrackerImpl@247] - Shutting down
+2020-06-22 14:07:29,481 [myid:] - INFO  [main:PrepRequestProcessor@1047] - Shutting down
+2020-06-22 14:07:29,481 [myid:] - INFO  [main:CommitProcessorTest$MockProposalRequestProcessor@354] - shutdown MockProposalRequestProcessor
+2020-06-22 14:07:29,481 [myid:] - INFO  [main:CommitProcessor@617] - Shutting down
+2020-06-22 14:07:29,481 [myid:] - INFO  [main:CommitProcessorTest$ValidateProcessor@501] - shutdown validateReadRequestVariant
+2020-06-22 14:07:29,482 [myid:] - INFO  [main:FinalRequestProcessor@662] - shutdown of request processor complete
+2020-06-22 14:07:29,484 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@159] - PrepRequestProcessor exited loop!
+2020-06-22 14:07:29,504 [myid:] - INFO  [CommitProcessor:1:CommitProcessor@406] - CommitProcessor exited loop!
+2020-06-22 14:07:29,591 [myid:] - INFO  [SessionTracker:SessionTrackerImpl@170] - SessionTrackerImpl exited loop!
+2020-06-22 14:07:29,640 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testNoCommitWorkersReadOnlyWorkload
+2020-06-22 14:07:29,640 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testNoCommitWorkersReadOnlyWorkload
+2020-06-22 14:07:29,641 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testNoCommitWorkersMixedWorkload
+2020-06-22 14:07:29,641 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testNoCommitWorkersMixedWorkload
+2020-06-22 14:07:29,641 [myid:] - INFO  [main:CommitProcessorTest@217] - testNoCommitWorkersMixedWorkload 25w/75r workload test
+2020-06-22 14:07:29,643 [myid:] - INFO  [main:FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2020-06-22 14:07:29,644 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:07:29,644 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-06-22 14:07:29,644 [myid:] - INFO  [main:ZKDatabase@132] - zookeeper.snapshotSizeFactor = 0.33
+2020-06-22 14:07:29,644 [myid:] - INFO  [main:ZKDatabase@152] - zookeeper.commitLogCount=500
+2020-06-22 14:07:29,644 [myid:] - INFO  [main:ZooKeeperServer@1246] - minSessionTimeout set to 8000
+2020-06-22 14:07:29,645 [myid:] - INFO  [main:ZooKeeperServer@1255] - maxSessionTimeout set to 80000
+2020-06-22 14:07:29,645 [myid:] - INFO  [main:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-22 14:07:29,645 [myid:] - INFO  [main:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-06-22 14:07:29,645 [myid:] - INFO  [main:RequestPathMetricsCollector@111] - zookeeper.pathStats.slotCapacity = 60
+2020-06-22 14:07:29,645 [myid:] - INFO  [main:RequestPathMetricsCollector@112] - zookeeper.pathStats.slotDuration = 15
+2020-06-22 14:07:29,646 [myid:] - INFO  [main:RequestPathMetricsCollector@113] - zookeeper.pathStats.maxDepth = 6
+2020-06-22 14:07:29,646 [myid:] - INFO  [main:RequestPathMetricsCollector@114] - zookeeper.pathStats.initialDelay = 5
+2020-06-22 14:07:29,646 [myid:] - INFO  [main:RequestPathMetricsCollector@115] - zookeeper.pathStats.delay = 5
+2020-06-22 14:07:29,646 [myid:] - INFO  [main:RequestPathMetricsCollector@116] - zookeeper.pathStats.enabled = false
+2020-06-22 14:07:29,646 [myid:] - INFO  [main:ZooKeeperServer@1471] - The max bytes for all large requests are set to 104857600
+2020-06-22 14:07:29,647 [myid:] - INFO  [main:ZooKeeperServer@1485] - The large request threshold is set to -1
+2020-06-22 14:07:29,647 [myid:] - INFO  [main:ZooKeeperServer@329] - Created server with tickTime 4000 minSessionTimeout 8000 maxSessionTimeout 80000 clientPortListenBacklog -1 datadir D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test5555262318253908653.junit.dir\version-2 snapdir D:\desktop\git_repo\zookeeper-read\zookeeper-server\target\surefire\test5555262318253908653.junit.dir\version-2
+2020-06-22 14:07:29,647 [myid:] - INFO  [main:CommitProcessor@476] - Configuring CommitProcessor with readBatchSize -1 commitBatchSize 1
+2020-06-22 14:07:29,648 [myid:] - INFO  [main:CommitProcessor@438] - Configuring CommitProcessor with no worker threads.
+2020-06-22 14:07:34,659 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 20240
+2020-06-22 14:07:34,659 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 27
+2020-06-22 14:07:34,660 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testNoCommitWorkersMixedWorkload
+2020-06-22 14:07:34,660 [myid:] - INFO  [main:CommitProcessorTest@125] - tearDown starting
+2020-06-22 14:07:34,660 [myid:] - INFO  [main:ZooKeeperServer@784] - shutting down
+2020-06-22 14:07:34,660 [myid:] - INFO  [main:RequestThrottler@244] - Shutting down
+2020-06-22 14:07:34,660 [myid:] - INFO  [RequestThrottler:RequestThrottler@205] - Draining request throttler queue
+2020-06-22 14:07:34,660 [myid:] - INFO  [RequestThrottler:RequestThrottler@181] - RequestThrottler shutdown. Dropped 0 requests
+2020-06-22 14:07:34,660 [myid:] - INFO  [main:SessionTrackerImpl@247] - Shutting down
+2020-06-22 14:07:34,661 [myid:] - INFO  [main:PrepRequestProcessor@1047] - Shutting down
+2020-06-22 14:07:34,661 [myid:] - INFO  [main:CommitProcessorTest$MockProposalRequestProcessor@354] - shutdown MockProposalRequestProcessor
+2020-06-22 14:07:34,661 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@159] - PrepRequestProcessor exited loop!
+2020-06-22 14:07:34,661 [myid:] - INFO  [main:CommitProcessor@617] - Shutting down
+2020-06-22 14:07:34,661 [myid:] - INFO  [main:CommitProcessorTest$ValidateProcessor@501] - shutdown validateReadRequestVariant
+2020-06-22 14:07:34,662 [myid:] - INFO  [main:FinalRequestProcessor@662] - shutdown of request processor complete
+2020-06-22 14:07:34,662 [myid:] - ERROR [Thread-63:CommitProcessorTest$TestClientThread@194] - Uncaught exception in test: 
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at org.apache.zookeeper.server.quorum.CommitProcessorTest$TestClientThread.run(CommitProcessorTest.java:191)
+2020-06-22 14:07:34,670 [myid:] - ERROR [Thread-64:CommitProcessorTest$TestClientThread@194] - Uncaught exception in test: 
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at org.apache.zookeeper.server.quorum.CommitProcessorTest$TestClientThread.run(CommitProcessorTest.java:191)
+2020-06-22 14:07:34,673 [myid:] - ERROR [Thread-66:CommitProcessorTest$TestClientThread@194] - Uncaught exception in test: 
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at org.apache.zookeeper.server.quorum.CommitProcessorTest$TestClientThread.run(CommitProcessorTest.java:191)
+2020-06-22 14:07:34,673 [myid:] - ERROR [Thread-67:CommitProcessorTest$TestClientThread@194] - Uncaught exception in test: 
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at org.apache.zookeeper.server.quorum.CommitProcessorTest$TestClientThread.run(CommitProcessorTest.java:191)
+2020-06-22 14:07:34,674 [myid:] - ERROR [Thread-70:CommitProcessorTest$TestClientThread@194] - Uncaught exception in test: 
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at org.apache.zookeeper.server.quorum.CommitProcessorTest$TestClientThread.run(CommitProcessorTest.java:191)
+2020-06-22 14:07:34,674 [myid:] - ERROR [Thread-72:CommitProcessorTest$TestClientThread@194] - Uncaught exception in test: 
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at org.apache.zookeeper.server.quorum.CommitProcessorTest$TestClientThread.run(CommitProcessorTest.java:191)
+2020-06-22 14:07:34,685 [myid:] - INFO  [CommitProcessor:1:CommitProcessor@406] - CommitProcessor exited loop!
+2020-06-22 14:07:34,685 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testNoCommitWorkersMixedWorkload
+2020-06-22 14:07:34,686 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testNoCommitWorkersMixedWorkload

@@ -1,0 +1,9 @@
+2020-06-22 14:11:48,017 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:11:48,025 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-06-22 14:11:48,100 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testUncaughtException
+2020-06-22 14:11:48,101 [myid:] - INFO  [Time-limited test:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testUncaughtException
+2020-06-22 14:11:48,121 [myid:] - INFO  [Time-limited test:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 8772
+2020-06-22 14:11:48,122 [myid:] - INFO  [Time-limited test:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 8
+2020-06-22 14:11:48,122 [myid:] - INFO  [Time-limited test:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testUncaughtException
+2020-06-22 14:11:48,122 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testUncaughtException
+2020-06-22 14:11:48,122 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testUncaughtException
