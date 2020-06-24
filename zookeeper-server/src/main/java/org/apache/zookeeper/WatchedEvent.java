@@ -28,6 +28,8 @@ import org.apache.zookeeper.proto.WatcherEvent;
  *  is able to respond to.  The WatchedEvent includes exactly what happened,
  *  the current state of the ZooKeeper, and the path of the znode that
  *  was involved in the event.
+ *
+ *  监听事件
  */
 @InterfaceAudience.Public
 public class WatchedEvent {
@@ -47,6 +49,7 @@ public class WatchedEvent {
 
     /**
      * Create a WatchedEvent with specified type, state and path
+     *
      */
     public WatchedEvent(EventType eventType, KeeperState keeperState, String path) {
         this.keeperState = keeperState;

@@ -6,9 +6,9 @@
  * to you under the Apache License, Version 2.0 (the
  * "License"); you may not use this file except in compliance
  * with the License.  You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
+ * <p>
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * <p>
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -24,11 +24,28 @@ import java.util.NoSuchElementException;
 /**
  * Iterates over a ZooKeeper path. Each iteration goes up one parent path. Thus, the
  * effect of the iterator is to iterate over the initial path and then all of its parents.
+ * <p>
+ * 路径的父迭代器
  */
 public class PathParentIterator implements Iterator<String> {
-    private String path;
+    /**
+     * 最大层级
+     */
     private final int maxLevel;
+    /**
+     * 路径地址
+     */
+    private String path;
+    /**
+     * 当前级别
+     */
     private int level = -1;
+
+    private PathParentIterator(String path, int maxLevel) {
+        // NOTE: asserts that the path has already been validated
+        this.path = path;
+        this.maxLevel = maxLevel;
+    }
 
     /**
      * Return a new PathParentIterator that iterates from the
@@ -50,15 +67,10 @@ public class PathParentIterator implements Iterator<String> {
         return new PathParentIterator(path, 0);
     }
 
-    private PathParentIterator(String path, int maxLevel) {
-        // NOTE: asserts that the path has already been validated
-        this.path = path;
-        this.maxLevel = maxLevel;
-    }
-
     /**
      * Return an Iterable view so that this Iterator can be used in for each
      * statements. IMPORTANT: the returned Iterable is single use only
+     *
      * @return Iterable
      */
     public Iterable<String> asIterable() {
