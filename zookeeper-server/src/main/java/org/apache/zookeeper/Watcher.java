@@ -40,7 +40,8 @@ public interface Watcher {
 
         /**
          * Enumeration of states the ZooKeeper may be at the event
-         * zookeeper 可能存在的状态
+         * zookeeper.
+         * 可能存在的状态
          */
         @InterfaceAudience.Public
         enum KeeperState {
