@@ -33,21 +33,25 @@ public class Utils {
     /**
      * equals function that actually compares two buffers.
      *
+     * 比较两个byte 对象是否相同
      * @param onearray First buffer
      * @param twoarray Second buffer
      * @return true if one and two contain exactly the same content, else false.
      */
     public static boolean bufEquals(byte[] onearray, byte[] twoarray) {
+        // 直接等于比较
         if (onearray == twoarray) {
             return true;
         }
 
+        // 长度是否相同
         boolean ret = (onearray.length == twoarray.length);
 
         if (!ret) {
             return ret;
         }
 
+        // 循环对比通过索引进行对比
         for (int idx = 0; idx < onearray.length; idx++) {
             if (onearray[idx] != twoarray[idx]) {
                 return false;
@@ -56,6 +60,9 @@ public class Utils {
         return true;
     }
 
+    /**
+     * 比较是否相同
+     */
     public static int compareBytes(byte[] b1, int off1, int len1, byte[] b2, int off2, int len2) {
         int i;
         for (i = 0; i < len1 && i < len2; i++) {

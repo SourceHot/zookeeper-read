@@ -42,6 +42,8 @@ import org.slf4j.LoggerFactory;
  * submit proposals, but do not vote in their acceptance.
  *
  * See ZOOKEEPER-368 for a discussion of this feature.
+ *
+ * 观察者
  */
 public class Observer extends Learner {
 

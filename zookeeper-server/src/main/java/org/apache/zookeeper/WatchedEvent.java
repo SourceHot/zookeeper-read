@@ -32,8 +32,17 @@ import org.apache.zookeeper.proto.WatcherEvent;
 @InterfaceAudience.Public
 public class WatchedEvent {
 
+    /**
+     * zookeeper 状态
+     */
     private final KeeperState keeperState;
+    /**
+     * 事件类型
+     */
     private final EventType eventType;
+    /**
+     * 地址
+     */
     private String path;
 
     /**

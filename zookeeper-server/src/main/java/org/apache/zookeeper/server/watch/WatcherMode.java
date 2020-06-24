@@ -21,8 +21,17 @@ package org.apache.zookeeper.server.watch;
 import org.apache.zookeeper.ZooDefs;
 
 public enum WatcherMode {
+    /**
+     * 标准
+     */
     STANDARD(false, false),
+    /**
+     * 持久
+     */
     PERSISTENT(true, false),
+    /**
+     * 递归
+     */
     PERSISTENT_RECURSIVE(true, true)
     ;
 
@@ -38,7 +47,13 @@ public enum WatcherMode {
         throw new IllegalArgumentException("Unsupported mode: " + mode);
     }
 
+    /**
+     * 是否持久
+     */
     private final boolean isPersistent;
+    /**
+     * 是否执行
+     */
     private final boolean isRecursive;
 
     WatcherMode(boolean isPersistent, boolean isRecursive) {

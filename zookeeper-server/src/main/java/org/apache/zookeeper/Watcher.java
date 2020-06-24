@@ -29,6 +29,12 @@ import org.apache.yetus.audience.InterfaceAudience;
  */
 @InterfaceAudience.Public
 public interface Watcher {
+    /**
+     * 处理
+     *
+     * @param event
+     */
+    void process(WatchedEvent event);
 
     /**
      * This interface defines the possible states an Event may represent
