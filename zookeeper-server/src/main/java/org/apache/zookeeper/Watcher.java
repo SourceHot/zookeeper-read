@@ -37,6 +37,41 @@ public interface Watcher {
     void process(WatchedEvent event);
 
     /**
+     * Enumeration of types of watchers
+     */
+    @InterfaceAudience.Public
+    enum WatcherType {
+        Children(1),
+        Data(2),
+        Any(3);
+
+        // Integer representation of value
+        private final int intValue;
+
+        WatcherType(int intValue) {
+            this.intValue = intValue;
+        }
+
+        public static WatcherType fromInt(int intValue) {
+            switch (intValue) {
+                case 1:
+                    return WatcherType.Children;
+                case 2:
+                    return WatcherType.Data;
+                case 3:
+                    return WatcherType.Any;
+
+                default:
+                    throw new RuntimeException("Invalid integer value for conversion to WatcherType");
+            }
+        }
+
+        public int getIntValue() {
+            return intValue;
+        }
+    }
+
+    /**
      * This interface defines the possible states an Event may represent
      * <p>
      * 事件的状态
@@ -248,5 +283,6 @@ public interface Watcher {
         }
 
     }
+
 
 }
