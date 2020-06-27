@@ -86,9 +86,18 @@ public class DigestAuthenticationProvider implements AuthenticationProvider {
         return i == 62 ? '+' : '/';
     }
 
+    /**
+     * 加密
+     * @param idPassword
+     * @return
+     * @throws NoSuchAlgorithmException
+     */
     public static String generateDigest(String idPassword) throws NoSuchAlgorithmException {
+        // 拆分
         String[] parts = idPassword.split(":", 2);
+        // 加密
         byte[] digest = MessageDigest.getInstance("SHA1").digest(idPassword.getBytes());
+        // 加密
         return parts[0] + ":" + base64Encode(digest);
     }
 

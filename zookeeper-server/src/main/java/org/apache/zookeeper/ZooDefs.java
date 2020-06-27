@@ -101,19 +101,40 @@ public class ZooDefs {
 
     }
 
+    /**
+     * 权限列表
+     */
     @InterfaceAudience.Public
     public interface Perms {
 
+        /**
+         * 读权限
+         */
         int READ = 1 << 0;
 
+        /**
+         * 写权限
+         */
         int WRITE = 1 << 1;
 
+        /**
+         * 创建权限
+         */
         int CREATE = 1 << 2;
 
+        /**
+         * 删除权限
+         */
         int DELETE = 1 << 3;
 
+        /**
+         * admin
+         */
         int ADMIN = 1 << 4;
 
+        /**
+         * 所有权限
+         */
         int ALL = READ | WRITE | CREATE | DELETE | ADMIN;
 
     }
