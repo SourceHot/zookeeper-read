@@ -135,6 +135,7 @@ public interface IWatchManager {
     /**
      * Returns a watch report.
      *
+     * 获取监听列表
      * @return watch report
      * @see WatchesReport
      */

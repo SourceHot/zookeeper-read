@@ -684,6 +684,10 @@ public class QuorumCnxManager {
     /**
      * Processes invoke this message to queue a message to send. Currently,
      * only leader election uses it.
+     *
+     * 发送
+     * @param sid 推选者
+     * @param b 信息
      */
     public void toSend(Long sid, ByteBuffer b) {
         /*

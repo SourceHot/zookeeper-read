@@ -17,11 +17,7 @@
 
 package org.apache.zookeeper.server.watch;
 
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 /**
  * A watch report, essentially a mapping of session ID to paths that the session
@@ -29,18 +25,28 @@ import java.util.Set;
  */
 public class WatchesReport {
 
+    /**
+     * key: ip
+     * value: 节点
+     */
     private final Map<Long, Set<String>> id2paths;
 
     /**
      * Creates a new report.
      *
      * @param id2paths map of session IDs to paths that each session has set
-     * a watch on
+     *                 a watch on
      */
     WatchesReport(Map<Long, Set<String>> id2paths) {
         this.id2paths = Collections.unmodifiableMap(deepCopy(id2paths));
     }
 
+    /**
+     * 深度拷贝
+     *
+     * @param m
+     * @return
+     */
     private static Map<Long, Set<String>> deepCopy(Map<Long, Set<String>> m) {
         Map<Long, Set<String>> m2 = new HashMap<Long, Set<String>>();
         for (Map.Entry<Long, Set<String>> e : m.entrySet()) {
