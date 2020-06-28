@@ -60,15 +60,18 @@ public interface IWatchManager {
 
     /**
      * Checks the specified watcher exists for the given path.
+     * 某个节点是否存在监听
      *
-     * @param path    znode path
-     * @param watcher watcher object reference
+     * @param path    znode path 节点
+     * @param watcher watcher object reference 监听
      * @return true if the watcher exists, false otherwise
      */
     boolean containsWatcher(String path, Watcher watcher);
 
     /**
      * Removes the specified watcher for the given path.
+     * <p>
+     * 删除监听
      *
      * @param path    znode path
      * @param watcher watcher object reference
@@ -78,6 +81,8 @@ public interface IWatchManager {
 
     /**
      * The entry to remove the watcher when the cnxn is closed.
+     * <p>
+     * 删除监听
      *
      * @param watcher watcher object reference
      */
@@ -105,6 +110,9 @@ public interface IWatchManager {
 
     /**
      * Get the size of watchers.
+     * <p>
+     * <p>
+     * 获取监听数量
      *
      * @return the watchers number managed in this class.
      */
@@ -112,6 +120,7 @@ public interface IWatchManager {
 
     /**
      * Clean up the watch manager.
+     * 关闭监听管理
      */
     void shutdown();
 

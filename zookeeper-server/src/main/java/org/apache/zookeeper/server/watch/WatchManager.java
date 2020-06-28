@@ -42,8 +42,18 @@ public class WatchManager implements IWatchManager {
 
     private static final Logger LOG = LoggerFactory.getLogger(WatchManager.class);
 
+    /**
+     * 监听表
+     * key: 节点
+     * value: 监听列表
+     */
     private final Map<String, Set<Watcher>> watchTable = new HashMap<>();
 
+    /**
+     * 监听路径
+     * key: 监听
+     * value: 节点
+     */
     private final Map<Watcher, Set<String>> watch2Paths = new HashMap<>();
 
     private final WatcherModeManager watcherModeManager = new WatcherModeManager();

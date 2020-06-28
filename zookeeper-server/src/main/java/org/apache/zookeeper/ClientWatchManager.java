@@ -21,6 +21,7 @@ package org.apache.zookeeper;
 import java.util.Set;
 
 /**
+ * 客户端监听管理
  */
 public interface ClientWatchManager {
 
@@ -30,11 +31,13 @@ public interface ClientWatchManager {
      * internal structure as if the watches had triggered. The intent being
      * that the callee is now responsible for notifying the watchers of the
      * event, possibly at some later time.
+     * <p>
+     * 根据 事件类型添加具体的 watcher 列表
      *
-     * @param state event state
-     * @param type event type
-     * @param path event path
-     * @return may be empty set but must not be null
+     * @param state event state 事件状态
+     * @param type  event type 事件类型
+     * @param path  event path 节点地址
+     * @return may be empty set but must not be null 所有的事件
      */
     Set<Watcher> materialize(Watcher.Event.KeeperState state, Watcher.Event.EventType type, String path);
 
